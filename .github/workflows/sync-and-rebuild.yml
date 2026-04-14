@@ -1,0 +1,320 @@
+# .github/workflows/agent-skills-sync.yml
+# Syncs fork from elastic/agent-skills, rebuilds INDEX.md, manifest.txt,
+# integrations-INDEX.md, and integrations-manifest.txt.
+# Repo: brettw989/agent-skills
+
+name: Sync Fork & Rebuild Indexes
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # Daily at 6 AM UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-and-rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sync fork from upstream
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          echo "::group::Syncing fork from elastic/agent-skills"
+          gh repo sync "${{ github.repository }}" --source elastic/agent-skills --force || {
+            echo "::warning::gh repo sync failed — upstream may be unavailable or fork is up to date"
+          }
+          echo "::endgroup::"
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Rebuild skills/INDEX.md
+        run: |
+          set -euo pipefail
+
+          INDEX_FILE="skills/INDEX.md"
+          TEMP_INDEX=$(mktemp)
+
+          # ── Helper: extract description from YAML frontmatter ──
+          # Handles:
+          #   description: "inline text"
+          #   description: >
+          #     multi-line text
+          #   description: >-
+          #     multi-line text
+          extract_description() {
+            local file="$1"
+            awk '
+              /^---$/ { count++; next }
+              count == 1 && /^description:/ {
+                sub(/^description:[ ]*/, "")
+                # Multi-line scalar (> or >- or | or |-)
+                if ($0 ~ /^>-?[[:space:]]*$/ || $0 ~ /^\|-?[[:space:]]*$/) {
+                  val = ""
+                  while ((getline line) > 0) {
+                    if (line !~ /^[[:space:]]/) break
+                    gsub(/^[[:space:]]+/, "", line)
+                    if (val != "") val = val " "
+                    val = val line
+                  }
+                  print val
+                  exit
+                }
+                # Inline value — strip optional quotes
+                gsub(/^["'"'"']|["'"'"']$/, "")
+                print
+                exit
+              }
+              count >= 2 { exit }
+            ' "$file"
+          }
+
+          # ── Write header ──
+          {
+            echo "# Skills Index"
+            echo "Generated from repository contents under \`skills/\`."
+            echo ""
+          } > "$TEMP_INDEX"
+
+          # ── Flat file list (collected as we go) ──
+          FLAT_LIST=""
+
+          # ── Find all SKILL.md files, sorted for deterministic output ──
+          while IFS= read -r skill_file; do
+            skill_dir=$(dirname "$skill_file")
+            # Relative path from repo root, e.g., "skills/cloud/access-management"
+            rel_dir="${skill_dir#./}"
+            # Section header: strip "skills/" prefix
+            section="${rel_dir#skills/}"
+
+            desc=$(extract_description "$skill_file")
+
+            # Collect all .md files in this skill directory (sorted)
+            files=()
+            while IFS= read -r md_file; do
+              md_rel="${md_file#./}"
+              files+=("$md_rel")
+              FLAT_LIST="${FLAT_LIST}${md_rel}"$'\n'
+            done < <(find "$skill_dir" -type f -name "*.md" ! -name "INDEX.md" | sort)
+
+            # Write section
+            {
+              echo "## ${section}"
+              echo "Description: ${desc}"
+              echo "Files:"
+              for f in "${files[@]}"; do
+                echo "- ${f}"
+              done
+              echo ""
+            } >> "$TEMP_INDEX"
+
+          done < <(find skills/ -mindepth 3 -maxdepth 3 -name "SKILL.md" -type f | sort)
+
+          # ── Append flat file list ──
+          {
+            echo "## Flat File List"
+            echo "$FLAT_LIST" | sort | while IFS= read -r line; do
+              [ -n "$line" ] && echo "- ${line}"
+            done
+          } >> "$TEMP_INDEX"
+
+          mv "$TEMP_INDEX" "$INDEX_FILE"
+          echo "Rebuilt $INDEX_FILE"
+
+      - name: Rebuild skills/manifest.txt
+        run: |
+          set -euo pipefail
+          find skills/ -name "*.md" ! -name "INDEX.md" ! -name "integrations-INDEX.md" -type f | sort > skills/manifest.txt
+          echo "Rebuilt skills/manifest.txt ($(wc -l < skills/manifest.txt) entries)"
+
+      - name: Rebuild integrations index from upstream
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          INTEG_INDEX="skills/integrations-INDEX.md"
+          INTEG_MANIFEST="skills/integrations-manifest.txt"
+          TEMP_INDEX=$(mktemp)
+          TEMP_MANIFEST=$(mktemp)
+          TEMP_DIR=$(mktemp -d)
+
+          echo "::group::Fetching integrations data from upstream"
+
+          # Try brettw989 fork first, fall back to elastic/integrations
+          INTEG_REPO="brettw989/integrations"
+          INTEG_BRANCH="main"
+
+          # Fetch the top-level packages directory listing via GitHub API
+          # We parse manifest.yml files to get package metadata
+          echo "Fetching package list..."
+
+          # Get list of packages directories
+          PACKAGES=$(gh api "repos/${INTEG_REPO}/contents/packages" \
+            --jq '.[].name' 2>/dev/null || \
+            gh api "repos/elastic/integrations/contents/packages" \
+              --jq '.[].name' 2>/dev/null || true)
+
+          if [ -z "$PACKAGES" ]; then
+            echo "::warning::Could not fetch packages list — using paginated approach"
+            # GitHub API paginates at 1000 items; use git ls-tree instead
+            PACKAGES=$(gh api "repos/elastic/integrations/git/trees/main?recursive=1" \
+              --jq '.tree[] | select(.path | startswith("packages/")) | .path' 2>/dev/null | \
+              awk -F'/' 'NF==2 { print $2 }' | sort -u || true)
+          fi
+
+          if [ -z "$PACKAGES" ]; then
+            echo "::error::Failed to fetch integrations package list"
+            # Preserve existing files
+            exit 0
+          fi
+
+          TOTAL=$(echo "$PACKAGES" | wc -l | tr -d ' ')
+          echo "Found $TOTAL packages"
+
+          # ── Build integrations INDEX ──
+          {
+            echo "# Elastic Integrations Index"
+            echo "Generated for agent-assisted navigation."
+            echo ""
+            echo "## Overview"
+            echo "- Purpose: This repository contains source packages for Elastic Integrations. Each package defines how to observe a specific product or service with the Elastic Stack (Elastic Agent, Kibana dashboards, Elasticsearch index templates)."
+            echo "- Total integrations: ${TOTAL}"
+            echo "- Package format: Each integration lives under packages/<name>/ with a manifest.yml, docs/, data_stream/, and optionally _dev/ directories"
+            echo "- Public docs: https://www.elastic.co/docs/current/integrations"
+            echo ""
+            echo "## Repository Structure"
+            echo '```'
+            echo 'integrations/'
+            echo '  packages/           # All integration packages'
+            echo '    <name>/'
+            echo '      manifest.yml    # Package metadata, version, categories, inputs'
+            echo '      docs/           # Documentation (README.md)'
+            echo '      data_stream/    # Data stream definitions (logs, metrics)'
+            echo '      _dev/           # Development/test resources'
+            echo '      img/            # Icons and screenshots'
+            echo '  docs/               # Repository-level documentation'
+            echo '  CONTRIBUTING.md     # Contribution guide'
+            echo '  README.md           # Repository overview'
+            echo '```'
+            echo ""
+            echo "## All Integrations"
+            echo ""
+          } > "$TEMP_INDEX"
+
+          # For each package, fetch manifest.yml and extract metadata
+          # Rate-limit aware: process in batches
+          COUNT=0
+          echo "$PACKAGES" | sort | while IFS= read -r pkg; do
+            [ -z "$pkg" ] && continue
+            COUNT=$((COUNT + 1))
+
+            # Fetch manifest.yml content (base64-decoded)
+            MANIFEST_RAW=$(gh api "repos/elastic/integrations/contents/packages/${pkg}/manifest.yml" \
+              --jq '.content' 2>/dev/null || true)
+
+            if [ -n "$MANIFEST_RAW" ]; then
+              MANIFEST=$(echo "$MANIFEST_RAW" | base64 -d 2>/dev/null || true)
+
+              if [ -n "$MANIFEST" ]; then
+                # Extract fields from manifest.yml
+                NAME=$(echo "$MANIFEST" | awk '/^name:/ { gsub(/^name:[ ]*/, ""); gsub(/["'"'"']/, ""); print; exit }')
+                VERSION=$(echo "$MANIFEST" | awk '/^version:/ { gsub(/^version:[ ]*/, ""); gsub(/["'"'"']/, ""); print; exit }')
+                TITLE=$(echo "$MANIFEST" | awk '/^title:/ { gsub(/^title:[ ]*/, ""); gsub(/["'"'"']/, ""); print; exit }')
+                DESC=$(echo "$MANIFEST" | awk '
+                  /^description:/ {
+                    sub(/^description:[ ]*/, "")
+                    if ($0 ~ /^>-?[[:space:]]*$/ || $0 ~ /^\|-?[[:space:]]*$/) {
+                      val = ""
+                      while ((getline line) > 0) {
+                        if (line !~ /^[[:space:]]/) break
+                        gsub(/^[[:space:]]+/, "", line)
+                        if (val != "") val = val " "
+                        val = val line
+                      }
+                      print val; exit
+                    }
+                    gsub(/^["'"'"']|["'"'"']$/, "")
+                    print; exit
+                  }')
+                CATS=$(echo "$MANIFEST" | awk '
+                  /^categories:/ {
+                    val = ""
+                    while ((getline line) > 0) {
+                      if (line !~ /^[[:space:]]*-/) break
+                      gsub(/^[[:space:]]*-[[:space:]]*/, "", line)
+                      gsub(/["'"'"']/, "", line)
+                      if (val != "") val = val ", "
+                      val = val line
+                    }
+                    print val; exit
+                  }')
+
+                [ -z "$NAME" ] && NAME="$pkg"
+                [ -z "$TITLE" ] && TITLE="$pkg"
+
+                {
+                  echo "### ${TITLE}"
+                  echo "- Name: \`${NAME}\`"
+                  echo "- Path: \`packages/${pkg}/\`"
+                  [ -n "$DESC" ] && echo "- Description: ${DESC}"
+                  [ -n "$VERSION" ] && echo "- Version: ${VERSION}"
+                  [ -n "$CATS" ] && echo "- Categories: ${CATS}"
+                  echo "- Docs: \`packages/${pkg}/docs/README.md\`"
+                  echo ""
+                } >> "$TEMP_INDEX"
+              fi
+            fi
+
+            # Build manifest entries for this package
+            {
+              echo "packages/${pkg}/docs/README.md"
+              echo "packages/${pkg}/manifest.yml"
+            } >> "$TEMP_MANIFEST"
+
+            # Progress every 50
+            if [ $((COUNT % 50)) -eq 0 ]; then
+              echo "  Processed ${COUNT}/${TOTAL} packages..."
+            fi
+
+            # Rate limit: small delay every 100 API calls
+            if [ $((COUNT % 100)) -eq 0 ]; then
+              sleep 2
+            fi
+          done
+
+          echo "::endgroup::"
+
+          # Sort manifest
+          sort "$TEMP_MANIFEST" > "${TEMP_MANIFEST}.sorted"
+          mv "${TEMP_MANIFEST}.sorted" "$TEMP_MANIFEST"
+
+          mv "$TEMP_INDEX" "$INTEG_INDEX"
+          mv "$TEMP_MANIFEST" "$INTEG_MANIFEST"
+          rm -rf "$TEMP_DIR"
+
+          echo "Rebuilt $INTEG_INDEX"
+          echo "Rebuilt $INTEG_MANIFEST ($(wc -l < "$INTEG_MANIFEST") entries)"
+
+      - name: Commit and push if changed
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add skills/INDEX.md skills/manifest.txt skills/integrations-INDEX.md skills/integrations-manifest.txt
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git commit -m "chore: daily sync and index rebuild [automated] [skip ci]"
+          git push
+          echo "Changes committed and pushed"
