@@ -67,8 +67,8 @@ integrations/
 ### Agentless Hello World
 - Name: `agentless_hello_world`
 - Path: `packages/agentless_hello_world/`
-- Description: A sample integration to exercise the Agentless infrastructure by fetching https://epr.elastic.co every minute.
-- Version: 0.1.0
+- Description: A sample integration to exercise the Agentless infrastructure by fetching https://epr.elastic.co every minute. Optionally includes a counter data stream for high-rate mock metric ingestion testing.
+- Version: 0.2.0
 - Categories: observability
 - Docs: `packages/agentless_hello_world/docs/README.md`
 
@@ -1110,7 +1110,7 @@ integrations/
 - Name: `eset_protect`
 - Path: `packages/eset_protect/`
 - Description: Collect logs from ESET PROTECT with Elastic Agent.
-- Version: 2.1.1
+- Version: 2.2.0
 - Categories: security, edr_xdr
 - Docs: `packages/eset_protect/docs/README.md`
 
@@ -1775,7 +1775,7 @@ integrations/
 - Name: `kubernetes_otel`
 - Path: `packages/kubernetes_otel/`
 - Description: Utilise the pre-built dashboard for OTel-native metrics and events collected from a Kubernetes cluster
-- Version: 2.0.0-preview5
+- Version: 2.0.0-preview6
 - Categories: kubernetes
 - Docs: `packages/kubernetes_otel/docs/README.md`
 
@@ -2918,7 +2918,7 @@ integrations/
 - Name: `tenable_ot_security`
 - Path: `packages/tenable_ot_security/`
 - Description: Tenable OT Security
-- Version: 1.1.1
+- Version: 2.0.0
 - Categories: security
 - Docs: `packages/tenable_ot_security/docs/README.md`
 
@@ -3396,7 +3396,7 @@ integrations/
 - Name: `zeek`
 - Path: `packages/zeek/`
 - Description: Collect logs from Zeek with Elastic Agent.
-- Version: 4.1.0
+- Version: 5.0.0
 - Categories: network, security
 - Docs: `packages/zeek/docs/README.md`
 
