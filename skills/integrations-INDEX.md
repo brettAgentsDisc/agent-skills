@@ -893,7 +893,7 @@ integrations/
 - Name: `crowdstrike`
 - Path: `packages/crowdstrike/`
 - Description: Collect logs from Crowdstrike with Elastic Agent.
-- Version: 3.14.0
+- Version: 3.14.1
 - Docs: `packages/crowdstrike/docs/README.md`
 
 ### CyberArk EPM
@@ -1182,7 +1182,7 @@ integrations/
 - Name: `fim`
 - Path: `packages/fim/`
 - Description: The File Integrity Monitoring integration reports filesystem changes in real time.
-- Version: 1.16.0
+- Version: 1.17.0
 - Categories: security
 - Docs: `packages/fim/docs/README.md`
 
@@ -2878,7 +2878,7 @@ integrations/
 - Name: `system_otel`
 - Path: `packages/system_otel/`
 - Description: Dashboards for the OpenTelemetry data collected with the `hostmetrics` receiver.
-- Version: 0.2.6
+- Version: 0.2.7
 - Categories: os_system
 - Docs: `packages/system_otel/docs/README.md`
 

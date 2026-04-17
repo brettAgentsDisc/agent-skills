@@ -76,11 +76,11 @@ Files:
 - skills/elasticsearch/elasticsearch-onboarding/SKILL.md
 - skills/elasticsearch/elasticsearch-onboarding/references/catalog-ecommerce/ecommerce.md
 - skills/elasticsearch/elasticsearch-onboarding/references/elasticsearch-onboarding-playbook.md
-- skills/elasticsearch/elasticsearch-onboarding/references/hybrid-search/hybrid-search.md
 - skills/elasticsearch/elasticsearch-onboarding/references/keyword-search/keyword-search.md
 - skills/elasticsearch/elasticsearch-onboarding/references/rag-chatbot/rag-chatbot.md
-- skills/elasticsearch/elasticsearch-onboarding/references/semantic-search/semantic-search.md
-- skills/elasticsearch/elasticsearch-onboarding/references/vector-database/vector-database.md
+- skills/elasticsearch/elasticsearch-onboarding/references/search-ui/search-ui.md
+- skills/elasticsearch/elasticsearch-onboarding/references/use-case-library/use-case-library.md
+- skills/elasticsearch/elasticsearch-onboarding/references/vector-hybrid-search/vector-hybrid-search.md
 
 ## elasticsearch/elasticsearch-security-troubleshooting
 Description: Diagnose and resolve Elasticsearch security errors: 401/403 failures, TLS problems, expired API keys, role mapping mismatches, and Kibana login issues. Use when the user reports a security error.
@@ -114,12 +114,12 @@ Files:
 - skills/kibana/kibana-connectors/references/workflows.md
 
 ## kibana/kibana-dashboards
-Description: Create and manage Kibana Dashboards and Lens visualizations. Use when you need to define dashboards and visualizations declaratively, version control them, or automate their deployment.
+Description: Create and manage Kibana Dashboards and visualizations. Use when you need to define dashboards and visualizations declaratively, version control them, or automate their deployment.
 Files:
 - skills/kibana/kibana-dashboards/SKILL.md
 - skills/kibana/kibana-dashboards/references/chart-types-reference.md
 - skills/kibana/kibana-dashboards/references/dashboard-api-reference.md
-- skills/kibana/kibana-dashboards/references/lens-api-reference.md
+- skills/kibana/kibana-dashboards/references/visualizations-api-reference.md
 
 ## kibana/kibana-vega
 Description: Create Vega and Vega-Lite visualizations with ES|QL data sources in Kibana. Use when building custom charts, dashboards, or programmatic panel layouts beyond standard Lens charts.
@@ -247,11 +247,11 @@ Files:
 - skills/elasticsearch/elasticsearch-onboarding/SKILL.md
 - skills/elasticsearch/elasticsearch-onboarding/references/catalog-ecommerce/ecommerce.md
 - skills/elasticsearch/elasticsearch-onboarding/references/elasticsearch-onboarding-playbook.md
-- skills/elasticsearch/elasticsearch-onboarding/references/hybrid-search/hybrid-search.md
 - skills/elasticsearch/elasticsearch-onboarding/references/keyword-search/keyword-search.md
 - skills/elasticsearch/elasticsearch-onboarding/references/rag-chatbot/rag-chatbot.md
-- skills/elasticsearch/elasticsearch-onboarding/references/semantic-search/semantic-search.md
-- skills/elasticsearch/elasticsearch-onboarding/references/vector-database/vector-database.md
+- skills/elasticsearch/elasticsearch-onboarding/references/search-ui/search-ui.md
+- skills/elasticsearch/elasticsearch-onboarding/references/use-case-library/use-case-library.md
+- skills/elasticsearch/elasticsearch-onboarding/references/vector-hybrid-search/vector-hybrid-search.md
 - skills/elasticsearch/elasticsearch-security-troubleshooting/SKILL.md
 - skills/elasticsearch/elasticsearch-security-troubleshooting/references/api-reference.md
 - skills/kibana/agent-builder/SKILL.md
@@ -266,7 +266,7 @@ Files:
 - skills/kibana/kibana-dashboards/SKILL.md
 - skills/kibana/kibana-dashboards/references/chart-types-reference.md
 - skills/kibana/kibana-dashboards/references/dashboard-api-reference.md
-- skills/kibana/kibana-dashboards/references/lens-api-reference.md
+- skills/kibana/kibana-dashboards/references/visualizations-api-reference.md
 - skills/kibana/kibana-vega/SKILL.md
 - skills/kibana/kibana-vega/references/dashboard-layout-reference.md
 - skills/kibana/kibana-vega/references/vega-esql-reference.md

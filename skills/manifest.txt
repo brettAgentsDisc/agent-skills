@@ -30,11 +30,11 @@ skills/elasticsearch/elasticsearch-file-ingest/references/troubleshooting.md
 skills/elasticsearch/elasticsearch-onboarding/SKILL.md
 skills/elasticsearch/elasticsearch-onboarding/references/catalog-ecommerce/ecommerce.md
 skills/elasticsearch/elasticsearch-onboarding/references/elasticsearch-onboarding-playbook.md
-skills/elasticsearch/elasticsearch-onboarding/references/hybrid-search/hybrid-search.md
 skills/elasticsearch/elasticsearch-onboarding/references/keyword-search/keyword-search.md
 skills/elasticsearch/elasticsearch-onboarding/references/rag-chatbot/rag-chatbot.md
-skills/elasticsearch/elasticsearch-onboarding/references/semantic-search/semantic-search.md
-skills/elasticsearch/elasticsearch-onboarding/references/vector-database/vector-database.md
+skills/elasticsearch/elasticsearch-onboarding/references/search-ui/search-ui.md
+skills/elasticsearch/elasticsearch-onboarding/references/use-case-library/use-case-library.md
+skills/elasticsearch/elasticsearch-onboarding/references/vector-hybrid-search/vector-hybrid-search.md
 skills/elasticsearch/elasticsearch-security-troubleshooting/SKILL.md
 skills/elasticsearch/elasticsearch-security-troubleshooting/references/api-reference.md
 skills/kibana/agent-builder/SKILL.md
@@ -49,7 +49,7 @@ skills/kibana/kibana-connectors/references/workflows.md
 skills/kibana/kibana-dashboards/SKILL.md
 skills/kibana/kibana-dashboards/references/chart-types-reference.md
 skills/kibana/kibana-dashboards/references/dashboard-api-reference.md
-skills/kibana/kibana-dashboards/references/lens-api-reference.md
+skills/kibana/kibana-dashboards/references/visualizations-api-reference.md
 skills/kibana/kibana-vega/SKILL.md
 skills/kibana/kibana-vega/references/dashboard-layout-reference.md
 skills/kibana/kibana-vega/references/vega-esql-reference.md
