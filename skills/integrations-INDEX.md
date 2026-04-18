@@ -243,7 +243,7 @@ integrations/
 - Name: `aws`
 - Path: `packages/aws/`
 - Description: Collect logs and metrics from Amazon Web Services (AWS) with Elastic Agent.
-- Version: 6.5.0
+- Version: 6.7.0
 - Categories: aws, cloud
 - Docs: `packages/aws/docs/README.md`
 
@@ -307,7 +307,7 @@ integrations/
 - Name: `aws_securityhub`
 - Path: `packages/aws_securityhub/`
 - Description: Collect logs from AWS Security Hub with Elastic Agent.
-- Version: 0.3.0
+- Version: 1.0.0
 - Categories: aws, security, cloudsecurity_cdr, vulnerability_workflow
 - Docs: `packages/aws_securityhub/docs/README.md`
 
@@ -813,7 +813,7 @@ integrations/
 - Name: `cloudflare_logpush`
 - Path: `packages/cloudflare_logpush/`
 - Description: Collect and parse logs from Cloudflare API with Elastic Agent.
-- Version: 1.43.4
+- Version: 1.43.5
 - Categories: security, network, cdn_security
 - Docs: `packages/cloudflare_logpush/docs/README.md`
 
@@ -893,7 +893,7 @@ integrations/
 - Name: `crowdstrike`
 - Path: `packages/crowdstrike/`
 - Description: Collect logs from Crowdstrike with Elastic Agent.
-- Version: 3.14.1
+- Version: 3.15.0
 - Docs: `packages/crowdstrike/docs/README.md`
 
 ### CyberArk EPM
