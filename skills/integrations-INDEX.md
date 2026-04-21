@@ -243,7 +243,7 @@ integrations/
 - Name: `aws`
 - Path: `packages/aws/`
 - Description: Collect logs and metrics from Amazon Web Services (AWS) with Elastic Agent.
-- Version: 6.8.0
+- Version: 6.12.0
 - Categories: aws, cloud
 - Docs: `packages/aws/docs/README.md`
 
@@ -339,7 +339,7 @@ integrations/
 - Name: `awsfirehose`
 - Path: `packages/awsfirehose/`
 - Description: Stream logs and metrics from Amazon Data Firehose into Elastic Cloud.
-- Version: 1.9.0
+- Version: 1.9.1
 - Categories: cloud, observability, aws
 - Docs: `packages/awsfirehose/docs/README.md`
 
@@ -474,7 +474,7 @@ integrations/
 - Name: `beaconing`
 - Path: `packages/beaconing/`
 - Description: Package to identify beaconing activity in your network events.
-- Version: 1.5.3
+- Version: 1.5.4
 - Categories: security, advanced_analytics_ueba
 - Docs: `packages/beaconing/docs/README.md`
 
@@ -953,7 +953,7 @@ integrations/
 - Name: `ded`
 - Path: `packages/ded/`
 - Description: ML package to detect data exfiltration in your network and file data.
-- Version: 2.4.2
+- Version: 3.0.0
 - Categories: security, network, advanced_analytics_ueba
 - Docs: `packages/ded/docs/README.md`
 
@@ -961,7 +961,7 @@ integrations/
 - Name: `dga`
 - Path: `packages/dga/`
 - Description: ML solution package to detect domain generation algorithm (DGA) activity in your network data.
-- Version: 2.3.7
+- Version: 3.0.0
 - Categories: security, network_security, advanced_analytics_ueba
 - Docs: `packages/dga/docs/README.md`
 
@@ -1327,7 +1327,7 @@ integrations/
 - Name: `github`
 - Path: `packages/github/`
 - Description: Collect logs from GitHub with Elastic Agent.
-- Version: 2.22.1
+- Version: 2.23.0
 - Docs: `packages/github/docs/README.md`
 
 ### GitLab
@@ -1461,7 +1461,7 @@ integrations/
 - Name: `hta`
 - Path: `packages/hta/`
 - Description: Prebuilt dashboard for Machine Learning module Security: Host.
-- Version: 1.0.2
+- Version: 2.0.0
 - Categories: security
 - Docs: `packages/hta/docs/README.md`
 
@@ -1775,7 +1775,7 @@ integrations/
 - Name: `kubernetes_otel`
 - Path: `packages/kubernetes_otel/`
 - Description: Utilise the pre-built dashboard for OTel-native metrics and events collected from a Kubernetes cluster
-- Version: 2.0.0-preview6
+- Version: 2.0.0-preview7
 - Categories: kubernetes
 - Docs: `packages/kubernetes_otel/docs/README.md`
 
@@ -1799,7 +1799,7 @@ integrations/
 - Name: `lmd`
 - Path: `packages/lmd/`
 - Description: ML package to detect lateral movement based on file transfer activity and Windows RDP events.
-- Version: 2.6.3
+- Version: 3.0.0
 - Categories: security, advanced_analytics_ueba
 - Docs: `packages/lmd/docs/README.md`
 
@@ -2165,7 +2165,7 @@ integrations/
 - Name: `o365`
 - Path: `packages/o365/`
 - Description: Collect logs from Microsoft Office 365 with Elastic Agent.
-- Version: 3.8.0
+- Version: 3.8.1
 - Categories: security, productivity_security
 - Docs: `packages/o365/docs/README.md`
 
@@ -2268,7 +2268,7 @@ integrations/
 - Name: `pad`
 - Path: `packages/pad/`
 - Description: ML package to detect anomalous privileged access activity in Windows, Linux and Okta logs
-- Version: 1.1.2
+- Version: 2.0.0
 - Categories: security, advanced_analytics_ueba
 - Docs: `packages/pad/docs/README.md`
 
@@ -2379,7 +2379,7 @@ integrations/
 - Name: `problemchild`
 - Path: `packages/problemchild/`
 - Description: ML solution package to detect Living off the Land (LotL) attacks in your environment. Requires a Platinum subscription.
-- Version: 2.4.6
+- Version: 3.0.0
 - Categories: security, advanced_analytics_ueba
 - Docs: `packages/problemchild/docs/README.md`
 
