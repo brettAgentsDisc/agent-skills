@@ -686,7 +686,7 @@ integrations/
 - Name: `cisco_ios`
 - Path: `packages/cisco_ios/`
 - Description: Collect logs from Cisco IOS with Elastic Agent.
-- Version: 1.35.2
+- Version: 1.35.3
 - Categories: network, security
 - Docs: `packages/cisco_ios/docs/README.md`
 
@@ -750,7 +750,7 @@ integrations/
 - Name: `citrix_adc`
 - Path: `packages/citrix_adc/`
 - Description: This Elastic integration collects logs and metrics from Citrix ADC product.
-- Version: 1.18.4
+- Version: 1.18.5
 - Categories: observability, network
 - Docs: `packages/citrix_adc/docs/README.md`
 
@@ -2672,7 +2672,7 @@ integrations/
 - Name: `snyk`
 - Path: `packages/snyk/`
 - Description: Collect logs from Snyk with Elastic Agent.
-- Version: 3.4.1
+- Version: 3.4.2
 - Categories: security, cloudsecurity_cdr
 - Docs: `packages/snyk/docs/README.md`
 
