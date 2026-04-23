@@ -1414,7 +1414,7 @@ integrations/
 - Name: `haproxy`
 - Path: `packages/haproxy/`
 - Description: Collect logs and metrics from HAProxy servers with Elastic Agent.
-- Version: 1.18.0
+- Version: 1.19.0
 - Categories: load_balancer, observability
 - Docs: `packages/haproxy/docs/README.md`
 
@@ -1517,7 +1517,7 @@ integrations/
 - Name: `iis`
 - Path: `packages/iis/`
 - Description: Collect logs and metrics from Internet Information Services (IIS) servers with Elastic Agent.
-- Version: 1.24.4
+- Version: 1.24.5
 - Categories: web, observability
 - Docs: `packages/iis/docs/README.md`
 
@@ -2101,7 +2101,7 @@ integrations/
 - Name: `nginx`
 - Path: `packages/nginx/`
 - Description: Collect logs and metrics from Nginx HTTP servers with Elastic Agent.
-- Version: 3.0.0
+- Version: 3.1.0
 - Categories: web, observability
 - Docs: `packages/nginx/docs/README.md`
 
@@ -2363,7 +2363,7 @@ integrations/
 - Name: `prisma_access`
 - Path: `packages/prisma_access/`
 - Description: Collect logs from Palo Alto Prisma Access with Elastic Agent.
-- Version: 1.7.1
+- Version: 1.7.2
 - Categories: security, network
 - Docs: `packages/prisma_access/docs/README.md`
 
