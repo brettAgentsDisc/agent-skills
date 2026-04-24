@@ -235,7 +235,7 @@ integrations/
 - Name: `authentik`
 - Path: `packages/authentik/`
 - Description: Collect logs from authentik with Elastic Agent.
-- Version: 1.8.0
+- Version: 1.9.0
 - Categories: security
 - Docs: `packages/authentik/docs/README.md`
 
@@ -790,7 +790,7 @@ integrations/
 - Name: `cloud_defend`
 - Path: `packages/cloud_defend/`
 - Description: Elastic Defend for Containers (BETA) provides cloud-native runtime protections for containerized environments.
-- Version: 1.4.0
+- Version: 1.4.1-beta
 - Categories: containers, kubernetes
 - Docs: `packages/cloud_defend/docs/README.md`
 
@@ -813,7 +813,7 @@ integrations/
 - Name: `cloudflare_logpush`
 - Path: `packages/cloudflare_logpush/`
 - Description: Collect and parse logs from Cloudflare API with Elastic Agent.
-- Version: 1.43.5
+- Version: 1.44.0
 - Categories: security, network, cdn_security
 - Docs: `packages/cloudflare_logpush/docs/README.md`
 
@@ -953,7 +953,7 @@ integrations/
 - Name: `ded`
 - Path: `packages/ded/`
 - Description: ML package to detect data exfiltration in your network and file data.
-- Version: 3.0.0
+- Version: 3.1.0
 - Categories: security, network, advanced_analytics_ueba
 - Docs: `packages/ded/docs/README.md`
 
@@ -1327,7 +1327,7 @@ integrations/
 - Name: `github`
 - Path: `packages/github/`
 - Description: Collect logs from GitHub with Elastic Agent.
-- Version: 2.23.0
+- Version: 2.23.1
 - Docs: `packages/github/docs/README.md`
 
 ### GitLab
@@ -1501,7 +1501,7 @@ integrations/
 - Name: `ibmmq`
 - Path: `packages/ibmmq/`
 - Description: Collect logs and metrics from IBM MQ with Elastic Agent.
-- Version: 1.8.0
+- Version: 1.9.0
 - Categories: message_queue, observability
 - Docs: `packages/ibmmq/docs/README.md`
 
@@ -1799,7 +1799,7 @@ integrations/
 - Name: `lmd`
 - Path: `packages/lmd/`
 - Description: ML package to detect lateral movement based on file transfer activity and Windows RDP events.
-- Version: 3.0.0
+- Version: 3.1.1
 - Categories: security, advanced_analytics_ueba
 - Docs: `packages/lmd/docs/README.md`
 
@@ -1989,7 +1989,7 @@ integrations/
 - Name: `mongodb_atlas`
 - Path: `packages/mongodb_atlas/`
 - Description: This Elastic integration collects logs and metrics from MongoDB Atlas instance.
-- Version: 1.1.0
+- Version: 1.2.0
 - Categories: cloud, datastore, observability
 - Docs: `packages/mongodb_atlas/docs/README.md`
 
@@ -2252,7 +2252,7 @@ integrations/
 - Name: `otel_collector_internal_telemetry`
 - Path: `packages/otel_collector_internal_telemetry/`
 - Description: This package contains dashboards that visualize the internal telemetry from the OpenTelemetry Collector
-- Version: 1.1.0
+- Version: 1.2.0
 - Categories: monitoring, observability, opentelemetry
 - Docs: `packages/otel_collector_internal_telemetry/docs/README.md`
 
@@ -2260,7 +2260,7 @@ integrations/
 - Name: `otel_rum_dashboards`
 - Path: `packages/otel_rum_dashboards/`
 - Description: RUM status metrics from OpenTelemetry JS SDKs
-- Version: 0.0.2
+- Version: 0.0.3
 - Categories: observability, web, opentelemetry
 - Docs: `packages/otel_rum_dashboards/docs/README.md`
 
@@ -2268,7 +2268,7 @@ integrations/
 - Name: `pad`
 - Path: `packages/pad/`
 - Description: ML package to detect anomalous privileged access activity in Windows, Linux and Okta logs
-- Version: 2.0.0
+- Version: 2.1.0
 - Categories: security, advanced_analytics_ueba
 - Docs: `packages/pad/docs/README.md`
 
@@ -2624,7 +2624,7 @@ integrations/
 - Name: `security_detection_engine`
 - Path: `packages/security_detection_engine/`
 - Description: Prebuilt detection rules for Elastic Security
-- Version: 9.3.8
+- Version: 9.4.1-beta.1
 - Categories: security, siem
 - Docs: `packages/security_detection_engine/docs/README.md`
 
@@ -2862,7 +2862,7 @@ integrations/
 - Name: `system`
 - Path: `packages/system/`
 - Description: Collect system logs and metrics from your servers with Elastic Agent.
-- Version: 2.16.1
+- Version: 2.16.2
 - Categories: os_system
 - Docs: `packages/system/docs/README.md`
 
@@ -3117,7 +3117,7 @@ integrations/
 - Name: `ti_rapid7_threat_command`
 - Path: `packages/ti_rapid7_threat_command/`
 - Description: Collect threat intelligence from Threat Command API with Elastic Agent.
-- Version: 2.7.1
+- Version: 2.8.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_rapid7_threat_command/docs/README.md`
 
@@ -3348,7 +3348,7 @@ integrations/
 - Name: `windows`
 - Path: `packages/windows/`
 - Description: Collect logs and metrics from Windows OS and services with Elastic Agent.
-- Version: 3.8.1
+- Version: 3.8.2
 - Categories: os_system, security
 - Docs: `packages/windows/docs/README.md`
 
