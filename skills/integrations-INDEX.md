@@ -371,7 +371,7 @@ integrations/
 - Name: `azure_application_insights`
 - Path: `packages/azure_application_insights/`
 - Description: Collect application insights metrics from Azure Monitor with Elastic Agent.
-- Version: 1.10.0
+- Version: 1.11.0
 - Categories: azure, cloud, observability
 - Docs: `packages/azure_application_insights/docs/README.md`
 
@@ -1775,7 +1775,7 @@ integrations/
 - Name: `kubernetes_otel`
 - Path: `packages/kubernetes_otel/`
 - Description: Utilise the pre-built dashboard for OTel-native metrics and events collected from a Kubernetes cluster
-- Version: 2.0.0-preview7
+- Version: 2.0.0-preview9
 - Categories: kubernetes
 - Docs: `packages/kubernetes_otel/docs/README.md`
 
@@ -2387,7 +2387,7 @@ integrations/
 - Name: `profilingmetrics_otel`
 - Path: `packages/profilingmetrics_otel/`
 - Description: Create metrics from profiling data.
-- Version: 0.0.5
+- Version: 0.0.6
 - Categories: custom, observability, opentelemetry
 - Docs: `packages/profilingmetrics_otel/docs/README.md`
 
@@ -2624,7 +2624,7 @@ integrations/
 - Name: `security_detection_engine`
 - Path: `packages/security_detection_engine/`
 - Description: Prebuilt detection rules for Elastic Security
-- Version: 9.4.1-beta.1
+- Version: 9.4.1
 - Categories: security, siem
 - Docs: `packages/security_detection_engine/docs/README.md`
 
@@ -3308,7 +3308,7 @@ integrations/
 - Name: `vsphere`
 - Path: `packages/vsphere/`
 - Description: This Elastic integration collects metrics and logs from vSphere/vCenter servers
-- Version: 1.23.1
+- Version: 1.24.0
 - Categories: observability, virtualization
 - Docs: `packages/vsphere/docs/README.md`
 
@@ -3364,7 +3364,7 @@ integrations/
 - Name: `winlog`
 - Path: `packages/winlog/`
 - Description: Collect and parse logs from any Windows event log channel with Elastic Agent.
-- Version: 2.5.0
+- Version: 2.6.0
 - Categories: custom, os_system
 - Docs: `packages/winlog/docs/README.md`
 
