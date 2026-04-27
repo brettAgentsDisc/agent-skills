@@ -243,7 +243,7 @@ integrations/
 - Name: `aws`
 - Path: `packages/aws/`
 - Description: Collect logs and metrics from Amazon Web Services (AWS) with Elastic Agent.
-- Version: 6.12.0
+- Version: 6.13.0
 - Categories: aws, cloud
 - Docs: `packages/aws/docs/README.md`
 
