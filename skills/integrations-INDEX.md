@@ -219,7 +219,7 @@ integrations/
 - Name: `auditd_manager`
 - Path: `packages/auditd_manager/`
 - Description: The Auditd Manager Integration receives audit events from the Linux Audit Framework that is a part of the Linux kernel.
-- Version: 1.19.1
+- Version: 1.20.0
 - Categories: security, auditd
 - Docs: `packages/auditd_manager/docs/README.md`
 
@@ -243,7 +243,7 @@ integrations/
 - Name: `aws`
 - Path: `packages/aws/`
 - Description: Collect logs and metrics from Amazon Web Services (AWS) with Elastic Agent.
-- Version: 6.13.0
+- Version: 6.14.0
 - Categories: aws, cloud
 - Docs: `packages/aws/docs/README.md`
 
@@ -497,7 +497,7 @@ integrations/
 - Name: `beyondinsight_password_safe`
 - Path: `packages/beyondinsight_password_safe/`
 - Description: Ingest privileged access management (PAM) data from BeyondTrust's BeyondInsight PAM Reporting Platform and Password Safe, using Elastic Agent.
-- Version: 1.0.0
+- Version: 1.1.0
 - Categories: security
 - Docs: `packages/beyondinsight_password_safe/docs/README.md`
 
@@ -1009,7 +1009,7 @@ integrations/
 - Name: `elastic_agent`
 - Path: `packages/elastic_agent/`
 - Description: Collect logs and metrics from Elastic Agents.
-- Version: 2.7.6
+- Version: 2.8.0
 - Docs: `packages/elastic_agent/docs/README.md`
 
 ### Elastic Connectors
@@ -1644,7 +1644,7 @@ integrations/
 - Name: `jamf_protect`
 - Path: `packages/jamf_protect/`
 - Description: Receives events from Jamf Protect with Elastic Agent.
-- Version: 3.3.0
+- Version: 3.3.1
 - Categories: security, edr_xdr
 - Docs: `packages/jamf_protect/docs/README.md`
 
@@ -1831,7 +1831,7 @@ integrations/
 - Name: `lyve_cloud`
 - Path: `packages/lyve_cloud/`
 - Description: Collect S3 API audit log from Lyve Cloud with Elastic Agent.
-- Version: 1.17.0
+- Version: 1.17.1
 - Categories: security
 - Docs: `packages/lyve_cloud/docs/README.md`
 
@@ -3093,7 +3093,7 @@ integrations/
 - Name: `ti_misp`
 - Path: `packages/ti_misp/`
 - Description: Ingest threat intelligence indicators from MISP platform with Elastic Agent.
-- Version: 1.41.3
+- Version: 1.41.4
 - Categories: security, threat_intel
 - Docs: `packages/ti_misp/docs/README.md`
 
