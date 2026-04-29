@@ -60,7 +60,7 @@ integrations/
 - Name: `admin_by_request_epm`
 - Path: `packages/admin_by_request_epm/`
 - Description: Collect logs from Admin By Request EPM with Elastic Agent.
-- Version: 1.1.2
+- Version: 1.2.0
 - Categories: security
 - Docs: `packages/admin_by_request_epm/docs/README.md`
 
@@ -623,7 +623,7 @@ integrations/
 - Name: `checkpoint`
 - Path: `packages/checkpoint/`
 - Description: Collect logs from Check Point with Elastic Agent.
-- Version: 1.45.4
+- Version: 1.45.5
 - Docs: `packages/checkpoint/docs/README.md`
 
 ### Check Point Harmony Email & Collaboration
@@ -1775,7 +1775,7 @@ integrations/
 - Name: `kubernetes_otel`
 - Path: `packages/kubernetes_otel/`
 - Description: Utilise the pre-built dashboard for OTel-native metrics and events collected from a Kubernetes cluster
-- Version: 2.0.0-preview9
+- Version: 2.1.0-preview1
 - Categories: kubernetes
 - Docs: `packages/kubernetes_otel/docs/README.md`
 
@@ -2236,7 +2236,7 @@ integrations/
 - Name: `osquery_manager`
 - Path: `packages/osquery_manager/`
 - Description: Deploy Osquery with Elastic Agent, then run and schedule queries in Kibana
-- Version: 1.28.0
+- Version: 1.28.1
 - Categories: security
 - Docs: `packages/osquery_manager/docs/README.md`
 
@@ -2379,7 +2379,7 @@ integrations/
 - Name: `problemchild`
 - Path: `packages/problemchild/`
 - Description: ML solution package to detect Living off the Land (LotL) attacks in your environment. Requires a Platinum subscription.
-- Version: 3.0.0
+- Version: 3.0.1
 - Categories: security, advanced_analytics_ueba
 - Docs: `packages/problemchild/docs/README.md`
 
@@ -2451,7 +2451,7 @@ integrations/
 - Name: `proofpoint_on_demand`
 - Path: `packages/proofpoint_on_demand/`
 - Description: Collect logs from Proofpoint On Demand with Elastic Agent.
-- Version: 1.9.0
+- Version: 1.9.1
 - Categories: security
 - Docs: `packages/proofpoint_on_demand/docs/README.md`
 
@@ -2624,7 +2624,7 @@ integrations/
 - Name: `security_detection_engine`
 - Path: `packages/security_detection_engine/`
 - Description: Prebuilt detection rules for Elastic Security
-- Version: 9.4.1
+- Version: 9.4.2
 - Categories: security, siem
 - Docs: `packages/security_detection_engine/docs/README.md`
 
@@ -3093,7 +3093,7 @@ integrations/
 - Name: `ti_misp`
 - Path: `packages/ti_misp/`
 - Description: Ingest threat intelligence indicators from MISP platform with Elastic Agent.
-- Version: 1.41.4
+- Version: 1.42.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_misp/docs/README.md`
 
@@ -3348,7 +3348,7 @@ integrations/
 - Name: `windows`
 - Path: `packages/windows/`
 - Description: Collect logs and metrics from Windows OS and services with Elastic Agent.
-- Version: 3.8.2
+- Version: 3.8.3
 - Categories: os_system, security
 - Docs: `packages/windows/docs/README.md`
 
