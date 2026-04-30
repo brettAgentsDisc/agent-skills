@@ -2363,7 +2363,7 @@ integrations/
 - Name: `prisma_access`
 - Path: `packages/prisma_access/`
 - Description: Collect logs from Palo Alto Prisma Access with Elastic Agent.
-- Version: 1.7.2
+- Version: 1.7.3
 - Categories: security, network
 - Docs: `packages/prisma_access/docs/README.md`
 
@@ -2862,7 +2862,7 @@ integrations/
 - Name: `system`
 - Path: `packages/system/`
 - Description: Collect system logs and metrics from your servers with Elastic Agent.
-- Version: 2.16.2
+- Version: 2.17.0
 - Categories: os_system
 - Docs: `packages/system/docs/README.md`
 
