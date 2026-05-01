@@ -893,7 +893,7 @@ integrations/
 - Name: `crowdstrike`
 - Path: `packages/crowdstrike/`
 - Description: Collect logs from Crowdstrike with Elastic Agent.
-- Version: 3.15.0
+- Version: 3.16.0
 - Docs: `packages/crowdstrike/docs/README.md`
 
 ### CyberArk EPM
@@ -1721,7 +1721,7 @@ integrations/
 - Name: `kafka_log`
 - Path: `packages/kafka_log/`
 - Description: Collect data from kafka topic with Elastic Agent.
-- Version: 1.9.1
+- Version: 2.0.0
 - Categories: observability, custom
 - Docs: `packages/kafka_log/docs/README.md`
 
