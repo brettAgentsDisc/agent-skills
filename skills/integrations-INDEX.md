@@ -521,7 +521,7 @@ integrations/
 - Name: `bitsight`
 - Path: `packages/bitsight/`
 - Description: Ingest data from the Bitsight API.
-- Version: 0.1.1
+- Version: 0.2.0
 - Categories: custom, security
 - Docs: `packages/bitsight/docs/README.md`
 
@@ -529,7 +529,7 @@ integrations/
 - Name: `bitwarden`
 - Path: `packages/bitwarden/`
 - Description: Collect logs from Bitwarden with Elastic Agent.
-- Version: 1.18.0
+- Version: 1.19.0
 - Categories: security, credential_management
 - Docs: `packages/bitwarden/docs/README.md`
 
@@ -893,7 +893,7 @@ integrations/
 - Name: `crowdstrike`
 - Path: `packages/crowdstrike/`
 - Description: Collect logs from Crowdstrike with Elastic Agent.
-- Version: 3.16.0
+- Version: 3.16.1
 - Docs: `packages/crowdstrike/docs/README.md`
 
 ### CyberArk EPM
@@ -1959,7 +1959,7 @@ integrations/
 - Name: `mimecast`
 - Path: `packages/mimecast/`
 - Description: Collect logs from Mimecast with Elastic Agent.
-- Version: 3.3.1
+- Version: 3.3.2
 - Docs: `packages/mimecast/docs/README.md`
 
 ### Miniflux RSS reader
