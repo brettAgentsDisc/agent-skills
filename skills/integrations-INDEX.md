@@ -243,7 +243,7 @@ integrations/
 - Name: `aws`
 - Path: `packages/aws/`
 - Description: Collect logs and metrics from Amazon Web Services (AWS) with Elastic Agent.
-- Version: 6.14.0
+- Version: 6.14.1
 - Categories: aws, cloud
 - Docs: `packages/aws/docs/README.md`
 
@@ -513,7 +513,7 @@ integrations/
 - Name: `bitdefender`
 - Path: `packages/bitdefender/`
 - Description: Ingest BitDefender GravityZone logs and data
-- Version: 2.8.0
+- Version: 2.9.0
 - Categories: security
 - Docs: `packages/bitdefender/docs/README.md`
 
@@ -726,7 +726,7 @@ integrations/
 - Name: `cisco_secure_email_gateway`
 - Path: `packages/cisco_secure_email_gateway/`
 - Description: Collect logs from Cisco Secure Email Gateway with Elastic Agent.
-- Version: 1.29.0
+- Version: 1.29.1
 - Categories: security, network, email_security
 - Docs: `packages/cisco_secure_email_gateway/docs/README.md`
 
@@ -2173,7 +2173,7 @@ integrations/
 - Name: `o365_metrics`
 - Path: `packages/o365_metrics/`
 - Description: Collect metrics from Microsoft Office 365 with Elastic Agent.
-- Version: 1.1.1
+- Version: 1.2.0
 - Categories: observability, security
 - Docs: `packages/o365_metrics/docs/README.md`
 
@@ -2624,7 +2624,7 @@ integrations/
 - Name: `security_detection_engine`
 - Path: `packages/security_detection_engine/`
 - Description: Prebuilt detection rules for Elastic Security
-- Version: 9.4.2
+- Version: 9.4.3
 - Categories: security, siem
 - Docs: `packages/security_detection_engine/docs/README.md`
 
@@ -2982,7 +2982,7 @@ integrations/
 - Name: `ti_anyrun`
 - Path: `packages/ti_anyrun/`
 - Description: Ingest Threat Intelligence indicators from ANY.RUN TI Feeds with Elastic Agent
-- Version: 1.0.0
+- Version: 1.0.1
 - Categories: security, threat_intel
 - Docs: `packages/ti_anyrun/docs/README.md`
 
