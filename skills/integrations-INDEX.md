@@ -474,7 +474,7 @@ integrations/
 - Name: `beaconing`
 - Path: `packages/beaconing/`
 - Description: Package to identify beaconing activity in your network events.
-- Version: 1.5.4
+- Version: 1.6.0
 - Categories: security, advanced_analytics_ueba
 - Docs: `packages/beaconing/docs/README.md`
 
@@ -505,7 +505,7 @@ integrations/
 - Name: `beyondtrust_pra`
 - Path: `packages/beyondtrust_pra/`
 - Description: Collect logs from BeyondTrust PRA with Elastic Agent.
-- Version: 0.3.3
+- Version: 0.4.0
 - Categories: security
 - Docs: `packages/beyondtrust_pra/docs/README.md`
 
@@ -1174,7 +1174,7 @@ integrations/
 - Name: `filestream`
 - Path: `packages/filestream/`
 - Description: Collect log data using filestream with Elastic Agent.
-- Version: 2.4.0
+- Version: 2.5.0
 - Categories: custom, custom_logs
 - Docs: `packages/filestream/docs/README.md`
 
@@ -1989,7 +1989,7 @@ integrations/
 - Name: `mongodb_atlas`
 - Path: `packages/mongodb_atlas/`
 - Description: This Elastic integration collects logs and metrics from MongoDB Atlas instance.
-- Version: 1.2.0
+- Version: 1.2.1
 - Categories: cloud, datastore, observability
 - Docs: `packages/mongodb_atlas/docs/README.md`
 
