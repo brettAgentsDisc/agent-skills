@@ -68,7 +68,7 @@ integrations/
 - Name: `agentless_hello_world`
 - Path: `packages/agentless_hello_world/`
 - Description: A sample integration to exercise the Agentless infrastructure by fetching https://epr.elastic.co every minute. Optionally includes a counter data stream for high-rate mock metric ingestion testing.
-- Version: 0.2.0
+- Version: 0.4.0
 - Categories: observability
 - Docs: `packages/agentless_hello_world/docs/README.md`
 
@@ -419,7 +419,7 @@ integrations/
 - Name: `azure_metrics`
 - Path: `packages/azure_metrics/`
 - Description: Collect metrics from Azure resources with Elastic Agent.
-- Version: 1.11.0
+- Version: 1.11.1
 - Categories: cloud, observability, azure, custom
 - Docs: `packages/azure_metrics/docs/README.md`
 
@@ -646,7 +646,7 @@ integrations/
 - Name: `cisa_kevs`
 - Path: `packages/cisa_kevs/`
 - Description: This package allows the ingest of known exploited vulnerabilities according to the Cybersecurity and Infrastructure Security Agency of the United States of America. This information could be used to enrich or track exisiting vulnerabilities that are known to be exploited in the wild.
-- Version: 1.7.0
+- Version: 1.8.0
 - Categories: security
 - Docs: `packages/cisa_kevs/docs/README.md`
 
@@ -1040,7 +1040,7 @@ integrations/
 - Name: `elasticsearch`
 - Path: `packages/elasticsearch/`
 - Description: Elasticsearch Integration
-- Version: 1.20.1
+- Version: 1.20.2
 - Docs: `packages/elasticsearch/docs/README.md`
 
 ### Endace
@@ -2204,7 +2204,7 @@ integrations/
 - Name: `oracle`
 - Path: `packages/oracle/`
 - Description: Collect Oracle Audit Log, Performance metrics, Tablespace metrics, Sysmetrics metrics, System statistics metrics, memory metrics from Oracle database.
-- Version: 1.31.1
+- Version: 1.31.2
 - Categories: observability, datastore
 - Docs: `packages/oracle/docs/README.md`
 
