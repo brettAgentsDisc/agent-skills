@@ -243,7 +243,7 @@ integrations/
 - Name: `aws`
 - Path: `packages/aws/`
 - Description: Collect logs and metrics from Amazon Web Services (AWS) with Elastic Agent.
-- Version: 6.14.1
+- Version: 6.14.2
 - Categories: aws, cloud
 - Docs: `packages/aws/docs/README.md`
 
@@ -537,7 +537,7 @@ integrations/
 - Name: `blacklens`
 - Path: `packages/blacklens/`
 - Description: Collect logs from blacklens.io with Elastic Agent
-- Version: 1.0.1
+- Version: 1.1.0
 - Categories: security
 - Docs: `packages/blacklens/docs/README.md`
 
@@ -552,7 +552,7 @@ integrations/
 - Name: `box_events`
 - Path: `packages/box_events/`
 - Description: Collect logs from Box with Elastic Agent
-- Version: 3.1.2
+- Version: 3.2.0
 - Categories: security, productivity_security
 - Docs: `packages/box_events/docs/README.md`
 
@@ -813,7 +813,7 @@ integrations/
 - Name: `cloudflare_logpush`
 - Path: `packages/cloudflare_logpush/`
 - Description: Collect and parse logs from Cloudflare API with Elastic Agent.
-- Version: 1.44.0
+- Version: 1.44.1
 - Categories: security, network, cdn_security
 - Docs: `packages/cloudflare_logpush/docs/README.md`
 
