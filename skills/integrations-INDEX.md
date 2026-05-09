@@ -355,7 +355,7 @@ integrations/
 - Name: `azure_ai_foundry`
 - Path: `packages/azure_ai_foundry/`
 - Description: Collects Microsoft Foundry logs and metrics
-- Version: 0.9.1
+- Version: 0.10.0
 - Categories: azure, cloud, observability
 - Docs: `packages/azure_ai_foundry/docs/README.md`
 
@@ -379,7 +379,7 @@ integrations/
 - Name: `azure_billing`
 - Path: `packages/azure_billing/`
 - Description: Collect billing metrics with Elastic Agent.
-- Version: 1.9.0
+- Version: 1.10.0
 - Categories: cloud, observability, azure
 - Docs: `packages/azure_billing/docs/README.md`
 
@@ -443,7 +443,7 @@ integrations/
 - Name: `azure_openai`
 - Path: `packages/azure_openai/`
 - Description: Collects Azure OpenAI Logs and Metrics
-- Version: 1.11.0
+- Version: 1.12.0
 - Categories: azure, cloud, observability
 - Docs: `packages/azure_openai/docs/README.md`
 
@@ -1040,7 +1040,7 @@ integrations/
 - Name: `elasticsearch`
 - Path: `packages/elasticsearch/`
 - Description: Elasticsearch Integration
-- Version: 1.20.2
+- Version: 1.21.0
 - Docs: `packages/elasticsearch/docs/README.md`
 
 ### Endace
@@ -1943,7 +1943,7 @@ integrations/
 - Name: `microsoft_sqlserver`
 - Path: `packages/microsoft_sqlserver/`
 - Description: Collect events from Microsoft SQL Server with Elastic Agent
-- Version: 2.16.0
+- Version: 2.17.0
 - Categories: database_security, security, observability
 - Docs: `packages/microsoft_sqlserver/docs/README.md`
 
