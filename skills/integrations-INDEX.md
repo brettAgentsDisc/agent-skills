@@ -163,7 +163,7 @@ integrations/
 - Name: `apm`
 - Path: `packages/apm/`
 - Description: Monitor, detect, and diagnose complex application performance issues.
-- Version: 9.1.0-preview-1747764883
+- Version: 9.3.4-preview-1775552749
 - Categories: elastic_stack, monitoring
 - Docs: `packages/apm/docs/README.md`
 
@@ -505,7 +505,7 @@ integrations/
 - Name: `beyondtrust_pra`
 - Path: `packages/beyondtrust_pra/`
 - Description: Collect logs from BeyondTrust PRA with Elastic Agent.
-- Version: 0.4.0
+- Version: 1.0.0
 - Categories: security
 - Docs: `packages/beyondtrust_pra/docs/README.md`
 
@@ -1040,7 +1040,7 @@ integrations/
 - Name: `elasticsearch`
 - Path: `packages/elasticsearch/`
 - Description: Elasticsearch Integration
-- Version: 1.21.0
+- Version: 1.21.1
 - Docs: `packages/elasticsearch/docs/README.md`
 
 ### Endace
@@ -2244,7 +2244,7 @@ integrations/
 - Name: `otel_android_dashboards`
 - Path: `packages/otel_android_dashboards/`
 - Description: Dashboards for visualizing Android application's telemetry
-- Version: 0.1.0
+- Version: 0.1.1
 - Categories: observability, application_observability, opentelemetry
 - Docs: `packages/otel_android_dashboards/docs/README.md`
 
@@ -2672,7 +2672,7 @@ integrations/
 - Name: `snyk`
 - Path: `packages/snyk/`
 - Description: Collect logs from Snyk with Elastic Agent.
-- Version: 3.4.2
+- Version: 3.4.3
 - Categories: security, cloudsecurity_cdr
 - Docs: `packages/snyk/docs/README.md`
 
@@ -3006,7 +3006,7 @@ integrations/
 - Name: `ti_custom`
 - Path: `packages/ti_custom/`
 - Description: Ingest threat intelligence data in STIX 2.1 format with Elastic Agent
-- Version: 1.5.0
+- Version: 1.6.0
 - Categories: custom, security, threat_intel
 - Docs: `packages/ti_custom/docs/README.md`
 
