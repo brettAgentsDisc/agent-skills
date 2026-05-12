@@ -52,7 +52,7 @@ integrations/
 - Name: `activemq_otel`
 - Path: `packages/activemq_otel/`
 - Description: ActiveMQ Assets for OpenTelemetry Collector
-- Version: 0.1.0
+- Version: 0.2.0
 - Categories: observability, message_queue, opentelemetry
 - Docs: `packages/activemq_otel/docs/README.md`
 
@@ -84,7 +84,7 @@ integrations/
 - Name: `airflow_otel`
 - Path: `packages/airflow_otel/`
 - Description: Airflow OpenTelemetry Integration.
-- Version: 0.1.0
+- Version: 0.2.0
 - Categories: opentelemetry, observability, process_manager
 - Docs: `packages/airflow_otel/docs/README.md`
 
@@ -131,7 +131,7 @@ integrations/
 - Name: `apache_otel`
 - Path: `packages/apache_otel/`
 - Description: Apache HTTP Server Assets for OpenTelemetry Collector
-- Version: 0.3.0
+- Version: 0.4.0
 - Categories: observability, web, opentelemetry
 - Docs: `packages/apache_otel/docs/README.md`
 
@@ -155,7 +155,7 @@ integrations/
 - Name: `apache_tomcat_otel`
 - Path: `packages/apache_tomcat_otel/`
 - Description: Apache Tomcat Assets from OpenTelemetry Collector
-- Version: 0.1.0
+- Version: 0.2.0
 - Categories: observability, web, application_observability, opentelemetry
 - Docs: `packages/apache_tomcat_otel/docs/README.md`
 
@@ -403,7 +403,7 @@ integrations/
 - Name: `azure_functions`
 - Path: `packages/azure_functions/`
 - Description: Get metrics and logs from Azure Functions
-- Version: 0.12.0
+- Version: 0.13.0
 - Categories: azure, cloud, observability
 - Docs: `packages/azure_functions/docs/README.md`
 
@@ -591,7 +591,7 @@ integrations/
 - Name: `cassandra_otel`
 - Path: `packages/cassandra_otel/`
 - Description: Apache Cassandra Assets from OpenTelemetry Collector
-- Version: 0.1.0
+- Version: 0.2.0
 - Categories: observability, datastore, opentelemetry
 - Docs: `packages/cassandra_otel/docs/README.md`
 
@@ -829,7 +829,7 @@ integrations/
 - Name: `cockroachdb_otel`
 - Path: `packages/cockroachdb_otel/`
 - Description: CockroachDB Assets from OpenTelemetry Collector
-- Version: 0.1.0
+- Version: 0.2.0
 - Categories: observability, datastore, opentelemetry
 - Docs: `packages/cockroachdb_otel/docs/README.md`
 
@@ -877,7 +877,7 @@ integrations/
 - Name: `couchdb_otel`
 - Path: `packages/couchdb_otel/`
 - Description: CouchDB Assets for OpenTelemetry Collector
-- Version: 0.1.0
+- Version: 0.2.0
 - Categories: observability, datastore, opentelemetry
 - Docs: `packages/couchdb_otel/docs/README.md`
 
@@ -1102,7 +1102,7 @@ integrations/
 - Name: `envoyproxy_otel`
 - Path: `packages/envoyproxy_otel/`
 - Description: Envoyproxy Assets for OpenTelemetry Collector
-- Version: 0.1.0
+- Version: 0.2.0
 - Categories: observability, opentelemetry
 - Docs: `packages/envoyproxy_otel/docs/README.md`
 
@@ -1134,7 +1134,7 @@ integrations/
 - Name: `etcd_otel`
 - Path: `packages/etcd_otel/`
 - Description: etcd Assets from OpenTelemetry Collector
-- Version: 0.1.0
+- Version: 0.2.0
 - Categories: observability, datastore, opentelemetry
 - Docs: `packages/etcd_otel/docs/README.md`
 
@@ -1422,7 +1422,7 @@ integrations/
 - Name: `haproxy_otel`
 - Path: `packages/haproxy_otel/`
 - Description: Haproxy Assets for OpenTelemetry Collector
-- Version: 0.1.0
+- Version: 0.2.0
 - Categories: observability, web, opentelemetry
 - Docs: `packages/haproxy_otel/docs/README.md`
 
@@ -1509,7 +1509,7 @@ integrations/
 - Name: `ibmmq_otel`
 - Path: `packages/ibmmq_otel/`
 - Description: IBM MQ Assets from OpenTelemetry Collector
-- Version: 0.1.0
+- Version: 0.2.0
 - Categories: message_queue, opentelemetry, observability
 - Docs: `packages/ibmmq_otel/docs/README.md`
 
@@ -1533,7 +1533,7 @@ integrations/
 - Name: `iis_otel`
 - Path: `packages/iis_otel/`
 - Description: IIS Assets for OpenTelemetry Collector
-- Version: 0.3.0
+- Version: 0.4.0
 - Categories: web, observability, opentelemetry
 - Docs: `packages/iis_otel/docs/README.md`
 
@@ -1564,7 +1564,7 @@ integrations/
 - Name: `influxdb_otel`
 - Path: `packages/influxdb_otel/`
 - Description: InfluxDb Assets for OpenTelemetry Collector
-- Version: 0.1.0
+- Version: 0.2.0
 - Categories: datastore, observability, opentelemetry
 - Docs: `packages/influxdb_otel/docs/README.md`
 
@@ -1668,7 +1668,7 @@ integrations/
 - Name: `jumpcloud`
 - Path: `packages/jumpcloud/`
 - Description: Collect logs from JumpCloud Directory as a Service
-- Version: 1.17.1
+- Version: 1.18.0
 - Categories: cloud, security
 - Docs: `packages/jumpcloud/docs/README.md`
 
@@ -1729,7 +1729,7 @@ integrations/
 - Name: `kafka_otel`
 - Path: `packages/kafka_otel/`
 - Description: Kafka Assets for OpenTelemetry Collector
-- Version: 0.1.0
+- Version: 0.2.0
 - Categories: observability, message_queue, opentelemetry
 - Docs: `packages/kafka_otel/docs/README.md`
 
@@ -1871,7 +1871,7 @@ integrations/
 - Name: `memcached_otel`
 - Path: `packages/memcached_otel/`
 - Description: Memcached Assets for OpenTelemetry Collector
-- Version: 0.1.0
+- Version: 0.2.0
 - Categories: observability, opentelemetry
 - Docs: `packages/memcached_otel/docs/README.md`
 
@@ -1951,7 +1951,7 @@ integrations/
 - Name: `microsoft_sqlserver_otel`
 - Path: `packages/microsoft_sqlserver_otel/`
 - Description: Microsoft SQL Server Assets
-- Version: 0.1.0
+- Version: 0.2.0
 - Categories: datastore, opentelemetry, observability
 - Docs: `packages/microsoft_sqlserver_otel/docs/README.md`
 
@@ -1997,7 +1997,7 @@ integrations/
 - Name: `mongodb_otel`
 - Path: `packages/mongodb_otel/`
 - Description: MongoDB Assets for OpenTelemetry Collector
-- Version: 0.1.0
+- Version: 0.2.0
 - Categories: observability, datastore, opentelemetry
 - Docs: `packages/mongodb_otel/docs/README.md`
 
@@ -2029,7 +2029,7 @@ integrations/
 - Name: `mysql_otel`
 - Path: `packages/mysql_otel/`
 - Description: MySQL Assets for OpenTelemetry Collector
-- Version: 0.4.0
+- Version: 0.5.0
 - Categories: datastore, observability, opentelemetry
 - Docs: `packages/mysql_otel/docs/README.md`
 
@@ -2133,7 +2133,7 @@ integrations/
 - Name: `nginx_otel`
 - Path: `packages/nginx_otel/`
 - Description: NGINX Assets from OpenTelemetry Collector
-- Version: 0.3.0
+- Version: 0.4.0
 - Categories: observability, web, opentelemetry
 - Docs: `packages/nginx_otel/docs/README.md`
 
@@ -2157,7 +2157,7 @@ integrations/
 - Name: `nvidia_gpu_otel`
 - Path: `packages/nvidia_gpu_otel/`
 - Description: NVIDIA GPU Assets for OpenTelemetry Collector
-- Version: 0.1.0
+- Version: 0.2.0
 - Categories: cloud, observability, opentelemetry, os_system
 - Docs: `packages/nvidia_gpu_otel/docs/README.md`
 
@@ -2212,7 +2212,7 @@ integrations/
 - Name: `oracle_otel`
 - Path: `packages/oracle_otel/`
 - Description: Oracle Assets for OpenTelemetry Collector
-- Version: 0.1.0
+- Version: 0.2.0
 - Categories: observability, message_queue, opentelemetry
 - Docs: `packages/oracle_otel/docs/README.md`
 
@@ -2347,7 +2347,7 @@ integrations/
 - Name: `postgresql_otel`
 - Path: `packages/postgresql_otel/`
 - Description: PostgreSQL Assets for OpenTelemetry Collector
-- Version: 0.3.0
+- Version: 0.4.0
 - Categories: observability, datastore, opentelemetry
 - Docs: `packages/postgresql_otel/docs/README.md`
 
@@ -2521,7 +2521,7 @@ integrations/
 - Name: `rabbitmq_otel`
 - Path: `packages/rabbitmq_otel/`
 - Description: RabbitMQ Assets for OpenTelemetry Collector
-- Version: 0.1.0
+- Version: 0.2.0
 - Categories: message_queue, observability, opentelemetry
 - Docs: `packages/rabbitmq_otel/docs/README.md`
 
@@ -2544,7 +2544,7 @@ integrations/
 - Name: `redis`
 - Path: `packages/redis/`
 - Description: Collect logs and metrics from Redis servers with Elastic Agent.
-- Version: 1.20.0
+- Version: 1.21.0
 - Categories: datastore, observability
 - Docs: `packages/redis/docs/README.md`
 
@@ -2560,7 +2560,7 @@ integrations/
 - Name: `redis_otel`
 - Path: `packages/redis_otel/`
 - Description: Redis Assets for OpenTelemetry Collector
-- Version: 0.1.0
+- Version: 0.2.0
 - Categories: datastore, observability, opentelemetry
 - Docs: `packages/redis_otel/docs/README.md`
 
@@ -2576,7 +2576,7 @@ integrations/
 - Name: `redisenterprise_otel`
 - Path: `packages/redisenterprise_otel/`
 - Description: Redis Enterprise Assets for OpenTelemetry Collector
-- Version: 0.1.0
+- Version: 0.2.0
 - Categories: datastore, observability, opentelemetry
 - Docs: `packages/redisenterprise_otel/docs/README.md`
 
@@ -2902,7 +2902,7 @@ integrations/
 - Name: `teleport`
 - Path: `packages/teleport/`
 - Description: Collect logs from Teleport with Elastic Agent.
-- Version: 1.6.0
+- Version: 1.6.1
 - Categories: monitoring, network
 - Docs: `packages/teleport/docs/README.md`
 
@@ -2966,7 +2966,7 @@ integrations/
 - Name: `ti_abusech`
 - Path: `packages/ti_abusech/`
 - Description: Ingest threat intelligence indicators from URL Haus, Malware Bazaar, and Threat Fox feeds with Elastic Agent.
-- Version: 3.6.0
+- Version: 3.7.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_abusech/docs/README.md`
 
@@ -2974,7 +2974,7 @@ integrations/
 - Name: `ti_anomali`
 - Path: `packages/ti_anomali/`
 - Description: Ingest threat intelligence indicators from Anomali ThreatStream with Elastic Agent.
-- Version: 2.6.1
+- Version: 2.7.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_anomali/docs/README.md`
 
@@ -2982,7 +2982,7 @@ integrations/
 - Name: `ti_anyrun`
 - Path: `packages/ti_anyrun/`
 - Description: Ingest Threat Intelligence indicators from ANY.RUN TI Feeds with Elastic Agent
-- Version: 1.0.1
+- Version: 1.1.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_anyrun/docs/README.md`
 
@@ -2990,7 +2990,7 @@ integrations/
 - Name: `ti_cif3`
 - Path: `packages/ti_cif3/`
 - Description: Ingest threat indicators from a Collective Intelligence Framework v3 instance with Elastic Agent.
-- Version: 1.18.2
+- Version: 1.19.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_cif3/docs/README.md`
 
@@ -2998,7 +2998,7 @@ integrations/
 - Name: `ti_crowdstrike`
 - Path: `packages/ti_crowdstrike/`
 - Description: Collect logs from CrowdStrike Falcon Intelligence with Elastic Agent.
-- Version: 2.7.1
+- Version: 2.8.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_crowdstrike/docs/README.md`
 
@@ -3006,7 +3006,7 @@ integrations/
 - Name: `ti_custom`
 - Path: `packages/ti_custom/`
 - Description: Ingest threat intelligence data in STIX 2.1 format with Elastic Agent
-- Version: 1.6.0
+- Version: 1.7.0
 - Categories: custom, security, threat_intel
 - Docs: `packages/ti_custom/docs/README.md`
 
@@ -3014,7 +3014,7 @@ integrations/
 - Name: `ti_cybersixgill`
 - Path: `packages/ti_cybersixgill/`
 - Description: Ingest threat intelligence indicators from Cybersixgill with Elastic Agent.
-- Version: 1.34.1
+- Version: 1.35.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_cybersixgill/docs/README.md`
 
@@ -3022,14 +3022,14 @@ integrations/
 - Name: `ti_cyware_intel_exchange`
 - Path: `packages/ti_cyware_intel_exchange/`
 - Description: Collect logs from Cyware Intel Exchange with Elastic Agent.
-- Version: 0.2.0
+- Version: 0.3.0
 - Docs: `packages/ti_cyware_intel_exchange/docs/README.md`
 
 ### DomainTools Feeds
 - Name: `ti_domaintools`
 - Path: `packages/ti_domaintools/`
 - Description: DomainTools Feeds provide data on the different stages of the domain lifecycle: from first-observed in the wild, to newly re-activated after a period of quiet.
-- Version: 1.3.0
+- Version: 1.4.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_domaintools/docs/README.md`
 
@@ -3037,7 +3037,7 @@ integrations/
 - Name: `ti_eclecticiq`
 - Path: `packages/ti_eclecticiq/`
 - Description: Ingest threat intelligence from EclecticIQ with Elastic Agent
-- Version: 1.5.0
+- Version: 1.6.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_eclecticiq/docs/README.md`
 
@@ -3045,7 +3045,7 @@ integrations/
 - Name: `ti_eset`
 - Path: `packages/ti_eset/`
 - Description: Ingest threat intelligence indicators from ESET Threat Intelligence with Elastic Agent.
-- Version: 1.9.0
+- Version: 1.10.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_eset/docs/README.md`
 
@@ -3053,7 +3053,7 @@ integrations/
 - Name: `ti_flashpoint`
 - Path: `packages/ti_flashpoint/`
 - Description: Collect logs from Flashpoint with Elastic Agent.
-- Version: 0.1.0
+- Version: 0.2.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_flashpoint/docs/README.md`
 
@@ -3061,7 +3061,7 @@ integrations/
 - Name: `ti_google_threat_intelligence`
 - Path: `packages/ti_google_threat_intelligence/`
 - Description: Collect Threat Intelligence Events from Google Threat Intelligence using Elastic Agent, and perform enrichment on Elasticsearch by correlating Indicators of Compromise (IOCs).
-- Version: 0.8.1
+- Version: 0.9.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_google_threat_intelligence/docs/README.md`
 
@@ -3069,7 +3069,7 @@ integrations/
 - Name: `ti_greynoise`
 - Path: `packages/ti_greynoise/`
 - Description: Collect Threat Intelligence Indicators from GreyNoise using Elastic Agent, and perform enrichment on Elasticsearch by correlating Indicators of Compromise (IOCs).
-- Version: 0.7.3
+- Version: 0.8.0
 - Categories: threat_intel, security
 - Docs: `packages/ti_greynoise/docs/README.md`
 
@@ -3077,7 +3077,7 @@ integrations/
 - Name: `ti_maltiverse`
 - Path: `packages/ti_maltiverse/`
 - Description: Ingest threat intelligence indicators from Maltiverse feeds with Elastic Agent
-- Version: 1.6.0
+- Version: 1.7.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_maltiverse/docs/README.md`
 
@@ -3093,7 +3093,7 @@ integrations/
 - Name: `ti_misp`
 - Path: `packages/ti_misp/`
 - Description: Ingest threat intelligence indicators from MISP platform with Elastic Agent.
-- Version: 1.42.0
+- Version: 1.43.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_misp/docs/README.md`
 
@@ -3101,7 +3101,7 @@ integrations/
 - Name: `ti_opencti`
 - Path: `packages/ti_opencti/`
 - Description: Ingest threat intelligence indicators from OpenCTI with Elastic Agent.
-- Version: 2.13.0
+- Version: 2.14.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_opencti/docs/README.md`
 
@@ -3109,7 +3109,7 @@ integrations/
 - Name: `ti_otx`
 - Path: `packages/ti_otx/`
 - Description: Ingest threat intelligence indicators from AlienVault Open Threat Exchange (OTX) with Elastic Agent.
-- Version: 1.30.1
+- Version: 1.31.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_otx/docs/README.md`
 
@@ -3117,7 +3117,7 @@ integrations/
 - Name: `ti_rapid7_threat_command`
 - Path: `packages/ti_rapid7_threat_command/`
 - Description: Collect threat intelligence from Threat Command API with Elastic Agent.
-- Version: 2.8.0
+- Version: 2.9.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_rapid7_threat_command/docs/README.md`
 
@@ -3125,7 +3125,7 @@ integrations/
 - Name: `ti_recordedfuture`
 - Path: `packages/ti_recordedfuture/`
 - Description: Ingest threat intelligence and alert data from Recorded Future with Elastic Agent.
-- Version: 2.4.2
+- Version: 2.5.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_recordedfuture/docs/README.md`
 
@@ -3133,14 +3133,14 @@ integrations/
 - Name: `ti_strider`
 - Path: `packages/ti_strider/`
 - Description: Ingest threat intelligence indicators from Strider Shield with Elastic Agent.
-- Version: 0.0.1
+- Version: 0.1.0
 - Docs: `packages/ti_strider/docs/README.md`
 
 ### ThreatConnect
 - Name: `ti_threatconnect`
 - Path: `packages/ti_threatconnect/`
 - Description: Collects Indicators from ThreatConnect using the Elastic Agent and saves them as logs inside Elastic
-- Version: 2.0.0
+- Version: 2.1.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_threatconnect/docs/README.md`
 
@@ -3148,7 +3148,7 @@ integrations/
 - Name: `ti_threatq`
 - Path: `packages/ti_threatq/`
 - Description: Ingest threat intelligence indicators from ThreatQuotient with Elastic Agent.
-- Version: 1.37.1
+- Version: 1.38.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_threatq/docs/README.md`
 
@@ -3188,7 +3188,7 @@ integrations/
 - Name: `traefik_otel`
 - Path: `packages/traefik_otel/`
 - Description: Traefik Assets for OpenTelemetry Collector
-- Version: 0.1.0
+- Version: 0.2.0
 - Categories: opentelemetry, observability
 - Docs: `packages/traefik_otel/docs/README.md`
 
@@ -3316,7 +3316,7 @@ integrations/
 - Name: `vsphere_otel`
 - Path: `packages/vsphere_otel/`
 - Description: VMware vSphere Assets for OpenTelemetry Collector
-- Version: 0.1.0
+- Version: 0.2.0
 - Categories: observability, opentelemetry, virtualization
 - Docs: `packages/vsphere_otel/docs/README.md`
 
@@ -3428,7 +3428,7 @@ integrations/
 - Name: `zookeeper_otel`
 - Path: `packages/zookeeper_otel/`
 - Description: Zookeeper OTel Assets
-- Version: 0.1.1
+- Version: 0.2.0
 - Categories: observability, opentelemetry
 - Docs: `packages/zookeeper_otel/docs/README.md`
 
