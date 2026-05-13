@@ -2093,7 +2093,7 @@ integrations/
 - Name: `nextron_thor_apt_scanner`
 - Path: `packages/nextron_thor/`
 - Description: Integration for Nextron Thor APT Scanner
-- Version: 0.0.1
+- Version: 0.0.2
 - Categories: security
 - Docs: `packages/nextron_thor/docs/README.md`
 
@@ -2133,7 +2133,7 @@ integrations/
 - Name: `nginx_otel`
 - Path: `packages/nginx_otel/`
 - Description: NGINX Assets from OpenTelemetry Collector
-- Version: 0.4.0
+- Version: 0.5.0
 - Categories: observability, web, opentelemetry
 - Docs: `packages/nginx_otel/docs/README.md`
 
@@ -2632,7 +2632,7 @@ integrations/
 - Name: `sentinel_one`
 - Path: `packages/sentinel_one/`
 - Description: Collect logs from SentinelOne with Elastic Agent.
-- Version: 2.6.0
+- Version: 2.7.0
 - Categories: security, edr_xdr
 - Docs: `packages/sentinel_one/docs/README.md`
 
@@ -3212,7 +3212,7 @@ integrations/
 - Name: `trend_micro_vision_one`
 - Path: `packages/trend_micro_vision_one/`
 - Description: Collect logs from TrendAI Vision One with Elastic Agent.
-- Version: 2.11.0
+- Version: 2.12.0
 - Categories: security, edr_xdr
 - Docs: `packages/trend_micro_vision_one/docs/README.md`
 
