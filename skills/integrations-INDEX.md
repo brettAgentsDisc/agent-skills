@@ -347,7 +347,7 @@ integrations/
 - Name: `azure`
 - Path: `packages/azure/`
 - Description: This Elastic integration collects logs from Azure
-- Version: 1.36.1
+- Version: 1.37.0
 - Categories: cloud, azure, observability
 - Docs: `packages/azure/docs/README.md`
 
@@ -893,7 +893,7 @@ integrations/
 - Name: `crowdstrike`
 - Path: `packages/crowdstrike/`
 - Description: Collect logs from Crowdstrike with Elastic Agent.
-- Version: 3.16.1
+- Version: 3.16.2
 - Docs: `packages/crowdstrike/docs/README.md`
 
 ### CyberArk EPM
@@ -1150,7 +1150,7 @@ integrations/
 - Name: `f5_bigip`
 - Path: `packages/f5_bigip/`
 - Description: Collect logs from F5 BIG-IP with Elastic Agent.
-- Version: 1.27.3
+- Version: 1.28.0
 - Categories: security
 - Docs: `packages/f5_bigip/docs/README.md`
 
