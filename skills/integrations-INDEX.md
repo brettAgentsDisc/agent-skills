@@ -171,7 +171,7 @@ integrations/
 - Name: `arista_ngfw`
 - Path: `packages/arista_ngfw/`
 - Description: Collect logs and metrics from Arista NG Firewall.
-- Version: 1.6.2
+- Version: 1.6.3
 - Categories: network
 - Docs: `packages/arista_ngfw/docs/README.md`
 
@@ -599,7 +599,7 @@ integrations/
 - Name: `cef`
 - Path: `packages/cef/`
 - Description: Collect logs from CEF Logs with Elastic Agent.
-- Version: 2.23.1
+- Version: 2.23.2
 - Categories: security
 - Docs: `packages/cef/docs/README.md`
 
@@ -654,7 +654,7 @@ integrations/
 - Name: `cisco_aironet`
 - Path: `packages/cisco_aironet/`
 - Description: Integration for Cisco Aironet WLC Logs
-- Version: 1.20.0
+- Version: 1.20.1
 - Categories: security, network
 - Docs: `packages/cisco_aironet/docs/README.md`
 
@@ -662,7 +662,7 @@ integrations/
 - Name: `cisco_asa`
 - Path: `packages/cisco_asa/`
 - Description: Collect logs from Cisco ASA with Elastic Agent.
-- Version: 2.45.0
+- Version: 2.45.1
 - Categories: network, security, firewall_security
 - Docs: `packages/cisco_asa/docs/README.md`
 
@@ -686,7 +686,7 @@ integrations/
 - Name: `cisco_ios`
 - Path: `packages/cisco_ios/`
 - Description: Collect logs from Cisco IOS with Elastic Agent.
-- Version: 1.35.3
+- Version: 1.35.4
 - Categories: network, security
 - Docs: `packages/cisco_ios/docs/README.md`
 
@@ -694,7 +694,7 @@ integrations/
 - Name: `cisco_ise`
 - Path: `packages/cisco_ise/`
 - Description: Collect logs from Cisco ISE with Elastic Agent.
-- Version: 1.32.4
+- Version: 1.32.5
 - Categories: security, network
 - Docs: `packages/cisco_ise/docs/README.md`
 
@@ -718,7 +718,7 @@ integrations/
 - Name: `cisco_nexus`
 - Path: `packages/cisco_nexus/`
 - Description: Collect logs from Cisco Nexus with Elastic Agent.
-- Version: 1.6.0
+- Version: 1.6.1
 - Categories: network, security
 - Docs: `packages/cisco_nexus/docs/README.md`
 
@@ -726,7 +726,7 @@ integrations/
 - Name: `cisco_secure_email_gateway`
 - Path: `packages/cisco_secure_email_gateway/`
 - Description: Collect logs from Cisco Secure Email Gateway with Elastic Agent.
-- Version: 1.29.1
+- Version: 1.29.2
 - Categories: security, network, email_security
 - Docs: `packages/cisco_secure_email_gateway/docs/README.md`
 
@@ -758,7 +758,7 @@ integrations/
 - Name: `citrix_waf`
 - Path: `packages/citrix_waf/`
 - Description: Ingest events from Citrix Systems Web App Firewall.
-- Version: 1.20.0
+- Version: 1.20.1
 - Categories: network, security, web_application_firewall
 - Docs: `packages/citrix_waf/docs/README.md`
 
@@ -893,14 +893,14 @@ integrations/
 - Name: `crowdstrike`
 - Path: `packages/crowdstrike/`
 - Description: Collect logs from Crowdstrike with Elastic Agent.
-- Version: 3.16.2
+- Version: 3.17.0
 - Docs: `packages/crowdstrike/docs/README.md`
 
 ### CyberArk EPM
 - Name: `cyberark_epm`
 - Path: `packages/cyberark_epm/`
 - Description: Collect logs from CyberArk EPM with Elastic Agent.
-- Version: 1.3.3
+- Version: 1.4.0
 - Categories: security
 - Docs: `packages/cyberark_epm/docs/README.md`
 
@@ -945,7 +945,7 @@ integrations/
 - Name: `darktrace`
 - Path: `packages/darktrace/`
 - Description: Collect logs from Darktrace with Elastic Agent.
-- Version: 2.0.0
+- Version: 2.1.0
 - Categories: security, network_security
 - Docs: `packages/darktrace/docs/README.md`
 
@@ -1078,7 +1078,7 @@ integrations/
 - Name: `entityanalytics_okta`
 - Path: `packages/entityanalytics_okta/`
 - Description: Collect Identities from Okta with Elastic Agent.
-- Version: 3.0.0
+- Version: 3.1.0
 - Categories: security
 - Docs: `packages/entityanalytics_okta/docs/README.md`
 
@@ -1235,7 +1235,7 @@ integrations/
 - Name: `fortinet_fortiedr`
 - Path: `packages/fortinet_fortiedr/`
 - Description: Collect logs from Fortinet FortiEDR instances with Elastic Agent.
-- Version: 1.21.0
+- Version: 1.21.1
 - Docs: `packages/fortinet_fortiedr/docs/README.md`
 
 ### Fortinet FortiGate Firewall Logs
@@ -1249,21 +1249,21 @@ integrations/
 - Name: `fortinet_fortimail`
 - Path: `packages/fortinet_fortimail/`
 - Description: Collect logs from Fortinet FortiMail instances with Elastic Agent.
-- Version: 2.19.0
+- Version: 2.19.1
 - Docs: `packages/fortinet_fortimail/docs/README.md`
 
 ### Fortinet FortiManager Logs
 - Name: `fortinet_fortimanager`
 - Path: `packages/fortinet_fortimanager/`
 - Description: Collect logs from Fortinet FortiManager instances with Elastic Agent.
-- Version: 2.18.0
+- Version: 2.18.1
 - Docs: `packages/fortinet_fortimanager/docs/README.md`
 
 ### Fortinet FortiProxy
 - Name: `fortinet_fortiproxy`
 - Path: `packages/fortinet_fortiproxy/`
 - Description: Collect logs from Fortinet FortiProxy with Elastic Agent.
-- Version: 1.4.0
+- Version: 1.4.1
 - Categories: network
 - Docs: `packages/fortinet_fortiproxy/docs/README.md`
 
@@ -1342,7 +1342,7 @@ integrations/
 - Name: `goflow2`
 - Path: `packages/goflow2/`
 - Description: Collect logs from goflow2 with Elastic Agent.
-- Version: 0.7.0
+- Version: 0.7.1
 - Categories: network
 - Docs: `packages/goflow2/docs/README.md`
 
@@ -1430,7 +1430,7 @@ integrations/
 - Name: `hashicorp_vault`
 - Path: `packages/hashicorp_vault/`
 - Description: Collect logs and metrics from Hashicorp Vault with Elastic Agent.
-- Version: 1.30.1
+- Version: 1.30.2
 - Categories: security, iam
 - Docs: `packages/hashicorp_vault/docs/README.md`
 
@@ -1453,7 +1453,7 @@ integrations/
 - Name: `hpe_aruba_cx`
 - Path: `packages/hpe_aruba_cx/`
 - Description: Collect logs from HPE Aruba CX with Elastic Agent
-- Version: 0.4.1
+- Version: 0.4.2
 - Categories: config_management, network, security
 - Docs: `packages/hpe_aruba_cx/docs/README.md`
 
@@ -1541,7 +1541,7 @@ integrations/
 - Name: `imperva`
 - Path: `packages/imperva/`
 - Description: Collect logs from Imperva devices with Elastic Agent.
-- Version: 1.10.0
+- Version: 1.10.1
 - Docs: `packages/imperva/docs/README.md`
 
 ### Imperva Cloud WAF
@@ -1596,7 +1596,7 @@ integrations/
 - Name: `iptables`
 - Path: `packages/iptables/`
 - Description: Collect logs from Iptables with Elastic Agent.
-- Version: 1.23.0
+- Version: 1.23.1
 - Categories: network, security
 - Docs: `packages/iptables/docs/README.md`
 
@@ -1690,7 +1690,7 @@ integrations/
 - Name: `juniper_srx`
 - Path: `packages/juniper_srx/`
 - Description: Collect logs from Juniper SRX devices with Elastic Agent.
-- Version: 1.27.0
+- Version: 1.27.1
 - Docs: `packages/juniper_srx/docs/README.md`
 
 ### JupiterOne
@@ -1721,7 +1721,7 @@ integrations/
 - Name: `kafka_log`
 - Path: `packages/kafka_log/`
 - Description: Collect data from kafka topic with Elastic Agent.
-- Version: 2.0.0
+- Version: 2.1.0
 - Categories: observability, custom
 - Docs: `packages/kafka_log/docs/README.md`
 
@@ -1973,7 +1973,7 @@ integrations/
 - Name: `modsecurity`
 - Path: `packages/modsecurity/`
 - Description: Collect logs from ModSecurity with Elastic Agent
-- Version: 1.23.1
+- Version: 1.23.2
 - Categories: security, network, web_application_firewall
 - Docs: `packages/modsecurity/docs/README.md`
 
@@ -2061,7 +2061,7 @@ integrations/
 - Name: `netflow`
 - Path: `packages/netflow/`
 - Description: Collect flow records from NetFlow and IPFIX exporters with Elastic Agent.
-- Version: 2.25.0
+- Version: 2.25.1
 - Categories: network, security
 - Docs: `packages/netflow/docs/README.md`
 
@@ -2300,7 +2300,7 @@ integrations/
 - Name: `pfsense`
 - Path: `packages/pfsense/`
 - Description: Collect logs from pfSense and OPNsense with Elastic Agent.
-- Version: 1.25.2
+- Version: 1.25.3
 - Categories: network, security, firewall_security
 - Docs: `packages/pfsense/docs/README.md`
 
@@ -2467,7 +2467,7 @@ integrations/
 - Name: `proxysg`
 - Path: `packages/proxysg/`
 - Description: Collect access logs from Broadcom ProxySG with Elastic Agent.
-- Version: 0.8.0
+- Version: 0.8.1
 - Categories: network, security
 - Docs: `packages/proxysg/docs/README.md`
 
@@ -2482,7 +2482,7 @@ integrations/
 - Name: `qnap_nas`
 - Path: `packages/qnap_nas/`
 - Description: Collect logs from QNAP NAS devices with Elastic Agent.
-- Version: 1.25.2
+- Version: 1.25.3
 - Docs: `packages/qnap_nas/docs/README.md`
 
 ### Qualys Global AssetView
@@ -2664,7 +2664,7 @@ integrations/
 - Name: `snort`
 - Path: `packages/snort/`
 - Description: Collect logs from Snort with Elastic Agent.
-- Version: 1.21.1
+- Version: 1.21.2
 - Categories: ids_ips, security
 - Docs: `packages/snort/docs/README.md`
 
@@ -2680,7 +2680,7 @@ integrations/
 - Name: `sonicwall_firewall`
 - Path: `packages/sonicwall_firewall/`
 - Description: Integration for SonicWall firewall logs
-- Version: 1.22.0
+- Version: 1.22.1
 - Categories: network, security, firewall_security
 - Docs: `packages/sonicwall_firewall/docs/README.md`
 
@@ -2688,7 +2688,7 @@ integrations/
 - Name: `sophos`
 - Path: `packages/sophos/`
 - Description: Collect logs from Sophos with Elastic Agent.
-- Version: 3.17.0
+- Version: 3.17.1
 - Categories: security, network, firewall_security
 - Docs: `packages/sophos/docs/README.md`
 
@@ -2744,7 +2744,7 @@ integrations/
 - Name: `squid`
 - Path: `packages/squid/`
 - Description: Collect and parse logs from Squid devices with Elastic Agent.
-- Version: 1.5.0
+- Version: 1.5.1
 - Docs: `packages/squid/docs/README.md`
 
 ### STAN
@@ -2775,7 +2775,7 @@ integrations/
 - Name: `stormshield`
 - Path: `packages/stormshield/`
 - Description: Stormshield SNS integration.
-- Version: 1.5.1
+- Version: 1.5.2
 - Categories: network, security, firewall_security
 - Docs: `packages/stormshield/docs/README.md`
 
@@ -2862,7 +2862,7 @@ integrations/
 - Name: `system`
 - Path: `packages/system/`
 - Description: Collect system logs and metrics from your servers with Elastic Agent.
-- Version: 2.17.0
+- Version: 2.18.0
 - Categories: os_system
 - Docs: `packages/system/docs/README.md`
 
@@ -2894,7 +2894,7 @@ integrations/
 - Name: `tcp`
 - Path: `packages/tcp/`
 - Description: Collect raw TCP data from listening TCP port with Elastic Agent.
-- Version: 2.3.0
+- Version: 2.3.1
 - Categories: custom, custom_logs
 - Docs: `packages/tcp/docs/README.md`
 
@@ -2942,7 +2942,7 @@ integrations/
 - Name: `cilium_tetragon`
 - Path: `packages/tetragon/`
 - Description: Collect Cilium Tetragon logs from Kubernetes environments.
-- Version: 0.4.0
+- Version: 0.4.1
 - Categories: security, cloud, cloudsecurity_cdr, kubernetes
 - Docs: `packages/tetragon/docs/README.md`
 
@@ -3236,7 +3236,7 @@ integrations/
 - Name: `udp`
 - Path: `packages/udp/`
 - Description: Collect raw UDP data from listening UDP port with Elastic Agent.
-- Version: 2.5.0
+- Version: 2.5.1
 - Categories: custom, custom_logs
 - Docs: `packages/udp/docs/README.md`
 
@@ -3324,7 +3324,7 @@ integrations/
 - Name: `watchguard_firebox`
 - Path: `packages/watchguard_firebox/`
 - Description: Collect logs from WatchGuard Firebox with Elastic Agent.
-- Version: 1.6.3
+- Version: 1.6.4
 - Categories: security, network, firewall_security
 - Docs: `packages/watchguard_firebox/docs/README.md`
 
@@ -3396,7 +3396,7 @@ integrations/
 - Name: `zeek`
 - Path: `packages/zeek/`
 - Description: Collect logs from Zeek with Elastic Agent.
-- Version: 5.0.0
+- Version: 5.0.1
 - Categories: network, security
 - Docs: `packages/zeek/docs/README.md`
 
