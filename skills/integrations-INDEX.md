@@ -2982,7 +2982,7 @@ integrations/
 - Name: `ti_anyrun`
 - Path: `packages/ti_anyrun/`
 - Description: Ingest Threat Intelligence indicators from ANY.RUN TI Feeds with Elastic Agent
-- Version: 1.1.0
+- Version: 1.1.1
 - Categories: security, threat_intel
 - Docs: `packages/ti_anyrun/docs/README.md`
 
@@ -3093,7 +3093,7 @@ integrations/
 - Name: `ti_misp`
 - Path: `packages/ti_misp/`
 - Description: Ingest threat intelligence indicators from MISP platform with Elastic Agent.
-- Version: 1.43.0
+- Version: 1.43.1
 - Categories: security, threat_intel
 - Docs: `packages/ti_misp/docs/README.md`
 
