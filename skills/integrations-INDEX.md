@@ -243,7 +243,7 @@ integrations/
 - Name: `aws`
 - Path: `packages/aws/`
 - Description: Collect logs and metrics from Amazon Web Services (AWS) with Elastic Agent.
-- Version: 6.14.2
+- Version: 6.16.0
 - Categories: aws, cloud
 - Docs: `packages/aws/docs/README.md`
 
@@ -1118,7 +1118,7 @@ integrations/
 - Name: `ess_billing`
 - Path: `packages/ess_billing/`
 - Description: Collects billing metrics from Elasticsearch Service billing API
-- Version: 1.7.1
+- Version: 1.7.2
 - Categories: cloud
 - Docs: `packages/ess_billing/docs/README.md`
 
@@ -1493,7 +1493,7 @@ integrations/
 - Name: `ibm_qradar`
 - Path: `packages/ibm_qradar/`
 - Description: Collect logs from IBM QRadar with Elastic Agent.
-- Version: 0.2.0
+- Version: 1.0.0
 - Categories: security, siem
 - Docs: `packages/ibm_qradar/docs/README.md`
 
@@ -1697,7 +1697,7 @@ integrations/
 - Name: `jupiter_one`
 - Path: `packages/jupiter_one/`
 - Description: Collect logs from JupiterOne with Elastic Agent.
-- Version: 0.1.0
+- Version: 1.0.0
 - Categories: security
 - Docs: `packages/jupiter_one/docs/README.md`
 
@@ -1839,7 +1839,7 @@ integrations/
 - Name: `m365_defender`
 - Path: `packages/m365_defender/`
 - Description: Collect logs from Microsoft Defender XDR with Elastic Agent.
-- Version: 5.13.0
+- Version: 5.13.1
 - Categories: security, edr_xdr, vulnerability_workflow, cloudsecurity_cdr
 - Docs: `packages/m365_defender/docs/README.md`
 
@@ -2435,7 +2435,7 @@ integrations/
 - Name: `proofpoint_essentials`
 - Path: `packages/proofpoint_essentials/`
 - Description: Collect logs from Proofpoint Essentials with Elastic Agent.
-- Version: 0.1.0
+- Version: 1.0.0
 - Categories: security
 - Docs: `packages/proofpoint_essentials/docs/README.md`
 
@@ -2584,7 +2584,7 @@ integrations/
 - Name: `rubrik`
 - Path: `packages/rubrik/`
 - Description: Collect Metrics from Rubrik RSC with Elastic Agent.
-- Version: 0.9.3
+- Version: 0.9.4
 - Categories: observability
 - Docs: `packages/rubrik/docs/README.md`
 
@@ -2966,7 +2966,7 @@ integrations/
 - Name: `ti_abusech`
 - Path: `packages/ti_abusech/`
 - Description: Ingest threat intelligence indicators from URL Haus, Malware Bazaar, and Threat Fox feeds with Elastic Agent.
-- Version: 3.7.0
+- Version: 4.0.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_abusech/docs/README.md`
 
