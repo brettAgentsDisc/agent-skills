@@ -419,7 +419,7 @@ integrations/
 - Name: `azure_metrics`
 - Path: `packages/azure_metrics/`
 - Description: Collect metrics from Azure resources with Elastic Agent.
-- Version: 1.11.1
+- Version: 1.12.0
 - Categories: cloud, observability, azure, custom
 - Docs: `packages/azure_metrics/docs/README.md`
 
@@ -893,7 +893,7 @@ integrations/
 - Name: `crowdstrike`
 - Path: `packages/crowdstrike/`
 - Description: Collect logs from Crowdstrike with Elastic Agent.
-- Version: 3.17.0
+- Version: 3.18.0
 - Docs: `packages/crowdstrike/docs/README.md`
 
 ### CyberArk EPM
@@ -1009,7 +1009,7 @@ integrations/
 - Name: `elastic_agent`
 - Path: `packages/elastic_agent/`
 - Description: Collect logs and metrics from Elastic Agents.
-- Version: 2.8.0
+- Version: 2.9.0
 - Docs: `packages/elastic_agent/docs/README.md`
 
 ### Elastic Connectors
@@ -2624,7 +2624,7 @@ integrations/
 - Name: `security_detection_engine`
 - Path: `packages/security_detection_engine/`
 - Description: Prebuilt detection rules for Elastic Security
-- Version: 9.4.3
+- Version: 9.4.4
 - Categories: security, siem
 - Docs: `packages/security_detection_engine/docs/README.md`
 
