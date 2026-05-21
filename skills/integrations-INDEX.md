@@ -36,7 +36,7 @@ integrations/
 - Name: `abnormal_security`
 - Path: `packages/abnormal_security/`
 - Description: Collect logs from Abnormal AI with Elastic Agent.
-- Version: 1.14.0
+- Version: 1.14.1
 - Categories: security
 - Docs: `packages/abnormal_security/docs/README.md`
 
@@ -243,7 +243,7 @@ integrations/
 - Name: `aws`
 - Path: `packages/aws/`
 - Description: Collect logs and metrics from Amazon Web Services (AWS) with Elastic Agent.
-- Version: 6.16.0
+- Version: 6.17.1
 - Categories: aws, cloud
 - Docs: `packages/aws/docs/README.md`
 
@@ -813,7 +813,7 @@ integrations/
 - Name: `cloudflare_logpush`
 - Path: `packages/cloudflare_logpush/`
 - Description: Collect and parse logs from Cloudflare API with Elastic Agent.
-- Version: 1.44.1
+- Version: 1.44.2
 - Categories: security, network, cdn_security
 - Docs: `packages/cloudflare_logpush/docs/README.md`
 
@@ -1271,7 +1271,7 @@ integrations/
 - Name: `gcp`
 - Path: `packages/gcp/`
 - Description: Collect logs and metrics from Google Cloud Platform with Elastic Agent.
-- Version: 2.49.0
+- Version: 2.50.0
 - Categories: google_cloud, cloud, observability
 - Docs: `packages/gcp/docs/README.md`
 
@@ -1287,7 +1287,7 @@ integrations/
 - Name: `gcp_metrics`
 - Path: `packages/gcp_metrics/`
 - Description: GCP Metrics Input
-- Version: 0.3.1
+- Version: 0.4.0
 - Categories: cloud, observability, google_cloud, custom
 - Docs: `packages/gcp_metrics/docs/README.md`
 
@@ -1295,7 +1295,7 @@ integrations/
 - Name: `gcp_pubsub`
 - Path: `packages/gcp_pubsub/`
 - Description: Collect Logs from Google Pub/Sub topics
-- Version: 2.2.1
+- Version: 2.3.0
 - Categories: observability, google_cloud, cloud, custom
 - Docs: `packages/gcp_pubsub/docs/README.md`
 
@@ -1303,7 +1303,7 @@ integrations/
 - Name: `gcp_vertexai`
 - Path: `packages/gcp_vertexai/`
 - Description: Collect GCP Vertex AI metrics and logs with Elastic Agent
-- Version: 1.4.0
+- Version: 1.5.0
 - Categories: cloud, google_cloud, observability
 - Docs: `packages/gcp_vertexai/docs/README.md`
 
@@ -1775,7 +1775,7 @@ integrations/
 - Name: `kubernetes_otel`
 - Path: `packages/kubernetes_otel/`
 - Description: Utilise the pre-built dashboard for OTel-native metrics and events collected from a Kubernetes cluster
-- Version: 2.1.0-preview2
+- Version: 2.1.0-preview3
 - Categories: kubernetes
 - Docs: `packages/kubernetes_otel/docs/README.md`
 
@@ -3061,7 +3061,7 @@ integrations/
 - Name: `ti_google_threat_intelligence`
 - Path: `packages/ti_google_threat_intelligence/`
 - Description: Collect Threat Intelligence Events from Google Threat Intelligence using Elastic Agent, and perform enrichment on Elasticsearch by correlating Indicators of Compromise (IOCs).
-- Version: 0.9.0
+- Version: 0.10.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_google_threat_intelligence/docs/README.md`
 
@@ -3125,7 +3125,7 @@ integrations/
 - Name: `ti_recordedfuture`
 - Path: `packages/ti_recordedfuture/`
 - Description: Ingest threat intelligence and alert data from Recorded Future with Elastic Agent.
-- Version: 2.5.0
+- Version: 2.5.1
 - Categories: security, threat_intel
 - Docs: `packages/ti_recordedfuture/docs/README.md`
 
