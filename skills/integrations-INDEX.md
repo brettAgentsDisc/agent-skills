@@ -163,7 +163,7 @@ integrations/
 - Name: `apm`
 - Path: `packages/apm/`
 - Description: Monitor, detect, and diagnose complex application performance issues.
-- Version: 9.3.4-preview-1775552749
+- Version: 9.3.5-preview-1779430085
 - Categories: elastic_stack, monitoring
 - Docs: `packages/apm/docs/README.md`
 
@@ -662,7 +662,7 @@ integrations/
 - Name: `cisco_asa`
 - Path: `packages/cisco_asa/`
 - Description: Collect logs from Cisco ASA with Elastic Agent.
-- Version: 2.45.1
+- Version: 2.45.2
 - Categories: network, security, firewall_security
 - Docs: `packages/cisco_asa/docs/README.md`
 
@@ -678,7 +678,7 @@ integrations/
 - Name: `cisco_ftd`
 - Path: `packages/cisco_ftd/`
 - Description: Collect logs from Cisco FTD with Elastic Agent.
-- Version: 3.13.3
+- Version: 3.13.4
 - Categories: network, security, firewall_security
 - Docs: `packages/cisco_ftd/docs/README.md`
 
@@ -718,7 +718,7 @@ integrations/
 - Name: `cisco_nexus`
 - Path: `packages/cisco_nexus/`
 - Description: Collect logs from Cisco Nexus with Elastic Agent.
-- Version: 1.6.1
+- Version: 1.7.0
 - Categories: network, security
 - Docs: `packages/cisco_nexus/docs/README.md`
 
@@ -1009,7 +1009,7 @@ integrations/
 - Name: `elastic_agent`
 - Path: `packages/elastic_agent/`
 - Description: Collect logs and metrics from Elastic Agents.
-- Version: 2.9.0
+- Version: 2.9.2
 - Docs: `packages/elastic_agent/docs/README.md`
 
 ### Elastic Connectors
@@ -1062,7 +1062,7 @@ integrations/
 - Name: `entityanalytics_ad`
 - Path: `packages/entityanalytics_ad/`
 - Description: Collect User Identities from Active Directory Entity with Elastic Agent.
-- Version: 0.18.0
+- Version: 0.19.0
 - Categories: security
 - Docs: `packages/entityanalytics_ad/docs/README.md`
 
@@ -1382,7 +1382,7 @@ integrations/
 - Name: `google_workspace`
 - Path: `packages/google_workspace/`
 - Description: Collect logs from Google Workspace with Elastic Agent.
-- Version: 3.3.1
+- Version: 3.3.2
 - Categories: security, productivity_security
 - Docs: `packages/google_workspace/docs/README.md`
 
@@ -3140,7 +3140,7 @@ integrations/
 - Name: `ti_threatconnect`
 - Path: `packages/ti_threatconnect/`
 - Description: Collects Indicators from ThreatConnect using the Elastic Agent and saves them as logs inside Elastic
-- Version: 2.1.0
+- Version: 2.1.1
 - Categories: security, threat_intel
 - Docs: `packages/ti_threatconnect/docs/README.md`
 
@@ -3444,7 +3444,7 @@ integrations/
 - Name: `zscaler_zia`
 - Path: `packages/zscaler_zia/`
 - Description: Collect logs from Zscaler Internet Access (ZIA) with Elastic Agent.
-- Version: 3.17.1
+- Version: 3.18.0
 - Categories: security, network
 - Docs: `packages/zscaler_zia/docs/README.md`
 
