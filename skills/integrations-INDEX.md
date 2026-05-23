@@ -623,7 +623,7 @@ integrations/
 - Name: `checkpoint`
 - Path: `packages/checkpoint/`
 - Description: Collect logs from Check Point with Elastic Agent.
-- Version: 1.45.5
+- Version: 1.46.0
 - Docs: `packages/checkpoint/docs/README.md`
 
 ### Check Point Harmony Email & Collaboration
@@ -694,7 +694,7 @@ integrations/
 - Name: `cisco_ise`
 - Path: `packages/cisco_ise/`
 - Description: Collect logs from Cisco ISE with Elastic Agent.
-- Version: 1.32.5
+- Version: 1.32.6
 - Categories: security, network
 - Docs: `packages/cisco_ise/docs/README.md`
 
@@ -774,7 +774,7 @@ integrations/
 - Name: `claroty_xdome`
 - Path: `packages/claroty_xdome/`
 - Description: Collect logs from Claroty xDome with Elastic Agent.
-- Version: 1.0.2
+- Version: 1.0.3
 - Categories: security, vulnerability_management
 - Docs: `packages/claroty_xdome/docs/README.md`
 
@@ -2187,9 +2187,9 @@ integrations/
 ### OpenAI
 - Name: `openai`
 - Path: `packages/openai/`
-- Description: Collect OpenAI usage metrics with Elastic Agent.
-- Version: 1.2.1
-- Categories: observability, monitoring
+- Description: Collect OpenAI usage metrics and audit logs with Elastic Agent.
+- Version: 2.0.0
+- Categories: observability, monitoring, security
 - Docs: `packages/openai/docs/README.md`
 
 ### OpenCanary
@@ -2300,7 +2300,7 @@ integrations/
 - Name: `pfsense`
 - Path: `packages/pfsense/`
 - Description: Collect logs from pfSense and OPNsense with Elastic Agent.
-- Version: 1.25.3
+- Version: 1.25.4
 - Categories: network, security, firewall_security
 - Docs: `packages/pfsense/docs/README.md`
 
