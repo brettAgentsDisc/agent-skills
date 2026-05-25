@@ -131,7 +131,7 @@ integrations/
 - Name: `apache_otel`
 - Path: `packages/apache_otel/`
 - Description: Apache HTTP Server Assets for OpenTelemetry Collector
-- Version: 0.4.0
+- Version: 0.5.0
 - Categories: observability, web, opentelemetry
 - Docs: `packages/apache_otel/docs/README.md`
 
@@ -275,7 +275,7 @@ integrations/
 - Name: `aws_cloudtrail_otel`
 - Path: `packages/aws_cloudtrail_otel/`
 - Description: AWS CloudTrail Logs OpenTelemetry Assets
-- Version: 0.1.0
+- Version: 0.2.0
 - Categories: aws, cloud, web, observability, opentelemetry
 - Docs: `packages/aws_cloudtrail_otel/docs/README.md`
 
@@ -283,7 +283,7 @@ integrations/
 - Name: `aws_elb_otel`
 - Path: `packages/aws_elb_otel/`
 - Description: AWS ELB logs for OpenTelemetry Collector
-- Version: 0.1.1
+- Version: 0.2.0
 - Categories: aws, cloud, web, observability, opentelemetry
 - Docs: `packages/aws_elb_otel/docs/README.md`
 
@@ -315,7 +315,7 @@ integrations/
 - Name: `aws_vpcflow_otel`
 - Path: `packages/aws_vpcflow_otel/`
 - Description: AWS VPC Flow Logs OpenTelemetry Assets
-- Version: 0.2.0
+- Version: 0.3.0
 - Categories: aws, cloud, web, observability, opentelemetry
 - Docs: `packages/aws_vpcflow_otel/docs/README.md`
 
@@ -323,7 +323,7 @@ integrations/
 - Name: `aws_waf_otel`
 - Path: `packages/aws_waf_otel/`
 - Description: AWS WAF Logs OpenTelemetry Assets
-- Version: 0.1.0
+- Version: 0.2.0
 - Categories: aws, cloud, web, observability, opentelemetry, security, web_application_firewall
 - Docs: `packages/aws_waf_otel/docs/README.md`
 
@@ -686,7 +686,7 @@ integrations/
 - Name: `cisco_ios`
 - Path: `packages/cisco_ios/`
 - Description: Collect logs from Cisco IOS with Elastic Agent.
-- Version: 1.35.4
+- Version: 1.36.0
 - Categories: network, security
 - Docs: `packages/cisco_ios/docs/README.md`
 
@@ -1102,7 +1102,7 @@ integrations/
 - Name: `envoyproxy_otel`
 - Path: `packages/envoyproxy_otel/`
 - Description: Envoyproxy Assets for OpenTelemetry Collector
-- Version: 0.2.0
+- Version: 0.3.0
 - Categories: observability, opentelemetry
 - Docs: `packages/envoyproxy_otel/docs/README.md`
 
@@ -1271,7 +1271,7 @@ integrations/
 - Name: `gcp`
 - Path: `packages/gcp/`
 - Description: Collect logs and metrics from Google Cloud Platform with Elastic Agent.
-- Version: 2.50.0
+- Version: 2.50.1
 - Categories: google_cloud, cloud, observability
 - Docs: `packages/gcp/docs/README.md`
 
@@ -1279,7 +1279,7 @@ integrations/
 - Name: `gcp_audit_otel`
 - Path: `packages/gcp_audit_otel/`
 - Description: GCP Audit Logs OpenTelemetry Assets
-- Version: 0.1.0
+- Version: 0.2.0
 - Categories: google_cloud, cloud, security, observability, opentelemetry
 - Docs: `packages/gcp_audit_otel/docs/README.md`
 
@@ -1311,7 +1311,7 @@ integrations/
 - Name: `gcp_vpcflow_otel`
 - Path: `packages/gcp_vpcflow_otel/`
 - Description: GCP VPC Flow Logs OpenTelemetry Assets
-- Version: 0.1.0
+- Version: 0.2.0
 - Categories: google_cloud, cloud, web, observability, opentelemetry
 - Docs: `packages/gcp_vpcflow_otel/docs/README.md`
 
@@ -1548,7 +1548,7 @@ integrations/
 - Name: `imperva_cloud_waf`
 - Path: `packages/imperva_cloud_waf/`
 - Description: Collect logs from Imperva Cloud WAF with Elastic Agent.
-- Version: 1.13.1
+- Version: 1.13.2
 - Categories: security
 - Docs: `packages/imperva_cloud_waf/docs/README.md`
 
@@ -1775,7 +1775,7 @@ integrations/
 - Name: `kubernetes_otel`
 - Path: `packages/kubernetes_otel/`
 - Description: Utilise the pre-built dashboard for OTel-native metrics and events collected from a Kubernetes cluster
-- Version: 2.1.0-preview3
+- Version: 2.1.0-preview4
 - Categories: kubernetes
 - Docs: `packages/kubernetes_otel/docs/README.md`
 
@@ -2117,7 +2117,7 @@ integrations/
 - Name: `nginx_ingress_controller_otel`
 - Path: `packages/nginx_ingress_controller_otel/`
 - Description: Collect Nginx Ingress Controller logs using the OpenTelemetry collector.
-- Version: 0.2.2
+- Version: 0.3.0
 - Categories: observability, containers, kubernetes, opentelemetry
 - Docs: `packages/nginx_ingress_controller_otel/docs/README.md`
 
@@ -2212,7 +2212,7 @@ integrations/
 - Name: `oracle_otel`
 - Path: `packages/oracle_otel/`
 - Description: Oracle Assets for OpenTelemetry Collector
-- Version: 0.2.0
+- Version: 0.3.0
 - Categories: observability, message_queue, opentelemetry
 - Docs: `packages/oracle_otel/docs/README.md`
 
