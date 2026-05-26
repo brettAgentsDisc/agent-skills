@@ -662,7 +662,7 @@ integrations/
 - Name: `cisco_asa`
 - Path: `packages/cisco_asa/`
 - Description: Collect logs from Cisco ASA with Elastic Agent.
-- Version: 2.45.2
+- Version: 2.45.4
 - Categories: network, security, firewall_security
 - Docs: `packages/cisco_asa/docs/README.md`
 
@@ -766,7 +766,7 @@ integrations/
 - Name: `claroty_ctd`
 - Path: `packages/claroty_ctd/`
 - Description: Collect logs from Claroty CTD using Elastic Agent.
-- Version: 1.2.0
+- Version: 1.3.0
 - Categories: security
 - Docs: `packages/claroty_ctd/docs/README.md`
 
@@ -922,7 +922,7 @@ integrations/
 - Name: `cybereason`
 - Path: `packages/cybereason/`
 - Description: Collect logs from Cybereason with Elastic Agent.
-- Version: 1.5.0
+- Version: 1.6.0
 - Categories: security, edr_xdr
 - Docs: `packages/cybereason/docs/README.md`
 
@@ -1198,7 +1198,7 @@ integrations/
 - Name: `first_epss`
 - Path: `packages/first_epss/`
 - Description: Collect exploit prediction score data from the First EPSS API with Elastic Agent.
-- Version: 1.2.0
+- Version: 1.3.0
 - Categories: security, vulnerability_management
 - Docs: `packages/first_epss/docs/README.md`
 
@@ -1775,7 +1775,7 @@ integrations/
 - Name: `kubernetes_otel`
 - Path: `packages/kubernetes_otel/`
 - Description: Utilise the pre-built dashboard for OTel-native metrics and events collected from a Kubernetes cluster
-- Version: 2.1.0-preview4
+- Version: 2.1.0-preview5
 - Categories: kubernetes
 - Docs: `packages/kubernetes_otel/docs/README.md`
 
@@ -1989,7 +1989,7 @@ integrations/
 - Name: `mongodb_atlas`
 - Path: `packages/mongodb_atlas/`
 - Description: This Elastic integration collects logs and metrics from MongoDB Atlas instance.
-- Version: 1.2.1
+- Version: 1.2.2
 - Categories: cloud, datastore, observability
 - Docs: `packages/mongodb_atlas/docs/README.md`
 
@@ -2173,7 +2173,7 @@ integrations/
 - Name: `o365_metrics`
 - Path: `packages/o365_metrics/`
 - Description: Collect metrics from Microsoft Office 365 with Elastic Agent.
-- Version: 1.2.0
+- Version: 1.2.1
 - Categories: observability, security
 - Docs: `packages/o365_metrics/docs/README.md`
 
@@ -2181,7 +2181,7 @@ integrations/
 - Name: `okta`
 - Path: `packages/okta/`
 - Description: Collect and parse event logs from Okta API with Elastic Agent.
-- Version: 3.14.1
+- Version: 3.14.2
 - Docs: `packages/okta/docs/README.md`
 
 ### OpenAI
@@ -3444,7 +3444,7 @@ integrations/
 - Name: `zscaler_zia`
 - Path: `packages/zscaler_zia/`
 - Description: Collect logs from Zscaler Internet Access (ZIA) with Elastic Agent.
-- Version: 3.18.0
+- Version: 3.19.0
 - Categories: security, network
 - Docs: `packages/zscaler_zia/docs/README.md`
 
