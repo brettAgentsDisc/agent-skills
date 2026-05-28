@@ -1767,7 +1767,7 @@ integrations/
 - Name: `kubernetes`
 - Path: `packages/kubernetes/`
 - Description: Collect logs and metrics from Kubernetes clusters with Elastic Agent.
-- Version: 1.85.0
+- Version: 1.85.1
 - Categories: observability, containers, kubernetes
 - Docs: `packages/kubernetes/docs/README.md`
 
@@ -2236,7 +2236,7 @@ integrations/
 - Name: `osquery_manager`
 - Path: `packages/osquery_manager/`
 - Description: Deploy Osquery with Elastic Agent, then run and schedule queries in Kibana
-- Version: 1.28.1
+- Version: 1.29.0
 - Categories: security
 - Docs: `packages/osquery_manager/docs/README.md`
 
@@ -2252,7 +2252,7 @@ integrations/
 - Name: `otel_collector_internal_telemetry`
 - Path: `packages/otel_collector_internal_telemetry/`
 - Description: This package contains dashboards that visualize the internal telemetry from the OpenTelemetry Collector
-- Version: 1.2.1
+- Version: 1.2.2
 - Categories: monitoring, observability, opentelemetry
 - Docs: `packages/otel_collector_internal_telemetry/docs/README.md`
 
@@ -2260,7 +2260,7 @@ integrations/
 - Name: `otel_rum_dashboards`
 - Path: `packages/otel_rum_dashboards/`
 - Description: RUM status metrics from OpenTelemetry JS SDKs
-- Version: 0.0.3
+- Version: 0.0.4
 - Categories: observability, web, opentelemetry
 - Docs: `packages/otel_rum_dashboards/docs/README.md`
 
@@ -2459,7 +2459,7 @@ integrations/
 - Name: `proofpoint_tap`
 - Path: `packages/proofpoint_tap/`
 - Description: Collect logs from Proofpoint TAP with Elastic Agent.
-- Version: 1.29.1
+- Version: 1.30.0
 - Categories: security, email_security
 - Docs: `packages/proofpoint_tap/docs/README.md`
 
@@ -3006,7 +3006,7 @@ integrations/
 - Name: `ti_custom`
 - Path: `packages/ti_custom/`
 - Description: Ingest threat intelligence data in STIX 2.1 format with Elastic Agent
-- Version: 1.7.0
+- Version: 1.7.1
 - Categories: custom, security, threat_intel
 - Docs: `packages/ti_custom/docs/README.md`
 
@@ -3380,7 +3380,7 @@ integrations/
 - Name: `wiz`
 - Path: `packages/wiz/`
 - Description: Collect logs from Wiz with Elastic Agent.
-- Version: 4.2.0
+- Version: 4.3.0
 - Categories: security, cloudsecurity_cdr, vulnerability_workflow, misconfiguration_workflow
 - Docs: `packages/wiz/docs/README.md`
 
