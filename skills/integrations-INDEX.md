@@ -1009,7 +1009,7 @@ integrations/
 - Name: `elastic_agent`
 - Path: `packages/elastic_agent/`
 - Description: Collect logs and metrics from Elastic Agents.
-- Version: 2.9.2
+- Version: 2.9.3
 - Docs: `packages/elastic_agent/docs/README.md`
 
 ### Elastic Connectors
@@ -1815,7 +1815,7 @@ integrations/
 - Name: `logstash`
 - Path: `packages/logstash/`
 - Description: Collect logs and metrics from Logstash with Elastic Agent.
-- Version: 2.10.1
+- Version: 2.11.0
 - Categories: observability, elastic_stack
 - Docs: `packages/logstash/docs/README.md`
 
@@ -2005,7 +2005,7 @@ integrations/
 - Name: `mysql`
 - Path: `packages/mysql/`
 - Description: Collect logs and metrics from MySQL servers with Elastic Agent.
-- Version: 1.29.2
+- Version: 1.30.0
 - Categories: datastore, observability
 - Docs: `packages/mysql/docs/README.md`
 
@@ -2101,7 +2101,7 @@ integrations/
 - Name: `nginx`
 - Path: `packages/nginx/`
 - Description: Collect logs and metrics from Nginx HTTP servers with Elastic Agent.
-- Version: 3.1.0
+- Version: 3.2.0
 - Categories: web, observability
 - Docs: `packages/nginx/docs/README.md`
 
@@ -2165,7 +2165,7 @@ integrations/
 - Name: `o365`
 - Path: `packages/o365/`
 - Description: Collect logs from Microsoft Office 365 with Elastic Agent.
-- Version: 3.8.2
+- Version: 3.8.3
 - Categories: security, productivity_security
 - Docs: `packages/o365/docs/README.md`
 
@@ -2308,7 +2308,7 @@ integrations/
 - Name: `php_fpm`
 - Path: `packages/php_fpm/`
 - Description: This Elastic integration collects metrics from PHP-FPM.
-- Version: 1.6.0
+- Version: 1.7.0
 - Categories: observability, process_manager
 - Docs: `packages/php_fpm/docs/README.md`
 
