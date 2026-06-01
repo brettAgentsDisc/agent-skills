@@ -969,7 +969,7 @@ integrations/
 - Name: `digital_guardian`
 - Path: `packages/digital_guardian/`
 - Description: Collect logs from Digital Guardian with Elastic Agent.
-- Version: 1.8.0
+- Version: 1.9.0
 - Categories: security, network
 - Docs: `packages/digital_guardian/docs/README.md`
 
@@ -1110,8 +1110,8 @@ integrations/
 - Name: `eset_protect`
 - Path: `packages/eset_protect/`
 - Description: Collect logs from ESET PROTECT with Elastic Agent.
-- Version: 2.2.0
-- Categories: security, edr_xdr
+- Version: 2.3.0
+- Categories: security, edr_xdr, vulnerability_management
 - Docs: `packages/eset_protect/docs/README.md`
 
 ### Elasticsearch Service Billing
@@ -1221,7 +1221,7 @@ integrations/
 - Name: `forgerock`
 - Path: `packages/forgerock/`
 - Description: Collect audit logs from ForgeRock with Elastic Agent.
-- Version: 1.22.0
+- Version: 1.23.0
 - Docs: `packages/forgerock/docs/README.md`
 
 ### Fortinet FortiClient Logs (Deprecated)
@@ -1668,7 +1668,7 @@ integrations/
 - Name: `jumpcloud`
 - Path: `packages/jumpcloud/`
 - Description: Collect logs from JumpCloud Directory as a Service
-- Version: 1.19.0
+- Version: 1.20.0
 - Categories: cloud, security
 - Docs: `packages/jumpcloud/docs/README.md`
 
@@ -1783,7 +1783,7 @@ integrations/
 - Name: `lastpass`
 - Path: `packages/lastpass/`
 - Description: Collect logs from LastPass with Elastic Agent.
-- Version: 1.21.0
+- Version: 1.22.0
 - Categories: security, credential_management
 - Docs: `packages/lastpass/docs/README.md`
 
@@ -2982,7 +2982,7 @@ integrations/
 - Name: `ti_anyrun`
 - Path: `packages/ti_anyrun/`
 - Description: Ingest Threat Intelligence indicators from ANY.RUN TI Feeds with Elastic Agent
-- Version: 1.1.1
+- Version: 1.1.2
 - Categories: security, threat_intel
 - Docs: `packages/ti_anyrun/docs/README.md`
 
@@ -3006,7 +3006,7 @@ integrations/
 - Name: `ti_custom`
 - Path: `packages/ti_custom/`
 - Description: Ingest threat intelligence data in STIX 2.1 format with Elastic Agent
-- Version: 1.7.1
+- Version: 1.7.2
 - Categories: custom, security, threat_intel
 - Docs: `packages/ti_custom/docs/README.md`
 
