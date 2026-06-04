@@ -227,7 +227,7 @@ integrations/
 - Name: `auth0`
 - Path: `packages/auth0/`
 - Description: Collect logs from Auth0 with Elastic Agent.
-- Version: 1.23.1
+- Version: 1.24.0
 - Categories: security, iam
 - Docs: `packages/auth0/docs/README.md`
 
@@ -243,7 +243,7 @@ integrations/
 - Name: `aws`
 - Path: `packages/aws/`
 - Description: Collect logs and metrics from Amazon Web Services (AWS) with Elastic Agent.
-- Version: 6.19.0
+- Version: 6.19.1
 - Categories: aws, cloud
 - Docs: `packages/aws/docs/README.md`
 
@@ -662,7 +662,7 @@ integrations/
 - Name: `cisco_asa`
 - Path: `packages/cisco_asa/`
 - Description: Collect logs from Cisco ASA with Elastic Agent.
-- Version: 2.45.6
+- Version: 2.45.7
 - Categories: network, security, firewall_security
 - Docs: `packages/cisco_asa/docs/README.md`
 
@@ -812,8 +812,8 @@ integrations/
 ### Cloudflare Logpush
 - Name: `cloudflare_logpush`
 - Path: `packages/cloudflare_logpush/`
-- Description: Collect and parse logs from Cloudflare API with Elastic Agent.
-- Version: 1.45.0
+- Description: Collect logs from Cloudflare with Elastic Agent.
+- Version: 1.46.0
 - Categories: security, network, cdn_security
 - Docs: `packages/cloudflare_logpush/docs/README.md`
 
@@ -1086,7 +1086,7 @@ integrations/
 - Name: `entro`
 - Path: `packages/entro/`
 - Description: Collect logs from Entro with Elastic Agent.
-- Version: 0.2.0
+- Version: 0.3.0
 - Categories: cloud, security
 - Docs: `packages/entro/docs/README.md`
 
@@ -1110,7 +1110,7 @@ integrations/
 - Name: `eset_protect`
 - Path: `packages/eset_protect/`
 - Description: Collect logs from ESET PROTECT with Elastic Agent.
-- Version: 2.3.0
+- Version: 2.4.0
 - Categories: security, edr_xdr, vulnerability_management
 - Docs: `packages/eset_protect/docs/README.md`
 
@@ -1690,7 +1690,7 @@ integrations/
 - Name: `juniper_srx`
 - Path: `packages/juniper_srx/`
 - Description: Collect logs from Juniper SRX devices with Elastic Agent.
-- Version: 1.27.1
+- Version: 1.27.2
 - Docs: `packages/juniper_srx/docs/README.md`
 
 ### JupiterOne
@@ -1823,7 +1823,7 @@ integrations/
 - Name: `lumos`
 - Path: `packages/lumos/`
 - Description: An integration with Lumos to ship your Activity logs to your Elastic instance.
-- Version: 1.6.0
+- Version: 1.7.0
 - Categories: security
 - Docs: `packages/lumos/docs/README.md`
 
@@ -1959,14 +1959,14 @@ integrations/
 - Name: `mimecast`
 - Path: `packages/mimecast/`
 - Description: Collect logs from Mimecast with Elastic Agent.
-- Version: 3.4.0
+- Version: 3.4.1
 - Docs: `packages/mimecast/docs/README.md`
 
 ### Miniflux RSS reader
 - Name: `miniflux`
 - Path: `packages/miniflux/`
 - Description: Collect RSS feed content from the Miniflux API with Elastic Agent.
-- Version: 1.0.1
+- Version: 1.1.0
 - Docs: `packages/miniflux/docs/README.md`
 
 ### ModSecurity Audit
@@ -2093,7 +2093,7 @@ integrations/
 - Name: `nextron_thor_apt_scanner`
 - Path: `packages/nextron_thor/`
 - Description: Integration for Nextron Thor APT Scanner
-- Version: 0.1.0
+- Version: 0.2.0
 - Categories: security
 - Docs: `packages/nextron_thor/docs/README.md`
 
@@ -2696,7 +2696,7 @@ integrations/
 - Name: `sophos_central`
 - Path: `packages/sophos_central/`
 - Description: This Elastic integration collects logs from Sophos Central with Elastic Agent.
-- Version: 1.21.0
+- Version: 1.22.0
 - Categories: security, edr_xdr
 - Docs: `packages/sophos_central/docs/README.md`
 
@@ -2862,7 +2862,7 @@ integrations/
 - Name: `system`
 - Path: `packages/system/`
 - Description: Collect system logs and metrics from your servers with Elastic Agent.
-- Version: 2.19.0
+- Version: 2.20.0
 - Categories: os_system
 - Docs: `packages/system/docs/README.md`
 
@@ -3444,7 +3444,7 @@ integrations/
 - Name: `zscaler_zia`
 - Path: `packages/zscaler_zia/`
 - Description: Collect logs from Zscaler Internet Access (ZIA) with Elastic Agent.
-- Version: 3.20.0
+- Version: 3.21.0
 - Categories: security, network
 - Docs: `packages/zscaler_zia/docs/README.md`
 
