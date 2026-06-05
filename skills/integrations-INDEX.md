@@ -243,7 +243,7 @@ integrations/
 - Name: `aws`
 - Path: `packages/aws/`
 - Description: Collect logs and metrics from Amazon Web Services (AWS) with Elastic Agent.
-- Version: 6.19.1
+- Version: 6.19.2
 - Categories: aws, cloud
 - Docs: `packages/aws/docs/README.md`
 
@@ -419,7 +419,7 @@ integrations/
 - Name: `azure_metrics`
 - Path: `packages/azure_metrics/`
 - Description: Collect metrics from Azure resources with Elastic Agent.
-- Version: 1.13.0
+- Version: 1.14.0
 - Categories: cloud, observability, azure, custom
 - Docs: `packages/azure_metrics/docs/README.md`
 
@@ -1062,7 +1062,7 @@ integrations/
 - Name: `entityanalytics_ad`
 - Path: `packages/entityanalytics_ad/`
 - Description: Collect User Identities from Active Directory Entity with Elastic Agent.
-- Version: 0.20.0
+- Version: 0.20.1
 - Categories: security
 - Docs: `packages/entityanalytics_ad/docs/README.md`
 
@@ -2165,7 +2165,7 @@ integrations/
 - Name: `o365`
 - Path: `packages/o365/`
 - Description: Collect logs from Microsoft Office 365 with Elastic Agent.
-- Version: 3.10.0
+- Version: 3.10.1
 - Categories: security, productivity_security
 - Docs: `packages/o365/docs/README.md`
 
@@ -2451,7 +2451,7 @@ integrations/
 - Name: `proofpoint_on_demand`
 - Path: `packages/proofpoint_on_demand/`
 - Description: Collect logs from Proofpoint On Demand with Elastic Agent.
-- Version: 1.9.1
+- Version: 1.10.0
 - Categories: security
 - Docs: `packages/proofpoint_on_demand/docs/README.md`
 
@@ -2902,7 +2902,7 @@ integrations/
 - Name: `teleport`
 - Path: `packages/teleport/`
 - Description: Collect logs from Teleport with Elastic Agent.
-- Version: 1.6.1
+- Version: 1.6.2
 - Categories: monitoring, network
 - Docs: `packages/teleport/docs/README.md`
 
@@ -3061,7 +3061,7 @@ integrations/
 - Name: `ti_google_threat_intelligence`
 - Path: `packages/ti_google_threat_intelligence/`
 - Description: Collect Threat Intelligence Events from Google Threat Intelligence using Elastic Agent, and perform enrichment on Elasticsearch by correlating Indicators of Compromise (IOCs).
-- Version: 0.11.0
+- Version: 0.12.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_google_threat_intelligence/docs/README.md`
 
@@ -3444,7 +3444,7 @@ integrations/
 - Name: `zscaler_zia`
 - Path: `packages/zscaler_zia/`
 - Description: Collect logs from Zscaler Internet Access (ZIA) with Elastic Agent.
-- Version: 3.21.0
+- Version: 3.22.0
 - Categories: security, network
 - Docs: `packages/zscaler_zia/docs/README.md`
 
