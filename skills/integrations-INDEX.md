@@ -623,7 +623,7 @@ integrations/
 - Name: `checkpoint`
 - Path: `packages/checkpoint/`
 - Description: Collect logs from Check Point with Elastic Agent.
-- Version: 1.46.0
+- Version: 1.47.0
 - Docs: `packages/checkpoint/docs/README.md`
 
 ### Check Point Harmony Email & Collaboration
