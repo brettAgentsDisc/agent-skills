@@ -203,7 +203,7 @@ integrations/
 - Name: `atlassian_jira`
 - Path: `packages/atlassian_jira/`
 - Description: Collect logs from Atlassian Jira with Elastic Agent.
-- Version: 1.31.0
+- Version: 1.32.0
 - Categories: security, productivity_security
 - Docs: `packages/atlassian_jira/docs/README.md`
 
@@ -2592,7 +2592,7 @@ integrations/
 - Name: `sailpoint_identity_sc`
 - Path: `packages/sailpoint_identity_sc/`
 - Description: Sailpoint identity security cloud provides enterprise identity governance and security capabilities. The integration allows users to extract audit information from their identity security cloud tenant using the ISC's AuditEvent API.
-- Version: 1.2.0
+- Version: 1.3.0
 - Categories: security
 - Docs: `packages/sailpoint_identity_sc/docs/README.md`
 
@@ -3061,7 +3061,7 @@ integrations/
 - Name: `ti_google_threat_intelligence`
 - Path: `packages/ti_google_threat_intelligence/`
 - Description: Collect Threat Intelligence Events from Google Threat Intelligence using Elastic Agent, and perform enrichment on Elasticsearch by correlating Indicators of Compromise (IOCs).
-- Version: 0.12.0
+- Version: 0.12.1
 - Categories: security, threat_intel
 - Docs: `packages/ti_google_threat_intelligence/docs/README.md`
 
