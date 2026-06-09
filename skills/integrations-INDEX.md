@@ -227,7 +227,7 @@ integrations/
 - Name: `auth0`
 - Path: `packages/auth0/`
 - Description: Collect logs from Auth0 with Elastic Agent.
-- Version: 1.24.0
+- Version: 1.25.0
 - Categories: security, iam
 - Docs: `packages/auth0/docs/README.md`
 
@@ -1086,7 +1086,7 @@ integrations/
 - Name: `entro`
 - Path: `packages/entro/`
 - Description: Collect logs from Entro with Elastic Agent.
-- Version: 0.3.0
+- Version: 0.4.0
 - Categories: cloud, security
 - Docs: `packages/entro/docs/README.md`
 
@@ -1110,7 +1110,7 @@ integrations/
 - Name: `eset_protect`
 - Path: `packages/eset_protect/`
 - Description: Collect logs from ESET PROTECT with Elastic Agent.
-- Version: 2.4.0
+- Version: 2.5.0
 - Categories: security, edr_xdr, vulnerability_management
 - Docs: `packages/eset_protect/docs/README.md`
 
@@ -1548,7 +1548,7 @@ integrations/
 - Name: `imperva_cloud_waf`
 - Path: `packages/imperva_cloud_waf/`
 - Description: Collect logs from Imperva Cloud WAF with Elastic Agent.
-- Version: 1.14.0
+- Version: 1.15.0
 - Categories: security
 - Docs: `packages/imperva_cloud_waf/docs/README.md`
 
@@ -1823,7 +1823,7 @@ integrations/
 - Name: `lumos`
 - Path: `packages/lumos/`
 - Description: An integration with Lumos to ship your Activity logs to your Elastic instance.
-- Version: 1.7.0
+- Version: 1.8.0
 - Categories: security
 - Docs: `packages/lumos/docs/README.md`
 
@@ -1959,14 +1959,14 @@ integrations/
 - Name: `mimecast`
 - Path: `packages/mimecast/`
 - Description: Collect logs from Mimecast with Elastic Agent.
-- Version: 3.4.1
+- Version: 3.4.2
 - Docs: `packages/mimecast/docs/README.md`
 
 ### Miniflux RSS reader
 - Name: `miniflux`
 - Path: `packages/miniflux/`
 - Description: Collect RSS feed content from the Miniflux API with Elastic Agent.
-- Version: 1.1.0
+- Version: 1.2.0
 - Docs: `packages/miniflux/docs/README.md`
 
 ### ModSecurity Audit
@@ -2093,7 +2093,7 @@ integrations/
 - Name: `nextron_thor_apt_scanner`
 - Path: `packages/nextron_thor/`
 - Description: Integration for Nextron Thor APT Scanner
-- Version: 0.2.0
+- Version: 0.3.0
 - Categories: security
 - Docs: `packages/nextron_thor/docs/README.md`
 
@@ -2696,7 +2696,7 @@ integrations/
 - Name: `sophos_central`
 - Path: `packages/sophos_central/`
 - Description: This Elastic integration collects logs from Sophos Central with Elastic Agent.
-- Version: 1.22.0
+- Version: 1.23.0
 - Categories: security, edr_xdr
 - Docs: `packages/sophos_central/docs/README.md`
 
@@ -3061,7 +3061,7 @@ integrations/
 - Name: `ti_google_threat_intelligence`
 - Path: `packages/ti_google_threat_intelligence/`
 - Description: Collect Threat Intelligence Events from Google Threat Intelligence using Elastic Agent, and perform enrichment on Elasticsearch by correlating Indicators of Compromise (IOCs).
-- Version: 0.12.1
+- Version: 1.0.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_google_threat_intelligence/docs/README.md`
 
@@ -3380,7 +3380,7 @@ integrations/
 - Name: `wiz`
 - Path: `packages/wiz/`
 - Description: Collect logs from Wiz with Elastic Agent.
-- Version: 4.4.0
+- Version: 4.5.0
 - Categories: security, cloudsecurity_cdr, vulnerability_workflow, misconfiguration_workflow
 - Docs: `packages/wiz/docs/README.md`
 
