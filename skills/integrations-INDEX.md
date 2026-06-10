@@ -36,7 +36,7 @@ integrations/
 - Name: `abnormal_security`
 - Path: `packages/abnormal_security/`
 - Description: Collect logs from Abnormal AI with Elastic Agent.
-- Version: 1.15.0
+- Version: 1.15.1
 - Categories: security
 - Docs: `packages/abnormal_security/docs/README.md`
 
@@ -107,7 +107,7 @@ integrations/
 - Name: `amazon_security_lake`
 - Path: `packages/amazon_security_lake/`
 - Description: Collect logs from Amazon Security Lake with Elastic Agent.
-- Version: 2.8.2
+- Version: 2.8.3
 - Categories: aws, security
 - Docs: `packages/amazon_security_lake/docs/README.md`
 
@@ -195,7 +195,7 @@ integrations/
 - Name: `atlassian_confluence`
 - Path: `packages/atlassian_confluence/`
 - Description: Collect logs from Atlassian Confluence with Elastic Agent.
-- Version: 1.30.0
+- Version: 1.31.0
 - Categories: security, productivity_security
 - Docs: `packages/atlassian_confluence/docs/README.md`
 
@@ -552,7 +552,7 @@ integrations/
 - Name: `box_events`
 - Path: `packages/box_events/`
 - Description: Collect logs from Box with Elastic Agent
-- Version: 3.3.0
+- Version: 3.3.1
 - Categories: security, productivity_security
 - Docs: `packages/box_events/docs/README.md`
 
@@ -813,7 +813,7 @@ integrations/
 - Name: `cloudflare_logpush`
 - Path: `packages/cloudflare_logpush/`
 - Description: Collect logs from Cloudflare with Elastic Agent.
-- Version: 1.46.0
+- Version: 1.46.1
 - Categories: security, network, cdn_security
 - Docs: `packages/cloudflare_logpush/docs/README.md`
 
@@ -893,7 +893,7 @@ integrations/
 - Name: `crowdstrike`
 - Path: `packages/crowdstrike/`
 - Description: Collect logs from Crowdstrike with Elastic Agent.
-- Version: 3.21.0
+- Version: 3.22.0
 - Docs: `packages/crowdstrike/docs/README.md`
 
 ### CyberArk EPM
@@ -945,7 +945,7 @@ integrations/
 - Name: `darktrace`
 - Path: `packages/darktrace/`
 - Description: Collect logs from Darktrace with Elastic Agent.
-- Version: 2.2.0
+- Version: 2.2.1
 - Categories: security, network_security
 - Docs: `packages/darktrace/docs/README.md`
 
@@ -1062,7 +1062,7 @@ integrations/
 - Name: `entityanalytics_ad`
 - Path: `packages/entityanalytics_ad/`
 - Description: Collect User Identities from Active Directory Entity with Elastic Agent.
-- Version: 0.20.1
+- Version: 0.20.2
 - Categories: security
 - Docs: `packages/entityanalytics_ad/docs/README.md`
 
@@ -1070,7 +1070,7 @@ integrations/
 - Name: `entityanalytics_entra_id`
 - Path: `packages/entityanalytics_entra_id/`
 - Description: Collect identities from Microsoft Entra ID (formerly Azure Active Directory) with Elastic Agent.
-- Version: 1.10.0
+- Version: 1.10.1
 - Categories: azure, cloud, security
 - Docs: `packages/entityanalytics_entra_id/docs/README.md`
 
@@ -1078,7 +1078,7 @@ integrations/
 - Name: `entityanalytics_okta`
 - Path: `packages/entityanalytics_okta/`
 - Description: Collect Identities from Okta with Elastic Agent.
-- Version: 3.2.0
+- Version: 3.2.1
 - Categories: security
 - Docs: `packages/entityanalytics_okta/docs/README.md`
 
@@ -1110,7 +1110,7 @@ integrations/
 - Name: `eset_protect`
 - Path: `packages/eset_protect/`
 - Description: Collect logs from ESET PROTECT with Elastic Agent.
-- Version: 2.5.0
+- Version: 2.5.1
 - Categories: security, edr_xdr, vulnerability_management
 - Docs: `packages/eset_protect/docs/README.md`
 
@@ -1118,7 +1118,7 @@ integrations/
 - Name: `ess_billing`
 - Path: `packages/ess_billing/`
 - Description: Collects billing metrics from Elasticsearch Service billing API
-- Version: 1.8.0
+- Version: 1.9.0
 - Categories: cloud
 - Docs: `packages/ess_billing/docs/README.md`
 
@@ -1382,7 +1382,7 @@ integrations/
 - Name: `google_workspace`
 - Path: `packages/google_workspace/`
 - Description: Collect logs from Google Workspace with Elastic Agent.
-- Version: 3.4.0
+- Version: 3.4.1
 - Categories: security, productivity_security
 - Docs: `packages/google_workspace/docs/README.md`
 
@@ -1493,7 +1493,7 @@ integrations/
 - Name: `ibm_qradar`
 - Path: `packages/ibm_qradar/`
 - Description: Collect logs from IBM QRadar with Elastic Agent.
-- Version: 1.1.0
+- Version: 1.1.1
 - Categories: security, siem
 - Docs: `packages/ibm_qradar/docs/README.md`
 
@@ -1604,7 +1604,7 @@ integrations/
 - Name: `ironscales`
 - Path: `packages/ironscales/`
 - Description: Collect logs from IRONSCALES with Elastic Agent.
-- Version: 0.2.0
+- Version: 0.2.2
 - Categories: security
 - Docs: `packages/ironscales/docs/README.md`
 
@@ -1775,7 +1775,7 @@ integrations/
 - Name: `kubernetes_otel`
 - Path: `packages/kubernetes_otel/`
 - Description: Utilise the pre-built dashboard for OTel-native metrics and events collected from a Kubernetes cluster
-- Version: 2.1.0-preview7
+- Version: 2.1.0-preview8
 - Categories: kubernetes
 - Docs: `packages/kubernetes_otel/docs/README.md`
 
@@ -1919,7 +1919,7 @@ integrations/
 - Name: `microsoft_exchange_online_message_trace`
 - Path: `packages/microsoft_exchange_online_message_trace/`
 - Description: Microsoft Exchange Online Message Trace Integration
-- Version: 2.2.0
+- Version: 2.2.2
 - Categories: security, email_security
 - Docs: `packages/microsoft_exchange_online_message_trace/docs/README.md`
 
@@ -1959,7 +1959,7 @@ integrations/
 - Name: `mimecast`
 - Path: `packages/mimecast/`
 - Description: Collect logs from Mimecast with Elastic Agent.
-- Version: 3.4.2
+- Version: 3.4.3
 - Docs: `packages/mimecast/docs/README.md`
 
 ### Miniflux RSS reader
@@ -2165,7 +2165,7 @@ integrations/
 - Name: `o365`
 - Path: `packages/o365/`
 - Description: Collect logs from Microsoft Office 365 with Elastic Agent.
-- Version: 3.10.1
+- Version: 3.10.2
 - Categories: security, productivity_security
 - Docs: `packages/o365/docs/README.md`
 
@@ -2427,7 +2427,7 @@ integrations/
 - Name: `proofpoint_365totalprotection`
 - Path: `packages/proofpoint_365totalprotection/`
 - Description: The Proofpoint 365 Total Protection integration for Elastic collects detailed email security and delivery logs via a REST API. It provides security teams with centralized visibility into email traffic, threat activity, and message disposition directly in Elastic.
-- Version: 0.1.0
+- Version: 0.1.1
 - Categories: security, email_security
 - Docs: `packages/proofpoint_365totalprotection/docs/README.md`
 
@@ -2435,7 +2435,7 @@ integrations/
 - Name: `proofpoint_essentials`
 - Path: `packages/proofpoint_essentials/`
 - Description: Collect logs from Proofpoint Essentials with Elastic Agent.
-- Version: 1.1.0
+- Version: 1.1.1
 - Categories: security
 - Docs: `packages/proofpoint_essentials/docs/README.md`
 
@@ -2451,7 +2451,7 @@ integrations/
 - Name: `proofpoint_on_demand`
 - Path: `packages/proofpoint_on_demand/`
 - Description: Collect logs from Proofpoint On Demand with Elastic Agent.
-- Version: 1.10.0
+- Version: 1.10.1
 - Categories: security
 - Docs: `packages/proofpoint_on_demand/docs/README.md`
 
@@ -2459,7 +2459,7 @@ integrations/
 - Name: `proofpoint_tap`
 - Path: `packages/proofpoint_tap/`
 - Description: Collect logs from Proofpoint TAP with Elastic Agent.
-- Version: 1.31.0
+- Version: 1.31.1
 - Categories: security, email_security
 - Docs: `packages/proofpoint_tap/docs/README.md`
 
@@ -2648,7 +2648,7 @@ integrations/
 - Name: `servicenow`
 - Path: `packages/servicenow/`
 - Description: Collect logs from ServiceNow with Elastic Agent.
-- Version: 2.0.1
+- Version: 2.1.0
 - Categories: security
 - Docs: `packages/servicenow/docs/README.md`
 
@@ -2783,7 +2783,7 @@ integrations/
 - Name: `sublime_security`
 - Path: `packages/sublime_security/`
 - Description: Collect logs from Sublime Security with Elastic Agent.
-- Version: 1.12.0
+- Version: 1.12.1
 - Categories: security, email_security
 - Docs: `packages/sublime_security/docs/README.md`
 
@@ -2918,7 +2918,7 @@ integrations/
 - Name: `tenable_ot_security`
 - Path: `packages/tenable_ot_security/`
 - Description: Tenable OT Security
-- Version: 2.0.0
+- Version: 2.1.0
 - Categories: security
 - Docs: `packages/tenable_ot_security/docs/README.md`
 
@@ -3061,7 +3061,7 @@ integrations/
 - Name: `ti_google_threat_intelligence`
 - Path: `packages/ti_google_threat_intelligence/`
 - Description: Collect Threat Intelligence Events from Google Threat Intelligence using Elastic Agent, and perform enrichment on Elasticsearch by correlating Indicators of Compromise (IOCs).
-- Version: 1.0.0
+- Version: 1.1.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_google_threat_intelligence/docs/README.md`
 
@@ -3069,7 +3069,7 @@ integrations/
 - Name: `ti_greynoise`
 - Path: `packages/ti_greynoise/`
 - Description: Collect Threat Intelligence Indicators from GreyNoise using Elastic Agent, and perform enrichment on Elasticsearch by correlating Indicators of Compromise (IOCs).
-- Version: 0.9.0
+- Version: 0.9.1
 - Categories: threat_intel, security
 - Docs: `packages/ti_greynoise/docs/README.md`
 
@@ -3117,7 +3117,7 @@ integrations/
 - Name: `ti_rapid7_threat_command`
 - Path: `packages/ti_rapid7_threat_command/`
 - Description: Collect threat intelligence from Threat Command API with Elastic Agent.
-- Version: 2.10.0
+- Version: 2.10.1
 - Categories: security, threat_intel
 - Docs: `packages/ti_rapid7_threat_command/docs/README.md`
 
@@ -3444,7 +3444,7 @@ integrations/
 - Name: `zscaler_zia`
 - Path: `packages/zscaler_zia/`
 - Description: Collect logs from Zscaler Internet Access (ZIA) with Elastic Agent.
-- Version: 3.22.0
+- Version: 4.0.0
 - Categories: security, network
 - Docs: `packages/zscaler_zia/docs/README.md`
 
