@@ -2720,7 +2720,7 @@ integrations/
 - Name: `spycloud`
 - Path: `packages/spycloud/`
 - Description: Collect data from SpyCloud Enterprise Protection with Elastic Agent.
-- Version: 1.6.0
+- Version: 1.7.0
 - Categories: security
 - Docs: `packages/spycloud/docs/README.md`
 
@@ -2799,7 +2799,7 @@ integrations/
 - Name: `swimlane`
 - Path: `packages/swimlane/`
 - Description: Collect Swimlane Turbine Audit logs with Elastic Agent
-- Version: 0.4.2
+- Version: 0.5.0
 - Categories: security
 - Docs: `packages/swimlane/docs/README.md`
 
@@ -2815,7 +2815,7 @@ integrations/
 - Name: `symantec_endpoint_security`
 - Path: `packages/symantec_endpoint_security/`
 - Description: Collect logs from Symantec Endpoint Security with Elastic Agent.
-- Version: 1.14.2
+- Version: 1.15.0
 - Categories: security, edr_xdr
 - Docs: `packages/symantec_endpoint_security/docs/README.md`
 
