@@ -893,7 +893,7 @@ integrations/
 - Name: `crowdstrike`
 - Path: `packages/crowdstrike/`
 - Description: Collect logs from Crowdstrike with Elastic Agent.
-- Version: 3.22.0
+- Version: 3.23.0
 - Docs: `packages/crowdstrike/docs/README.md`
 
 ### CyberArk EPM
@@ -2188,7 +2188,7 @@ integrations/
 - Name: `openai`
 - Path: `packages/openai/`
 - Description: Collect OpenAI usage metrics and audit logs with Elastic Agent.
-- Version: 2.1.0
+- Version: 2.2.0
 - Categories: observability, monitoring, security
 - Docs: `packages/openai/docs/README.md`
 
@@ -2363,7 +2363,7 @@ integrations/
 - Name: `prisma_access`
 - Path: `packages/prisma_access/`
 - Description: Collect logs from Palo Alto Prisma Access with Elastic Agent.
-- Version: 1.7.3
+- Version: 1.7.4
 - Categories: security, network
 - Docs: `packages/prisma_access/docs/README.md`
 
