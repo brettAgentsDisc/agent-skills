@@ -2188,7 +2188,7 @@ integrations/
 - Name: `openai`
 - Path: `packages/openai/`
 - Description: Collect OpenAI usage metrics and audit logs with Elastic Agent.
-- Version: 2.2.0
+- Version: 2.3.0
 - Categories: observability, monitoring, security
 - Docs: `packages/openai/docs/README.md`
 
@@ -2910,7 +2910,7 @@ integrations/
 - Name: `tenable_io`
 - Path: `packages/tenable_io/`
 - Description: Collect logs from Tenable Vulnerability Management with Elastic Agent.
-- Version: 4.11.0
+- Version: 4.11.1
 - Categories: security, vulnerability_management, vulnerability_workflow, cloudsecurity_cdr
 - Docs: `packages/tenable_io/docs/README.md`
 
