@@ -227,7 +227,7 @@ integrations/
 - Name: `auth0`
 - Path: `packages/auth0/`
 - Description: Collect logs from Auth0 with Elastic Agent.
-- Version: 1.25.0
+- Version: 1.25.1
 - Categories: security, iam
 - Docs: `packages/auth0/docs/README.md`
 
@@ -774,7 +774,7 @@ integrations/
 - Name: `claroty_xdome`
 - Path: `packages/claroty_xdome/`
 - Description: Collect logs from Claroty xDome with Elastic Agent.
-- Version: 1.1.0
+- Version: 1.1.1
 - Categories: security, vulnerability_management
 - Docs: `packages/claroty_xdome/docs/README.md`
 
@@ -813,7 +813,7 @@ integrations/
 - Name: `cloudflare_logpush`
 - Path: `packages/cloudflare_logpush/`
 - Description: Collect logs from Cloudflare with Elastic Agent.
-- Version: 1.46.1
+- Version: 1.46.2
 - Categories: security, network, cdn_security
 - Docs: `packages/cloudflare_logpush/docs/README.md`
 
@@ -2966,7 +2966,7 @@ integrations/
 - Name: `ti_abusech`
 - Path: `packages/ti_abusech/`
 - Description: Ingest threat intelligence indicators from URL Haus, Malware Bazaar, and Threat Fox feeds with Elastic Agent.
-- Version: 4.1.0
+- Version: 4.1.1
 - Categories: security, threat_intel
 - Docs: `packages/ti_abusech/docs/README.md`
 
@@ -2982,7 +2982,7 @@ integrations/
 - Name: `ti_anyrun`
 - Path: `packages/ti_anyrun/`
 - Description: Ingest Threat Intelligence indicators from ANY.RUN TI Feeds with Elastic Agent
-- Version: 1.1.2
+- Version: 1.2.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_anyrun/docs/README.md`
 
