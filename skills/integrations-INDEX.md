@@ -243,7 +243,7 @@ integrations/
 - Name: `aws`
 - Path: `packages/aws/`
 - Description: Collect logs and metrics from Amazon Web Services (AWS) with Elastic Agent.
-- Version: 6.19.2
+- Version: 6.20.0
 - Categories: aws, cloud
 - Docs: `packages/aws/docs/README.md`
 
@@ -662,7 +662,7 @@ integrations/
 - Name: `cisco_asa`
 - Path: `packages/cisco_asa/`
 - Description: Collect logs from Cisco ASA with Elastic Agent.
-- Version: 2.45.7
+- Version: 2.45.8
 - Categories: network, security, firewall_security
 - Docs: `packages/cisco_asa/docs/README.md`
 
@@ -678,7 +678,7 @@ integrations/
 - Name: `cisco_ftd`
 - Path: `packages/cisco_ftd/`
 - Description: Collect logs from Cisco FTD with Elastic Agent.
-- Version: 3.13.5
+- Version: 3.13.6
 - Categories: network, security, firewall_security
 - Docs: `packages/cisco_ftd/docs/README.md`
 
@@ -893,7 +893,7 @@ integrations/
 - Name: `crowdstrike`
 - Path: `packages/crowdstrike/`
 - Description: Collect logs from Crowdstrike with Elastic Agent.
-- Version: 3.23.0
+- Version: 3.24.0
 - Docs: `packages/crowdstrike/docs/README.md`
 
 ### CyberArk EPM
@@ -1009,7 +1009,7 @@ integrations/
 - Name: `elastic_agent`
 - Path: `packages/elastic_agent/`
 - Description: Collect logs and metrics from Elastic Agents.
-- Version: 2.9.3
+- Version: 2.9.4
 - Docs: `packages/elastic_agent/docs/README.md`
 
 ### Elastic Connectors
@@ -1242,7 +1242,7 @@ integrations/
 - Name: `fortinet_fortigate`
 - Path: `packages/fortinet_fortigate/`
 - Description: Collect logs from Fortinet FortiGate firewalls with Elastic Agent.
-- Version: 1.36.5
+- Version: 1.36.6
 - Docs: `packages/fortinet_fortigate/docs/README.md`
 
 ### Fortinet FortiMail
@@ -1775,7 +1775,7 @@ integrations/
 - Name: `kubernetes_otel`
 - Path: `packages/kubernetes_otel/`
 - Description: Utilise the pre-built dashboard for OTel-native metrics and events collected from a Kubernetes cluster
-- Version: 2.1.0-preview8
+- Version: 2.1.0-preview9
 - Categories: kubernetes
 - Docs: `packages/kubernetes_otel/docs/README.md`
 
@@ -1919,7 +1919,7 @@ integrations/
 - Name: `microsoft_exchange_online_message_trace`
 - Path: `packages/microsoft_exchange_online_message_trace/`
 - Description: Microsoft Exchange Online Message Trace Integration
-- Version: 2.2.2
+- Version: 2.2.3
 - Categories: security, email_security
 - Docs: `packages/microsoft_exchange_online_message_trace/docs/README.md`
 
@@ -3101,7 +3101,7 @@ integrations/
 - Name: `ti_opencti`
 - Path: `packages/ti_opencti/`
 - Description: Ingest threat intelligence indicators from OpenCTI with Elastic Agent.
-- Version: 2.14.0
+- Version: 2.14.1
 - Categories: security, threat_intel
 - Docs: `packages/ti_opencti/docs/README.md`
 
