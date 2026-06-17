@@ -2632,7 +2632,7 @@ integrations/
 - Name: `sentinel_one`
 - Path: `packages/sentinel_one/`
 - Description: Collect logs from SentinelOne with Elastic Agent.
-- Version: 2.8.0
+- Version: 2.8.1
 - Categories: security, edr_xdr
 - Docs: `packages/sentinel_one/docs/README.md`
 
@@ -2990,7 +2990,7 @@ integrations/
 - Name: `ti_cif3`
 - Path: `packages/ti_cif3/`
 - Description: Ingest threat indicators from a Collective Intelligence Framework v3 instance with Elastic Agent.
-- Version: 1.19.0
+- Version: 1.20.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_cif3/docs/README.md`
 
@@ -3006,7 +3006,7 @@ integrations/
 - Name: `ti_custom`
 - Path: `packages/ti_custom/`
 - Description: Ingest threat intelligence data in STIX 2.1 format with Elastic Agent
-- Version: 1.7.2
+- Version: 1.8.0
 - Categories: custom, security, threat_intel
 - Docs: `packages/ti_custom/docs/README.md`
 
@@ -3014,7 +3014,7 @@ integrations/
 - Name: `ti_cybersixgill`
 - Path: `packages/ti_cybersixgill/`
 - Description: Ingest threat intelligence indicators from Cybersixgill with Elastic Agent.
-- Version: 1.35.0
+- Version: 1.36.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_cybersixgill/docs/README.md`
 
