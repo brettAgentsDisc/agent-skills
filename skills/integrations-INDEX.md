@@ -813,7 +813,7 @@ integrations/
 - Name: `cloudflare_logpush`
 - Path: `packages/cloudflare_logpush/`
 - Description: Collect logs from Cloudflare with Elastic Agent.
-- Version: 1.46.2
+- Version: 1.47.0
 - Categories: security, network, cdn_security
 - Docs: `packages/cloudflare_logpush/docs/README.md`
 
@@ -1815,7 +1815,7 @@ integrations/
 - Name: `logstash`
 - Path: `packages/logstash/`
 - Description: Collect logs and metrics from Logstash with Elastic Agent.
-- Version: 2.11.0
+- Version: 2.11.1
 - Categories: observability, elastic_stack
 - Docs: `packages/logstash/docs/README.md`
 
@@ -3444,7 +3444,7 @@ integrations/
 - Name: `zscaler_zia`
 - Path: `packages/zscaler_zia/`
 - Description: Collect logs from Zscaler Internet Access (ZIA) with Elastic Agent.
-- Version: 4.0.0
+- Version: 4.1.0
 - Categories: security, network
 - Docs: `packages/zscaler_zia/docs/README.md`
 
