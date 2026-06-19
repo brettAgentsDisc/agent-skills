@@ -953,7 +953,7 @@ integrations/
 - Name: `ded`
 - Path: `packages/ded/`
 - Description: ML package to detect data exfiltration in your network and file data.
-- Version: 3.1.1
+- Version: 3.2.0
 - Categories: security, network, advanced_analytics_ueba
 - Docs: `packages/ded/docs/README.md`
 
@@ -961,7 +961,7 @@ integrations/
 - Name: `dga`
 - Path: `packages/dga/`
 - Description: ML solution package to detect domain generation algorithm (DGA) activity in your network data.
-- Version: 3.0.1
+- Version: 3.1.0
 - Categories: security, network_security, advanced_analytics_ueba
 - Docs: `packages/dga/docs/README.md`
 
@@ -1062,7 +1062,7 @@ integrations/
 - Name: `entityanalytics_ad`
 - Path: `packages/entityanalytics_ad/`
 - Description: Collect User Identities from Active Directory Entity with Elastic Agent.
-- Version: 0.20.2
+- Version: 0.20.3
 - Categories: security
 - Docs: `packages/entityanalytics_ad/docs/README.md`
 
@@ -1775,7 +1775,7 @@ integrations/
 - Name: `kubernetes_otel`
 - Path: `packages/kubernetes_otel/`
 - Description: Utilise the pre-built dashboard for OTel-native metrics and events collected from a Kubernetes cluster
-- Version: 2.1.0-preview9
+- Version: 2.2.0-preview1
 - Categories: kubernetes
 - Docs: `packages/kubernetes_otel/docs/README.md`
 
@@ -1799,7 +1799,7 @@ integrations/
 - Name: `lmd`
 - Path: `packages/lmd/`
 - Description: ML package to detect lateral movement based on file transfer activity and Windows RDP events.
-- Version: 3.1.2
+- Version: 3.2.0
 - Categories: security, advanced_analytics_ueba
 - Docs: `packages/lmd/docs/README.md`
 
@@ -2268,7 +2268,7 @@ integrations/
 - Name: `pad`
 - Path: `packages/pad/`
 - Description: ML package to detect anomalous privileged access activity in Windows, Linux and Okta logs
-- Version: 2.1.1
+- Version: 2.2.0
 - Categories: security, advanced_analytics_ueba
 - Docs: `packages/pad/docs/README.md`
 
@@ -2379,7 +2379,7 @@ integrations/
 - Name: `problemchild`
 - Path: `packages/problemchild/`
 - Description: ML solution package to detect Living off the Land (LotL) attacks in your environment. Requires a Platinum subscription.
-- Version: 3.0.2
+- Version: 3.1.0
 - Categories: security, advanced_analytics_ueba
 - Docs: `packages/problemchild/docs/README.md`
 
@@ -3029,7 +3029,7 @@ integrations/
 - Name: `ti_domaintools`
 - Path: `packages/ti_domaintools/`
 - Description: DomainTools Feeds provide data on the different stages of the domain lifecycle: from first-observed in the wild, to newly re-activated after a period of quiet.
-- Version: 1.4.0
+- Version: 1.5.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_domaintools/docs/README.md`
 
@@ -3045,7 +3045,7 @@ integrations/
 - Name: `ti_eset`
 - Path: `packages/ti_eset/`
 - Description: Ingest threat intelligence indicators from ESET Threat Intelligence with Elastic Agent.
-- Version: 1.10.0
+- Version: 1.11.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_eset/docs/README.md`
 
@@ -3077,7 +3077,7 @@ integrations/
 - Name: `ti_maltiverse`
 - Path: `packages/ti_maltiverse/`
 - Description: Ingest threat intelligence indicators from Maltiverse feeds with Elastic Agent
-- Version: 1.7.0
+- Version: 1.8.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_maltiverse/docs/README.md`
 
