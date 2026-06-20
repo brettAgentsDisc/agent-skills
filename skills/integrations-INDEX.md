@@ -694,7 +694,7 @@ integrations/
 - Name: `cisco_ise`
 - Path: `packages/cisco_ise/`
 - Description: Collect logs from Cisco ISE with Elastic Agent.
-- Version: 1.32.6
+- Version: 1.32.7
 - Categories: security, network
 - Docs: `packages/cisco_ise/docs/README.md`
 
@@ -1767,7 +1767,7 @@ integrations/
 - Name: `kubernetes`
 - Path: `packages/kubernetes/`
 - Description: Collect logs and metrics from Kubernetes clusters with Elastic Agent.
-- Version: 1.85.1
+- Version: 1.85.2
 - Categories: observability, containers, kubernetes
 - Docs: `packages/kubernetes/docs/README.md`
 
@@ -1775,7 +1775,7 @@ integrations/
 - Name: `kubernetes_otel`
 - Path: `packages/kubernetes_otel/`
 - Description: Utilise the pre-built dashboard for OTel-native metrics and events collected from a Kubernetes cluster
-- Version: 2.2.0-preview1
+- Version: 2.2.0-preview2
 - Categories: kubernetes
 - Docs: `packages/kubernetes_otel/docs/README.md`
 
