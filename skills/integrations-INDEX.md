@@ -279,11 +279,11 @@ integrations/
 - Categories: aws, cloud, web, observability, opentelemetry
 - Docs: `packages/aws_cloudtrail_otel/docs/README.md`
 
-### AWS ELB OpenTelemetry Assets
+### AWS ELB Logs OpenTelemetry Assets
 - Name: `aws_elb_otel`
 - Path: `packages/aws_elb_otel/`
-- Description: AWS ELB logs for OpenTelemetry Collector
-- Version: 0.2.0
+- Description: AWS ELB Logs OpenTelemetry Assets
+- Version: 0.2.1
 - Categories: aws, cloud, web, observability, opentelemetry
 - Docs: `packages/aws_elb_otel/docs/README.md`
 
@@ -1775,7 +1775,7 @@ integrations/
 - Name: `kubernetes_otel`
 - Path: `packages/kubernetes_otel/`
 - Description: Utilise the pre-built dashboard for OTel-native metrics and events collected from a Kubernetes cluster
-- Version: 2.2.0-preview2
+- Version: 2.2.0-preview3
 - Categories: kubernetes
 - Docs: `packages/kubernetes_otel/docs/README.md`
 
