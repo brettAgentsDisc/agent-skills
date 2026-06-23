@@ -2744,7 +2744,7 @@ integrations/
 - Name: `squid`
 - Path: `packages/squid/`
 - Description: Collect and parse logs from Squid devices with Elastic Agent.
-- Version: 1.5.1
+- Version: 1.6.0
 - Docs: `packages/squid/docs/README.md`
 
 ### STAN
@@ -3109,7 +3109,7 @@ integrations/
 - Name: `ti_otx`
 - Path: `packages/ti_otx/`
 - Description: Ingest threat intelligence indicators from AlienVault Open Threat Exchange (OTX) with Elastic Agent.
-- Version: 1.31.0
+- Version: 1.32.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_otx/docs/README.md`
 
@@ -3140,7 +3140,7 @@ integrations/
 - Name: `ti_threatconnect`
 - Path: `packages/ti_threatconnect/`
 - Description: Collects Indicators from ThreatConnect using the Elastic Agent and saves them as logs inside Elastic
-- Version: 2.1.1
+- Version: 2.2.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_threatconnect/docs/README.md`
 
