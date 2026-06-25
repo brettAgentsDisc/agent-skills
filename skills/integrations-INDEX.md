@@ -552,7 +552,7 @@ integrations/
 - Name: `box_events`
 - Path: `packages/box_events/`
 - Description: Collect logs from Box with Elastic Agent
-- Version: 3.3.1
+- Version: 3.4.0
 - Categories: security, productivity_security
 - Docs: `packages/box_events/docs/README.md`
 
@@ -1078,7 +1078,7 @@ integrations/
 - Name: `entityanalytics_okta`
 - Path: `packages/entityanalytics_okta/`
 - Description: Collect Identities from Okta with Elastic Agent.
-- Version: 3.2.1
+- Version: 3.3.0
 - Categories: security
 - Docs: `packages/entityanalytics_okta/docs/README.md`
 
@@ -2624,7 +2624,7 @@ integrations/
 - Name: `security_detection_engine`
 - Path: `packages/security_detection_engine/`
 - Description: Prebuilt detection rules for Elastic Security
-- Version: 9.4.5
+- Version: 9.4.6
 - Categories: security, siem
 - Docs: `packages/security_detection_engine/docs/README.md`
 
@@ -2704,7 +2704,7 @@ integrations/
 - Name: `splunk`
 - Path: `packages/splunk/`
 - Description: Collect logs from Splunk with Elastic Agent.
-- Version: 1.1.0
+- Version: 1.1.1
 - Categories: security, siem
 - Docs: `packages/splunk/docs/README.md`
 
@@ -3085,7 +3085,7 @@ integrations/
 - Name: `ti_mandiant_advantage`
 - Path: `packages/ti_mandiant_advantage/`
 - Description: Collect Threat Intelligence from products within the Mandiant Advantage platform.
-- Version: 1.10.0
+- Version: 1.11.0
 - Categories: threat_intel, security
 - Docs: `packages/ti_mandiant_advantage/docs/README.md`
 
@@ -3101,7 +3101,7 @@ integrations/
 - Name: `ti_opencti`
 - Path: `packages/ti_opencti/`
 - Description: Ingest threat intelligence indicators from OpenCTI with Elastic Agent.
-- Version: 2.14.1
+- Version: 2.15.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_opencti/docs/README.md`
 
@@ -3308,7 +3308,7 @@ integrations/
 - Name: `vsphere`
 - Path: `packages/vsphere/`
 - Description: This Elastic integration collects metrics and logs from vSphere/vCenter servers
-- Version: 1.24.0
+- Version: 1.24.1
 - Categories: observability, virtualization
 - Docs: `packages/vsphere/docs/README.md`
 
@@ -3404,7 +3404,7 @@ integrations/
 - Name: `zerofox`
 - Path: `packages/zerofox/`
 - Description: Collect logs from ZeroFox with Elastic Agent.
-- Version: 1.29.0
+- Version: 1.30.0
 - Categories: security
 - Docs: `packages/zerofox/docs/README.md`
 
