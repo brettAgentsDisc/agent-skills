@@ -654,7 +654,7 @@ integrations/
 - Name: `cisco_aironet`
 - Path: `packages/cisco_aironet/`
 - Description: Integration for Cisco Aironet WLC Logs
-- Version: 1.20.1
+- Version: 1.21.0
 - Categories: security, network
 - Docs: `packages/cisco_aironet/docs/README.md`
 
@@ -893,7 +893,7 @@ integrations/
 - Name: `crowdstrike`
 - Path: `packages/crowdstrike/`
 - Description: Collect logs from Crowdstrike with Elastic Agent.
-- Version: 3.25.0
+- Version: 3.26.0
 - Docs: `packages/crowdstrike/docs/README.md`
 
 ### CyberArk EPM
@@ -2204,7 +2204,7 @@ integrations/
 - Name: `oracle`
 - Path: `packages/oracle/`
 - Description: Collect Oracle Audit Log, Performance metrics, Tablespace metrics, Sysmetrics metrics, System statistics metrics, memory metrics from Oracle database.
-- Version: 1.31.2
+- Version: 1.31.3
 - Categories: observability, datastore
 - Docs: `packages/oracle/docs/README.md`
 
@@ -2982,7 +2982,7 @@ integrations/
 - Name: `ti_anyrun`
 - Path: `packages/ti_anyrun/`
 - Description: Ingest Threat Intelligence indicators from ANY.RUN TI Feeds with Elastic Agent
-- Version: 1.2.0
+- Version: 1.2.1
 - Categories: security, threat_intel
 - Docs: `packages/ti_anyrun/docs/README.md`
 
@@ -3412,7 +3412,7 @@ integrations/
 - Name: `zeronetworks`
 - Path: `packages/zeronetworks/`
 - Description: Zero Networks Logs integration
-- Version: 1.19.0
+- Version: 1.20.0
 - Categories: security
 - Docs: `packages/zeronetworks/docs/README.md`
 
