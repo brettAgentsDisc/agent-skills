@@ -243,7 +243,7 @@ integrations/
 - Name: `aws`
 - Path: `packages/aws/`
 - Description: Collect logs and metrics from Amazon Web Services (AWS) with Elastic Agent.
-- Version: 6.20.1
+- Version: 6.20.2
 - Categories: aws, cloud
 - Docs: `packages/aws/docs/README.md`
 
@@ -1775,7 +1775,7 @@ integrations/
 - Name: `kubernetes_otel`
 - Path: `packages/kubernetes_otel/`
 - Description: Utilise the pre-built dashboard for OTel-native metrics and events collected from a Kubernetes cluster
-- Version: 2.2.0-preview3
+- Version: 2.3.0
 - Categories: kubernetes
 - Docs: `packages/kubernetes_otel/docs/README.md`
 
@@ -2165,7 +2165,7 @@ integrations/
 - Name: `o365`
 - Path: `packages/o365/`
 - Description: Collect logs from Microsoft Office 365 with Elastic Agent.
-- Version: 3.10.2
+- Version: 3.10.3
 - Categories: security, productivity_security
 - Docs: `packages/o365/docs/README.md`
 
@@ -2823,7 +2823,7 @@ integrations/
 - Name: `synthetics`
 - Path: `packages/synthetics/`
 - Description: Internal Elastic integration for providing access to private locations.
-- Version: 1.6.1
+- Version: 1.7.0
 - Categories: observability
 - Docs: `packages/synthetics/docs/README.md`
 
@@ -3204,7 +3204,7 @@ integrations/
 - Name: `trellix_epo_cloud`
 - Path: `packages/trellix_epo_cloud/`
 - Description: Collect logs from Trellix ePO Cloud with Elastic Agent.
-- Version: 1.15.0
+- Version: 1.16.0
 - Categories: security
 - Docs: `packages/trellix_epo_cloud/docs/README.md`
 
@@ -3372,7 +3372,7 @@ integrations/
 - Name: `withsecure_elements`
 - Path: `packages/withsecure_elements/`
 - Description: Ingest WithSecure Elements incidents and security events data
-- Version: 0.2.0
+- Version: 0.3.0
 - Categories: security, edr_xdr
 - Docs: `packages/withsecure_elements/docs/README.md`
 
