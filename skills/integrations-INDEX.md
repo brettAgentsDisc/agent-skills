@@ -893,7 +893,7 @@ integrations/
 - Name: `crowdstrike`
 - Path: `packages/crowdstrike/`
 - Description: Collect logs from Crowdstrike with Elastic Agent.
-- Version: 3.26.0
+- Version: 3.26.1
 - Docs: `packages/crowdstrike/docs/README.md`
 
 ### CyberArk EPM
@@ -3093,7 +3093,7 @@ integrations/
 - Name: `ti_misp`
 - Path: `packages/ti_misp/`
 - Description: Ingest threat intelligence indicators from MISP platform with Elastic Agent.
-- Version: 1.43.1
+- Version: 1.44.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_misp/docs/README.md`
 
