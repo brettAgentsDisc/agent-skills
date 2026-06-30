@@ -1263,7 +1263,7 @@ integrations/
 - Name: `fortinet_fortiproxy`
 - Path: `packages/fortinet_fortiproxy/`
 - Description: Collect logs from Fortinet FortiProxy with Elastic Agent.
-- Version: 1.4.1
+- Version: 1.4.2
 - Categories: network
 - Docs: `packages/fortinet_fortiproxy/docs/README.md`
 
@@ -1382,7 +1382,7 @@ integrations/
 - Name: `google_workspace`
 - Path: `packages/google_workspace/`
 - Description: Collect logs from Google Workspace with Elastic Agent.
-- Version: 3.4.1
+- Version: 3.5.0
 - Categories: security, productivity_security
 - Docs: `packages/google_workspace/docs/README.md`
 
@@ -1783,7 +1783,7 @@ integrations/
 - Name: `lastpass`
 - Path: `packages/lastpass/`
 - Description: Collect logs from LastPass with Elastic Agent.
-- Version: 1.23.0
+- Version: 1.23.1
 - Categories: security, credential_management
 - Docs: `packages/lastpass/docs/README.md`
 
@@ -2093,7 +2093,7 @@ integrations/
 - Name: `nextron_thor_apt_scanner`
 - Path: `packages/nextron_thor/`
 - Description: Integration for Nextron Thor APT Scanner
-- Version: 0.3.0
+- Version: 0.4.0
 - Categories: security
 - Docs: `packages/nextron_thor/docs/README.md`
 
@@ -2260,7 +2260,7 @@ integrations/
 - Name: `otel_rum_dashboards`
 - Path: `packages/otel_rum_dashboards/`
 - Description: RUM status metrics from OpenTelemetry JS SDKs
-- Version: 0.0.4
+- Version: 0.0.5
 - Categories: observability, web, opentelemetry
 - Docs: `packages/otel_rum_dashboards/docs/README.md`
 
@@ -2656,7 +2656,7 @@ integrations/
 - Name: `slack`
 - Path: `packages/slack/`
 - Description: Slack Logs Integration
-- Version: 1.28.0
+- Version: 1.29.0
 - Categories: productivity, security
 - Docs: `packages/slack/docs/README.md`
 
@@ -2823,7 +2823,7 @@ integrations/
 - Name: `synthetics`
 - Path: `packages/synthetics/`
 - Description: Internal Elastic integration for providing access to private locations.
-- Version: 1.7.0
+- Version: 1.8.0
 - Categories: observability
 - Docs: `packages/synthetics/docs/README.md`
 
