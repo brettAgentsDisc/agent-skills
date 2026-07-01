@@ -662,7 +662,7 @@ integrations/
 - Name: `cisco_asa`
 - Path: `packages/cisco_asa/`
 - Description: Collect logs from Cisco ASA with Elastic Agent.
-- Version: 2.45.8
+- Version: 2.45.9
 - Categories: network, security, firewall_security
 - Docs: `packages/cisco_asa/docs/README.md`
 
@@ -930,7 +930,7 @@ integrations/
 - Name: `cyera`
 - Path: `packages/cyera/`
 - Description: Collect logs from Cyera with Elastic Agent.
-- Version: 0.7.0
+- Version: 0.7.1
 - Categories: security
 - Docs: `packages/cyera/docs/README.md`
 
@@ -1142,7 +1142,7 @@ integrations/
 - Name: `extrahop`
 - Path: `packages/extrahop/`
 - Description: Collect logs from ExtraHop RevealX 360 with Elastic Agent.
-- Version: 0.3.0
+- Version: 0.3.1
 - Categories: security
 - Docs: `packages/extrahop/docs/README.md`
 
@@ -1335,7 +1335,7 @@ integrations/
 - Path: `packages/gitlab/`
 - Description: Collect logs from GitLab with Elastic Agent.
 - Version: 2.6.0
-- Categories: security, productivity_security
+- Categories: productivity, productivity_security, security
 - Docs: `packages/gitlab/docs/README.md`
 
 ### GoFlow2 logs
@@ -1383,7 +1383,7 @@ integrations/
 - Path: `packages/google_workspace/`
 - Description: Collect logs from Google Workspace with Elastic Agent.
 - Version: 3.5.0
-- Categories: security, productivity_security
+- Categories: productivity, productivity_security, security
 - Docs: `packages/google_workspace/docs/README.md`
 
 ### Grafana
@@ -1604,7 +1604,7 @@ integrations/
 - Name: `ironscales`
 - Path: `packages/ironscales/`
 - Description: Collect logs from IRONSCALES with Elastic Agent.
-- Version: 0.2.2
+- Version: 0.2.3
 - Categories: security
 - Docs: `packages/ironscales/docs/README.md`
 
@@ -1612,7 +1612,7 @@ integrations/
 - Name: `island_browser`
 - Path: `packages/island_browser/`
 - Description: Collect logs from Island Browser with Elastic Agent.
-- Version: 1.1.0
+- Version: 1.1.1
 - Categories: security
 - Docs: `packages/island_browser/docs/README.md`
 
@@ -1697,7 +1697,7 @@ integrations/
 - Name: `jupiter_one`
 - Path: `packages/jupiter_one/`
 - Description: Collect logs from JupiterOne with Elastic Agent.
-- Version: 1.1.0
+- Version: 1.1.1
 - Categories: security
 - Docs: `packages/jupiter_one/docs/README.md`
 
@@ -2089,11 +2089,11 @@ integrations/
 - Categories: network, security
 - Docs: `packages/network_traffic/docs/README.md`
 
-### Nextron Thor APT Scanner
+### Nextron THOR Cloud
 - Name: `nextron_thor_apt_scanner`
 - Path: `packages/nextron_thor/`
-- Description: Integration for Nextron Thor APT Scanner
-- Version: 0.4.0
+- Description: Integration for Nextron THOR Cloud
+- Version: 0.5.0
 - Categories: security
 - Docs: `packages/nextron_thor/docs/README.md`
 
@@ -2451,7 +2451,7 @@ integrations/
 - Name: `proofpoint_on_demand`
 - Path: `packages/proofpoint_on_demand/`
 - Description: Collect logs from Proofpoint On Demand with Elastic Agent.
-- Version: 1.10.1
+- Version: 1.10.2
 - Categories: security
 - Docs: `packages/proofpoint_on_demand/docs/README.md`
 
@@ -2632,7 +2632,7 @@ integrations/
 - Name: `sentinel_one`
 - Path: `packages/sentinel_one/`
 - Description: Collect logs from SentinelOne with Elastic Agent.
-- Version: 2.8.1
+- Version: 2.8.2
 - Categories: security, edr_xdr
 - Docs: `packages/sentinel_one/docs/README.md`
 
@@ -3332,7 +3332,7 @@ integrations/
 - Name: `websocket`
 - Path: `packages/websocket/`
 - Description: Collect custom events from a socket server with Elastic agent.
-- Version: 1.0.1
+- Version: 1.0.2
 - Categories: custom
 - Docs: `packages/websocket/docs/README.md`
 
