@@ -243,7 +243,7 @@ integrations/
 - Name: `aws`
 - Path: `packages/aws/`
 - Description: Collect logs and metrics from Amazon Web Services (AWS) with Elastic Agent.
-- Version: 6.20.2
+- Version: 6.20.3
 - Categories: aws, cloud
 - Docs: `packages/aws/docs/README.md`
 
@@ -662,7 +662,7 @@ integrations/
 - Name: `cisco_asa`
 - Path: `packages/cisco_asa/`
 - Description: Collect logs from Cisco ASA with Elastic Agent.
-- Version: 2.45.9
+- Version: 2.45.10
 - Categories: network, security, firewall_security
 - Docs: `packages/cisco_asa/docs/README.md`
 
@@ -766,7 +766,7 @@ integrations/
 - Name: `claroty_ctd`
 - Path: `packages/claroty_ctd/`
 - Description: Collect logs from Claroty CTD using Elastic Agent.
-- Version: 1.4.0
+- Version: 1.4.1
 - Categories: security
 - Docs: `packages/claroty_ctd/docs/README.md`
 
@@ -930,7 +930,7 @@ integrations/
 - Name: `cyera`
 - Path: `packages/cyera/`
 - Description: Collect logs from Cyera with Elastic Agent.
-- Version: 0.7.1
+- Version: 0.8.0
 - Categories: security
 - Docs: `packages/cyera/docs/README.md`
 
@@ -2236,7 +2236,7 @@ integrations/
 - Name: `osquery_manager`
 - Path: `packages/osquery_manager/`
 - Description: Deploy Osquery with Elastic Agent, then run and schedule queries in Kibana
-- Version: 1.29.0
+- Version: 1.30.0
 - Categories: security
 - Docs: `packages/osquery_manager/docs/README.md`
 
