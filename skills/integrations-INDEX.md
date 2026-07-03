@@ -654,7 +654,7 @@ integrations/
 - Name: `cisco_aironet`
 - Path: `packages/cisco_aironet/`
 - Description: Integration for Cisco Aironet WLC Logs
-- Version: 1.21.0
+- Version: 1.21.1
 - Categories: security, network
 - Docs: `packages/cisco_aironet/docs/README.md`
 
@@ -678,7 +678,7 @@ integrations/
 - Name: `cisco_ftd`
 - Path: `packages/cisco_ftd/`
 - Description: Collect logs from Cisco FTD with Elastic Agent.
-- Version: 3.13.6
+- Version: 3.13.7
 - Categories: network, security, firewall_security
 - Docs: `packages/cisco_ftd/docs/README.md`
 
@@ -758,7 +758,7 @@ integrations/
 - Name: `citrix_waf`
 - Path: `packages/citrix_waf/`
 - Description: Ingest events from Citrix Systems Web App Firewall.
-- Version: 1.20.1
+- Version: 1.21.0
 - Categories: network, security, web_application_firewall
 - Docs: `packages/citrix_waf/docs/README.md`
 
@@ -1242,7 +1242,7 @@ integrations/
 - Name: `fortinet_fortigate`
 - Path: `packages/fortinet_fortigate/`
 - Description: Collect logs from Fortinet FortiGate firewalls with Elastic Agent.
-- Version: 1.36.6
+- Version: 1.36.7
 - Docs: `packages/fortinet_fortigate/docs/README.md`
 
 ### Fortinet FortiMail
