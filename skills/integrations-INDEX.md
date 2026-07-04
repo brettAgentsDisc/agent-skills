@@ -607,7 +607,7 @@ integrations/
 - Name: `cel`
 - Path: `packages/cel/`
 - Description: Collect custom events from an API with Elastic agent
-- Version: 1.19.0
+- Version: 1.20.0
 - Categories: custom
 - Docs: `packages/cel/docs/README.md`
 
@@ -1572,7 +1572,7 @@ integrations/
 - Name: `infoblox_bloxone_ddi`
 - Path: `packages/infoblox_bloxone_ddi/`
 - Description: Collect logs from Infoblox BloxOne DDI with Elastic Agent.
-- Version: 1.22.0
+- Version: 1.23.0
 - Categories: security, network, dns_security
 - Docs: `packages/infoblox_bloxone_ddi/docs/README.md`
 
@@ -1636,7 +1636,7 @@ integrations/
 - Name: `jamf_pro`
 - Path: `packages/jamf_pro/`
 - Description: Collect logs and inventory data from Jamf Pro with Elastic Agent
-- Version: 1.2.0
+- Version: 1.3.0
 - Categories: cloud, custom
 - Docs: `packages/jamf_pro/docs/README.md`
 
