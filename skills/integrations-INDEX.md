@@ -243,7 +243,7 @@ integrations/
 - Name: `aws`
 - Path: `packages/aws/`
 - Description: Collect logs and metrics from Amazon Web Services (AWS) with Elastic Agent.
-- Version: 6.20.3
+- Version: 6.21.0
 - Categories: aws, cloud
 - Docs: `packages/aws/docs/README.md`
 
@@ -893,7 +893,7 @@ integrations/
 - Name: `crowdstrike`
 - Path: `packages/crowdstrike/`
 - Description: Collect logs from Crowdstrike with Elastic Agent.
-- Version: 3.26.1
+- Version: 4.0.0
 - Docs: `packages/crowdstrike/docs/README.md`
 
 ### CyberArk EPM
@@ -1271,7 +1271,7 @@ integrations/
 - Name: `gcp`
 - Path: `packages/gcp/`
 - Description: Collect logs and metrics from Google Cloud Platform with Elastic Agent.
-- Version: 2.50.1
+- Version: 2.50.2
 - Categories: google_cloud, cloud, observability
 - Docs: `packages/gcp/docs/README.md`
 
@@ -1919,7 +1919,7 @@ integrations/
 - Name: `microsoft_exchange_online_message_trace`
 - Path: `packages/microsoft_exchange_online_message_trace/`
 - Description: Microsoft Exchange Online Message Trace Integration
-- Version: 2.2.3
+- Version: 2.2.4
 - Categories: security, email_security
 - Docs: `packages/microsoft_exchange_online_message_trace/docs/README.md`
 
@@ -2093,7 +2093,7 @@ integrations/
 - Name: `nextron_thor_apt_scanner`
 - Path: `packages/nextron_thor/`
 - Description: Integration for Nextron THOR Cloud
-- Version: 0.5.0
+- Version: 0.6.0
 - Categories: security
 - Docs: `packages/nextron_thor/docs/README.md`
 
@@ -2632,7 +2632,7 @@ integrations/
 - Name: `sentinel_one`
 - Path: `packages/sentinel_one/`
 - Description: Collect logs from SentinelOne with Elastic Agent.
-- Version: 2.8.2
+- Version: 2.9.0
 - Categories: security, edr_xdr
 - Docs: `packages/sentinel_one/docs/README.md`
 
@@ -2934,7 +2934,7 @@ integrations/
 - Name: `tencent_cloud`
 - Path: `packages/tencent_cloud/`
 - Description: 从腾讯云的 COS 中采集基础设施日志
-- Version: 0.2.0
+- Version: 0.2.1
 - Categories: security, iam, cloud, observability
 - Docs: `packages/tencent_cloud/docs/README.md`
 
@@ -3436,7 +3436,7 @@ integrations/
 - Name: `zoom`
 - Path: `packages/zoom/`
 - Description: Collect logs from Zoom with Elastic Agent.
-- Version: 1.23.0
+- Version: 1.24.0
 - Categories: security, productivity_security
 - Docs: `packages/zoom/docs/README.md`
 
