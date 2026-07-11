@@ -3,7 +3,7 @@ Generated for agent-assisted navigation.
 
 ## Overview
 - Purpose: This repository contains source packages for Elastic Integrations. Each package defines how to observe a specific product or service with the Elastic Stack (Elastic Agent, Kibana dashboards, Elasticsearch index templates).
-- Total integrations: 471
+- Total integrations: 434
 - Package format: Each integration lives under packages/<name>/ with a manifest.yml, docs/, data_stream/, and optionally _dev/ directories
 - Public docs: https://www.elastic.co/docs/current/integrations
 
@@ -23,6 +23,14 @@ integrations/
 ```
 
 ## All Integrations
+
+### 1Password
+- Name: `1password`
+- Path: `packages/1password/`
+- Description: Collect logs from 1Password with Elastic Agent.
+- Version: 1.35.0
+- Categories: security, credential_management
+- Docs: `packages/1password/docs/README.md`
 
 ### Abnormal AI
 - Name: `abnormal_security`
@@ -103,22 +111,6 @@ integrations/
 - Categories: aws, security
 - Docs: `packages/amazon_security_lake/docs/README.md`
 
-### Anthropic
-- Name: `anthropic`
-- Path: `packages/anthropic/`
-- Description: Collect activity logs from Claude's Compliance API.
-- Version: 1.0.0
-- Categories: security, observability
-- Docs: `packages/anthropic/docs/README.md`
-
-### Anthropic Metrics
-- Name: `anthropic_metrics`
-- Path: `packages/anthropic_metrics/`
-- Description: Collect API usage, cost, and rate limit metrics from Anthropic Admin APIs.
-- Version: 0.2.0
-- Categories: observability, monitoring
-- Docs: `packages/anthropic_metrics/docs/README.md`
-
 ### Apache HTTP Server
 - Name: `apache`
 - Path: `packages/apache/`
@@ -198,14 +190,6 @@ integrations/
 - Version: 2.8.0
 - Categories: security, productivity_security
 - Docs: `packages/atlassian_bitbucket/docs/README.md`
-
-### Atlassian Cloud
-- Name: `atlassian_cloud`
-- Path: `packages/atlassian_cloud/`
-- Description: Collect organization-wide audit logs from Atlassian Cloud with Elastic Agent.
-- Version: 0.1.0
-- Categories: security, productivity_security
-- Docs: `packages/atlassian_cloud/docs/README.md`
 
 ### Atlassian Confluence
 - Name: `atlassian_confluence`
@@ -295,38 +279,6 @@ integrations/
 - Categories: aws, cloud, web, observability, opentelemetry
 - Docs: `packages/aws_cloudtrail_otel/docs/README.md`
 
-### AWS CloudWatch (OpenTelemetry)
-- Name: `aws_cloudwatch_input_otel`
-- Path: `packages/aws_cloudwatch_input_otel/`
-- Description: Collect AWS CloudWatch metrics for selected AWS services (EC2, RDS, SQS, ELB — Application, Classic, Network, Gateway — Lambda, Fargate) using the OpenTelemetry Collector awscloudwatch receiver.
-- Version: 0.5.0
-- Categories: aws, cloud, observability, opentelemetry
-- Docs: `packages/aws_cloudwatch_input_otel/docs/README.md`
-
-### AWS EC2 Metrics OpenTelemetry Assets
-- Name: `aws_ec2_otel`
-- Path: `packages/aws_ec2_otel/`
-- Description: AWS EC2 Metrics OpenTelemetry Assets
-- Version: 0.10.0
-- Categories: aws, cloud, web, observability, opentelemetry
-- Docs: `packages/aws_ec2_otel/docs/README.md`
-
-### AWS ECS Metrics OpenTelemetry Assets
-- Name: `aws_ecs_otel`
-- Path: `packages/aws_ecs_otel/`
-- Description: AWS ECS Metrics OpenTelemetry Assets
-- Version: 0.8.0
-- Categories: aws, cloud, web, observability, opentelemetry
-- Docs: `packages/aws_ecs_otel/docs/README.md`
-
-### AWS ELB Metrics OpenTelemetry Assets
-- Name: `aws_elb_metrics_otel`
-- Path: `packages/aws_elb_metrics_otel/`
-- Description: AWS ELB Metrics OpenTelemetry Assets
-- Version: 0.9.0
-- Categories: aws, cloud, web, observability, opentelemetry
-- Docs: `packages/aws_elb_metrics_otel/docs/README.md`
-
 ### AWS ELB Logs OpenTelemetry Assets
 - Name: `aws_elb_otel`
 - Path: `packages/aws_elb_otel/`
@@ -334,14 +286,6 @@ integrations/
 - Version: 0.3.0
 - Categories: aws, cloud, web, observability, opentelemetry
 - Docs: `packages/aws_elb_otel/docs/README.md`
-
-### AWS Lambda Metrics OpenTelemetry Assets
-- Name: `aws_lambda_otel`
-- Path: `packages/aws_lambda_otel/`
-- Description: AWS Lambda Metrics OpenTelemetry Assets
-- Version: 0.9.0
-- Categories: aws, cloud, web, observability, opentelemetry
-- Docs: `packages/aws_lambda_otel/docs/README.md`
 
 ### Custom AWS Logs
 - Name: `aws_logs`
@@ -359,14 +303,6 @@ integrations/
 - Categories: aws, cloud, message_queue, observability
 - Docs: `packages/aws_mq/docs/README.md`
 
-### AWS RDS Metrics OpenTelemetry Assets
-- Name: `aws_rds_otel`
-- Path: `packages/aws_rds_otel/`
-- Description: AWS RDS Metrics OpenTelemetry Assets
-- Version: 0.9.0
-- Categories: aws, cloud, web, observability, opentelemetry
-- Docs: `packages/aws_rds_otel/docs/README.md`
-
 ### AWS Security Hub
 - Name: `aws_securityhub`
 - Path: `packages/aws_securityhub/`
@@ -374,14 +310,6 @@ integrations/
 - Version: 1.1.0
 - Categories: aws, security, cloudsecurity_cdr, vulnerability_workflow
 - Docs: `packages/aws_securityhub/docs/README.md`
-
-### AWS SQS Metrics OpenTelemetry Assets
-- Name: `aws_sqs_otel`
-- Path: `packages/aws_sqs_otel/`
-- Description: AWS SQS Metrics OpenTelemetry Assets
-- Version: 0.9.0
-- Categories: aws, cloud, web, observability, opentelemetry
-- Docs: `packages/aws_sqs_otel/docs/README.md`
 
 ### AWS VPC Flow Logs OpenTelemetry Assets
 - Name: `aws_vpcflow_otel`
@@ -415,14 +343,6 @@ integrations/
 - Categories: cloud, observability, aws
 - Docs: `packages/awsfirehose/docs/README.md`
 
-### Axonius
-- Name: `axonius`
-- Path: `packages/axonius/`
-- Description: Collect logs from Axonius with Elastic Agent.
-- Version: 0.1.2
-- Categories: asset_inventory, datastore, iam, network, security, siem, ticketing, vulnerability_management
-- Docs: `packages/axonius/docs/README.md`
-
 ### Azure Logs
 - Name: `azure`
 - Path: `packages/azure/`
@@ -430,14 +350,6 @@ integrations/
 - Version: 1.37.0
 - Categories: cloud, azure, observability
 - Docs: `packages/azure/docs/README.md`
-
-### Azure Activity Logs OpenTelemetry Assets
-- Name: `azure_activity_otel`
-- Path: `packages/azure_activity_otel/`
-- Description: Azure Activity Logs OpenTelemetry Assets
-- Version: 0.2.0
-- Categories: azure, cloud, observability, opentelemetry
-- Docs: `packages/azure_activity_otel/docs/README.md`
 
 ### Microsoft Foundry
 - Name: `azure_ai_foundry`
@@ -494,14 +406,6 @@ integrations/
 - Version: 0.14.0
 - Categories: azure, cloud, observability
 - Docs: `packages/azure_functions/docs/README.md`
-
-### Azure Application Gateway OpenTelemetry Assets
-- Name: `azure_gateway_otel`
-- Path: `packages/azure_gateway_otel/`
-- Description: Azure Application Gateway OpenTelemetry Assets
-- Version: 0.2.0
-- Categories: azure, cloud, observability, opentelemetry
-- Docs: `packages/azure_gateway_otel/docs/README.md`
 
 ### Custom Azure Logs
 - Name: `azure_logs`
@@ -597,13 +501,13 @@ integrations/
 - Categories: security
 - Docs: `packages/beyondinsight_password_safe/docs/README.md`
 
-### BeyondTrust ISI
-- Name: `beyondtrust_isi`
-- Path: `packages/beyondtrust_isi/`
-- Description: Collect logs from BeyondTrust ISI with Elastic Agent.
-- Version: 0.1.0
+### BeyondTrust PRA
+- Name: `beyondtrust_pra`
+- Path: `packages/beyondtrust_pra/`
+- Description: Collect logs from BeyondTrust PRA with Elastic Agent.
+- Version: 1.1.0
 - Categories: security
-- Docs: `packages/beyondtrust_isi/docs/README.md`
+- Docs: `packages/beyondtrust_pra/docs/README.md`
 
 ### BitDefender
 - Name: `bitdefender`
@@ -668,6 +572,13 @@ integrations/
 - Categories: security, edr_xdr
 - Docs: `packages/carbon_black_cloud/docs/README.md`
 
+### VMware Carbon Black EDR
+- Name: `carbonblack_edr`
+- Path: `packages/carbonblack_edr/`
+- Description: Collect logs from VMware Carbon Black EDR with Elastic Agent.
+- Version: 1.21.0
+- Docs: `packages/carbonblack_edr/docs/README.md`
+
 ### Cassandra
 - Name: `cassandra`
 - Path: `packages/cassandra/`
@@ -684,13 +595,13 @@ integrations/
 - Categories: observability, datastore, opentelemetry
 - Docs: `packages/cassandra_otel/docs/README.md`
 
-### Cato Networks
-- Name: `cato_networks`
-- Path: `packages/cato_networks/`
-- Description: Collect logs from Cato Networks with Elastic Agent.
-- Version: 0.1.0
-- Categories: security, network_security, vpn_security, firewall_security
-- Docs: `packages/cato_networks/docs/README.md`
+### Common Event Format (CEF)
+- Name: `cef`
+- Path: `packages/cef/`
+- Description: Collect logs from CEF Logs with Elastic Agent.
+- Version: 2.23.2
+- Categories: security
+- Docs: `packages/cef/docs/README.md`
 
 ### Custom API using Common Expression Language
 - Name: `cel`
@@ -867,14 +778,6 @@ integrations/
 - Categories: security, vulnerability_management
 - Docs: `packages/claroty_xdome/docs/README.md`
 
-### Claude Code
-- Name: `claude_code`
-- Path: `packages/claude_code/`
-- Description: Collect Claude Code agentic telemetry via OpenTelemetry.
-- Version: 0.2.0
-- Categories: security, opentelemetry
-- Docs: `packages/claude_code/docs/README.md`
-
 ### Cloud Asset Discovery
 - Name: `cloud_asset_inventory`
 - Path: `packages/cloud_asset_inventory/`
@@ -910,7 +813,7 @@ integrations/
 - Name: `cloudflare_logpush`
 - Path: `packages/cloudflare_logpush/`
 - Description: Collect logs from Cloudflare with Elastic Agent.
-- Version: 1.47.0
+- Version: 2.0.0
 - Categories: security, network, cdn_security
 - Docs: `packages/cloudflare_logpush/docs/README.md`
 
@@ -993,13 +896,20 @@ integrations/
 - Version: 4.2.0
 - Docs: `packages/crowdstrike/docs/README.md`
 
-### Cursor
-- Name: `cursor`
-- Path: `packages/cursor/`
-- Description: Collect audit logs from Cursor with Elastic Agent
-- Version: 0.2.1
-- Categories: security, productivity
-- Docs: `packages/cursor/docs/README.md`
+### CyberArk EPM
+- Name: `cyberark_epm`
+- Path: `packages/cyberark_epm/`
+- Description: Collect logs from CyberArk EPM with Elastic Agent.
+- Version: 1.5.0
+- Categories: security
+- Docs: `packages/cyberark_epm/docs/README.md`
+
+### Cyberark Privileged Threat Analytics
+- Name: `cyberark_pta`
+- Path: `packages/cyberark_pta/`
+- Description: Collect security logs from Cyberark PTA integration.
+- Version: 1.15.0
+- Docs: `packages/cyberark_pta/docs/README.md`
 
 ### CyberArk Privileged Access Security
 - Name: `cyberarkpas`
@@ -1038,14 +948,6 @@ integrations/
 - Version: 2.2.1
 - Categories: security, network_security
 - Docs: `packages/darktrace/docs/README.md`
-
-### Dataminr Pulse
-- Name: `dataminr_pulse`
-- Path: `packages/dataminr_pulse/`
-- Description: Collect real-time alerts from Dataminr Pulse API
-- Version: 0.2.2
-- Categories: security, threat_intel
-- Docs: `packages/dataminr_pulse/docs/README.md`
 
 ### Data Exfiltration Detection
 - Name: `ded`
@@ -1095,22 +997,6 @@ integrations/
 - Categories: containers, monitoring
 - Docs: `packages/docker_otel/docs/README.md`
 
-### Doppel
-- Name: `doppel`
-- Path: `packages/doppel/`
-- Description: Collects Doppel alerts and sends them to Elastic
-- Version: 1.0.0
-- Categories: security
-- Docs: `packages/doppel/docs/README.md`
-
-### Doppler
-- Name: `doppler`
-- Path: `packages/doppler/`
-- Description: Collect activity and secret-access logs from Doppler via the Generic HTTPS log stream (webhook).
-- Version: 0.1.1
-- Categories: security, iam, credential_management
-- Docs: `packages/doppler/docs/README.md`
-
 ### Elastic Cloud Enterprise
 - Name: `ece`
 - Path: `packages/ece/`
@@ -1150,14 +1036,6 @@ integrations/
 - Categories: security, siem
 - Docs: `packages/elastic_security/docs/README.md`
 
-### Elastic APM Intake OpenTelemetry Input Package
-- Name: `elasticapm_input_otel`
-- Path: `packages/elasticapm_input_otel/`
-- Description: Receive APM data from Elastic APM agents using the Elastic APM Intake receiver
-- Version: 0.1.0
-- Categories: monitoring, observability, opentelemetry
-- Docs: `packages/elasticapm_input_otel/docs/README.md`
-
 ### Elasticsearch
 - Name: `elasticsearch`
 - Path: `packages/elasticsearch/`
@@ -1195,6 +1073,14 @@ integrations/
 - Version: 1.10.2
 - Categories: azure, cloud, security
 - Docs: `packages/entityanalytics_entra_id/docs/README.md`
+
+### Okta Entity Analytics
+- Name: `entityanalytics_okta`
+- Path: `packages/entityanalytics_okta/`
+- Description: Collect Identities from Okta with Elastic Agent.
+- Version: 3.3.0
+- Categories: security
+- Docs: `packages/entityanalytics_okta/docs/README.md`
 
 ### Entro
 - Name: `entro`
@@ -1308,6 +1194,14 @@ integrations/
 - Categories: network, security
 - Docs: `packages/fireeye/docs/README.md`
 
+### First EPSS
+- Name: `first_epss`
+- Path: `packages/first_epss/`
+- Description: Collect exploit prediction score data from the First EPSS API with Elastic Agent.
+- Version: 1.4.0
+- Categories: security, vulnerability_management
+- Docs: `packages/first_epss/docs/README.md`
+
 ### Fleet Server
 - Name: `fleet_server`
 - Path: `packages/fleet_server/`
@@ -1322,14 +1216,6 @@ integrations/
 - Version: 1.13.0
 - Categories: network, security
 - Docs: `packages/forcepoint_web/docs/README.md`
-
-### Forescout
-- Name: `forescout`
-- Path: `packages/forescout/`
-- Description: Collect logs from Forescout with Elastic Agent and EyeExtend Connect.
-- Version: 0.1.0
-- Categories: security
-- Docs: `packages/forescout/docs/README.md`
 
 ### ForgeRock
 - Name: `forgerock`
@@ -1492,6 +1378,14 @@ integrations/
 - Categories: google_cloud, security, siem
 - Docs: `packages/google_secops/docs/README.md`
 
+### Google Workspace
+- Name: `google_workspace`
+- Path: `packages/google_workspace/`
+- Description: Collect logs from Google Workspace with Elastic Agent.
+- Version: 3.5.0
+- Categories: productivity, productivity_security, security
+- Docs: `packages/google_workspace/docs/README.md`
+
 ### Grafana
 - Name: `grafana`
 - Path: `packages/grafana/`
@@ -1507,14 +1401,6 @@ integrations/
 - Version: 0.1.0
 - Categories: security
 - Docs: `packages/greenhouse/docs/README.md`
-
-### HackerOne
-- Name: `hackerone`
-- Path: `packages/hackerone/`
-- Description: Collect bug bounty reports from the HackerOne Customer API.
-- Version: 0.1.0
-- Categories: security, vulnerability_management
-- Docs: `packages/hackerone/docs/README.md`
 
 ### Hadoop
 - Name: `hadoop`
@@ -1594,6 +1480,22 @@ integrations/
 - Version: 0.1.0
 - Categories: monitoring, network, opentelemetry, web
 - Docs: `packages/httpcheck_otel/docs/README.md`
+
+### Custom API
+- Name: `httpjson`
+- Path: `packages/httpjson/`
+- Description: Collect custom events from an API endpoint with Elastic agent
+- Version: 1.24.0
+- Categories: custom
+- Docs: `packages/httpjson/docs/README.md`
+
+### IBM QRadar
+- Name: `ibm_qradar`
+- Path: `packages/ibm_qradar/`
+- Description: Collect logs from IBM QRadar with Elastic Agent.
+- Version: 1.1.1
+- Categories: security, siem
+- Docs: `packages/ibm_qradar/docs/README.md`
 
 ### IBM MQ
 - Name: `ibmmq`
@@ -1722,14 +1624,6 @@ integrations/
 - Categories: observability, network, containers, kubernetes
 - Docs: `packages/istio/docs/README.md`
 
-### Jaeger OpenTelemetry Input Package
-- Name: `jaeger_input_otel`
-- Path: `packages/jaeger_input_otel/`
-- Description: Collect Jaeger traces via the OpenTelemetry jaegerreceiver (gRPC, Thrift HTTP, Thrift UDP). Enable only the protocols you need; at least one must be enabled.
-- Version: 0.1.0
-- Categories: observability, opentelemetry
-- Docs: `packages/jaeger_input_otel/docs/README.md`
-
 ### Jamf Compliance Reporter
 - Name: `jamf_compliance_reporter`
 - Path: `packages/jamf_compliance_reporter/`
@@ -1823,14 +1717,6 @@ integrations/
 - Categories: message_queue, observability, monitoring, infrastructure
 - Docs: `packages/kafka_connect/docs/README.md`
 
-### Kafka Consumer (OpenTelemetry)
-- Name: `kafka_input_otel`
-- Path: `packages/kafka_input_otel/`
-- Description: Consume logs, metrics, and traces from Kafka topics via the OTel Collector. Use this to ingest OTLP-format telemetry routed through Kafka.
-- Version: 0.1.1
-- Categories: message_queue, observability, opentelemetry
-- Docs: `packages/kafka_input_otel/docs/README.md`
-
 ### Kafka Log Consumer
 - Name: `kafka_log`
 - Path: `packages/kafka_log/`
@@ -1868,14 +1754,6 @@ integrations/
 - Description: Collect logs and metrics from Kibana with Elastic Agent.
 - Version: 2.8.0
 - Docs: `packages/kibana/docs/README.md`
-
-### Kolide
-- Name: `kolide`
-- Path: `packages/kolide/`
-- Description: Collect logs from Kolide (by 1Password) Device Trust with Elastic Agent.
-- Version: 0.1.2
-- Categories: security, iam
-- Docs: `packages/kolide/docs/README.md`
 
 ### Kubelet Stats OpenTelemetry Input
 - Name: `kubeletstats_input_otel`
@@ -2037,6 +1915,14 @@ integrations/
 - Categories: network, security
 - Docs: `packages/microsoft_dnsserver/docs/README.md`
 
+### Microsoft Exchange Online Message Trace
+- Name: `microsoft_exchange_online_message_trace`
+- Path: `packages/microsoft_exchange_online_message_trace/`
+- Description: Microsoft Exchange Online Message Trace Integration
+- Version: 2.2.4
+- Categories: security, email_security
+- Docs: `packages/microsoft_exchange_online_message_trace/docs/README.md`
+
 ### Microsoft Exchange Server
 - Name: `microsoft_exchange_server`
 - Path: `packages/microsoft_exchange_server/`
@@ -2044,14 +1930,6 @@ integrations/
 - Version: 1.5.1
 - Categories: security
 - Docs: `packages/microsoft_exchange_server/docs/README.md`
-
-### Microsoft Intune
-- Name: `microsoft_intune`
-- Path: `packages/microsoft_intune/`
-- Description: Collect logs from Microsoft Intune with Elastic Agent.
-- Version: 0.1.0
-- Categories: security, azure
-- Docs: `packages/microsoft_intune/docs/README.md`
 
 ### Microsoft Sentinel
 - Name: `microsoft_sentinel`
@@ -2076,6 +1954,13 @@ integrations/
 - Version: 0.3.0
 - Categories: datastore, opentelemetry, observability
 - Docs: `packages/microsoft_sqlserver_otel/docs/README.md`
+
+### Mimecast
+- Name: `mimecast`
+- Path: `packages/mimecast/`
+- Description: Collect logs from Mimecast with Elastic Agent.
+- Version: 3.4.4
+- Docs: `packages/mimecast/docs/README.md`
 
 ### Miniflux RSS reader
 - Name: `miniflux`
@@ -2108,6 +1993,14 @@ integrations/
 - Categories: cloud, datastore, observability
 - Docs: `packages/mongodb_atlas/docs/README.md`
 
+### MongoDB OpenTelemetry Assets
+- Name: `mongodb_otel`
+- Path: `packages/mongodb_otel/`
+- Description: MongoDB Assets for OpenTelemetry Collector
+- Version: 0.3.0
+- Categories: observability, datastore, opentelemetry
+- Docs: `packages/mongodb_otel/docs/README.md`
+
 ### MySQL
 - Name: `mysql`
 - Path: `packages/mysql/`
@@ -2123,6 +2016,22 @@ integrations/
 - Version: 1.17.1
 - Categories: security
 - Docs: `packages/mysql_enterprise/docs/README.md`
+
+### MySQL (OpenTelemetry)
+- Name: `mysql_input_otel`
+- Path: `packages/mysql_input_otel/`
+- Description: Collect MySQL performance metrics and query samples via the OTel mysqlreceiver.
+- Version: 0.2.2
+- Categories: datastore, observability, opentelemetry
+- Docs: `packages/mysql_input_otel/docs/README.md`
+
+### MySQL OpenTelemetry Assets
+- Name: `mysql_otel`
+- Path: `packages/mysql_otel/`
+- Description: MySQL Assets for OpenTelemetry Collector
+- Version: 0.6.0
+- Categories: datastore, observability, opentelemetry
+- Docs: `packages/mysql_otel/docs/README.md`
 
 ### Nagios XI
 - Name: `nagios_xi`
@@ -2147,14 +2056,6 @@ integrations/
 - Version: 0.2.0
 - Categories: security, edr_xdr
 - Docs: `packages/neon_cyber/docs/README.md`
-
-### NetBox
-- Name: `netbox`
-- Path: `packages/netbox/`
-- Description: Collect logs from NetBox with Elastic Agent
-- Version: 0.1.1
-- Categories: network, security, web
-- Docs: `packages/netbox/docs/README.md`
 
 ### NetFlow Records
 - Name: `netflow`
@@ -2363,14 +2264,6 @@ integrations/
 - Categories: observability, web, opentelemetry
 - Docs: `packages/otel_rum_dashboards/docs/README.md`
 
-### OTLP Receiver OpenTelemetry Input Package
-- Name: `otlp_input_otel`
-- Path: `packages/otlp_input_otel/`
-- Description: Receive logs, metrics, and traces via OTLP (OpenTelemetry Protocol) over gRPC and HTTP
-- Version: 0.2.0
-- Categories: observability, opentelemetry
-- Docs: `packages/otlp_input_otel/docs/README.md`
-
 ### Privileged Access Detection
 - Name: `pad`
 - Path: `packages/pad/`
@@ -2386,6 +2279,14 @@ integrations/
 - Version: 5.5.0
 - Categories: security, network
 - Docs: `packages/panw/docs/README.md`
+
+### Palo Alto Cortex XDR
+- Name: `panw_cortex_xdr`
+- Path: `packages/panw_cortex_xdr/`
+- Description: Collect logs from Palo Alto Cortex XDR with Elastic Agent.
+- Version: 2.6.0
+- Categories: security, edr_xdr
+- Docs: `packages/panw_cortex_xdr/docs/README.md`
 
 ### Palo Alto Networks Metrics
 - Name: `panw_metrics`
@@ -2410,6 +2311,14 @@ integrations/
 - Version: 1.7.0
 - Categories: observability, process_manager
 - Docs: `packages/php_fpm/docs/README.md`
+
+### PingFederate
+- Name: `ping_federate`
+- Path: `packages/ping_federate/`
+- Description: Collect logs from PingFederate with Elastic Agent.
+- Version: 1.2.0
+- Categories: security, authentication
+- Docs: `packages/ping_federate/docs/README.md`
 
 ### PingOne
 - Name: `ping_one`
@@ -2473,14 +2382,6 @@ integrations/
 - Version: 3.1.0
 - Categories: security, advanced_analytics_ueba
 - Docs: `packages/problemchild/docs/README.md`
-
-### OpenTelemetry Profiling
-- Name: `profiling_otel`
-- Path: `packages/profiling_otel/`
-- Description: OpenTelemetry Profiling
-- Version: 0.0.1
-- Categories: custom, observability, opentelemetry
-- Docs: `packages/profiling_otel/docs/README.md`
 
 ### Profilingmetrics OpenTelemetry Assets
 - Name: `profilingmetrics_otel`
@@ -2588,7 +2489,7 @@ integrations/
 - Name: `qualys_gav`
 - Path: `packages/qualys_gav/`
 - Description: Collect logs from Qualys Global AssetView with Elastic Agent.
-- Version: 0.8.0
+- Version: 0.9.0
 - Categories: security
 - Docs: `packages/qualys_gav/docs/README.md`
 
@@ -2654,6 +2555,14 @@ integrations/
 - Version: 0.1.1
 - Categories: datastore, observability, opentelemetry
 - Docs: `packages/redis_input_otel/docs/README.md`
+
+### Redis OpenTelemetry Assets
+- Name: `redis_otel`
+- Path: `packages/redis_otel/`
+- Description: Redis Assets for OpenTelemetry Collector
+- Version: 0.3.0
+- Categories: datastore, observability, opentelemetry
+- Docs: `packages/redis_otel/docs/README.md`
 
 ### Redis Enterprise
 - Name: `redisenterprise`
@@ -3220,22 +3129,6 @@ integrations/
 - Categories: security, threat_intel
 - Docs: `packages/ti_recordedfuture/docs/README.md`
 
-### SOCRadar Threat Feeds
-- Name: `ti_socradar_feeds`
-- Path: `packages/ti_socradar_feeds/`
-- Description: Ingest threat intelligence indicators from SOCRadar feed collections with Elastic Agent.
-- Version: 0.1.1
-- Categories: security, threat_intel
-- Docs: `packages/ti_socradar_feeds/docs/README.md`
-
-### SOCRadar Threat Intelligence (TAXII)
-- Name: `ti_socradar_taxii`
-- Path: `packages/ti_socradar_taxii/`
-- Description: Ingest threat intelligence indicators from SOCRadar's TAXII 2.1 server in STIX 2.1 format with Elastic Agent.
-- Version: 0.2.1
-- Categories: security, threat_intel
-- Docs: `packages/ti_socradar_taxii/docs/README.md`
-
 ### Strider Shield
 - Name: `ti_strider`
 - Path: `packages/ti_strider/`
@@ -3258,14 +3151,6 @@ integrations/
 - Version: 1.39.1
 - Categories: security, threat_intel
 - Docs: `packages/ti_threatq/docs/README.md`
-
-### Ticura
-- Name: `ti_ticura`
-- Path: `packages/ti_ticura/`
-- Description: Ingest threat intelligence indicators from Ticura curated feeds.
-- Version: 0.1.1
-- Categories: security, threat_intel
-- Docs: `packages/ti_ticura/docs/README.md`
 
 ### Threat Intelligence Utilities
 - Name: `ti_util`
@@ -3507,22 +3392,6 @@ integrations/
 - Categories: observability, custom
 - Docs: `packages/wmi/docs/README.md`
 
-### Workday
-- Name: `workday`
-- Path: `packages/workday/`
-- Description: Collect logs from Workday with Elastic Agent.
-- Version: 0.1.0
-- Categories: security
-- Docs: `packages/workday/docs/README.md`
-
-### XM Cyber
-- Name: `xm_cyber`
-- Path: `packages/xm_cyber/`
-- Description: Collect logs from XM Cyber with Elastic Agent.
-- Version: 0.1.0
-- Categories: security
-- Docs: `packages/xm_cyber/docs/README.md`
-
 ### Zeek
 - Name: `zeek`
 - Path: `packages/zeek/`
@@ -3547,14 +3416,6 @@ integrations/
 - Categories: security
 - Docs: `packages/zeronetworks/docs/README.md`
 
-### Zipkin OpenTelemetry Input Package
-- Name: `zipkin_input_otel`
-- Path: `packages/zipkin_input_otel/`
-- Description: Collect Zipkin traces using OpenTelemetry Collector
-- Version: 0.1.0
-- Categories: observability, opentelemetry
-- Docs: `packages/zipkin_input_otel/docs/README.md`
-
 ### ZooKeeper Metrics
 - Name: `zookeeper`
 - Path: `packages/zookeeper/`
@@ -3575,7 +3436,7 @@ integrations/
 - Name: `zoom`
 - Path: `packages/zoom/`
 - Description: Collect logs from Zoom with Elastic Agent.
-- Version: 1.25.0
+- Version: 1.26.0
 - Categories: security, productivity_security
 - Docs: `packages/zoom/docs/README.md`
 
