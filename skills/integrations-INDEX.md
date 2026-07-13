@@ -239,14 +239,6 @@ integrations/
 - Categories: security
 - Docs: `packages/authentik/docs/README.md`
 
-### AWS
-- Name: `aws`
-- Path: `packages/aws/`
-- Description: Collect logs and metrics from Amazon Web Services (AWS) with Elastic Agent.
-- Version: 6.21.0
-- Categories: aws, cloud
-- Docs: `packages/aws/docs/README.md`
-
 ### Amazon Bedrock
 - Name: `aws_bedrock`
 - Path: `packages/aws_bedrock/`
@@ -286,14 +278,6 @@ integrations/
 - Version: 0.3.0
 - Categories: aws, cloud, web, observability, opentelemetry
 - Docs: `packages/aws_elb_otel/docs/README.md`
-
-### Custom AWS Logs
-- Name: `aws_logs`
-- Path: `packages/aws_logs/`
-- Description: Collect raw logs from AWS S3 or CloudWatch with Elastic Agent.
-- Version: 1.8.3
-- Categories: cloud, observability, custom, aws
-- Docs: `packages/aws_logs/docs/README.md`
 
 ### Amazon MQ
 - Name: `aws_mq`
@@ -678,7 +662,7 @@ integrations/
 - Name: `cisco_ftd`
 - Path: `packages/cisco_ftd/`
 - Description: Collect logs from Cisco FTD with Elastic Agent.
-- Version: 3.13.7
+- Version: 3.13.8
 - Categories: network, security, firewall_security
 - Docs: `packages/cisco_ftd/docs/README.md`
 
@@ -713,14 +697,6 @@ integrations/
 - Version: 0.4.3
 - Categories: network, observability, security
 - Docs: `packages/cisco_meraki_metrics/docs/README.md`
-
-### Cisco Nexus
-- Name: `cisco_nexus`
-- Path: `packages/cisco_nexus/`
-- Description: Collect logs from Cisco Nexus with Elastic Agent.
-- Version: 1.7.0
-- Categories: network, security
-- Docs: `packages/cisco_nexus/docs/README.md`
 
 ### Cisco Secure Email Gateway
 - Name: `cisco_secure_email_gateway`
@@ -1024,7 +1000,7 @@ integrations/
 - Name: `elastic_package_registry`
 - Path: `packages/elastic_package_registry/`
 - Description: Collect metrics from a Elastic Package Registry instance
-- Version: 0.3.1
+- Version: 0.4.0
 - Categories: elastic_stack
 - Docs: `packages/elastic_package_registry/docs/README.md`
 
@@ -1448,22 +1424,6 @@ integrations/
 - Version: 0.1.0
 - Categories: monitoring, os_system, observability, opentelemetry
 - Docs: `packages/hostmetrics_input_otel/docs/README.md`
-
-### HPE Aruba CX
-- Name: `hpe_aruba_cx`
-- Path: `packages/hpe_aruba_cx/`
-- Description: Collect logs from HPE Aruba CX with Elastic Agent
-- Version: 0.4.2
-- Categories: config_management, network, security
-- Docs: `packages/hpe_aruba_cx/docs/README.md`
-
-### Host Traffic Anomalies
-- Name: `hta`
-- Path: `packages/hta/`
-- Description: Prebuilt dashboard for Machine Learning module Security: Host.
-- Version: 2.0.0
-- Categories: security
-- Docs: `packages/hta/docs/README.md`
 
 ### Custom HTTP Endpoint Logs
 - Name: `http_endpoint`
@@ -2728,7 +2688,7 @@ integrations/
 - Name: `sql`
 - Path: `packages/sql_input/`
 - Description: Collects Metrics by querying SQL Databases
-- Version: 1.1.0
+- Version: 1.2.0
 - Categories: custom, observability
 - Docs: `packages/sql_input/docs/README.md`
 
@@ -3436,7 +3396,7 @@ integrations/
 - Name: `zoom`
 - Path: `packages/zoom/`
 - Description: Collect logs from Zoom with Elastic Agent.
-- Version: 1.26.0
+- Version: 1.27.0
 - Categories: security, productivity_security
 - Docs: `packages/zoom/docs/README.md`
 
