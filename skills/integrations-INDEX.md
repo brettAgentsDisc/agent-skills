@@ -239,6 +239,14 @@ integrations/
 - Categories: security
 - Docs: `packages/authentik/docs/README.md`
 
+### AWS
+- Name: `aws`
+- Path: `packages/aws/`
+- Description: Collect logs and metrics from Amazon Web Services (AWS) with Elastic Agent.
+- Version: 6.21.0
+- Categories: aws, cloud
+- Docs: `packages/aws/docs/README.md`
+
 ### Amazon Bedrock
 - Name: `aws_bedrock`
 - Path: `packages/aws_bedrock/`
@@ -278,6 +286,14 @@ integrations/
 - Version: 0.3.0
 - Categories: aws, cloud, web, observability, opentelemetry
 - Docs: `packages/aws_elb_otel/docs/README.md`
+
+### Custom AWS Logs
+- Name: `aws_logs`
+- Path: `packages/aws_logs/`
+- Description: Collect raw logs from AWS S3 or CloudWatch with Elastic Agent.
+- Version: 1.8.3
+- Categories: cloud, observability, custom, aws
+- Docs: `packages/aws_logs/docs/README.md`
 
 ### Amazon MQ
 - Name: `aws_mq`
@@ -678,7 +694,7 @@ integrations/
 - Name: `cisco_ise`
 - Path: `packages/cisco_ise/`
 - Description: Collect logs from Cisco ISE with Elastic Agent.
-- Version: 1.32.8
+- Version: 1.32.9
 - Categories: security, network
 - Docs: `packages/cisco_ise/docs/README.md`
 
@@ -697,6 +713,14 @@ integrations/
 - Version: 0.4.3
 - Categories: network, observability, security
 - Docs: `packages/cisco_meraki_metrics/docs/README.md`
+
+### Cisco Nexus
+- Name: `cisco_nexus`
+- Path: `packages/cisco_nexus/`
+- Description: Collect logs from Cisco Nexus with Elastic Agent.
+- Version: 1.7.0
+- Categories: network, security
+- Docs: `packages/cisco_nexus/docs/README.md`
 
 ### Cisco Secure Email Gateway
 - Name: `cisco_secure_email_gateway`
@@ -869,7 +893,7 @@ integrations/
 - Name: `crowdstrike`
 - Path: `packages/crowdstrike/`
 - Description: Collect logs from Crowdstrike with Elastic Agent.
-- Version: 4.2.0
+- Version: 4.3.0
 - Docs: `packages/crowdstrike/docs/README.md`
 
 ### CyberArk EPM
@@ -1038,24 +1062,24 @@ integrations/
 - Name: `entityanalytics_ad`
 - Path: `packages/entityanalytics_ad/`
 - Description: Collect User Identities from Active Directory Entity with Elastic Agent.
-- Version: 0.20.3
-- Categories: security
+- Version: 0.21.0
+- Categories: security, advanced_analytics_ueba
 - Docs: `packages/entityanalytics_ad/docs/README.md`
 
 ### Microsoft Entra ID Entity Analytics
 - Name: `entityanalytics_entra_id`
 - Path: `packages/entityanalytics_entra_id/`
 - Description: Collect identities from Microsoft Entra ID (formerly Azure Active Directory) with Elastic Agent.
-- Version: 1.10.2
-- Categories: azure, cloud, security
+- Version: 1.11.0
+- Categories: azure, cloud, security, advanced_analytics_ueba
 - Docs: `packages/entityanalytics_entra_id/docs/README.md`
 
 ### Okta Entity Analytics
 - Name: `entityanalytics_okta`
 - Path: `packages/entityanalytics_okta/`
 - Description: Collect Identities from Okta with Elastic Agent.
-- Version: 3.3.0
-- Categories: security
+- Version: 3.4.0
+- Categories: security, advanced_analytics_ueba
 - Docs: `packages/entityanalytics_okta/docs/README.md`
 
 ### Entro
@@ -1424,6 +1448,22 @@ integrations/
 - Version: 0.1.0
 - Categories: monitoring, os_system, observability, opentelemetry
 - Docs: `packages/hostmetrics_input_otel/docs/README.md`
+
+### HPE Aruba CX
+- Name: `hpe_aruba_cx`
+- Path: `packages/hpe_aruba_cx/`
+- Description: Collect logs from HPE Aruba CX with Elastic Agent
+- Version: 0.4.2
+- Categories: config_management, network, security
+- Docs: `packages/hpe_aruba_cx/docs/README.md`
+
+### Host Traffic Anomalies
+- Name: `hta`
+- Path: `packages/hta/`
+- Description: Prebuilt dashboard for Machine Learning module Security: Host.
+- Version: 2.0.0
+- Categories: security
+- Docs: `packages/hta/docs/README.md`
 
 ### Custom HTTP Endpoint Logs
 - Name: `http_endpoint`
@@ -2125,7 +2165,7 @@ integrations/
 - Name: `o365`
 - Path: `packages/o365/`
 - Description: Collect logs from Microsoft Office 365 with Elastic Agent.
-- Version: 3.10.4
+- Version: 3.10.5
 - Categories: security, productivity_security
 - Docs: `packages/o365/docs/README.md`
 
@@ -2196,7 +2236,7 @@ integrations/
 - Name: `osquery_manager`
 - Path: `packages/osquery_manager/`
 - Description: Deploy Osquery with Elastic Agent, then run and schedule queries in Kibana
-- Version: 1.30.0
+- Version: 1.30.1
 - Categories: security
 - Docs: `packages/osquery_manager/docs/README.md`
 
@@ -2592,7 +2632,7 @@ integrations/
 - Name: `sentinel_one`
 - Path: `packages/sentinel_one/`
 - Description: Collect logs from SentinelOne with Elastic Agent.
-- Version: 2.10.0
+- Version: 2.11.0
 - Categories: security, edr_xdr
 - Docs: `packages/sentinel_one/docs/README.md`
 
@@ -2735,8 +2775,8 @@ integrations/
 - Name: `stormshield`
 - Path: `packages/stormshield/`
 - Description: Stormshield SNS integration.
-- Version: 1.5.2
-- Categories: network, security, firewall_security
+- Version: 1.5.3
+- Categories: network, security, firewall_security, network_security
 - Docs: `packages/stormshield/docs/README.md`
 
 ### Sublime Security
