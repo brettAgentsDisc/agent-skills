@@ -1319,7 +1319,7 @@ integrations/
 - Name: `gigamon`
 - Path: `packages/gigamon/`
 - Description: Collect logs from Gigamon with Elastic Agent.
-- Version: 2.2.0
+- Version: 2.3.0
 - Categories: custom, security, network, application_observability
 - Docs: `packages/gigamon/docs/README.md`
 
@@ -1334,7 +1334,7 @@ integrations/
 - Name: `gitlab`
 - Path: `packages/gitlab/`
 - Description: Collect logs from GitLab with Elastic Agent.
-- Version: 2.6.0
+- Version: 2.6.1
 - Categories: productivity, productivity_security, security
 - Docs: `packages/gitlab/docs/README.md`
 
@@ -2862,7 +2862,7 @@ integrations/
 - Name: `system`
 - Path: `packages/system/`
 - Description: Collect system logs and metrics from your servers with Elastic Agent.
-- Version: 2.20.0
+- Version: 2.21.0
 - Categories: os_system
 - Docs: `packages/system/docs/README.md`
 
@@ -3348,7 +3348,7 @@ integrations/
 - Name: `windows`
 - Path: `packages/windows/`
 - Description: Collect logs and metrics from Windows OS and services with Elastic Agent.
-- Version: 3.8.3
+- Version: 3.9.0
 - Categories: os_system, security
 - Docs: `packages/windows/docs/README.md`
 
