@@ -395,7 +395,7 @@ integrations/
 - Name: `azure_frontdoor`
 - Path: `packages/azure_frontdoor/`
 - Description: This Elastic integration collects logs from Azure Frontdoor.
-- Version: 2.3.0
+- Version: 2.4.0
 - Categories: azure, cloud, network
 - Docs: `packages/azure_frontdoor/docs/README.md`
 
@@ -930,7 +930,7 @@ integrations/
 - Name: `cyera`
 - Path: `packages/cyera/`
 - Description: Collect logs from Cyera with Elastic Agent.
-- Version: 0.8.0
+- Version: 0.9.0
 - Categories: security
 - Docs: `packages/cyera/docs/README.md`
 
@@ -2236,7 +2236,7 @@ integrations/
 - Name: `osquery_manager`
 - Path: `packages/osquery_manager/`
 - Description: Deploy Osquery with Elastic Agent, then run and schedule queries in Kibana
-- Version: 1.30.1
+- Version: 1.31.0
 - Categories: security
 - Docs: `packages/osquery_manager/docs/README.md`
 
@@ -2497,7 +2497,7 @@ integrations/
 - Name: `qualys_vmdr`
 - Path: `packages/qualys_vmdr/`
 - Description: Collect data from Qualys VMDR platform with Elastic Agent.
-- Version: 6.19.0
+- Version: 6.19.1
 - Categories: security, vulnerability_management, vulnerability_workflow, cloudsecurity_cdr
 - Docs: `packages/qualys_vmdr/docs/README.md`
 
@@ -2974,7 +2974,7 @@ integrations/
 - Name: `ti_anomali`
 - Path: `packages/ti_anomali/`
 - Description: Ingest threat intelligence indicators from Anomali ThreatStream with Elastic Agent.
-- Version: 2.8.1
+- Version: 2.8.2
 - Categories: security, threat_intel
 - Docs: `packages/ti_anomali/docs/README.md`
 
