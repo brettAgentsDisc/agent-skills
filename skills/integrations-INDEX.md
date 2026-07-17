@@ -243,7 +243,7 @@ integrations/
 - Name: `aws`
 - Path: `packages/aws/`
 - Description: Collect logs and metrics from Amazon Web Services (AWS) with Elastic Agent.
-- Version: 6.21.0
+- Version: 7.0.0
 - Categories: aws, cloud
 - Docs: `packages/aws/docs/README.md`
 
@@ -900,7 +900,7 @@ integrations/
 - Name: `cyberark_epm`
 - Path: `packages/cyberark_epm/`
 - Description: Collect logs from CyberArk EPM with Elastic Agent.
-- Version: 1.5.0
+- Version: 1.5.1
 - Categories: security
 - Docs: `packages/cyberark_epm/docs/README.md`
 
