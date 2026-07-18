@@ -623,7 +623,7 @@ integrations/
 - Name: `checkpoint`
 - Path: `packages/checkpoint/`
 - Description: Collect logs from Check Point with Elastic Agent.
-- Version: 1.47.0
+- Version: 1.48.0
 - Docs: `packages/checkpoint/docs/README.md`
 
 ### Check Point Harmony Email & Collaboration
@@ -2775,7 +2775,7 @@ integrations/
 - Name: `stormshield`
 - Path: `packages/stormshield/`
 - Description: Stormshield SNS integration.
-- Version: 1.5.3
+- Version: 1.6.0
 - Categories: network, security, firewall_security, network_security
 - Docs: `packages/stormshield/docs/README.md`
 
