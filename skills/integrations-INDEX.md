@@ -893,7 +893,7 @@ integrations/
 - Name: `crowdstrike`
 - Path: `packages/crowdstrike/`
 - Description: Collect logs from Crowdstrike with Elastic Agent.
-- Version: 4.3.0
+- Version: 4.3.1
 - Docs: `packages/crowdstrike/docs/README.md`
 
 ### CyberArk EPM
