@@ -347,7 +347,7 @@ integrations/
 - Name: `azure`
 - Path: `packages/azure/`
 - Description: This Elastic integration collects logs from Azure
-- Version: 1.37.0
+- Version: 1.37.1
 - Categories: cloud, azure, observability
 - Docs: `packages/azure/docs/README.md`
 
@@ -2632,7 +2632,7 @@ integrations/
 - Name: `sentinel_one`
 - Path: `packages/sentinel_one/`
 - Description: Collect logs from SentinelOne with Elastic Agent.
-- Version: 2.11.0
+- Version: 2.11.1
 - Categories: security, edr_xdr
 - Docs: `packages/sentinel_one/docs/README.md`
 
@@ -3029,7 +3029,7 @@ integrations/
 - Name: `ti_domaintools`
 - Path: `packages/ti_domaintools/`
 - Description: DomainTools Feeds provide data on the different stages of the domain lifecycle: from first-observed in the wild, to newly re-activated after a period of quiet.
-- Version: 1.5.1
+- Version: 1.6.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_domaintools/docs/README.md`
 
