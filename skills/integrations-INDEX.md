@@ -1517,7 +1517,7 @@ integrations/
 - Name: `iis`
 - Path: `packages/iis/`
 - Description: Collect access logs, error logs, and performance metrics from IIS on Windows via Elastic Agent.
-- Version: 1.24.6
+- Version: 1.24.7
 - Categories: web, observability
 - Docs: `packages/iis/docs/README.md`
 
@@ -2236,7 +2236,7 @@ integrations/
 - Name: `osquery_manager`
 - Path: `packages/osquery_manager/`
 - Description: Deploy Osquery with Elastic Agent, then run and schedule queries in Kibana
-- Version: 1.31.0
+- Version: 1.32.0
 - Categories: security
 - Docs: `packages/osquery_manager/docs/README.md`
 
@@ -2489,7 +2489,7 @@ integrations/
 - Name: `qualys_gav`
 - Path: `packages/qualys_gav/`
 - Description: Collect logs from Qualys Global AssetView with Elastic Agent.
-- Version: 0.9.0
+- Version: 0.9.1
 - Categories: security
 - Docs: `packages/qualys_gav/docs/README.md`
 
@@ -2624,7 +2624,7 @@ integrations/
 - Name: `security_detection_engine`
 - Path: `packages/security_detection_engine/`
 - Description: Prebuilt detection rules for Elastic Security
-- Version: 9.4.7
+- Version: 9.5.1-beta.1
 - Categories: security, siem
 - Docs: `packages/security_detection_engine/docs/README.md`
 
@@ -2910,7 +2910,7 @@ integrations/
 - Name: `tenable_io`
 - Path: `packages/tenable_io/`
 - Description: Collect logs from Tenable Vulnerability Management with Elastic Agent.
-- Version: 4.11.2
+- Version: 4.12.0
 - Categories: security, vulnerability_management, vulnerability_workflow, cloudsecurity_cdr
 - Docs: `packages/tenable_io/docs/README.md`
 
@@ -3061,7 +3061,7 @@ integrations/
 - Name: `ti_google_threat_intelligence`
 - Path: `packages/ti_google_threat_intelligence/`
 - Description: Collect Threat Intelligence Events from Google Threat Intelligence using Elastic Agent, and perform enrichment on Elasticsearch by correlating Indicators of Compromise (IOCs).
-- Version: 1.1.1
+- Version: 1.1.2
 - Categories: security, threat_intel
 - Docs: `packages/ti_google_threat_intelligence/docs/README.md`
 
