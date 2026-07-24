@@ -211,7 +211,7 @@ integrations/
 - Name: `auditd`
 - Path: `packages/auditd/`
 - Description: Collect logs from Linux audit daemon with Elastic Agent.
-- Version: 3.23.1
+- Version: 3.23.2
 - Categories: security, auditd
 - Docs: `packages/auditd/docs/README.md`
 
@@ -497,7 +497,7 @@ integrations/
 - Name: `beyondinsight_password_safe`
 - Path: `packages/beyondinsight_password_safe/`
 - Description: Ingest privileged access management (PAM) data from BeyondTrust's BeyondInsight PAM Reporting Platform and Password Safe, using Elastic Agent.
-- Version: 1.3.0
+- Version: 1.3.1
 - Categories: security
 - Docs: `packages/beyondinsight_password_safe/docs/README.md`
 
@@ -726,7 +726,7 @@ integrations/
 - Name: `cisco_secure_email_gateway`
 - Path: `packages/cisco_secure_email_gateway/`
 - Description: Collect logs from Cisco Secure Email Gateway with Elastic Agent.
-- Version: 1.29.2
+- Version: 1.29.3
 - Categories: security, network, email_security
 - Docs: `packages/cisco_secure_email_gateway/docs/README.md`
 
@@ -782,7 +782,7 @@ integrations/
 - Name: `cloud_asset_inventory`
 - Path: `packages/cloud_asset_inventory/`
 - Description: Discover and Create Cloud Assets Discovery
-- Version: 1.7.0
+- Version: 1.7.1
 - Categories: security, asset_inventory, cloudsecurity_cdr
 - Docs: `packages/cloud_asset_inventory/docs/README.md`
 
@@ -893,7 +893,7 @@ integrations/
 - Name: `crowdstrike`
 - Path: `packages/crowdstrike/`
 - Description: Collect logs from Crowdstrike with Elastic Agent.
-- Version: 4.3.1
+- Version: 4.4.0
 - Docs: `packages/crowdstrike/docs/README.md`
 
 ### CyberArk EPM
@@ -1382,7 +1382,7 @@ integrations/
 - Name: `google_workspace`
 - Path: `packages/google_workspace/`
 - Description: Collect logs from Google Workspace with Elastic Agent.
-- Version: 3.5.0
+- Version: 3.5.1
 - Categories: productivity, productivity_security, security
 - Docs: `packages/google_workspace/docs/README.md`
 
@@ -1823,7 +1823,7 @@ integrations/
 - Name: `lumos`
 - Path: `packages/lumos/`
 - Description: An integration with Lumos to ship your Activity logs to your Elastic instance.
-- Version: 1.8.0
+- Version: 1.8.1
 - Categories: security
 - Docs: `packages/lumos/docs/README.md`
 
@@ -2165,7 +2165,7 @@ integrations/
 - Name: `o365`
 - Path: `packages/o365/`
 - Description: Collect logs from Microsoft Office 365 with Elastic Agent.
-- Version: 3.10.5
+- Version: 3.10.6
 - Categories: security, productivity_security
 - Docs: `packages/o365/docs/README.md`
 
@@ -3006,7 +3006,7 @@ integrations/
 - Name: `ti_custom`
 - Path: `packages/ti_custom/`
 - Description: Ingest threat intelligence data in STIX 2.1 format with Elastic Agent
-- Version: 1.8.1
+- Version: 1.8.2
 - Categories: custom, security, threat_intel
 - Docs: `packages/ti_custom/docs/README.md`
 
@@ -3380,7 +3380,7 @@ integrations/
 - Name: `wiz`
 - Path: `packages/wiz/`
 - Description: Collect logs from Wiz with Elastic Agent.
-- Version: 4.5.0
+- Version: 4.6.0
 - Categories: security, cloudsecurity_cdr, vulnerability_workflow, misconfiguration_workflow
 - Docs: `packages/wiz/docs/README.md`
 
