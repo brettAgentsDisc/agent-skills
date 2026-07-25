@@ -2482,7 +2482,7 @@ integrations/
 - Name: `qnap_nas`
 - Path: `packages/qnap_nas/`
 - Description: Collect logs from QNAP NAS devices with Elastic Agent.
-- Version: 1.25.4
+- Version: 1.26.0
 - Docs: `packages/qnap_nas/docs/README.md`
 
 ### Qualys Global AssetView
@@ -2862,7 +2862,7 @@ integrations/
 - Name: `system`
 - Path: `packages/system/`
 - Description: Collect system logs and metrics from your servers with Elastic Agent.
-- Version: 2.21.0
+- Version: 2.22.1
 - Categories: os_system
 - Docs: `packages/system/docs/README.md`
 
@@ -3148,7 +3148,7 @@ integrations/
 - Name: `ti_threatq`
 - Path: `packages/ti_threatq/`
 - Description: Ingest threat intelligence indicators from ThreatQuotient with Elastic Agent.
-- Version: 1.39.1
+- Version: 1.39.2
 - Categories: security, threat_intel
 - Docs: `packages/ti_threatq/docs/README.md`
 
