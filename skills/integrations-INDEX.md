@@ -1839,7 +1839,7 @@ integrations/
 - Name: `m365_defender`
 - Path: `packages/m365_defender/`
 - Description: Collect logs from Microsoft Defender XDR with Elastic Agent.
-- Version: 5.15.0
+- Version: 5.15.1
 - Categories: security, edr_xdr, vulnerability_workflow, cloudsecurity_cdr
 - Docs: `packages/m365_defender/docs/README.md`
 
@@ -2244,7 +2244,7 @@ integrations/
 - Name: `otel_android_dashboards`
 - Path: `packages/otel_android_dashboards/`
 - Description: Dashboards for visualizing Android application's telemetry
-- Version: 0.1.2
+- Version: 0.1.3
 - Categories: observability, application_observability, opentelemetry
 - Docs: `packages/otel_android_dashboards/docs/README.md`
 
@@ -2966,7 +2966,7 @@ integrations/
 - Name: `ti_abusech`
 - Path: `packages/ti_abusech/`
 - Description: Ingest threat intelligence indicators from URL Haus, Malware Bazaar, and Threat Fox feeds with Elastic Agent.
-- Version: 4.1.2
+- Version: 4.2.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_abusech/docs/README.md`
 
