@@ -28,7 +28,7 @@ integrations/
 - Name: `1password`
 - Path: `packages/1password/`
 - Description: Collect logs from 1Password with Elastic Agent.
-- Version: 1.36.0
+- Version: 1.37.0
 - Categories: security, credential_management
 - Docs: `packages/1password/docs/README.md`
 
@@ -100,7 +100,7 @@ integrations/
 - Name: `akamai`
 - Path: `packages/akamai/`
 - Description: Collect logs from Akamai with Elastic Agent.
-- Version: 3.2.0
+- Version: 3.3.0
 - Docs: `packages/akamai/docs/README.md`
 
 ### Amazon Security Lake
@@ -187,7 +187,7 @@ integrations/
 - Name: `atlassian_bitbucket`
 - Path: `packages/atlassian_bitbucket/`
 - Description: Collect logs from Atlassian Bitbucket with Elastic Agent.
-- Version: 2.9.0
+- Version: 2.10.0
 - Categories: security, productivity_security
 - Docs: `packages/atlassian_bitbucket/docs/README.md`
 
@@ -195,7 +195,7 @@ integrations/
 - Name: `atlassian_confluence`
 - Path: `packages/atlassian_confluence/`
 - Description: Collect logs from Atlassian Confluence with Elastic Agent.
-- Version: 1.32.0
+- Version: 1.33.0
 - Categories: security, productivity_security
 - Docs: `packages/atlassian_confluence/docs/README.md`
 
@@ -203,7 +203,7 @@ integrations/
 - Name: `atlassian_jira`
 - Path: `packages/atlassian_jira/`
 - Description: Collect logs from Atlassian Jira with Elastic Agent.
-- Version: 1.33.0
+- Version: 1.34.0
 - Categories: security, productivity_security
 - Docs: `packages/atlassian_jira/docs/README.md`
 
@@ -395,7 +395,7 @@ integrations/
 - Name: `azure_frontdoor`
 - Path: `packages/azure_frontdoor/`
 - Description: This Elastic integration collects logs from Azure Frontdoor.
-- Version: 2.4.0
+- Version: 2.5.0
 - Categories: azure, cloud, network
 - Docs: `packages/azure_frontdoor/docs/README.md`
 
@@ -513,7 +513,7 @@ integrations/
 - Name: `bitdefender`
 - Path: `packages/bitdefender/`
 - Description: Ingest BitDefender GravityZone logs and data
-- Version: 2.11.0
+- Version: 2.12.0
 - Categories: security
 - Docs: `packages/bitdefender/docs/README.md`
 
@@ -623,7 +623,7 @@ integrations/
 - Name: `checkpoint`
 - Path: `packages/checkpoint/`
 - Description: Collect logs from Check Point with Elastic Agent.
-- Version: 1.48.0
+- Version: 1.49.0
 - Docs: `packages/checkpoint/docs/README.md`
 
 ### Check Point Harmony Email & Collaboration
@@ -806,7 +806,7 @@ integrations/
 - Name: `cloudflare`
 - Path: `packages/cloudflare/`
 - Description: Collect logs from Cloudflare with Elastic Agent.
-- Version: 2.35.0
+- Version: 2.36.0
 - Docs: `packages/cloudflare/docs/README.md`
 
 ### Cloudflare Logpush
@@ -893,7 +893,7 @@ integrations/
 - Name: `crowdstrike`
 - Path: `packages/crowdstrike/`
 - Description: Collect logs from Crowdstrike with Elastic Agent.
-- Version: 4.4.1
+- Version: 4.4.2
 - Docs: `packages/crowdstrike/docs/README.md`
 
 ### CyberArk EPM
@@ -953,7 +953,7 @@ integrations/
 - Name: `ded`
 - Path: `packages/ded/`
 - Description: ML package to detect data exfiltration in your network and file data.
-- Version: 3.3.0
+- Version: 3.4.0
 - Categories: security, network, advanced_analytics_ueba
 - Docs: `packages/ded/docs/README.md`
 
@@ -961,7 +961,7 @@ integrations/
 - Name: `dga`
 - Path: `packages/dga/`
 - Description: ML solution package to detect domain generation algorithm (DGA) activity in your network data.
-- Version: 3.1.0
+- Version: 3.2.0
 - Categories: security, network_security, advanced_analytics_ueba
 - Docs: `packages/dga/docs/README.md`
 
@@ -1040,7 +1040,7 @@ integrations/
 - Name: `elasticsearch`
 - Path: `packages/elasticsearch/`
 - Description: Elasticsearch Integration
-- Version: 1.21.1
+- Version: 1.22.0
 - Docs: `packages/elasticsearch/docs/README.md`
 
 ### Endace
@@ -1517,7 +1517,7 @@ integrations/
 - Name: `iis`
 - Path: `packages/iis/`
 - Description: Collect access logs, error logs, and performance metrics from IIS on Windows via Elastic Agent.
-- Version: 1.24.7
+- Version: 1.24.8
 - Categories: web, observability
 - Docs: `packages/iis/docs/README.md`
 
@@ -1644,7 +1644,7 @@ integrations/
 - Name: `jamf_protect`
 - Path: `packages/jamf_protect/`
 - Description: Receives events from Jamf Protect with Elastic Agent.
-- Version: 3.3.1
+- Version: 3.4.0
 - Categories: security, edr_xdr
 - Docs: `packages/jamf_protect/docs/README.md`
 
@@ -1668,7 +1668,7 @@ integrations/
 - Name: `jumpcloud`
 - Path: `packages/jumpcloud/`
 - Description: Collect logs from JumpCloud Directory as a Service
-- Version: 1.21.0
+- Version: 1.22.0
 - Categories: cloud, security
 - Docs: `packages/jumpcloud/docs/README.md`
 
@@ -1745,7 +1745,7 @@ integrations/
 - Name: `keycloak`
 - Path: `packages/keycloak/`
 - Description: Collect logs from Keycloak with Elastic Agent.
-- Version: 1.31.2
+- Version: 1.32.0
 - Docs: `packages/keycloak/docs/README.md`
 
 ### Kibana
@@ -1799,7 +1799,7 @@ integrations/
 - Name: `lmd`
 - Path: `packages/lmd/`
 - Description: ML package to detect lateral movement based on file transfer activity and Windows RDP events.
-- Version: 3.3.0
+- Version: 3.4.0
 - Categories: security, advanced_analytics_ueba
 - Docs: `packages/lmd/docs/README.md`
 
@@ -1959,7 +1959,7 @@ integrations/
 - Name: `mimecast`
 - Path: `packages/mimecast/`
 - Description: Collect logs from Mimecast with Elastic Agent.
-- Version: 3.4.4
+- Version: 3.5.0
 - Docs: `packages/mimecast/docs/README.md`
 
 ### Miniflux RSS reader
@@ -2268,7 +2268,7 @@ integrations/
 - Name: `pad`
 - Path: `packages/pad/`
 - Description: ML package to detect anomalous privileged access activity in Windows, Linux and Okta logs
-- Version: 2.3.0
+- Version: 2.4.0
 - Categories: security, advanced_analytics_ueba
 - Docs: `packages/pad/docs/README.md`
 
@@ -2379,7 +2379,7 @@ integrations/
 - Name: `problemchild`
 - Path: `packages/problemchild/`
 - Description: ML solution package to detect Living off the Land (LotL) attacks in your environment. Requires a Platinum subscription.
-- Version: 3.1.0
+- Version: 3.2.0
 - Categories: security, advanced_analytics_ueba
 - Docs: `packages/problemchild/docs/README.md`
 
@@ -2656,7 +2656,7 @@ integrations/
 - Name: `slack`
 - Path: `packages/slack/`
 - Description: Slack Logs Integration
-- Version: 1.29.0
+- Version: 1.30.0
 - Categories: productivity, security
 - Docs: `packages/slack/docs/README.md`
 
@@ -3125,7 +3125,7 @@ integrations/
 - Name: `ti_recordedfuture`
 - Path: `packages/ti_recordedfuture/`
 - Description: Ingest threat intelligence and alert data from Recorded Future with Elastic Agent.
-- Version: 2.7.0
+- Version: 2.7.1
 - Categories: security, threat_intel
 - Docs: `packages/ti_recordedfuture/docs/README.md`
 
@@ -3140,7 +3140,7 @@ integrations/
 - Name: `ti_threatconnect`
 - Path: `packages/ti_threatconnect/`
 - Description: Collects Indicators from ThreatConnect using the Elastic Agent and saves them as logs inside Elastic
-- Version: 2.2.1
+- Version: 2.3.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_threatconnect/docs/README.md`
 
