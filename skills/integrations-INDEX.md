@@ -211,7 +211,7 @@ integrations/
 - Name: `auditd`
 - Path: `packages/auditd/`
 - Description: Collect logs from Linux audit daemon with Elastic Agent.
-- Version: 3.23.2
+- Version: 3.24.0
 - Categories: security, auditd
 - Docs: `packages/auditd/docs/README.md`
 
@@ -243,7 +243,7 @@ integrations/
 - Name: `aws`
 - Path: `packages/aws/`
 - Description: Collect logs and metrics from Amazon Web Services (AWS) with Elastic Agent.
-- Version: 7.0.0
+- Version: 7.1.0
 - Categories: aws, cloud
 - Docs: `packages/aws/docs/README.md`
 
@@ -347,7 +347,7 @@ integrations/
 - Name: `azure`
 - Path: `packages/azure/`
 - Description: This Elastic integration collects logs from Azure
-- Version: 1.37.1
+- Version: 1.38.0
 - Categories: cloud, azure, observability
 - Docs: `packages/azure/docs/README.md`
 
@@ -893,7 +893,7 @@ integrations/
 - Name: `crowdstrike`
 - Path: `packages/crowdstrike/`
 - Description: Collect logs from Crowdstrike with Elastic Agent.
-- Version: 4.4.2
+- Version: 4.4.3
 - Docs: `packages/crowdstrike/docs/README.md`
 
 ### CyberArk EPM
