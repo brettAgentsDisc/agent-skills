@@ -694,7 +694,7 @@ integrations/
 - Name: `cisco_ise`
 - Path: `packages/cisco_ise/`
 - Description: Collect logs from Cisco ISE with Elastic Agent.
-- Version: 1.32.9
+- Version: 1.32.10
 - Categories: security, network
 - Docs: `packages/cisco_ise/docs/README.md`
 
@@ -893,7 +893,7 @@ integrations/
 - Name: `crowdstrike`
 - Path: `packages/crowdstrike/`
 - Description: Collect logs from Crowdstrike with Elastic Agent.
-- Version: 4.4.3
+- Version: 4.4.4
 - Docs: `packages/crowdstrike/docs/README.md`
 
 ### CyberArk EPM
@@ -1242,7 +1242,7 @@ integrations/
 - Name: `fortinet_fortigate`
 - Path: `packages/fortinet_fortigate/`
 - Description: Collect logs from Fortinet FortiGate firewalls with Elastic Agent.
-- Version: 1.36.8
+- Version: 1.36.9
 - Docs: `packages/fortinet_fortigate/docs/README.md`
 
 ### Fortinet FortiMail
@@ -1668,7 +1668,7 @@ integrations/
 - Name: `jumpcloud`
 - Path: `packages/jumpcloud/`
 - Description: Collect logs from JumpCloud Directory as a Service
-- Version: 1.22.0
+- Version: 1.22.1
 - Categories: cloud, security
 - Docs: `packages/jumpcloud/docs/README.md`
 
@@ -1775,7 +1775,7 @@ integrations/
 - Name: `kubernetes_otel`
 - Path: `packages/kubernetes_otel/`
 - Description: Utilise the pre-built dashboard for OTel-native metrics and events collected from a Kubernetes cluster
-- Version: 2.4.0
+- Version: 2.4.1
 - Categories: kubernetes
 - Docs: `packages/kubernetes_otel/docs/README.md`
 
