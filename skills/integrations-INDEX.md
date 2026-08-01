@@ -243,7 +243,7 @@ integrations/
 - Name: `aws`
 - Path: `packages/aws/`
 - Description: Collect logs and metrics from Amazon Web Services (AWS) with Elastic Agent.
-- Version: 7.1.0
+- Version: 7.1.1
 - Categories: aws, cloud
 - Docs: `packages/aws/docs/README.md`
 
@@ -347,7 +347,7 @@ integrations/
 - Name: `azure`
 - Path: `packages/azure/`
 - Description: This Elastic integration collects logs from Azure
-- Version: 1.38.0
+- Version: 1.38.1
 - Categories: cloud, azure, observability
 - Docs: `packages/azure/docs/README.md`
 
@@ -893,7 +893,7 @@ integrations/
 - Name: `crowdstrike`
 - Path: `packages/crowdstrike/`
 - Description: Collect logs from Crowdstrike with Elastic Agent.
-- Version: 4.4.4
+- Version: 4.5.0
 - Docs: `packages/crowdstrike/docs/README.md`
 
 ### CyberArk EPM
@@ -1327,7 +1327,7 @@ integrations/
 - Name: `github`
 - Path: `packages/github/`
 - Description: Collect logs from GitHub with Elastic Agent.
-- Version: 2.25.1
+- Version: 2.25.2
 - Docs: `packages/github/docs/README.md`
 
 ### GitLab
@@ -1382,7 +1382,7 @@ integrations/
 - Name: `google_workspace`
 - Path: `packages/google_workspace/`
 - Description: Collect logs from Google Workspace with Elastic Agent.
-- Version: 3.5.1
+- Version: 3.5.2
 - Categories: productivity, productivity_security, security
 - Docs: `packages/google_workspace/docs/README.md`
 
@@ -1636,7 +1636,7 @@ integrations/
 - Name: `jamf_pro`
 - Path: `packages/jamf_pro/`
 - Description: Collect logs and inventory data from Jamf Pro with Elastic Agent
-- Version: 1.3.0
+- Version: 1.3.1
 - Categories: cloud, custom
 - Docs: `packages/jamf_pro/docs/README.md`
 
@@ -2236,7 +2236,7 @@ integrations/
 - Name: `osquery_manager`
 - Path: `packages/osquery_manager/`
 - Description: Deploy Osquery with Elastic Agent, then run and schedule queries in Kibana
-- Version: 1.32.0
+- Version: 1.33.0
 - Categories: security
 - Docs: `packages/osquery_manager/docs/README.md`
 
@@ -2783,7 +2783,7 @@ integrations/
 - Name: `sublime_security`
 - Path: `packages/sublime_security/`
 - Description: Collect logs from Sublime Security with Elastic Agent.
-- Version: 1.12.1
+- Version: 1.12.2
 - Categories: security, email_security
 - Docs: `packages/sublime_security/docs/README.md`
 
@@ -3101,7 +3101,7 @@ integrations/
 - Name: `ti_opencti`
 - Path: `packages/ti_opencti/`
 - Description: Ingest threat intelligence indicators from OpenCTI with Elastic Agent.
-- Version: 2.15.1
+- Version: 2.15.2
 - Categories: security, threat_intel
 - Docs: `packages/ti_opencti/docs/README.md`
 
