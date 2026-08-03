@@ -3125,7 +3125,7 @@ integrations/
 - Name: `ti_recordedfuture`
 - Path: `packages/ti_recordedfuture/`
 - Description: Ingest threat intelligence and alert data from Recorded Future with Elastic Agent.
-- Version: 2.7.1
+- Version: 2.7.2
 - Categories: security, threat_intel
 - Docs: `packages/ti_recordedfuture/docs/README.md`
 
