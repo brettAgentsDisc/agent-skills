@@ -1070,7 +1070,7 @@ integrations/
 - Name: `entityanalytics_entra_id`
 - Path: `packages/entityanalytics_entra_id/`
 - Description: Collect identities from Microsoft Entra ID (formerly Azure Active Directory) with Elastic Agent.
-- Version: 1.11.0
+- Version: 1.12.0
 - Categories: azure, cloud, security, advanced_analytics_ueba
 - Docs: `packages/entityanalytics_entra_id/docs/README.md`
 
@@ -1989,7 +1989,7 @@ integrations/
 - Name: `mongodb_atlas`
 - Path: `packages/mongodb_atlas/`
 - Description: This Elastic integration collects logs and metrics from MongoDB Atlas instance.
-- Version: 1.3.0
+- Version: 1.3.1
 - Categories: cloud, datastore, observability
 - Docs: `packages/mongodb_atlas/docs/README.md`
 
@@ -2165,7 +2165,7 @@ integrations/
 - Name: `o365`
 - Path: `packages/o365/`
 - Description: Collect logs from Microsoft Office 365 with Elastic Agent.
-- Version: 3.10.6
+- Version: 3.10.7
 - Categories: security, productivity_security
 - Docs: `packages/o365/docs/README.md`
 
@@ -2624,7 +2624,7 @@ integrations/
 - Name: `security_detection_engine`
 - Path: `packages/security_detection_engine/`
 - Description: Prebuilt detection rules for Elastic Security
-- Version: 9.5.1
+- Version: 9.5.2
 - Categories: security, siem
 - Docs: `packages/security_detection_engine/docs/README.md`
 
@@ -2862,7 +2862,7 @@ integrations/
 - Name: `system`
 - Path: `packages/system/`
 - Description: Collect system logs and metrics from your servers with Elastic Agent.
-- Version: 2.22.1
+- Version: 2.22.2
 - Categories: os_system
 - Docs: `packages/system/docs/README.md`
 
@@ -2910,7 +2910,7 @@ integrations/
 - Name: `tenable_io`
 - Path: `packages/tenable_io/`
 - Description: Collect logs from Tenable Vulnerability Management with Elastic Agent.
-- Version: 4.12.0
+- Version: 4.12.1
 - Categories: security, vulnerability_management, vulnerability_workflow, cloudsecurity_cdr
 - Docs: `packages/tenable_io/docs/README.md`
 
