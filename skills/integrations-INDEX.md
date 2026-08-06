@@ -893,7 +893,7 @@ integrations/
 - Name: `crowdstrike`
 - Path: `packages/crowdstrike/`
 - Description: Collect logs from Crowdstrike with Elastic Agent.
-- Version: 4.5.0
+- Version: 4.6.0
 - Docs: `packages/crowdstrike/docs/README.md`
 
 ### CyberArk EPM
@@ -1032,7 +1032,7 @@ integrations/
 - Name: `elastic_security`
 - Path: `packages/elastic_security/`
 - Description: Collect logs from Elastic Instance with Elastic Agent.
-- Version: 0.5.1
+- Version: 0.6.0
 - Categories: security, siem
 - Docs: `packages/elastic_security/docs/README.md`
 
@@ -1636,7 +1636,7 @@ integrations/
 - Name: `jamf_pro`
 - Path: `packages/jamf_pro/`
 - Description: Collect logs and inventory data from Jamf Pro with Elastic Agent
-- Version: 1.3.2
+- Version: 2.0.0
 - Categories: cloud, custom
 - Docs: `packages/jamf_pro/docs/README.md`
 
@@ -2497,7 +2497,7 @@ integrations/
 - Name: `qualys_vmdr`
 - Path: `packages/qualys_vmdr/`
 - Description: Collect data from Qualys VMDR platform with Elastic Agent.
-- Version: 6.19.3
+- Version: 6.19.4
 - Categories: security, vulnerability_management, vulnerability_workflow, cloudsecurity_cdr
 - Docs: `packages/qualys_vmdr/docs/README.md`
 
@@ -2536,7 +2536,7 @@ integrations/
 - Name: `rapid7_insightvm`
 - Path: `packages/rapid7_insightvm/`
 - Description: Collect logs from Rapid7 InsightVM with Elastic Agent.
-- Version: 2.9.1
+- Version: 2.9.2
 - Categories: security, vulnerability_management, vulnerability_workflow, cloudsecurity_cdr
 - Docs: `packages/rapid7_insightvm/docs/README.md`
 
@@ -2592,7 +2592,7 @@ integrations/
 - Name: `sailpoint_identity_sc`
 - Path: `packages/sailpoint_identity_sc/`
 - Description: Sailpoint identity security cloud provides enterprise identity governance and security capabilities. The integration allows users to extract audit information from their identity security cloud tenant using the ISC's AuditEvent API.
-- Version: 1.3.1
+- Version: 2.0.0-next
 - Categories: security
 - Docs: `packages/sailpoint_identity_sc/docs/README.md`
 
@@ -2632,7 +2632,7 @@ integrations/
 - Name: `sentinel_one`
 - Path: `packages/sentinel_one/`
 - Description: Collect logs from SentinelOne with Elastic Agent.
-- Version: 2.11.2
+- Version: 2.11.3
 - Categories: security, edr_xdr
 - Docs: `packages/sentinel_one/docs/README.md`
 
@@ -2998,7 +2998,7 @@ integrations/
 - Name: `ti_crowdstrike`
 - Path: `packages/ti_crowdstrike/`
 - Description: Collect logs from CrowdStrike Falcon Intelligence with Elastic Agent.
-- Version: 2.9.1
+- Version: 2.10.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_crowdstrike/docs/README.md`
 
