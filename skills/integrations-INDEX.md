@@ -52,7 +52,7 @@ integrations/
 - Name: `activemq_otel`
 - Path: `packages/activemq_otel/`
 - Description: ActiveMQ Assets for OpenTelemetry Collector
-- Version: 0.3.0
+- Version: 0.3.1
 - Categories: observability, message_queue, opentelemetry
 - Docs: `packages/activemq_otel/docs/README.md`
 
@@ -155,7 +155,7 @@ integrations/
 - Name: `apache_tomcat_otel`
 - Path: `packages/apache_tomcat_otel/`
 - Description: Apache Tomcat Assets from OpenTelemetry Collector
-- Version: 0.3.0
+- Version: 0.3.1
 - Categories: observability, web, application_observability, opentelemetry
 - Docs: `packages/apache_tomcat_otel/docs/README.md`
 
@@ -591,7 +591,7 @@ integrations/
 - Name: `cassandra_otel`
 - Path: `packages/cassandra_otel/`
 - Description: Apache Cassandra Assets from OpenTelemetry Collector
-- Version: 0.3.0
+- Version: 0.3.1
 - Categories: observability, datastore, opentelemetry
 - Docs: `packages/cassandra_otel/docs/README.md`
 
@@ -662,7 +662,7 @@ integrations/
 - Name: `cisco_asa`
 - Path: `packages/cisco_asa/`
 - Description: Collect logs from Cisco ASA with Elastic Agent.
-- Version: 2.45.10
+- Version: 2.45.11
 - Categories: network, security, firewall_security
 - Docs: `packages/cisco_asa/docs/README.md`
 
@@ -678,7 +678,7 @@ integrations/
 - Name: `cisco_ftd`
 - Path: `packages/cisco_ftd/`
 - Description: Collect logs from Cisco FTD with Elastic Agent.
-- Version: 3.13.8
+- Version: 3.13.9
 - Categories: network, security, firewall_security
 - Docs: `packages/cisco_ftd/docs/README.md`
 
@@ -877,7 +877,7 @@ integrations/
 - Name: `couchdb_otel`
 - Path: `packages/couchdb_otel/`
 - Description: CouchDB Assets for OpenTelemetry Collector
-- Version: 0.3.0
+- Version: 0.3.1
 - Categories: observability, datastore, opentelemetry
 - Docs: `packages/couchdb_otel/docs/README.md`
 
@@ -1062,7 +1062,7 @@ integrations/
 - Name: `entityanalytics_ad`
 - Path: `packages/entityanalytics_ad/`
 - Description: Collect User Identities from Active Directory Entity with Elastic Agent.
-- Version: 0.21.0
+- Version: 0.22.0
 - Categories: security, advanced_analytics_ueba
 - Docs: `packages/entityanalytics_ad/docs/README.md`
 
@@ -1070,7 +1070,7 @@ integrations/
 - Name: `entityanalytics_entra_id`
 - Path: `packages/entityanalytics_entra_id/`
 - Description: Collect identities from Microsoft Entra ID (formerly Azure Active Directory) with Elastic Agent.
-- Version: 1.12.0
+- Version: 1.13.0
 - Categories: azure, cloud, security, advanced_analytics_ueba
 - Docs: `packages/entityanalytics_entra_id/docs/README.md`
 
@@ -1078,7 +1078,7 @@ integrations/
 - Name: `entityanalytics_okta`
 - Path: `packages/entityanalytics_okta/`
 - Description: Collect Identities from Okta with Elastic Agent.
-- Version: 3.4.0
+- Version: 3.5.0
 - Categories: security, advanced_analytics_ueba
 - Docs: `packages/entityanalytics_okta/docs/README.md`
 
@@ -1422,7 +1422,7 @@ integrations/
 - Name: `haproxy_otel`
 - Path: `packages/haproxy_otel/`
 - Description: Haproxy Assets for OpenTelemetry Collector
-- Version: 0.3.0
+- Version: 0.3.1
 - Categories: observability, web, opentelemetry
 - Docs: `packages/haproxy_otel/docs/README.md`
 
@@ -1453,7 +1453,7 @@ integrations/
 - Name: `hpe_aruba_cx`
 - Path: `packages/hpe_aruba_cx/`
 - Description: Collect logs from HPE Aruba CX with Elastic Agent
-- Version: 0.4.2
+- Version: 0.4.3
 - Categories: config_management, network, security
 - Docs: `packages/hpe_aruba_cx/docs/README.md`
 
@@ -1509,7 +1509,7 @@ integrations/
 - Name: `ibmmq_otel`
 - Path: `packages/ibmmq_otel/`
 - Description: IBM MQ Assets from OpenTelemetry Collector
-- Version: 0.3.0
+- Version: 0.3.1
 - Categories: message_queue, opentelemetry, observability
 - Docs: `packages/ibmmq_otel/docs/README.md`
 
@@ -1533,7 +1533,7 @@ integrations/
 - Name: `iis_otel`
 - Path: `packages/iis_otel/`
 - Description: IIS Assets for OpenTelemetry Collector
-- Version: 0.5.0
+- Version: 0.5.1
 - Categories: web, observability, opentelemetry
 - Docs: `packages/iis_otel/docs/README.md`
 
@@ -1564,7 +1564,7 @@ integrations/
 - Name: `influxdb_otel`
 - Path: `packages/influxdb_otel/`
 - Description: InfluxDb Assets for OpenTelemetry Collector
-- Version: 0.3.0
+- Version: 0.3.1
 - Categories: datastore, observability, opentelemetry
 - Docs: `packages/influxdb_otel/docs/README.md`
 
@@ -1951,7 +1951,7 @@ integrations/
 - Name: `microsoft_sqlserver_otel`
 - Path: `packages/microsoft_sqlserver_otel/`
 - Description: Microsoft SQL Server Assets
-- Version: 0.3.0
+- Version: 0.3.1
 - Categories: datastore, opentelemetry, observability
 - Docs: `packages/microsoft_sqlserver_otel/docs/README.md`
 
@@ -1959,7 +1959,7 @@ integrations/
 - Name: `mimecast`
 - Path: `packages/mimecast/`
 - Description: Collect logs from Mimecast with Elastic Agent.
-- Version: 3.5.1
+- Version: 3.6.0
 - Docs: `packages/mimecast/docs/README.md`
 
 ### Miniflux RSS reader
@@ -1997,7 +1997,7 @@ integrations/
 - Name: `mongodb_otel`
 - Path: `packages/mongodb_otel/`
 - Description: MongoDB Assets for OpenTelemetry Collector
-- Version: 0.3.0
+- Version: 0.3.1
 - Categories: observability, datastore, opentelemetry
 - Docs: `packages/mongodb_otel/docs/README.md`
 
@@ -2560,7 +2560,7 @@ integrations/
 - Name: `redis_otel`
 - Path: `packages/redis_otel/`
 - Description: Redis Assets for OpenTelemetry Collector
-- Version: 0.3.0
+- Version: 0.3.1
 - Categories: datastore, observability, opentelemetry
 - Docs: `packages/redis_otel/docs/README.md`
 
@@ -2576,7 +2576,7 @@ integrations/
 - Name: `redisenterprise_otel`
 - Path: `packages/redisenterprise_otel/`
 - Description: Redis Enterprise Assets for OpenTelemetry Collector
-- Version: 0.3.0
+- Version: 0.3.1
 - Categories: datastore, observability, opentelemetry
 - Docs: `packages/redisenterprise_otel/docs/README.md`
 
@@ -3188,7 +3188,7 @@ integrations/
 - Name: `traefik_otel`
 - Path: `packages/traefik_otel/`
 - Description: Traefik Assets for OpenTelemetry Collector
-- Version: 0.3.0
+- Version: 0.3.1
 - Categories: opentelemetry, observability
 - Docs: `packages/traefik_otel/docs/README.md`
 
@@ -3308,7 +3308,7 @@ integrations/
 - Name: `vsphere`
 - Path: `packages/vsphere/`
 - Description: This Elastic integration collects metrics and logs from vSphere/vCenter servers
-- Version: 1.24.1
+- Version: 1.24.2
 - Categories: observability, virtualization
 - Docs: `packages/vsphere/docs/README.md`
 
