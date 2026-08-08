@@ -853,7 +853,7 @@ integrations/
 - Name: `corelight`
 - Path: `packages/corelight/`
 - Description: Collect logs from Corelight with Elastic Agent.
-- Version: 1.1.0
+- Version: 1.2.0
 - Categories: security, dns_security, network, network_security, vpn_security
 - Docs: `packages/corelight/docs/README.md`
 
@@ -977,7 +977,7 @@ integrations/
 - Name: `docker`
 - Path: `packages/docker/`
 - Description: Collect container logs and metrics from Docker (or Podman) via Elastic Agent.
-- Version: 2.15.2
+- Version: 2.15.3
 - Categories: observability, containers
 - Docs: `packages/docker/docs/README.md`
 
@@ -985,7 +985,7 @@ integrations/
 - Name: `docker_input_otel`
 - Path: `packages/docker_input_otel/`
 - Description: Collect Docker container metrics via the OTel dockerstatsreceiver.
-- Version: 0.1.1
+- Version: 0.1.2
 - Categories: containers, monitoring, observability, opentelemetry
 - Docs: `packages/docker_input_otel/docs/README.md`
 
@@ -993,7 +993,7 @@ integrations/
 - Name: `docker_otel`
 - Path: `packages/docker_otel/`
 - Description: Utilise the pre-built dashboard for OTel-native metrics of Docker hosts and their running containers
-- Version: 0.3.0
+- Version: 0.3.1
 - Categories: containers, monitoring
 - Docs: `packages/docker_otel/docs/README.md`
 
@@ -2902,7 +2902,7 @@ integrations/
 - Name: `teleport`
 - Path: `packages/teleport/`
 - Description: Collect logs from Teleport with Elastic Agent.
-- Version: 1.6.2
+- Version: 1.6.3
 - Categories: monitoring, network
 - Docs: `packages/teleport/docs/README.md`
 
