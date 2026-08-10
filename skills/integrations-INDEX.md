@@ -1374,7 +1374,7 @@ integrations/
 - Name: `google_secops`
 - Path: `packages/google_secops/`
 - Description: Collect alerts from Google SecOps with Elastic Agent.
-- Version: 1.3.1
+- Version: 1.4.0
 - Categories: google_cloud, security, siem
 - Docs: `packages/google_secops/docs/README.md`
 
@@ -2783,7 +2783,7 @@ integrations/
 - Name: `sublime_security`
 - Path: `packages/sublime_security/`
 - Description: Collect logs from Sublime Security with Elastic Agent.
-- Version: 1.12.3
+- Version: 1.13.0
 - Categories: security, email_security
 - Docs: `packages/sublime_security/docs/README.md`
 
