@@ -100,7 +100,7 @@ integrations/
 - Name: `akamai`
 - Path: `packages/akamai/`
 - Description: Collect logs from Akamai with Elastic Agent.
-- Version: 3.3.0
+- Version: 4.0.0
 - Docs: `packages/akamai/docs/README.md`
 
 ### Amazon Security Lake
@@ -307,7 +307,7 @@ integrations/
 - Name: `aws_securityhub`
 - Path: `packages/aws_securityhub/`
 - Description: Collect logs from AWS Security Hub with Elastic Agent.
-- Version: 1.2.1
+- Version: 1.2.2
 - Categories: aws, security, cloudsecurity_cdr, vulnerability_workflow
 - Docs: `packages/aws_securityhub/docs/README.md`
 
@@ -750,7 +750,7 @@ integrations/
 - Name: `citrix_adc`
 - Path: `packages/citrix_adc/`
 - Description: This Elastic integration collects logs and metrics from Citrix ADC product.
-- Version: 1.18.5
+- Version: 1.18.6
 - Categories: observability, network
 - Docs: `packages/citrix_adc/docs/README.md`
 
@@ -2624,7 +2624,7 @@ integrations/
 - Name: `security_detection_engine`
 - Path: `packages/security_detection_engine/`
 - Description: Prebuilt detection rules for Elastic Security
-- Version: 9.5.2
+- Version: 9.5.3
 - Categories: security, siem
 - Docs: `packages/security_detection_engine/docs/README.md`
 
@@ -2640,7 +2640,7 @@ integrations/
 - Name: `sentinel_one_cloud_funnel`
 - Path: `packages/sentinel_one_cloud_funnel/`
 - Description: Collect logs from SentinelOne Cloud Funnel with Elastic Agent.
-- Version: 1.13.1
+- Version: 1.14.0
 - Categories: security, edr_xdr
 - Docs: `packages/sentinel_one_cloud_funnel/docs/README.md`
 
@@ -3061,7 +3061,7 @@ integrations/
 - Name: `ti_google_threat_intelligence`
 - Path: `packages/ti_google_threat_intelligence/`
 - Description: Collect Threat Intelligence Events from Google Threat Intelligence using Elastic Agent, and perform enrichment on Elasticsearch by correlating Indicators of Compromise (IOCs).
-- Version: 1.1.3
+- Version: 1.2.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_google_threat_intelligence/docs/README.md`
 
