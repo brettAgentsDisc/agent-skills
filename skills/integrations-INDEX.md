@@ -115,7 +115,7 @@ integrations/
 - Name: `apache`
 - Path: `packages/apache/`
 - Description: Collect access logs, error logs, and mod_status metrics from Apache HTTP Server via Elastic Agent.
-- Version: 3.0.1
+- Version: 3.0.2
 - Categories: web, observability
 - Docs: `packages/apache/docs/README.md`
 
@@ -123,7 +123,7 @@ integrations/
 - Name: `apache_input_otel`
 - Path: `packages/apache_input_otel/`
 - Description: Collect Apache HTTP Server metrics via the OTel apachereceiver.
-- Version: 0.1.1
+- Version: 0.1.2
 - Categories: web, observability, opentelemetry
 - Docs: `packages/apache_input_otel/docs/README.md`
 
@@ -131,7 +131,7 @@ integrations/
 - Name: `apache_otel`
 - Path: `packages/apache_otel/`
 - Description: Apache HTTP Server Assets for OpenTelemetry Collector
-- Version: 0.6.0
+- Version: 0.6.1
 - Categories: observability, web, opentelemetry
 - Docs: `packages/apache_otel/docs/README.md`
 
@@ -139,7 +139,7 @@ integrations/
 - Name: `apache_spark`
 - Path: `packages/apache_spark/`
 - Description: Collect metrics from Apache Spark clusters via Jolokia JMX.
-- Version: 1.5.1
+- Version: 1.5.2
 - Categories: observability, analytics_engine
 - Docs: `packages/apache_spark/docs/README.md`
 
@@ -147,7 +147,7 @@ integrations/
 - Name: `apache_tomcat`
 - Path: `packages/apache_tomcat/`
 - Description: Collect logs and metrics from Apache Tomcat via Elastic Agent.
-- Version: 1.13.1
+- Version: 1.13.2
 - Categories: web, observability
 - Docs: `packages/apache_tomcat/docs/README.md`
 
@@ -155,7 +155,7 @@ integrations/
 - Name: `apache_tomcat_otel`
 - Path: `packages/apache_tomcat_otel/`
 - Description: Apache Tomcat Assets from OpenTelemetry Collector
-- Version: 0.3.1
+- Version: 0.3.2
 - Categories: observability, web, application_observability, opentelemetry
 - Docs: `packages/apache_tomcat_otel/docs/README.md`
 
@@ -702,7 +702,7 @@ integrations/
 - Name: `cisco_meraki`
 - Path: `packages/cisco_meraki/`
 - Description: Collect logs from Cisco Meraki with Elastic Agent.
-- Version: 1.31.1
+- Version: 1.31.2
 - Categories: network, security
 - Docs: `packages/cisco_meraki/docs/README.md`
 
@@ -1024,7 +1024,7 @@ integrations/
 - Name: `elastic_package_registry`
 - Path: `packages/elastic_package_registry/`
 - Description: Collect metrics from a Elastic Package Registry instance
-- Version: 0.4.0
+- Version: 0.4.1
 - Categories: elastic_stack
 - Docs: `packages/elastic_package_registry/docs/README.md`
 
@@ -1430,7 +1430,7 @@ integrations/
 - Name: `hashicorp_vault`
 - Path: `packages/hashicorp_vault/`
 - Description: Collect logs and metrics from Hashicorp Vault with Elastic Agent.
-- Version: 1.30.2
+- Version: 1.31.0
 - Categories: security, iam
 - Docs: `packages/hashicorp_vault/docs/README.md`
 
@@ -1517,7 +1517,7 @@ integrations/
 - Name: `iis`
 - Path: `packages/iis/`
 - Description: Collect access logs, error logs, and performance metrics from IIS on Windows via Elastic Agent.
-- Version: 1.24.8
+- Version: 1.24.9
 - Categories: web, observability
 - Docs: `packages/iis/docs/README.md`
 
@@ -1525,7 +1525,7 @@ integrations/
 - Name: `iis_otel_input`
 - Path: `packages/iis_input_otel/`
 - Description: Collect IIS performance metrics via the OTel iisreceiver.
-- Version: 0.1.1
+- Version: 0.1.2
 - Categories: web, observability, opentelemetry
 - Docs: `packages/iis_input_otel/docs/README.md`
 
@@ -1533,7 +1533,7 @@ integrations/
 - Name: `iis_otel`
 - Path: `packages/iis_otel/`
 - Description: IIS Assets for OpenTelemetry Collector
-- Version: 0.5.1
+- Version: 0.5.2
 - Categories: web, observability, opentelemetry
 - Docs: `packages/iis_otel/docs/README.md`
 
@@ -1705,7 +1705,7 @@ integrations/
 - Name: `kafka`
 - Path: `packages/kafka/`
 - Description: Monitor Kafka broker health - logs and metrics via Jolokia JMX and Elastic Agent.
-- Version: 1.27.1
+- Version: 1.27.2
 - Categories: stream_processing, observability
 - Docs: `packages/kafka/docs/README.md`
 
@@ -1713,7 +1713,7 @@ integrations/
 - Name: `kafka_connect`
 - Path: `packages/kafka_connect/`
 - Description: Collect metrics from Kafka Connect instances via Jolokia JMX.
-- Version: 0.1.1
+- Version: 0.1.2
 - Categories: message_queue, observability, monitoring, infrastructure
 - Docs: `packages/kafka_connect/docs/README.md`
 
@@ -1721,7 +1721,7 @@ integrations/
 - Name: `kafka_log`
 - Path: `packages/kafka_log/`
 - Description: Consume log data from Kafka topics via Elastic Agent. Use this to route existing Kafka log streams into Elasticsearch.
-- Version: 2.1.1
+- Version: 2.1.2
 - Categories: observability, custom
 - Docs: `packages/kafka_log/docs/README.md`
 
@@ -1729,7 +1729,7 @@ integrations/
 - Name: `kafka_otel`
 - Path: `packages/kafka_otel/`
 - Description: Kafka Assets for OpenTelemetry Collector
-- Version: 0.3.0
+- Version: 0.3.1
 - Categories: observability, message_queue, opentelemetry
 - Docs: `packages/kafka_otel/docs/README.md`
 
@@ -1767,7 +1767,7 @@ integrations/
 - Name: `kubernetes`
 - Path: `packages/kubernetes/`
 - Description: Collect logs and metrics from Kubernetes clusters with Elastic Agent.
-- Version: 1.85.2
+- Version: 1.85.3
 - Categories: observability, containers, kubernetes
 - Docs: `packages/kubernetes/docs/README.md`
 
@@ -1943,7 +1943,7 @@ integrations/
 - Name: `microsoft_sqlserver`
 - Path: `packages/microsoft_sqlserver/`
 - Description: Collect events from Microsoft SQL Server with Elastic Agent
-- Version: 2.17.0
+- Version: 2.17.1
 - Categories: database_security, security, observability
 - Docs: `packages/microsoft_sqlserver/docs/README.md`
 
@@ -2005,7 +2005,7 @@ integrations/
 - Name: `mysql`
 - Path: `packages/mysql/`
 - Description: Collect error logs, slow logs, and performance metrics from MySQL via Elastic Agent.
-- Version: 1.30.1
+- Version: 1.30.2
 - Categories: datastore, observability
 - Docs: `packages/mysql/docs/README.md`
 
@@ -2013,7 +2013,7 @@ integrations/
 - Name: `mysql_enterprise`
 - Path: `packages/mysql_enterprise/`
 - Description: Collect MySQL Enterprise audit logs for security monitoring.
-- Version: 1.17.1
+- Version: 1.17.2
 - Categories: security
 - Docs: `packages/mysql_enterprise/docs/README.md`
 
@@ -2021,7 +2021,7 @@ integrations/
 - Name: `mysql_input_otel`
 - Path: `packages/mysql_input_otel/`
 - Description: Collect MySQL performance metrics and query samples via the OTel mysqlreceiver.
-- Version: 0.2.2
+- Version: 0.2.3
 - Categories: datastore, observability, opentelemetry
 - Docs: `packages/mysql_input_otel/docs/README.md`
 
@@ -2029,7 +2029,7 @@ integrations/
 - Name: `mysql_otel`
 - Path: `packages/mysql_otel/`
 - Description: MySQL Assets for OpenTelemetry Collector
-- Version: 0.6.0
+- Version: 0.6.1
 - Categories: datastore, observability, opentelemetry
 - Docs: `packages/mysql_otel/docs/README.md`
 
@@ -2101,7 +2101,7 @@ integrations/
 - Name: `nginx`
 - Path: `packages/nginx/`
 - Description: Collect access logs, error logs, and stub_status metrics from Nginx via Elastic Agent.
-- Version: 3.2.1
+- Version: 3.2.2
 - Categories: web, observability
 - Docs: `packages/nginx/docs/README.md`
 
@@ -2109,7 +2109,7 @@ integrations/
 - Name: `nginx_ingress_controller`
 - Path: `packages/nginx_ingress_controller/`
 - Description: Collect access and error logs from nginx-ingress pods. Use this instead of the standard Nginx integration when running the Kubernetes ingress controller.
-- Version: 1.14.1
+- Version: 1.14.2
 - Categories: observability, containers, kubernetes
 - Docs: `packages/nginx_ingress_controller/docs/README.md`
 
@@ -2117,7 +2117,7 @@ integrations/
 - Name: `nginx_ingress_controller_otel`
 - Path: `packages/nginx_ingress_controller_otel/`
 - Description: Collect Nginx Ingress Controller logs using the OpenTelemetry collector.
-- Version: 0.4.0
+- Version: 0.4.1
 - Categories: observability, containers, kubernetes, opentelemetry
 - Docs: `packages/nginx_ingress_controller_otel/docs/README.md`
 
@@ -2125,7 +2125,7 @@ integrations/
 - Name: `nginx_otel_input`
 - Path: `packages/nginx_input_otel/`
 - Description: Collect Nginx metrics via the OTel nginxreceiver.
-- Version: 0.2.1
+- Version: 0.2.2
 - Categories: web, observability, opentelemetry
 - Docs: `packages/nginx_input_otel/docs/README.md`
 
@@ -2133,7 +2133,7 @@ integrations/
 - Name: `nginx_otel`
 - Path: `packages/nginx_otel/`
 - Description: NGINX Assets from OpenTelemetry Collector
-- Version: 0.6.0
+- Version: 0.6.1
 - Categories: observability, web, opentelemetry
 - Docs: `packages/nginx_otel/docs/README.md`
 
@@ -2204,7 +2204,7 @@ integrations/
 - Name: `oracle`
 - Path: `packages/oracle/`
 - Description: Collect Oracle Audit Log, Performance metrics, Tablespace metrics, Sysmetrics metrics, System statistics metrics, memory metrics from Oracle database.
-- Version: 1.31.3
+- Version: 1.31.4
 - Categories: observability, datastore
 - Docs: `packages/oracle/docs/README.md`
 
@@ -2395,7 +2395,7 @@ integrations/
 - Name: `prometheus`
 - Path: `packages/prometheus/`
 - Description: Scrape Prometheus-format metrics from exporters, query the Prometheus API, or receive remote_write data via Elastic Agent.
-- Version: 1.24.3
+- Version: 1.24.4
 - Categories: observability, monitoring, containers
 - Docs: `packages/prometheus/docs/README.md`
 
@@ -2403,7 +2403,7 @@ integrations/
 - Name: `prometheus_input`
 - Path: `packages/prometheus_input/`
 - Description: Scrape Prometheus-format metrics via Elastic Agent with Kubernetes leader election support.
-- Version: 1.0.1
+- Version: 1.0.2
 - Categories: monitoring, containers, custom, observability
 - Docs: `packages/prometheus_input/docs/README.md`
 
@@ -2411,7 +2411,7 @@ integrations/
 - Name: `prometheus_input_otel`
 - Path: `packages/prometheus_input_otel/`
 - Description: Scrape Prometheus-format metrics via the OTel Collector with guided HTTPS/TLS/auth configuration.
-- Version: 0.1.1
+- Version: 0.1.2
 - Categories: monitoring, observability, opentelemetry
 - Docs: `packages/prometheus_input_otel/docs/README.md`
 
@@ -2419,7 +2419,7 @@ integrations/
 - Name: `prometheus_input_otel_raw`
 - Path: `packages/prometheus_input_otel_raw/`
 - Description: Scrape Prometheus-format metrics via the OTel Collector using your own prometheus.yml scrape_configs.
-- Version: 0.1.1
+- Version: 0.1.2
 - Categories: monitoring, observability, opentelemetry
 - Docs: `packages/prometheus_input_otel_raw/docs/README.md`
 
@@ -2544,7 +2544,7 @@ integrations/
 - Name: `redis`
 - Path: `packages/redis/`
 - Description: Collect logs and metrics from Redis via Elastic Agent. Includes slow logs, key statistics, and server metrics.
-- Version: 1.21.1
+- Version: 1.21.2
 - Categories: datastore, observability
 - Docs: `packages/redis/docs/README.md`
 
@@ -2552,7 +2552,7 @@ integrations/
 - Name: `redis_input_otel`
 - Path: `packages/redis_input_otel/`
 - Description: Collect Redis metrics via the OTel redisreceiver.
-- Version: 0.1.1
+- Version: 0.1.2
 - Categories: datastore, observability, opentelemetry
 - Docs: `packages/redis_input_otel/docs/README.md`
 
@@ -2560,7 +2560,7 @@ integrations/
 - Name: `redis_otel`
 - Path: `packages/redis_otel/`
 - Description: Redis Assets for OpenTelemetry Collector
-- Version: 0.3.1
+- Version: 0.3.2
 - Categories: datastore, observability, opentelemetry
 - Docs: `packages/redis_otel/docs/README.md`
 
@@ -2568,7 +2568,7 @@ integrations/
 - Name: `redisenterprise`
 - Path: `packages/redisenterprise/`
 - Description: Collect metrics from Redis Enterprise clusters via the Prometheus endpoint.
-- Version: 0.12.1
+- Version: 0.12.2
 - Categories: datastore, observability
 - Docs: `packages/redisenterprise/docs/README.md`
 
@@ -2576,7 +2576,7 @@ integrations/
 - Name: `redisenterprise_otel`
 - Path: `packages/redisenterprise_otel/`
 - Description: Redis Enterprise Assets for OpenTelemetry Collector
-- Version: 0.3.1
+- Version: 0.3.2
 - Categories: datastore, observability, opentelemetry
 - Docs: `packages/redisenterprise_otel/docs/README.md`
 
@@ -2823,7 +2823,7 @@ integrations/
 - Name: `synthetics`
 - Path: `packages/synthetics/`
 - Description: Internal Elastic integration for providing access to private locations.
-- Version: 1.8.0
+- Version: 1.9.0
 - Categories: observability
 - Docs: `packages/synthetics/docs/README.md`
 
@@ -2862,7 +2862,7 @@ integrations/
 - Name: `system`
 - Path: `packages/system/`
 - Description: Collect system logs and metrics from your servers with Elastic Agent.
-- Version: 2.22.2
+- Version: 2.22.3
 - Categories: os_system
 - Docs: `packages/system/docs/README.md`
 
