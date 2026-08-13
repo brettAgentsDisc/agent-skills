@@ -92,7 +92,7 @@ integrations/
 - Name: `airlock_digital`
 - Path: `packages/airlock_digital/`
 - Description: Collect logs from Airlock Digital with Elastic Agent.
-- Version: 0.5.1
+- Version: 0.6.0
 - Categories: security
 - Docs: `packages/airlock_digital/docs/README.md`
 
@@ -179,7 +179,7 @@ integrations/
 - Name: `armis`
 - Path: `packages/armis/`
 - Description: Collect logs from Armis with Elastic Agent.
-- Version: 0.6.1
+- Version: 0.7.0
 - Categories: security
 - Docs: `packages/armis/docs/README.md`
 
@@ -474,7 +474,7 @@ integrations/
 - Name: `beaconing`
 - Path: `packages/beaconing/`
 - Description: Package to identify beaconing activity in your network events.
-- Version: 1.7.0
+- Version: 1.7.1
 - Categories: security, advanced_analytics_ueba
 - Docs: `packages/beaconing/docs/README.md`
 
@@ -521,7 +521,7 @@ integrations/
 - Name: `bitsight`
 - Path: `packages/bitsight/`
 - Description: Ingest data from the Bitsight API.
-- Version: 0.4.1
+- Version: 0.5.0
 - Categories: custom, security
 - Docs: `packages/bitsight/docs/README.md`
 
@@ -893,7 +893,7 @@ integrations/
 - Name: `crowdstrike`
 - Path: `packages/crowdstrike/`
 - Description: Collect logs from Crowdstrike with Elastic Agent.
-- Version: 4.6.0
+- Version: 4.7.0
 - Docs: `packages/crowdstrike/docs/README.md`
 
 ### CyberArk EPM
@@ -930,7 +930,7 @@ integrations/
 - Name: `cyera`
 - Path: `packages/cyera/`
 - Description: Collect logs from Cyera with Elastic Agent.
-- Version: 0.10.1
+- Version: 0.11.0
 - Categories: security
 - Docs: `packages/cyera/docs/README.md`
 
@@ -953,7 +953,7 @@ integrations/
 - Name: `ded`
 - Path: `packages/ded/`
 - Description: ML package to detect data exfiltration in your network and file data.
-- Version: 3.4.0
+- Version: 3.4.1
 - Categories: security, network, advanced_analytics_ueba
 - Docs: `packages/ded/docs/README.md`
 
@@ -961,7 +961,7 @@ integrations/
 - Name: `dga`
 - Path: `packages/dga/`
 - Description: ML solution package to detect domain generation algorithm (DGA) activity in your network data.
-- Version: 3.2.0
+- Version: 3.3.0
 - Categories: security, network_security, advanced_analytics_ueba
 - Docs: `packages/dga/docs/README.md`
 
@@ -1086,7 +1086,7 @@ integrations/
 - Name: `entro`
 - Path: `packages/entro/`
 - Description: Collect logs from Entro with Elastic Agent.
-- Version: 0.4.1
+- Version: 0.5.0
 - Categories: cloud, security
 - Docs: `packages/entro/docs/README.md`
 
@@ -1142,7 +1142,7 @@ integrations/
 - Name: `extrahop`
 - Path: `packages/extrahop/`
 - Description: Collect logs from ExtraHop RevealX 360 with Elastic Agent.
-- Version: 0.3.2
+- Version: 0.4.0
 - Categories: security
 - Docs: `packages/extrahop/docs/README.md`
 
@@ -1461,7 +1461,7 @@ integrations/
 - Name: `hta`
 - Path: `packages/hta/`
 - Description: Prebuilt dashboard for Machine Learning module Security: Host.
-- Version: 2.0.0
+- Version: 2.0.1
 - Categories: security
 - Docs: `packages/hta/docs/README.md`
 
@@ -1799,7 +1799,7 @@ integrations/
 - Name: `lmd`
 - Path: `packages/lmd/`
 - Description: ML package to detect lateral movement based on file transfer activity and Windows RDP events.
-- Version: 3.4.0
+- Version: 3.4.1
 - Categories: security, advanced_analytics_ueba
 - Docs: `packages/lmd/docs/README.md`
 
@@ -2053,7 +2053,7 @@ integrations/
 - Name: `neon_cyber`
 - Path: `packages/neon_cyber/`
 - Description: The Neon Cyber integration for the Elastic Stack
-- Version: 0.2.1
+- Version: 0.3.0
 - Categories: security, edr_xdr
 - Docs: `packages/neon_cyber/docs/README.md`
 
@@ -2141,7 +2141,7 @@ integrations/
 - Name: `nozomi_networks`
 - Path: `packages/nozomi_networks/`
 - Description: Collect logs from Nozomi Networks with Elastic Agent.
-- Version: 0.3.1
+- Version: 0.4.0
 - Categories: security, network
 - Docs: `packages/nozomi_networks/docs/README.md`
 
@@ -2244,7 +2244,7 @@ integrations/
 - Name: `otel_android_dashboards`
 - Path: `packages/otel_android_dashboards/`
 - Description: Dashboards for visualizing Android application's telemetry
-- Version: 0.1.3
+- Version: 1.0.0
 - Categories: observability, application_observability, opentelemetry
 - Docs: `packages/otel_android_dashboards/docs/README.md`
 
@@ -2268,7 +2268,7 @@ integrations/
 - Name: `pad`
 - Path: `packages/pad/`
 - Description: ML package to detect anomalous privileged access activity in Windows, Linux and Okta logs
-- Version: 2.4.0
+- Version: 2.4.1
 - Categories: security, advanced_analytics_ueba
 - Docs: `packages/pad/docs/README.md`
 
@@ -2379,7 +2379,7 @@ integrations/
 - Name: `problemchild`
 - Path: `packages/problemchild/`
 - Description: ML solution package to detect Living off the Land (LotL) attacks in your environment. Requires a Platinum subscription.
-- Version: 3.2.0
+- Version: 3.2.1
 - Categories: security, advanced_analytics_ueba
 - Docs: `packages/problemchild/docs/README.md`
 
@@ -2489,7 +2489,7 @@ integrations/
 - Name: `qualys_gav`
 - Path: `packages/qualys_gav/`
 - Description: Collect logs from Qualys Global AssetView with Elastic Agent.
-- Version: 0.9.2
+- Version: 0.10.0
 - Categories: security
 - Docs: `packages/qualys_gav/docs/README.md`
 
@@ -2505,7 +2505,7 @@ integrations/
 - Name: `qualys_was`
 - Path: `packages/qualys_was/`
 - Description: Collect data from Qualys Web Application Scanning platform with Elastic Agent or Agentless
-- Version: 0.5.1
+- Version: 0.6.0
 - Categories: security, vulnerability_management
 - Docs: `packages/qualys_was/docs/README.md`
 
@@ -2799,7 +2799,7 @@ integrations/
 - Name: `swimlane`
 - Path: `packages/swimlane/`
 - Description: Collect Swimlane Turbine Audit logs with Elastic Agent
-- Version: 0.5.1
+- Version: 0.6.0
 - Categories: security
 - Docs: `packages/swimlane/docs/README.md`
 
@@ -2862,7 +2862,7 @@ integrations/
 - Name: `system`
 - Path: `packages/system/`
 - Description: Collect system logs and metrics from your servers with Elastic Agent.
-- Version: 2.22.3
+- Version: 2.22.4
 - Categories: os_system
 - Docs: `packages/system/docs/README.md`
 
@@ -3022,7 +3022,7 @@ integrations/
 - Name: `ti_cyware_intel_exchange`
 - Path: `packages/ti_cyware_intel_exchange/`
 - Description: Collect logs from Cyware Intel Exchange with Elastic Agent.
-- Version: 0.4.2
+- Version: 0.5.0
 - Docs: `packages/ti_cyware_intel_exchange/docs/README.md`
 
 ### DomainTools Feeds
@@ -3053,7 +3053,7 @@ integrations/
 - Name: `ti_flashpoint`
 - Path: `packages/ti_flashpoint/`
 - Description: Collect logs from Flashpoint with Elastic Agent.
-- Version: 0.3.2
+- Version: 0.4.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_flashpoint/docs/README.md`
 
@@ -3069,7 +3069,7 @@ integrations/
 - Name: `ti_greynoise`
 - Path: `packages/ti_greynoise/`
 - Description: Collect Threat Intelligence Indicators from GreyNoise using Elastic Agent, and perform enrichment on Elasticsearch by correlating Indicators of Compromise (IOCs).
-- Version: 0.9.3
+- Version: 0.10.0
 - Categories: threat_intel, security
 - Docs: `packages/ti_greynoise/docs/README.md`
 
@@ -3292,7 +3292,7 @@ integrations/
 - Name: `vectra_rux`
 - Path: `packages/vectra_rux/`
 - Description: Collect logs from Vectra RUX with Elastic Agent.
-- Version: 0.5.1
+- Version: 0.6.0
 - Categories: security, edr_xdr
 - Docs: `packages/vectra_rux/docs/README.md`
 
@@ -3372,7 +3372,7 @@ integrations/
 - Name: `withsecure_elements`
 - Path: `packages/withsecure_elements/`
 - Description: Ingest WithSecure Elements incidents and security events data
-- Version: 0.3.1
+- Version: 0.4.0
 - Categories: security, edr_xdr
 - Docs: `packages/withsecure_elements/docs/README.md`
 
