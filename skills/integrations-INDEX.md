@@ -662,7 +662,7 @@ integrations/
 - Name: `cisco_asa`
 - Path: `packages/cisco_asa/`
 - Description: Collect logs from Cisco ASA with Elastic Agent.
-- Version: 2.45.11
+- Version: 2.45.13
 - Categories: network, security, firewall_security
 - Docs: `packages/cisco_asa/docs/README.md`
 
@@ -678,7 +678,7 @@ integrations/
 - Name: `cisco_ftd`
 - Path: `packages/cisco_ftd/`
 - Description: Collect logs from Cisco FTD with Elastic Agent.
-- Version: 3.13.9
+- Version: 3.13.10
 - Categories: network, security, firewall_security
 - Docs: `packages/cisco_ftd/docs/README.md`
 
@@ -702,7 +702,7 @@ integrations/
 - Name: `cisco_meraki`
 - Path: `packages/cisco_meraki/`
 - Description: Collect logs from Cisco Meraki with Elastic Agent.
-- Version: 1.31.2
+- Version: 1.31.3
 - Categories: network, security
 - Docs: `packages/cisco_meraki/docs/README.md`
 
@@ -2411,7 +2411,7 @@ integrations/
 - Name: `prometheus_input_otel`
 - Path: `packages/prometheus_input_otel/`
 - Description: Scrape Prometheus-format metrics via the OTel Collector with guided HTTPS/TLS/auth configuration.
-- Version: 0.1.2
+- Version: 0.2.0
 - Categories: monitoring, observability, opentelemetry
 - Docs: `packages/prometheus_input_otel/docs/README.md`
 
@@ -2664,7 +2664,7 @@ integrations/
 - Name: `snort`
 - Path: `packages/snort/`
 - Description: Collect logs from Snort with Elastic Agent.
-- Version: 1.21.2
+- Version: 1.21.3
 - Categories: ids_ips, security
 - Docs: `packages/snort/docs/README.md`
 
