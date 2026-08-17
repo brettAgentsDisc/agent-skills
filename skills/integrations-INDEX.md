@@ -1334,7 +1334,7 @@ integrations/
 - Name: `gitlab`
 - Path: `packages/gitlab/`
 - Description: Collect logs from GitLab with Elastic Agent.
-- Version: 2.6.1
+- Version: 3.0.0
 - Categories: productivity, productivity_security, security
 - Docs: `packages/gitlab/docs/README.md`
 
