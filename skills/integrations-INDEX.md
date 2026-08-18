@@ -211,7 +211,7 @@ integrations/
 - Name: `auditd`
 - Path: `packages/auditd/`
 - Description: Collect logs from Linux audit daemon with Elastic Agent.
-- Version: 3.24.0
+- Version: 3.24.1
 - Categories: security, auditd
 - Docs: `packages/auditd/docs/README.md`
 
@@ -219,7 +219,7 @@ integrations/
 - Name: `auditd_manager`
 - Path: `packages/auditd_manager/`
 - Description: The Auditd Manager Integration receives audit events from the Linux Audit Framework that is a part of the Linux kernel.
-- Version: 1.20.0
+- Version: 1.20.1
 - Categories: security, auditd
 - Docs: `packages/auditd_manager/docs/README.md`
 
@@ -1078,7 +1078,7 @@ integrations/
 - Name: `entityanalytics_okta`
 - Path: `packages/entityanalytics_okta/`
 - Description: Collect Identities from Okta with Elastic Agent.
-- Version: 3.5.0
+- Version: 3.5.1
 - Categories: security, advanced_analytics_ueba
 - Docs: `packages/entityanalytics_okta/docs/README.md`
 
@@ -1182,7 +1182,7 @@ integrations/
 - Name: `fim`
 - Path: `packages/fim/`
 - Description: The File Integrity Monitoring integration reports filesystem changes in real time.
-- Version: 1.17.0
+- Version: 1.17.1
 - Categories: security
 - Docs: `packages/fim/docs/README.md`
 
@@ -1438,7 +1438,7 @@ integrations/
 - Name: `hid_bravura_monitor`
 - Path: `packages/hid_bravura_monitor/`
 - Description: Collect logs from Bravura Security Fabric with Elastic Agent.
-- Version: 1.21.0
+- Version: 1.21.1
 - Docs: `packages/hid_bravura_monitor/docs/README.md`
 
 ### Host Metrics OpenTelemetry Input Package
@@ -1847,7 +1847,7 @@ integrations/
 - Name: `macos`
 - Path: `packages/macos/`
 - Description: Collect logs from macOS with Elastic Agent.
-- Version: 1.0.0
+- Version: 1.0.1
 - Categories: security
 - Docs: `packages/macos/docs/README.md`
 
@@ -1903,7 +1903,7 @@ integrations/
 - Name: `microsoft_dhcp`
 - Path: `packages/microsoft_dhcp/`
 - Description: Collect logs from Microsoft DHCP with Elastic Agent.
-- Version: 1.27.0
+- Version: 1.27.1
 - Categories: security
 - Docs: `packages/microsoft_dhcp/docs/README.md`
 
@@ -1911,7 +1911,7 @@ integrations/
 - Name: `microsoft_dnsserver`
 - Path: `packages/microsoft_dnsserver/`
 - Description: Collect logs from Microsoft DNS Server with Elastic Agent.
-- Version: 1.5.1
+- Version: 1.5.2
 - Categories: network, security
 - Docs: `packages/microsoft_dnsserver/docs/README.md`
 
@@ -1927,7 +1927,7 @@ integrations/
 - Name: `microsoft_exchange_server`
 - Path: `packages/microsoft_exchange_server/`
 - Description: Collect logs from Microsoft Exchange Server with Elastic Agent.
-- Version: 1.5.1
+- Version: 1.5.2
 - Categories: security
 - Docs: `packages/microsoft_exchange_server/docs/README.md`
 
@@ -2013,7 +2013,7 @@ integrations/
 - Name: `mysql_enterprise`
 - Path: `packages/mysql_enterprise/`
 - Description: Collect MySQL Enterprise audit logs for security monitoring.
-- Version: 1.17.2
+- Version: 1.17.3
 - Categories: security
 - Docs: `packages/mysql_enterprise/docs/README.md`
 
@@ -2085,7 +2085,7 @@ integrations/
 - Name: `network_traffic`
 - Path: `packages/network_traffic/`
 - Description: Capture and analyze network traffic from a host with Elastic Agent.
-- Version: 1.34.2
+- Version: 1.34.3
 - Categories: network, security
 - Docs: `packages/network_traffic/docs/README.md`
 
@@ -2228,7 +2228,7 @@ integrations/
 - Name: `osquery`
 - Path: `packages/osquery/`
 - Description: Collect logs from Osquery with Elastic Agent.
-- Version: 1.24.1
+- Version: 1.24.2
 - Categories: security
 - Docs: `packages/osquery/docs/README.md`
 
@@ -2497,7 +2497,7 @@ integrations/
 - Name: `qualys_vmdr`
 - Path: `packages/qualys_vmdr/`
 - Description: Collect data from Qualys VMDR platform with Elastic Agent.
-- Version: 6.19.4
+- Version: 6.20.0
 - Categories: security, vulnerability_management, vulnerability_workflow, cloudsecurity_cdr
 - Docs: `packages/qualys_vmdr/docs/README.md`
 
@@ -2854,7 +2854,7 @@ integrations/
 - Name: `sysmon_linux`
 - Path: `packages/sysmon_linux/`
 - Description: Collect Sysmon Linux logs with Elastic Agent.
-- Version: 1.9.0
+- Version: 1.9.1
 - Categories: os_system, security
 - Docs: `packages/sysmon_linux/docs/README.md`
 
@@ -2870,7 +2870,7 @@ integrations/
 - Name: `system_audit`
 - Path: `packages/system_audit/`
 - Description: Collect various logs & metrics from System Audit modules with Elastic Agent.
-- Version: 1.11.0
+- Version: 1.11.1
 - Categories: custom, os_system
 - Docs: `packages/system_audit/docs/README.md`
 
@@ -3244,7 +3244,7 @@ integrations/
 - Name: `unifiedlogs`
 - Path: `packages/unifiedlogs/`
 - Description: Collect and parse logs from macOS unified logs with Elastic Agent.
-- Version: 0.5.1
+- Version: 0.5.2
 - Categories: custom, os_system
 - Docs: `packages/unifiedlogs/docs/README.md`
 
@@ -3356,7 +3356,7 @@ integrations/
 - Name: `windows_etw`
 - Path: `packages/windows_etw/`
 - Description: Collect and parse logs from any Windows ETW provider with Elastic Agent.
-- Version: 1.0.0
+- Version: 1.0.1
 - Categories: custom, os_system
 - Docs: `packages/windows_etw/docs/README.md`
 
@@ -3364,7 +3364,7 @@ integrations/
 - Name: `winlog`
 - Path: `packages/winlog/`
 - Description: Collect and parse logs from any Windows event log channel with Elastic Agent.
-- Version: 2.6.0
+- Version: 2.6.1
 - Categories: custom, os_system
 - Docs: `packages/winlog/docs/README.md`
 
