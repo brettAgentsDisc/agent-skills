@@ -243,7 +243,7 @@ integrations/
 - Name: `aws`
 - Path: `packages/aws/`
 - Description: Collect logs and metrics from Amazon Web Services (AWS) with Elastic Agent.
-- Version: 7.1.1
+- Version: 7.2.0
 - Categories: aws, cloud
 - Docs: `packages/aws/docs/README.md`
 
@@ -694,7 +694,7 @@ integrations/
 - Name: `cisco_ise`
 - Path: `packages/cisco_ise/`
 - Description: Collect logs from Cisco ISE with Elastic Agent.
-- Version: 1.32.10
+- Version: 1.32.12
 - Categories: security, network
 - Docs: `packages/cisco_ise/docs/README.md`
 
@@ -1453,7 +1453,7 @@ integrations/
 - Name: `hpe_aruba_cx`
 - Path: `packages/hpe_aruba_cx/`
 - Description: Collect logs from HPE Aruba CX with Elastic Agent
-- Version: 0.4.4
+- Version: 0.4.5
 - Categories: config_management, network, security
 - Docs: `packages/hpe_aruba_cx/docs/README.md`
 
@@ -2775,7 +2775,7 @@ integrations/
 - Name: `stormshield`
 - Path: `packages/stormshield/`
 - Description: Stormshield SNS integration.
-- Version: 1.6.0
+- Version: 1.6.1
 - Categories: network, security, firewall_security, network_security
 - Docs: `packages/stormshield/docs/README.md`
 
@@ -2862,7 +2862,7 @@ integrations/
 - Name: `system`
 - Path: `packages/system/`
 - Description: Collect system logs and metrics from your servers with Elastic Agent.
-- Version: 2.22.4
+- Version: 2.23.0
 - Categories: os_system
 - Docs: `packages/system/docs/README.md`
 
