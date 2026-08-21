@@ -28,7 +28,7 @@ integrations/
 - Name: `1password`
 - Path: `packages/1password/`
 - Description: Collect logs from 1Password with Elastic Agent.
-- Version: 1.37.0
+- Version: 1.38.0
 - Categories: security, credential_management
 - Docs: `packages/1password/docs/README.md`
 
@@ -36,7 +36,7 @@ integrations/
 - Name: `abnormal_security`
 - Path: `packages/abnormal_security/`
 - Description: Collect logs from Abnormal AI with Elastic Agent.
-- Version: 1.16.1
+- Version: 1.17.0
 - Categories: security
 - Docs: `packages/abnormal_security/docs/README.md`
 
@@ -60,7 +60,7 @@ integrations/
 - Name: `admin_by_request_epm`
 - Path: `packages/admin_by_request_epm/`
 - Description: Collect logs from Admin By Request EPM with Elastic Agent.
-- Version: 1.4.1
+- Version: 1.5.0
 - Categories: security
 - Docs: `packages/admin_by_request_epm/docs/README.md`
 
@@ -100,14 +100,14 @@ integrations/
 - Name: `akamai`
 - Path: `packages/akamai/`
 - Description: Collect logs from Akamai with Elastic Agent.
-- Version: 4.0.0
+- Version: 4.1.0
 - Docs: `packages/akamai/docs/README.md`
 
 ### Amazon Security Lake
 - Name: `amazon_security_lake`
 - Path: `packages/amazon_security_lake/`
 - Description: Collect logs from Amazon Security Lake with Elastic Agent.
-- Version: 2.8.3
+- Version: 2.10.0
 - Categories: aws, security
 - Docs: `packages/amazon_security_lake/docs/README.md`
 
@@ -187,7 +187,7 @@ integrations/
 - Name: `atlassian_bitbucket`
 - Path: `packages/atlassian_bitbucket/`
 - Description: Collect logs from Atlassian Bitbucket with Elastic Agent.
-- Version: 2.10.1
+- Version: 2.11.0
 - Categories: security, productivity_security
 - Docs: `packages/atlassian_bitbucket/docs/README.md`
 
@@ -195,7 +195,7 @@ integrations/
 - Name: `atlassian_confluence`
 - Path: `packages/atlassian_confluence/`
 - Description: Collect logs from Atlassian Confluence with Elastic Agent.
-- Version: 1.33.1
+- Version: 1.34.0
 - Categories: security, productivity_security
 - Docs: `packages/atlassian_confluence/docs/README.md`
 
@@ -203,7 +203,7 @@ integrations/
 - Name: `atlassian_jira`
 - Path: `packages/atlassian_jira/`
 - Description: Collect logs from Atlassian Jira with Elastic Agent.
-- Version: 1.34.1
+- Version: 1.35.0
 - Categories: security, productivity_security
 - Docs: `packages/atlassian_jira/docs/README.md`
 
@@ -227,7 +227,7 @@ integrations/
 - Name: `auth0`
 - Path: `packages/auth0/`
 - Description: Collect logs from Auth0 with Elastic Agent.
-- Version: 1.26.1
+- Version: 1.27.0
 - Categories: security, iam
 - Docs: `packages/auth0/docs/README.md`
 
@@ -235,7 +235,7 @@ integrations/
 - Name: `authentik`
 - Path: `packages/authentik/`
 - Description: Collect logs from authentik with Elastic Agent.
-- Version: 1.11.1
+- Version: 1.12.0
 - Categories: security
 - Docs: `packages/authentik/docs/README.md`
 
@@ -243,7 +243,7 @@ integrations/
 - Name: `aws`
 - Path: `packages/aws/`
 - Description: Collect logs and metrics from Amazon Web Services (AWS) with Elastic Agent.
-- Version: 7.2.0
+- Version: 7.3.0
 - Categories: aws, cloud
 - Docs: `packages/aws/docs/README.md`
 
@@ -251,7 +251,7 @@ integrations/
 - Name: `aws_bedrock`
 - Path: `packages/aws_bedrock/`
 - Description: Collect Amazon Bedrock model invocation logs and runtime metrics with Elastic Agent.
-- Version: 1.6.0
+- Version: 1.7.0
 - Categories: aws, cloud, observability, security
 - Docs: `packages/aws_bedrock/docs/README.md`
 
@@ -307,7 +307,7 @@ integrations/
 - Name: `aws_securityhub`
 - Path: `packages/aws_securityhub/`
 - Description: Collect logs from AWS Security Hub with Elastic Agent.
-- Version: 1.2.2
+- Version: 1.3.0
 - Categories: aws, security, cloudsecurity_cdr, vulnerability_workflow
 - Docs: `packages/aws_securityhub/docs/README.md`
 
@@ -347,7 +347,7 @@ integrations/
 - Name: `azure`
 - Path: `packages/azure/`
 - Description: This Elastic integration collects logs from Azure
-- Version: 1.38.1
+- Version: 1.39.0
 - Categories: cloud, azure, observability
 - Docs: `packages/azure/docs/README.md`
 
@@ -395,7 +395,7 @@ integrations/
 - Name: `azure_frontdoor`
 - Path: `packages/azure_frontdoor/`
 - Description: This Elastic integration collects logs from Azure Frontdoor.
-- Version: 2.5.0
+- Version: 2.6.0
 - Categories: azure, cloud, network
 - Docs: `packages/azure_frontdoor/docs/README.md`
 
@@ -427,7 +427,7 @@ integrations/
 - Name: `azure_network_watcher_nsg`
 - Path: `packages/azure_network_watcher_nsg/`
 - Description: Collect logs from Azure Network Watcher NSG with Elastic Agent.
-- Version: 1.5.1
+- Version: 1.6.0
 - Categories: cloud, azure, security
 - Docs: `packages/azure_network_watcher_nsg/docs/README.md`
 
@@ -435,7 +435,7 @@ integrations/
 - Name: `azure_network_watcher_vnet`
 - Path: `packages/azure_network_watcher_vnet/`
 - Description: Collect logs from Azure Network Watcher VNet with Elastic Agent.
-- Version: 1.6.0
+- Version: 1.7.0
 - Categories: cloud, azure, security
 - Docs: `packages/azure_network_watcher_vnet/docs/README.md`
 
@@ -466,7 +466,7 @@ integrations/
 - Name: `bbot`
 - Path: `packages/bbot/`
 - Description: BBOT is a recursive internet scanner inspired by Spiderfoot, but designed to be faster, more reliable, and friendlier to pentesters, bug bounty hunters, and developers. 
-- Version: 1.4.0
+- Version: 1.5.0
 - Categories: security
 - Docs: `packages/bbot/docs/README.md`
 
@@ -489,7 +489,7 @@ integrations/
 - Name: `beelzebub`
 - Path: `packages/beelzebub/`
 - Description: Beelzebub is an advanced honeypot framework designed to provide a highly secure environment for detecting and analyzing cyber attacks. It offers a low code approach for easy implementation and uses AI to mimic the behavior of a high-interaction honeypot.
-- Version: 0.4.0
+- Version: 0.5.0
 - Categories: network, security
 - Docs: `packages/beelzebub/docs/README.md`
 
@@ -497,7 +497,7 @@ integrations/
 - Name: `beyondinsight_password_safe`
 - Path: `packages/beyondinsight_password_safe/`
 - Description: Ingest privileged access management (PAM) data from BeyondTrust's BeyondInsight PAM Reporting Platform and Password Safe, using Elastic Agent.
-- Version: 1.3.2
+- Version: 1.4.0
 - Categories: security
 - Docs: `packages/beyondinsight_password_safe/docs/README.md`
 
@@ -505,7 +505,7 @@ integrations/
 - Name: `beyondtrust_pra`
 - Path: `packages/beyondtrust_pra/`
 - Description: Collect logs from BeyondTrust PRA with Elastic Agent.
-- Version: 1.2.1
+- Version: 1.3.0
 - Categories: security
 - Docs: `packages/beyondtrust_pra/docs/README.md`
 
@@ -513,7 +513,7 @@ integrations/
 - Name: `bitdefender`
 - Path: `packages/bitdefender/`
 - Description: Ingest BitDefender GravityZone logs and data
-- Version: 2.12.1
+- Version: 2.13.0
 - Categories: security
 - Docs: `packages/bitdefender/docs/README.md`
 
@@ -529,7 +529,7 @@ integrations/
 - Name: `bitwarden`
 - Path: `packages/bitwarden/`
 - Description: Collect logs from Bitwarden with Elastic Agent.
-- Version: 1.21.1
+- Version: 1.22.0
 - Categories: security, credential_management
 - Docs: `packages/bitwarden/docs/README.md`
 
@@ -537,7 +537,7 @@ integrations/
 - Name: `blacklens`
 - Path: `packages/blacklens/`
 - Description: Collect logs from blacklens.io with Elastic Agent
-- Version: 1.3.1
+- Version: 1.4.0
 - Categories: security
 - Docs: `packages/blacklens/docs/README.md`
 
@@ -560,7 +560,7 @@ integrations/
 - Name: `canva`
 - Path: `packages/canva/`
 - Description: Collect logs from Canva with Elastic Agent.
-- Version: 1.0.0
+- Version: 1.1.0
 - Categories: security, productivity
 - Docs: `packages/canva/docs/README.md`
 
@@ -568,7 +568,7 @@ integrations/
 - Name: `carbon_black_cloud`
 - Path: `packages/carbon_black_cloud/`
 - Description: Collect logs from VMWare Carbon Black Cloud with Elastic Agent.
-- Version: 4.4.1
+- Version: 4.5.0
 - Categories: security, edr_xdr
 - Docs: `packages/carbon_black_cloud/docs/README.md`
 
@@ -576,7 +576,7 @@ integrations/
 - Name: `carbonblack_edr`
 - Path: `packages/carbonblack_edr/`
 - Description: Collect logs from VMware Carbon Black EDR with Elastic Agent.
-- Version: 1.21.0
+- Version: 1.22.0
 - Docs: `packages/carbonblack_edr/docs/README.md`
 
 ### Cassandra
@@ -630,7 +630,7 @@ integrations/
 - Name: `checkpoint_email`
 - Path: `packages/checkpoint_email/`
 - Description: Collect logs from Check Point Harmony Email & Collaboration with Elastic Agent.
-- Version: 1.6.1
+- Version: 1.7.0
 - Categories: security
 - Docs: `packages/checkpoint_email/docs/README.md`
 
@@ -638,7 +638,7 @@ integrations/
 - Name: `checkpoint_harmony_endpoint`
 - Path: `packages/checkpoint_harmony_endpoint/`
 - Description: Collect logs from Check Point Harmony Endpoint
-- Version: 1.4.1
+- Version: 1.5.0
 - Categories: security
 - Docs: `packages/checkpoint_harmony_endpoint/docs/README.md`
 
@@ -646,7 +646,7 @@ integrations/
 - Name: `cisa_kevs`
 - Path: `packages/cisa_kevs/`
 - Description: This package allows the ingest of known exploited vulnerabilities according to the Cybersecurity and Infrastructure Security Agency of the United States of America. This information could be used to enrich or track exisiting vulnerabilities that are known to be exploited in the wild.
-- Version: 1.10.1
+- Version: 1.11.0
 - Categories: security
 - Docs: `packages/cisa_kevs/docs/README.md`
 
@@ -662,7 +662,7 @@ integrations/
 - Name: `cisco_asa`
 - Path: `packages/cisco_asa/`
 - Description: Collect logs from Cisco ASA with Elastic Agent.
-- Version: 2.45.14
+- Version: 2.45.16
 - Categories: network, security, firewall_security
 - Docs: `packages/cisco_asa/docs/README.md`
 
@@ -670,7 +670,7 @@ integrations/
 - Name: `cisco_duo`
 - Path: `packages/cisco_duo/`
 - Description: Collect logs from Cisco Duo with Elastic Agent.
-- Version: 2.11.1
+- Version: 2.13.0
 - Categories: security, iam
 - Docs: `packages/cisco_duo/docs/README.md`
 
@@ -678,7 +678,7 @@ integrations/
 - Name: `cisco_ftd`
 - Path: `packages/cisco_ftd/`
 - Description: Collect logs from Cisco FTD with Elastic Agent.
-- Version: 3.13.10
+- Version: 3.13.11
 - Categories: network, security, firewall_security
 - Docs: `packages/cisco_ftd/docs/README.md`
 
@@ -694,7 +694,7 @@ integrations/
 - Name: `cisco_ise`
 - Path: `packages/cisco_ise/`
 - Description: Collect logs from Cisco ISE with Elastic Agent.
-- Version: 1.32.12
+- Version: 1.32.13
 - Categories: security, network
 - Docs: `packages/cisco_ise/docs/README.md`
 
@@ -734,7 +734,7 @@ integrations/
 - Name: `cisco_secure_endpoint`
 - Path: `packages/cisco_secure_endpoint/`
 - Description: Collect logs from Cisco Secure Endpoint (AMP) with Elastic Agent.
-- Version: 2.36.1
+- Version: 2.37.0
 - Categories: security, edr_xdr
 - Docs: `packages/cisco_secure_endpoint/docs/README.md`
 
@@ -766,7 +766,7 @@ integrations/
 - Name: `claroty_ctd`
 - Path: `packages/claroty_ctd/`
 - Description: Collect logs from Claroty CTD using Elastic Agent.
-- Version: 1.5.1
+- Version: 1.6.0
 - Categories: security
 - Docs: `packages/claroty_ctd/docs/README.md`
 
@@ -774,7 +774,7 @@ integrations/
 - Name: `claroty_xdome`
 - Path: `packages/claroty_xdome/`
 - Description: Collect logs from Claroty xDome with Elastic Agent.
-- Version: 1.2.1
+- Version: 1.3.0
 - Categories: security, vulnerability_management
 - Docs: `packages/claroty_xdome/docs/README.md`
 
@@ -806,7 +806,7 @@ integrations/
 - Name: `cloudflare`
 - Path: `packages/cloudflare/`
 - Description: Collect logs from Cloudflare with Elastic Agent.
-- Version: 2.36.1
+- Version: 2.37.0
 - Docs: `packages/cloudflare/docs/README.md`
 
 ### Cloudflare Logpush
@@ -893,14 +893,14 @@ integrations/
 - Name: `crowdstrike`
 - Path: `packages/crowdstrike/`
 - Description: Collect logs from Crowdstrike with Elastic Agent.
-- Version: 4.7.0
+- Version: 4.8.0
 - Docs: `packages/crowdstrike/docs/README.md`
 
 ### CyberArk EPM
 - Name: `cyberark_epm`
 - Path: `packages/cyberark_epm/`
 - Description: Collect logs from CyberArk EPM with Elastic Agent.
-- Version: 1.5.2
+- Version: 1.6.0
 - Categories: security
 - Docs: `packages/cyberark_epm/docs/README.md`
 
@@ -908,21 +908,21 @@ integrations/
 - Name: `cyberark_pta`
 - Path: `packages/cyberark_pta/`
 - Description: Collect security logs from Cyberark PTA integration.
-- Version: 1.15.0
+- Version: 1.16.0
 - Docs: `packages/cyberark_pta/docs/README.md`
 
 ### CyberArk Privileged Access Security
 - Name: `cyberarkpas`
 - Path: `packages/cyberarkpas/`
 - Description: Collect logs from CyberArk Privileged Access Security with Elastic Agent.
-- Version: 2.28.0
+- Version: 2.29.0
 - Docs: `packages/cyberarkpas/docs/README.md`
 
 ### Cybereason
 - Name: `cybereason`
 - Path: `packages/cybereason/`
 - Description: Collect logs from Cybereason with Elastic Agent.
-- Version: 1.8.1
+- Version: 1.9.0
 - Categories: security, edr_xdr
 - Docs: `packages/cybereason/docs/README.md`
 
@@ -938,14 +938,14 @@ integrations/
 - Name: `cylance`
 - Path: `packages/cylance/`
 - Description: Collect logs from CylanceProtect devices with Elastic Agent.
-- Version: 0.24.0
+- Version: 0.25.0
 - Docs: `packages/cylance/docs/README.md`
 
 ### Darktrace
 - Name: `darktrace`
 - Path: `packages/darktrace/`
 - Description: Collect logs from Darktrace with Elastic Agent.
-- Version: 2.3.1
+- Version: 2.4.0
 - Categories: security, network_security
 - Docs: `packages/darktrace/docs/README.md`
 
@@ -969,7 +969,7 @@ integrations/
 - Name: `digital_guardian`
 - Path: `packages/digital_guardian/`
 - Description: Collect logs from Digital Guardian with Elastic Agent.
-- Version: 1.11.1
+- Version: 1.12.0
 - Categories: security, network
 - Docs: `packages/digital_guardian/docs/README.md`
 
@@ -1062,7 +1062,7 @@ integrations/
 - Name: `entityanalytics_ad`
 - Path: `packages/entityanalytics_ad/`
 - Description: Collect User Identities from Active Directory Entity with Elastic Agent.
-- Version: 0.22.0
+- Version: 0.23.0
 - Categories: security, advanced_analytics_ueba
 - Docs: `packages/entityanalytics_ad/docs/README.md`
 
@@ -1070,7 +1070,7 @@ integrations/
 - Name: `entityanalytics_entra_id`
 - Path: `packages/entityanalytics_entra_id/`
 - Description: Collect identities from Microsoft Entra ID (formerly Azure Active Directory) with Elastic Agent.
-- Version: 1.13.0
+- Version: 1.14.0
 - Categories: azure, cloud, security, advanced_analytics_ueba
 - Docs: `packages/entityanalytics_entra_id/docs/README.md`
 
@@ -1319,7 +1319,7 @@ integrations/
 - Name: `gigamon`
 - Path: `packages/gigamon/`
 - Description: Collect logs from Gigamon with Elastic Agent.
-- Version: 2.3.0
+- Version: 2.4.0
 - Categories: custom, security, network, application_observability
 - Docs: `packages/gigamon/docs/README.md`
 
@@ -2600,7 +2600,7 @@ integrations/
 - Name: `salesforce`
 - Path: `packages/salesforce/`
 - Description: Collect logs from Salesforce instances using the Elastic Agent. This integration enables monitoring and analysis of various Salesforce logs, including Login, Logout, Setup Audit Trail, and Apex execution logs. Gain insights into user activity, security events, and application performance.
-- Version: 1.8.0
+- Version: 1.8.1
 - Categories: observability
 - Docs: `packages/salesforce/docs/README.md`
 
@@ -2823,7 +2823,7 @@ integrations/
 - Name: `synthetics`
 - Path: `packages/synthetics/`
 - Description: Internal Elastic integration for providing access to private locations.
-- Version: 1.9.0
+- Version: 1.10.0
 - Categories: observability
 - Docs: `packages/synthetics/docs/README.md`
 
@@ -3093,7 +3093,7 @@ integrations/
 - Name: `ti_misp`
 - Path: `packages/ti_misp/`
 - Description: Ingest threat intelligence indicators from MISP platform with Elastic Agent.
-- Version: 1.45.0
+- Version: 1.46.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_misp/docs/README.md`
 
