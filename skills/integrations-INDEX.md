@@ -662,7 +662,7 @@ integrations/
 - Name: `cisco_asa`
 - Path: `packages/cisco_asa/`
 - Description: Collect logs from Cisco ASA with Elastic Agent.
-- Version: 2.45.16
+- Version: 2.46.0
 - Categories: network, security, firewall_security
 - Docs: `packages/cisco_asa/docs/README.md`
 
@@ -782,7 +782,7 @@ integrations/
 - Name: `cloud_asset_inventory`
 - Path: `packages/cloud_asset_inventory/`
 - Description: Discover and Create Cloud Assets Discovery
-- Version: 1.7.1
+- Version: 1.7.2
 - Categories: security, asset_inventory, cloudsecurity_cdr
 - Docs: `packages/cloud_asset_inventory/docs/README.md`
 
@@ -790,7 +790,7 @@ integrations/
 - Name: `cloud_defend`
 - Path: `packages/cloud_defend/`
 - Description: Elastic Defend for Containers (BETA) provides cloud-native runtime protections for containerized environments.
-- Version: 1.4.1-beta
+- Version: 1.4.2-beta
 - Categories: containers, kubernetes
 - Docs: `packages/cloud_defend/docs/README.md`
 
@@ -798,7 +798,7 @@ integrations/
 - Name: `cloud_security_posture`
 - Path: `packages/cloud_security_posture/`
 - Description: Identify & remediate configuration risks in your Cloud infrastructure
-- Version: 3.5.0
+- Version: 3.5.1
 - Categories: security, cloudsecurity_cdr, misconfiguration_workflow, vulnerability_workflow
 - Docs: `packages/cloud_security_posture/docs/README.md`
 
@@ -1110,7 +1110,7 @@ integrations/
 - Name: `eset_protect`
 - Path: `packages/eset_protect/`
 - Description: Collect logs from ESET PROTECT with Elastic Agent.
-- Version: 2.5.2
+- Version: 2.6.0
 - Categories: security, edr_xdr, vulnerability_management
 - Docs: `packages/eset_protect/docs/README.md`
 
@@ -1198,7 +1198,7 @@ integrations/
 - Name: `first_epss`
 - Path: `packages/first_epss/`
 - Description: Collect exploit prediction score data from the First EPSS API with Elastic Agent.
-- Version: 1.4.1
+- Version: 1.5.0
 - Categories: security, vulnerability_management
 - Docs: `packages/first_epss/docs/README.md`
 
@@ -1221,7 +1221,7 @@ integrations/
 - Name: `forgerock`
 - Path: `packages/forgerock/`
 - Description: Collect audit logs from ForgeRock with Elastic Agent.
-- Version: 1.24.1
+- Version: 1.25.0
 - Docs: `packages/forgerock/docs/README.md`
 
 ### Fortinet FortiClient Logs (Deprecated)
@@ -1271,7 +1271,7 @@ integrations/
 - Name: `gcp`
 - Path: `packages/gcp/`
 - Description: Collect logs and metrics from Google Cloud Platform with Elastic Agent.
-- Version: 2.50.2
+- Version: 2.51.0
 - Categories: google_cloud, cloud, observability
 - Docs: `packages/gcp/docs/README.md`
 
@@ -1327,14 +1327,14 @@ integrations/
 - Name: `github`
 - Path: `packages/github/`
 - Description: Collect logs from GitHub with Elastic Agent.
-- Version: 2.25.2
+- Version: 2.26.0
 - Docs: `packages/github/docs/README.md`
 
 ### GitLab
 - Name: `gitlab`
 - Path: `packages/gitlab/`
 - Description: Collect logs from GitLab with Elastic Agent.
-- Version: 3.0.0
+- Version: 3.1.0
 - Categories: productivity, productivity_security, security
 - Docs: `packages/gitlab/docs/README.md`
 
@@ -1366,7 +1366,7 @@ integrations/
 - Name: `google_scc`
 - Path: `packages/google_scc/`
 - Description: Collect logs from Google Security Command Center with Elastic Agent.
-- Version: 2.6.1
+- Version: 2.7.0
 - Categories: google_cloud, security, cloudsecurity_cdr, vulnerability_workflow, misconfiguration_workflow
 - Docs: `packages/google_scc/docs/README.md`
 
@@ -1374,7 +1374,7 @@ integrations/
 - Name: `google_secops`
 - Path: `packages/google_secops/`
 - Description: Collect alerts from Google SecOps with Elastic Agent.
-- Version: 1.4.0
+- Version: 1.5.0
 - Categories: google_cloud, security, siem
 - Docs: `packages/google_secops/docs/README.md`
 
@@ -1382,7 +1382,7 @@ integrations/
 - Name: `google_workspace`
 - Path: `packages/google_workspace/`
 - Description: Collect logs from Google Workspace with Elastic Agent.
-- Version: 3.5.2
+- Version: 3.6.0
 - Categories: productivity, productivity_security, security
 - Docs: `packages/google_workspace/docs/README.md`
 
@@ -1398,7 +1398,7 @@ integrations/
 - Name: `greenhouse`
 - Path: `packages/greenhouse/`
 - Description: Collect audit logs from Greenhouse ATS with Elastic Agent.
-- Version: 0.1.0
+- Version: 0.2.0
 - Categories: security
 - Docs: `packages/greenhouse/docs/README.md`
 
@@ -1493,7 +1493,7 @@ integrations/
 - Name: `ibm_qradar`
 - Path: `packages/ibm_qradar/`
 - Description: Collect logs from IBM QRadar with Elastic Agent.
-- Version: 1.1.2
+- Version: 1.2.0
 - Categories: security, siem
 - Docs: `packages/ibm_qradar/docs/README.md`
 
@@ -1548,7 +1548,7 @@ integrations/
 - Name: `imperva_cloud_waf`
 - Path: `packages/imperva_cloud_waf/`
 - Description: Collect logs from Imperva Cloud WAF with Elastic Agent.
-- Version: 1.15.1
+- Version: 1.16.0
 - Categories: security
 - Docs: `packages/imperva_cloud_waf/docs/README.md`
 
@@ -1572,7 +1572,7 @@ integrations/
 - Name: `infoblox_bloxone_ddi`
 - Path: `packages/infoblox_bloxone_ddi/`
 - Description: Collect logs from Infoblox BloxOne DDI with Elastic Agent.
-- Version: 1.23.1
+- Version: 1.24.0
 - Categories: security, network, dns_security
 - Docs: `packages/infoblox_bloxone_ddi/docs/README.md`
 
@@ -1580,7 +1580,7 @@ integrations/
 - Name: `infoblox_nios`
 - Path: `packages/infoblox_nios/`
 - Description: Collect logs from Infoblox NIOS with Elastic Agent.
-- Version: 2.1.1
+- Version: 2.1.2
 - Categories: security, network, dns_security
 - Docs: `packages/infoblox_nios/docs/README.md`
 
@@ -1612,7 +1612,7 @@ integrations/
 - Name: `island_browser`
 - Path: `packages/island_browser/`
 - Description: Collect logs from Island Browser with Elastic Agent.
-- Version: 1.1.3
+- Version: 1.2.0
 - Categories: security
 - Docs: `packages/island_browser/docs/README.md`
 
@@ -1628,7 +1628,7 @@ integrations/
 - Name: `jamf_compliance_reporter`
 - Path: `packages/jamf_compliance_reporter/`
 - Description: Collect logs from Jamf Compliance Reporter with Elastic Agent.
-- Version: 1.16.0
+- Version: 1.17.0
 - Categories: security
 - Docs: `packages/jamf_compliance_reporter/docs/README.md`
 
@@ -1636,7 +1636,7 @@ integrations/
 - Name: `jamf_pro`
 - Path: `packages/jamf_pro/`
 - Description: Collect logs and inventory data from Jamf Pro with Elastic Agent
-- Version: 2.0.0
+- Version: 2.1.0
 - Categories: cloud, custom
 - Docs: `packages/jamf_pro/docs/README.md`
 
@@ -1644,7 +1644,7 @@ integrations/
 - Name: `jamf_protect`
 - Path: `packages/jamf_protect/`
 - Description: Receives events from Jamf Protect with Elastic Agent.
-- Version: 3.4.0
+- Version: 3.5.0
 - Categories: security, edr_xdr
 - Docs: `packages/jamf_protect/docs/README.md`
 
@@ -1668,7 +1668,7 @@ integrations/
 - Name: `jumpcloud`
 - Path: `packages/jumpcloud/`
 - Description: Collect logs from JumpCloud Directory as a Service
-- Version: 1.22.2
+- Version: 1.23.0
 - Categories: cloud, security
 - Docs: `packages/jumpcloud/docs/README.md`
 
@@ -1737,7 +1737,7 @@ integrations/
 - Name: `keeper`
 - Path: `packages/keeper_security_siem_integration/`
 - Description: Keeper Security agentless integration for collecting audit events directly via Elasticsearch Bulk API. No agents required - Keeper pushes data directly to Elasticsearch.
-- Version: 0.1.0
+- Version: 0.2.0
 - Categories: security, authentication, custom
 - Docs: `packages/keeper_security_siem_integration/docs/README.md`
 
@@ -1745,7 +1745,7 @@ integrations/
 - Name: `keycloak`
 - Path: `packages/keycloak/`
 - Description: Collect logs from Keycloak with Elastic Agent.
-- Version: 1.32.0
+- Version: 1.33.0
 - Docs: `packages/keycloak/docs/README.md`
 
 ### Kibana
@@ -1783,7 +1783,7 @@ integrations/
 - Name: `lastpass`
 - Path: `packages/lastpass/`
 - Description: Collect logs from LastPass with Elastic Agent.
-- Version: 1.23.2
+- Version: 1.24.0
 - Categories: security, credential_management
 - Docs: `packages/lastpass/docs/README.md`
 
@@ -1823,7 +1823,7 @@ integrations/
 - Name: `lumos`
 - Path: `packages/lumos/`
 - Description: An integration with Lumos to ship your Activity logs to your Elastic instance.
-- Version: 1.8.2
+- Version: 1.9.0
 - Categories: security
 - Docs: `packages/lumos/docs/README.md`
 
@@ -1831,7 +1831,7 @@ integrations/
 - Name: `lyve_cloud`
 - Path: `packages/lyve_cloud/`
 - Description: Collect S3 API audit log from Lyve Cloud with Elastic Agent.
-- Version: 1.17.1
+- Version: 1.18.0
 - Categories: security
 - Docs: `packages/lyve_cloud/docs/README.md`
 
@@ -1839,7 +1839,7 @@ integrations/
 - Name: `m365_defender`
 - Path: `packages/m365_defender/`
 - Description: Collect logs from Microsoft Defender XDR with Elastic Agent.
-- Version: 5.15.2
+- Version: 5.16.0
 - Categories: security, edr_xdr, vulnerability_workflow, cloudsecurity_cdr
 - Docs: `packages/m365_defender/docs/README.md`
 
@@ -1855,7 +1855,7 @@ integrations/
 - Name: `mattermost`
 - Path: `packages/mattermost/`
 - Description: Collect logs from Mattermost with Elastic Agent.
-- Version: 2.5.0
+- Version: 2.6.0
 - Categories: security, productivity_security
 - Docs: `packages/mattermost/docs/README.md`
 
@@ -1879,7 +1879,7 @@ integrations/
 - Name: `menlo`
 - Path: `packages/menlo/`
 - Description: Collect logs from Menlo Security products with Elastic Agent
-- Version: 1.8.1
+- Version: 1.9.0
 - Categories: monitoring, network
 - Docs: `packages/menlo/docs/README.md`
 
@@ -1887,7 +1887,7 @@ integrations/
 - Name: `microsoft_defender_cloud`
 - Path: `packages/microsoft_defender_cloud/`
 - Description: Collect logs from Microsoft Defender for Cloud with Elastic Agent.
-- Version: 3.5.1
+- Version: 3.6.0
 - Categories: security, cloudsecurity_cdr, vulnerability_workflow, misconfiguration_workflow
 - Docs: `packages/microsoft_defender_cloud/docs/README.md`
 
@@ -1895,7 +1895,7 @@ integrations/
 - Name: `microsoft_defender_endpoint`
 - Path: `packages/microsoft_defender_endpoint/`
 - Description: Collect logs from Microsoft Defender for Endpoint with Elastic Agent.
-- Version: 4.9.1
+- Version: 4.10.0
 - Categories: security, edr_xdr
 - Docs: `packages/microsoft_defender_endpoint/docs/README.md`
 
@@ -1919,7 +1919,7 @@ integrations/
 - Name: `microsoft_exchange_online_message_trace`
 - Path: `packages/microsoft_exchange_online_message_trace/`
 - Description: Microsoft Exchange Online Message Trace Integration
-- Version: 2.2.5
+- Version: 2.3.0
 - Categories: security, email_security
 - Docs: `packages/microsoft_exchange_online_message_trace/docs/README.md`
 
@@ -1935,7 +1935,7 @@ integrations/
 - Name: `microsoft_sentinel`
 - Path: `packages/microsoft_sentinel/`
 - Description: Collect logs from Microsoft Sentinel with Elastic Agent.
-- Version: 1.4.1
+- Version: 1.5.0
 - Categories: azure, security, siem
 - Docs: `packages/microsoft_sentinel/docs/README.md`
 
@@ -1959,14 +1959,14 @@ integrations/
 - Name: `mimecast`
 - Path: `packages/mimecast/`
 - Description: Collect logs from Mimecast with Elastic Agent.
-- Version: 3.6.0
+- Version: 3.7.0
 - Docs: `packages/mimecast/docs/README.md`
 
 ### Miniflux RSS reader
 - Name: `miniflux`
 - Path: `packages/miniflux/`
 - Description: Collect RSS feed content from the Miniflux API with Elastic Agent.
-- Version: 1.2.1
+- Version: 1.3.0
 - Docs: `packages/miniflux/docs/README.md`
 
 ### ModSecurity Audit
@@ -2077,7 +2077,7 @@ integrations/
 - Name: `netskope`
 - Path: `packages/netskope/`
 - Description: Collect logs from Netskope with Elastic Agent.
-- Version: 3.1.4
+- Version: 3.2.0
 - Categories: security, network
 - Docs: `packages/netskope/docs/README.md`
 
@@ -2181,7 +2181,7 @@ integrations/
 - Name: `okta`
 - Path: `packages/okta/`
 - Description: Collect and parse event logs from Okta API with Elastic Agent.
-- Version: 3.15.0
+- Version: 3.16.0
 - Docs: `packages/okta/docs/README.md`
 
 ### OpenAI
@@ -2196,7 +2196,7 @@ integrations/
 - Name: `opencanary`
 - Path: `packages/opencanary/`
 - Description: This integration collects and parses logs from OpenCanary honeypots.
-- Version: 1.0.0
+- Version: 1.1.0
 - Categories: security
 - Docs: `packages/opencanary/docs/README.md`
 
@@ -2284,7 +2284,7 @@ integrations/
 - Name: `panw_cortex_xdr`
 - Path: `packages/panw_cortex_xdr/`
 - Description: Collect logs from Palo Alto Cortex XDR with Elastic Agent.
-- Version: 2.7.1
+- Version: 2.8.0
 - Categories: security, edr_xdr
 - Docs: `packages/panw_cortex_xdr/docs/README.md`
 
@@ -2316,7 +2316,7 @@ integrations/
 - Name: `ping_federate`
 - Path: `packages/ping_federate/`
 - Description: Collect logs from PingFederate with Elastic Agent.
-- Version: 1.2.0
+- Version: 1.3.0
 - Categories: security, authentication
 - Docs: `packages/ping_federate/docs/README.md`
 
@@ -2324,7 +2324,7 @@ integrations/
 - Name: `ping_one`
 - Path: `packages/ping_one/`
 - Description: Collect logs from PingOne with Elastic-Agent.
-- Version: 1.24.1
+- Version: 1.25.0
 - Categories: security, iam
 - Docs: `packages/ping_one/docs/README.md`
 
@@ -2355,7 +2355,7 @@ integrations/
 - Name: `pps`
 - Path: `packages/pps/`
 - Description: Integration for Pleasant Password Server Syslog Messages
-- Version: 1.2.1
+- Version: 1.3.0
 - Categories: custom, productivity, security
 - Docs: `packages/pps/docs/README.md`
 
@@ -2371,7 +2371,7 @@ integrations/
 - Name: `prisma_cloud`
 - Path: `packages/prisma_cloud/`
 - Description: Collect logs from Prisma Cloud with Elastic Agent.
-- Version: 4.2.1
+- Version: 4.3.0
 - Categories: security, cloudsecurity_cdr, misconfiguration_workflow, vulnerability_workflow
 - Docs: `packages/prisma_cloud/docs/README.md`
 
@@ -2435,7 +2435,7 @@ integrations/
 - Name: `proofpoint_essentials`
 - Path: `packages/proofpoint_essentials/`
 - Description: Collect logs from Proofpoint Essentials with Elastic Agent.
-- Version: 1.1.2
+- Version: 1.2.0
 - Categories: security
 - Docs: `packages/proofpoint_essentials/docs/README.md`
 
@@ -2443,7 +2443,7 @@ integrations/
 - Name: `proofpoint_itm`
 - Path: `packages/proofpoint_itm/`
 - Description: Collect logs from Proofpoint ITM using Elastic Agent.
-- Version: 1.1.1
+- Version: 1.2.0
 - Categories: security
 - Docs: `packages/proofpoint_itm/docs/README.md`
 
@@ -2451,7 +2451,7 @@ integrations/
 - Name: `proofpoint_on_demand`
 - Path: `packages/proofpoint_on_demand/`
 - Description: Collect logs from Proofpoint On Demand with Elastic Agent.
-- Version: 1.10.2
+- Version: 1.11.0
 - Categories: security
 - Docs: `packages/proofpoint_on_demand/docs/README.md`
 
@@ -2459,7 +2459,7 @@ integrations/
 - Name: `proofpoint_tap`
 - Path: `packages/proofpoint_tap/`
 - Description: Collect logs from Proofpoint TAP with Elastic Agent.
-- Version: 1.31.2
+- Version: 1.32.0
 - Categories: security, email_security
 - Docs: `packages/proofpoint_tap/docs/README.md`
 
@@ -2497,7 +2497,7 @@ integrations/
 - Name: `qualys_vmdr`
 - Path: `packages/qualys_vmdr/`
 - Description: Collect data from Qualys VMDR platform with Elastic Agent.
-- Version: 6.20.0
+- Version: 6.21.0
 - Categories: security, vulnerability_management, vulnerability_workflow, cloudsecurity_cdr
 - Docs: `packages/qualys_vmdr/docs/README.md`
 
@@ -2536,7 +2536,7 @@ integrations/
 - Name: `rapid7_insightvm`
 - Path: `packages/rapid7_insightvm/`
 - Description: Collect logs from Rapid7 InsightVM with Elastic Agent.
-- Version: 2.9.2
+- Version: 2.10.0
 - Categories: security, vulnerability_management, vulnerability_workflow, cloudsecurity_cdr
 - Docs: `packages/rapid7_insightvm/docs/README.md`
 
@@ -2608,7 +2608,7 @@ integrations/
 - Name: `santa`
 - Path: `packages/santa/`
 - Description: Collect logs from Google Santa with Elastic Agent.
-- Version: 3.24.0
+- Version: 3.25.0
 - Categories: security
 - Docs: `packages/santa/docs/README.md`
 
@@ -2632,7 +2632,7 @@ integrations/
 - Name: `sentinel_one`
 - Path: `packages/sentinel_one/`
 - Description: Collect logs from SentinelOne with Elastic Agent.
-- Version: 2.11.3
+- Version: 2.12.0
 - Categories: security, edr_xdr
 - Docs: `packages/sentinel_one/docs/README.md`
 
@@ -2640,7 +2640,7 @@ integrations/
 - Name: `sentinel_one_cloud_funnel`
 - Path: `packages/sentinel_one_cloud_funnel/`
 - Description: Collect logs from SentinelOne Cloud Funnel with Elastic Agent.
-- Version: 1.14.0
+- Version: 1.15.0
 - Categories: security, edr_xdr
 - Docs: `packages/sentinel_one_cloud_funnel/docs/README.md`
 
@@ -3300,7 +3300,7 @@ integrations/
 - Name: `verifier_otel`
 - Path: `packages/verifier_otel/`
 - Description: Verify identity federation based integration permissions and report results to Elasticsearch using the Verifier receiver of the OTel Collector.
-- Version: 0.1.0
+- Version: 0.1.1
 - Categories: monitoring, security, opentelemetry, cloud
 - Docs: `packages/verifier_otel/docs/README.md`
 
