@@ -678,7 +678,7 @@ integrations/
 - Name: `cisco_ftd`
 - Path: `packages/cisco_ftd/`
 - Description: Collect logs from Cisco FTD with Elastic Agent.
-- Version: 3.13.11
+- Version: 3.13.12
 - Categories: network, security, firewall_security
 - Docs: `packages/cisco_ftd/docs/README.md`
 
@@ -1242,7 +1242,7 @@ integrations/
 - Name: `fortinet_fortigate`
 - Path: `packages/fortinet_fortigate/`
 - Description: Collect logs from Fortinet FortiGate firewalls with Elastic Agent.
-- Version: 1.36.9
+- Version: 1.36.10
 - Docs: `packages/fortinet_fortigate/docs/README.md`
 
 ### Fortinet FortiMail
@@ -1382,7 +1382,7 @@ integrations/
 - Name: `google_workspace`
 - Path: `packages/google_workspace/`
 - Description: Collect logs from Google Workspace with Elastic Agent.
-- Version: 3.6.0
+- Version: 3.7.0
 - Categories: productivity, productivity_security, security
 - Docs: `packages/google_workspace/docs/README.md`
 
@@ -2141,7 +2141,7 @@ integrations/
 - Name: `nozomi_networks`
 - Path: `packages/nozomi_networks/`
 - Description: Collect logs from Nozomi Networks with Elastic Agent.
-- Version: 0.4.0
+- Version: 0.4.1
 - Categories: security, network
 - Docs: `packages/nozomi_networks/docs/README.md`
 
@@ -2489,7 +2489,7 @@ integrations/
 - Name: `qualys_gav`
 - Path: `packages/qualys_gav/`
 - Description: Collect logs from Qualys Global AssetView with Elastic Agent.
-- Version: 0.10.0
+- Version: 0.10.1
 - Categories: security
 - Docs: `packages/qualys_gav/docs/README.md`
 
@@ -2688,7 +2688,7 @@ integrations/
 - Name: `sophos`
 - Path: `packages/sophos/`
 - Description: Collect logs from Sophos with Elastic Agent.
-- Version: 3.17.1
+- Version: 3.17.2
 - Categories: security, network, firewall_security
 - Docs: `packages/sophos/docs/README.md`
 
@@ -3348,7 +3348,7 @@ integrations/
 - Name: `windows`
 - Path: `packages/windows/`
 - Description: Collect logs and metrics from Windows OS and services with Elastic Agent.
-- Version: 3.9.0
+- Version: 3.9.1
 - Categories: os_system, security
 - Docs: `packages/windows/docs/README.md`
 
