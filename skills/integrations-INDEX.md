@@ -243,7 +243,7 @@ integrations/
 - Name: `aws`
 - Path: `packages/aws/`
 - Description: Collect logs and metrics from Amazon Web Services (AWS) with Elastic Agent.
-- Version: 7.3.0
+- Version: 8.0.0
 - Categories: aws, cloud
 - Docs: `packages/aws/docs/README.md`
 
@@ -750,7 +750,7 @@ integrations/
 - Name: `citrix_adc`
 - Path: `packages/citrix_adc/`
 - Description: This Elastic integration collects logs and metrics from Citrix ADC product.
-- Version: 1.18.6
+- Version: 1.19.0
 - Categories: observability, network
 - Docs: `packages/citrix_adc/docs/README.md`
 
@@ -1150,7 +1150,7 @@ integrations/
 - Name: `f5_bigip`
 - Path: `packages/f5_bigip/`
 - Description: Collect logs from F5 BIG-IP with Elastic Agent.
-- Version: 1.28.0
+- Version: 1.29.0
 - Categories: security
 - Docs: `packages/f5_bigip/docs/README.md`
 
@@ -1174,7 +1174,7 @@ integrations/
 - Name: `filestream`
 - Path: `packages/filestream/`
 - Description: Collect log data using filestream with Elastic Agent.
-- Version: 2.5.0
+- Version: 2.5.1
 - Categories: custom, custom_logs
 - Docs: `packages/filestream/docs/README.md`
 
@@ -1839,7 +1839,7 @@ integrations/
 - Name: `m365_defender`
 - Path: `packages/m365_defender/`
 - Description: Collect logs from Microsoft Defender XDR with Elastic Agent.
-- Version: 5.16.0
+- Version: 5.17.0
 - Categories: security, edr_xdr, vulnerability_workflow, cloudsecurity_cdr
 - Docs: `packages/m365_defender/docs/README.md`
 
@@ -2236,7 +2236,7 @@ integrations/
 - Name: `osquery_manager`
 - Path: `packages/osquery_manager/`
 - Description: Deploy Osquery with Elastic Agent, then run and schedule queries in Kibana
-- Version: 1.33.0
+- Version: 1.34.0
 - Categories: security
 - Docs: `packages/osquery_manager/docs/README.md`
 
@@ -2648,7 +2648,7 @@ integrations/
 - Name: `servicenow`
 - Path: `packages/servicenow/`
 - Description: Collect logs from ServiceNow with Elastic Agent.
-- Version: 2.2.0
+- Version: 2.2.1
 - Categories: security
 - Docs: `packages/servicenow/docs/README.md`
 
@@ -2870,7 +2870,7 @@ integrations/
 - Name: `system_audit`
 - Path: `packages/system_audit/`
 - Description: Collect various logs & metrics from System Audit modules with Elastic Agent.
-- Version: 1.11.1
+- Version: 1.11.2
 - Categories: custom, os_system
 - Docs: `packages/system_audit/docs/README.md`
 
