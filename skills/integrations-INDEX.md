@@ -243,7 +243,7 @@ integrations/
 - Name: `aws`
 - Path: `packages/aws/`
 - Description: Collect logs and metrics from Amazon Web Services (AWS) with Elastic Agent.
-- Version: 8.0.0
+- Version: 8.1.0
 - Categories: aws, cloud
 - Docs: `packages/aws/docs/README.md`
 
@@ -251,7 +251,7 @@ integrations/
 - Name: `aws_bedrock`
 - Path: `packages/aws_bedrock/`
 - Description: Collect Amazon Bedrock model invocation logs and runtime metrics with Elastic Agent.
-- Version: 1.7.0
+- Version: 2.0.0
 - Categories: aws, cloud, observability, security
 - Docs: `packages/aws_bedrock/docs/README.md`
 
@@ -291,7 +291,7 @@ integrations/
 - Name: `aws_logs`
 - Path: `packages/aws_logs/`
 - Description: Collect raw logs from AWS S3 or CloudWatch with Elastic Agent.
-- Version: 1.8.3
+- Version: 2.0.0
 - Categories: cloud, observability, custom, aws
 - Docs: `packages/aws_logs/docs/README.md`
 
@@ -299,7 +299,7 @@ integrations/
 - Name: `aws_mq`
 - Path: `packages/aws_mq/`
 - Description: Collect Amazon MQ metrics and logs with Elastic Agent
-- Version: 1.0.0
+- Version: 2.0.0
 - Categories: aws, cloud, message_queue, observability
 - Docs: `packages/aws_mq/docs/README.md`
 
@@ -307,7 +307,7 @@ integrations/
 - Name: `aws_securityhub`
 - Path: `packages/aws_securityhub/`
 - Description: Collect logs from AWS Security Hub with Elastic Agent.
-- Version: 1.3.0
+- Version: 2.0.0
 - Categories: aws, security, cloudsecurity_cdr, vulnerability_workflow
 - Docs: `packages/aws_securityhub/docs/README.md`
 
@@ -347,7 +347,7 @@ integrations/
 - Name: `azure`
 - Path: `packages/azure/`
 - Description: This Elastic integration collects logs from Azure
-- Version: 1.39.0
+- Version: 1.40.0
 - Categories: cloud, azure, observability
 - Docs: `packages/azure/docs/README.md`
 
@@ -893,7 +893,7 @@ integrations/
 - Name: `crowdstrike`
 - Path: `packages/crowdstrike/`
 - Description: Collect logs from Crowdstrike with Elastic Agent.
-- Version: 4.8.0
+- Version: 4.9.1
 - Docs: `packages/crowdstrike/docs/README.md`
 
 ### CyberArk EPM
@@ -930,7 +930,7 @@ integrations/
 - Name: `cyera`
 - Path: `packages/cyera/`
 - Description: Collect logs from Cyera with Elastic Agent.
-- Version: 0.11.0
+- Version: 0.11.1
 - Categories: security
 - Docs: `packages/cyera/docs/README.md`
 
@@ -1366,7 +1366,7 @@ integrations/
 - Name: `google_scc`
 - Path: `packages/google_scc/`
 - Description: Collect logs from Google Security Command Center with Elastic Agent.
-- Version: 2.7.0
+- Version: 2.8.0
 - Categories: google_cloud, security, cloudsecurity_cdr, vulnerability_workflow, misconfiguration_workflow
 - Docs: `packages/google_scc/docs/README.md`
 
@@ -1382,7 +1382,7 @@ integrations/
 - Name: `google_workspace`
 - Path: `packages/google_workspace/`
 - Description: Collect logs from Google Workspace with Elastic Agent.
-- Version: 3.7.0
+- Version: 3.7.1
 - Categories: productivity, productivity_security, security
 - Docs: `packages/google_workspace/docs/README.md`
 
@@ -1815,7 +1815,7 @@ integrations/
 - Name: `logstash`
 - Path: `packages/logstash/`
 - Description: Collect logs and metrics from Logstash with Elastic Agent.
-- Version: 2.11.1
+- Version: 2.11.3
 - Categories: observability, elastic_stack
 - Docs: `packages/logstash/docs/README.md`
 
@@ -1839,7 +1839,7 @@ integrations/
 - Name: `m365_defender`
 - Path: `packages/m365_defender/`
 - Description: Collect logs from Microsoft Defender XDR with Elastic Agent.
-- Version: 5.17.0
+- Version: 5.18.0
 - Categories: security, edr_xdr, vulnerability_workflow, cloudsecurity_cdr
 - Docs: `packages/m365_defender/docs/README.md`
 
@@ -1935,7 +1935,7 @@ integrations/
 - Name: `microsoft_sentinel`
 - Path: `packages/microsoft_sentinel/`
 - Description: Collect logs from Microsoft Sentinel with Elastic Agent.
-- Version: 1.5.0
+- Version: 1.6.0
 - Categories: azure, security, siem
 - Docs: `packages/microsoft_sentinel/docs/README.md`
 
@@ -2141,7 +2141,7 @@ integrations/
 - Name: `nozomi_networks`
 - Path: `packages/nozomi_networks/`
 - Description: Collect logs from Nozomi Networks with Elastic Agent.
-- Version: 0.4.1
+- Version: 0.4.2
 - Categories: security, network
 - Docs: `packages/nozomi_networks/docs/README.md`
 
@@ -2165,7 +2165,7 @@ integrations/
 - Name: `o365`
 - Path: `packages/o365/`
 - Description: Collect logs from Microsoft Office 365 with Elastic Agent.
-- Version: 3.10.8
+- Version: 3.11.0
 - Categories: security, productivity_security
 - Docs: `packages/o365/docs/README.md`
 
@@ -2252,7 +2252,7 @@ integrations/
 - Name: `otel_collector_internal_telemetry`
 - Path: `packages/otel_collector_internal_telemetry/`
 - Description: This package contains dashboards that visualize the internal telemetry from the OpenTelemetry Collector
-- Version: 1.2.2
+- Version: 1.2.3
 - Categories: monitoring, observability, opentelemetry
 - Docs: `packages/otel_collector_internal_telemetry/docs/README.md`
 
@@ -2284,7 +2284,7 @@ integrations/
 - Name: `panw_cortex_xdr`
 - Path: `packages/panw_cortex_xdr/`
 - Description: Collect logs from Palo Alto Cortex XDR with Elastic Agent.
-- Version: 2.8.0
+- Version: 2.9.0
 - Categories: security, edr_xdr
 - Docs: `packages/panw_cortex_xdr/docs/README.md`
 
@@ -2783,7 +2783,7 @@ integrations/
 - Name: `sublime_security`
 - Path: `packages/sublime_security/`
 - Description: Collect logs from Sublime Security with Elastic Agent.
-- Version: 1.14.0
+- Version: 1.15.0
 - Categories: security, email_security
 - Docs: `packages/sublime_security/docs/README.md`
 
@@ -2862,7 +2862,7 @@ integrations/
 - Name: `system`
 - Path: `packages/system/`
 - Description: Collect system logs and metrics from your servers with Elastic Agent.
-- Version: 2.23.0
+- Version: 2.23.2
 - Categories: os_system
 - Docs: `packages/system/docs/README.md`
 
@@ -2966,7 +2966,7 @@ integrations/
 - Name: `ti_abusech`
 - Path: `packages/ti_abusech/`
 - Description: Ingest threat intelligence indicators from URL Haus, Malware Bazaar, and Threat Fox feeds with Elastic Agent.
-- Version: 4.2.0
+- Version: 5.0.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_abusech/docs/README.md`
 
@@ -3348,7 +3348,7 @@ integrations/
 - Name: `windows`
 - Path: `packages/windows/`
 - Description: Collect logs and metrics from Windows OS and services with Elastic Agent.
-- Version: 3.9.1
+- Version: 3.9.2
 - Categories: os_system, security
 - Docs: `packages/windows/docs/README.md`
 
@@ -3444,7 +3444,7 @@ integrations/
 - Name: `zscaler_zia`
 - Path: `packages/zscaler_zia/`
 - Description: Collect logs from Zscaler Internet Access (ZIA) with Elastic Agent.
-- Version: 4.3.0
+- Version: 4.4.0
 - Categories: security, network
 - Docs: `packages/zscaler_zia/docs/README.md`
 
