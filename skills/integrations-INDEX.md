@@ -552,7 +552,7 @@ integrations/
 - Name: `box_events`
 - Path: `packages/box_events/`
 - Description: Collect logs from Box with Elastic Agent
-- Version: 3.5.2
+- Version: 4.0.0
 - Categories: security, productivity_security
 - Docs: `packages/box_events/docs/README.md`
 
@@ -750,7 +750,7 @@ integrations/
 - Name: `citrix_adc`
 - Path: `packages/citrix_adc/`
 - Description: This Elastic integration collects logs and metrics from Citrix ADC product.
-- Version: 1.19.0
+- Version: 1.19.1
 - Categories: observability, network
 - Docs: `packages/citrix_adc/docs/README.md`
 
@@ -1775,7 +1775,7 @@ integrations/
 - Name: `kubernetes_otel`
 - Path: `packages/kubernetes_otel/`
 - Description: Utilise the pre-built dashboard for OTel-native metrics and events collected from a Kubernetes cluster
-- Version: 2.4.1
+- Version: 2.5.0
 - Categories: kubernetes
 - Docs: `packages/kubernetes_otel/docs/README.md`
 
@@ -1973,7 +1973,7 @@ integrations/
 - Name: `modsecurity`
 - Path: `packages/modsecurity/`
 - Description: Collect logs from ModSecurity with Elastic Agent
-- Version: 1.23.2
+- Version: 1.24.0
 - Categories: security, network, web_application_firewall
 - Docs: `packages/modsecurity/docs/README.md`
 
@@ -2005,7 +2005,7 @@ integrations/
 - Name: `mysql`
 - Path: `packages/mysql/`
 - Description: Collect error logs, slow logs, and performance metrics from MySQL via Elastic Agent.
-- Version: 1.30.2
+- Version: 1.30.3
 - Categories: datastore, observability
 - Docs: `packages/mysql/docs/README.md`
 
@@ -2371,7 +2371,7 @@ integrations/
 - Name: `prisma_cloud`
 - Path: `packages/prisma_cloud/`
 - Description: Collect logs from Prisma Cloud with Elastic Agent.
-- Version: 4.3.0
+- Version: 4.3.1
 - Categories: security, cloudsecurity_cdr, misconfiguration_workflow, vulnerability_workflow
 - Docs: `packages/prisma_cloud/docs/README.md`
 
