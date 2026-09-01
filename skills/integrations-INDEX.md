@@ -1009,7 +1009,7 @@ integrations/
 - Name: `elastic_agent`
 - Path: `packages/elastic_agent/`
 - Description: Collect logs and metrics from Elastic Agents.
-- Version: 2.9.4
+- Version: 2.9.5
 - Docs: `packages/elastic_agent/docs/README.md`
 
 ### Elastic Connectors
@@ -1110,7 +1110,7 @@ integrations/
 - Name: `eset_protect`
 - Path: `packages/eset_protect/`
 - Description: Collect logs from ESET PROTECT with Elastic Agent.
-- Version: 2.6.0
+- Version: 2.6.1
 - Categories: security, edr_xdr, vulnerability_management
 - Docs: `packages/eset_protect/docs/README.md`
 
@@ -2862,7 +2862,7 @@ integrations/
 - Name: `system`
 - Path: `packages/system/`
 - Description: Collect system logs and metrics from your servers with Elastic Agent.
-- Version: 2.23.2
+- Version: 2.23.3
 - Categories: os_system
 - Docs: `packages/system/docs/README.md`
 
@@ -3348,7 +3348,7 @@ integrations/
 - Name: `windows`
 - Path: `packages/windows/`
 - Description: Collect logs and metrics from Windows OS and services with Elastic Agent.
-- Version: 3.9.2
+- Version: 3.9.4
 - Categories: os_system, security
 - Docs: `packages/windows/docs/README.md`
 
