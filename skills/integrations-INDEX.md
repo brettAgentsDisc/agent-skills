@@ -211,7 +211,7 @@ integrations/
 - Name: `auditd`
 - Path: `packages/auditd/`
 - Description: Collect logs from Linux audit daemon with Elastic Agent.
-- Version: 3.24.1
+- Version: 3.24.2
 - Categories: security, auditd
 - Docs: `packages/auditd/docs/README.md`
 
@@ -694,7 +694,7 @@ integrations/
 - Name: `cisco_ise`
 - Path: `packages/cisco_ise/`
 - Description: Collect logs from Cisco ISE with Elastic Agent.
-- Version: 1.32.13
+- Version: 1.32.14
 - Categories: security, network
 - Docs: `packages/cisco_ise/docs/README.md`
 
@@ -1009,7 +1009,7 @@ integrations/
 - Name: `elastic_agent`
 - Path: `packages/elastic_agent/`
 - Description: Collect logs and metrics from Elastic Agents.
-- Version: 2.9.5
+- Version: 2.9.6
 - Docs: `packages/elastic_agent/docs/README.md`
 
 ### Elastic Connectors
@@ -1024,7 +1024,7 @@ integrations/
 - Name: `elastic_package_registry`
 - Path: `packages/elastic_package_registry/`
 - Description: Collect metrics from a Elastic Package Registry instance
-- Version: 0.4.1
+- Version: 0.4.2
 - Categories: elastic_stack
 - Docs: `packages/elastic_package_registry/docs/README.md`
 
@@ -1382,7 +1382,7 @@ integrations/
 - Name: `google_workspace`
 - Path: `packages/google_workspace/`
 - Description: Collect logs from Google Workspace with Elastic Agent.
-- Version: 3.7.1
+- Version: 3.8.0
 - Categories: productivity, productivity_security, security
 - Docs: `packages/google_workspace/docs/README.md`
 
@@ -2236,7 +2236,7 @@ integrations/
 - Name: `osquery_manager`
 - Path: `packages/osquery_manager/`
 - Description: Deploy Osquery with Elastic Agent, then run and schedule queries in Kibana
-- Version: 1.34.0
+- Version: 1.35.0
 - Categories: security
 - Docs: `packages/osquery_manager/docs/README.md`
 
@@ -2371,7 +2371,7 @@ integrations/
 - Name: `prisma_cloud`
 - Path: `packages/prisma_cloud/`
 - Description: Collect logs from Prisma Cloud with Elastic Agent.
-- Version: 4.3.1
+- Version: 4.3.2
 - Categories: security, cloudsecurity_cdr, misconfiguration_workflow, vulnerability_workflow
 - Docs: `packages/prisma_cloud/docs/README.md`
 
@@ -2624,7 +2624,7 @@ integrations/
 - Name: `security_detection_engine`
 - Path: `packages/security_detection_engine/`
 - Description: Prebuilt detection rules for Elastic Security
-- Version: 9.5.4
+- Version: 9.5.5
 - Categories: security, siem
 - Docs: `packages/security_detection_engine/docs/README.md`
 
@@ -2862,7 +2862,7 @@ integrations/
 - Name: `system`
 - Path: `packages/system/`
 - Description: Collect system logs and metrics from your servers with Elastic Agent.
-- Version: 2.23.3
+- Version: 2.23.4
 - Categories: os_system
 - Docs: `packages/system/docs/README.md`
 
@@ -3348,7 +3348,7 @@ integrations/
 - Name: `windows`
 - Path: `packages/windows/`
 - Description: Collect logs and metrics from Windows OS and services with Elastic Agent.
-- Version: 3.9.4
+- Version: 3.9.5
 - Categories: os_system, security
 - Docs: `packages/windows/docs/README.md`
 
