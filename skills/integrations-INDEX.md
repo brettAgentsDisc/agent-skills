@@ -243,7 +243,7 @@ integrations/
 - Name: `aws`
 - Path: `packages/aws/`
 - Description: Collect logs and metrics from Amazon Web Services (AWS) with Elastic Agent.
-- Version: 8.1.2
+- Version: 8.1.3
 - Categories: aws, cloud
 - Docs: `packages/aws/docs/README.md`
 
@@ -813,7 +813,7 @@ integrations/
 - Name: `cloudflare_logpush`
 - Path: `packages/cloudflare_logpush/`
 - Description: Collect logs from Cloudflare with Elastic Agent.
-- Version: 2.0.0
+- Version: 2.0.1
 - Categories: security, network, cdn_security
 - Docs: `packages/cloudflare_logpush/docs/README.md`
 
@@ -1182,7 +1182,7 @@ integrations/
 - Name: `fim`
 - Path: `packages/fim/`
 - Description: The File Integrity Monitoring integration reports filesystem changes in real time.
-- Version: 1.17.1
+- Version: 1.18.0
 - Categories: security
 - Docs: `packages/fim/docs/README.md`
 
@@ -1382,7 +1382,7 @@ integrations/
 - Name: `google_workspace`
 - Path: `packages/google_workspace/`
 - Description: Collect logs from Google Workspace with Elastic Agent.
-- Version: 3.8.1
+- Version: 3.9.0
 - Categories: productivity, productivity_security, security
 - Docs: `packages/google_workspace/docs/README.md`
 
@@ -1580,7 +1580,7 @@ integrations/
 - Name: `infoblox_nios`
 - Path: `packages/infoblox_nios/`
 - Description: Collect logs from Infoblox NIOS with Elastic Agent.
-- Version: 2.1.2
+- Version: 2.2.0
 - Categories: security, network, dns_security
 - Docs: `packages/infoblox_nios/docs/README.md`
 
