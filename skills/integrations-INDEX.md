@@ -2371,7 +2371,7 @@ integrations/
 - Name: `prisma_cloud`
 - Path: `packages/prisma_cloud/`
 - Description: Collect logs from Prisma Cloud with Elastic Agent.
-- Version: 4.3.2
+- Version: 4.3.3
 - Categories: security, cloudsecurity_cdr, misconfiguration_workflow, vulnerability_workflow
 - Docs: `packages/prisma_cloud/docs/README.md`
 
@@ -2823,7 +2823,7 @@ integrations/
 - Name: `synthetics`
 - Path: `packages/synthetics/`
 - Description: Internal Elastic integration for providing access to private locations.
-- Version: 1.10.0
+- Version: 1.11.0
 - Categories: observability
 - Docs: `packages/synthetics/docs/README.md`
 
@@ -2910,7 +2910,7 @@ integrations/
 - Name: `tenable_io`
 - Path: `packages/tenable_io/`
 - Description: Collect logs from Tenable Vulnerability Management with Elastic Agent.
-- Version: 4.13.0
+- Version: 4.13.1
 - Categories: security, vulnerability_management, vulnerability_workflow, cloudsecurity_cdr
 - Docs: `packages/tenable_io/docs/README.md`
 
