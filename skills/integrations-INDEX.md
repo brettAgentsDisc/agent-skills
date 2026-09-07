@@ -28,7 +28,7 @@ integrations/
 - Name: `1password`
 - Path: `packages/1password/`
 - Description: Collect logs from 1Password with Elastic Agent.
-- Version: 1.39.0
+- Version: 1.39.1
 - Categories: security, credential_management
 - Docs: `packages/1password/docs/README.md`
 
@@ -1182,7 +1182,7 @@ integrations/
 - Name: `fim`
 - Path: `packages/fim/`
 - Description: The File Integrity Monitoring integration reports filesystem changes in real time.
-- Version: 1.18.0
+- Version: 1.18.1
 - Categories: security
 - Docs: `packages/fim/docs/README.md`
 
