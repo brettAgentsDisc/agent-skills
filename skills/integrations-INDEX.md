@@ -1438,7 +1438,7 @@ integrations/
 - Name: `hid_bravura_monitor`
 - Path: `packages/hid_bravura_monitor/`
 - Description: Collect logs from Bravura Security Fabric with Elastic Agent.
-- Version: 1.21.1
+- Version: 1.21.2
 - Docs: `packages/hid_bravura_monitor/docs/README.md`
 
 ### Host Metrics OpenTelemetry Input Package
@@ -1612,7 +1612,7 @@ integrations/
 - Name: `island_browser`
 - Path: `packages/island_browser/`
 - Description: Collect logs from Island Browser with Elastic Agent.
-- Version: 1.2.0
+- Version: 1.3.0
 - Categories: security
 - Docs: `packages/island_browser/docs/README.md`
 
