@@ -750,7 +750,7 @@ integrations/
 - Name: `citrix_adc`
 - Path: `packages/citrix_adc/`
 - Description: This Elastic integration collects logs and metrics from Citrix ADC product.
-- Version: 1.19.1
+- Version: 1.19.2
 - Categories: observability, network
 - Docs: `packages/citrix_adc/docs/README.md`
 
@@ -1235,7 +1235,7 @@ integrations/
 - Name: `fortinet_fortiedr`
 - Path: `packages/fortinet_fortiedr/`
 - Description: Collect logs from Fortinet FortiEDR instances with Elastic Agent.
-- Version: 1.21.1
+- Version: 1.22.0
 - Docs: `packages/fortinet_fortiedr/docs/README.md`
 
 ### Fortinet FortiGate Firewall Logs
@@ -1327,7 +1327,7 @@ integrations/
 - Name: `github`
 - Path: `packages/github/`
 - Description: Collect logs from GitHub with Elastic Agent.
-- Version: 2.27.0
+- Version: 2.27.1
 - Docs: `packages/github/docs/README.md`
 
 ### GitLab
@@ -1596,7 +1596,7 @@ integrations/
 - Name: `iptables`
 - Path: `packages/iptables/`
 - Description: Collect logs from Iptables with Elastic Agent.
-- Version: 1.23.1
+- Version: 1.23.2
 - Categories: network, security
 - Docs: `packages/iptables/docs/README.md`
 
@@ -2475,7 +2475,7 @@ integrations/
 - Name: `pulse_connect_secure`
 - Path: `packages/pulse_connect_secure/`
 - Description: Collect logs from Pulse Connect Secure with Elastic Agent.
-- Version: 2.6.1
+- Version: 2.6.2
 - Docs: `packages/pulse_connect_secure/docs/README.md`
 
 ### QNAP NAS
