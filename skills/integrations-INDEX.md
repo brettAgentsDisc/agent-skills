@@ -243,7 +243,7 @@ integrations/
 - Name: `aws`
 - Path: `packages/aws/`
 - Description: Collect logs and metrics from Amazon Web Services (AWS) with Elastic Agent.
-- Version: 8.1.3
+- Version: 8.2.0
 - Categories: aws, cloud
 - Docs: `packages/aws/docs/README.md`
 
@@ -251,7 +251,7 @@ integrations/
 - Name: `aws_bedrock`
 - Path: `packages/aws_bedrock/`
 - Description: Collect Amazon Bedrock model invocation logs and runtime metrics with Elastic Agent.
-- Version: 2.0.1
+- Version: 2.1.0
 - Categories: aws, cloud, observability, security
 - Docs: `packages/aws_bedrock/docs/README.md`
 
@@ -1216,13 +1216,6 @@ integrations/
 - Version: 1.13.0
 - Categories: network, security
 - Docs: `packages/forcepoint_web/docs/README.md`
-
-### ForgeRock
-- Name: `forgerock`
-- Path: `packages/forgerock/`
-- Description: Collect audit logs from ForgeRock with Elastic Agent.
-- Version: 1.26.0
-- Docs: `packages/forgerock/docs/README.md`
 
 ### Fortinet FortiClient Logs (Deprecated)
 - Name: `fortinet_forticlient`
@@ -3308,7 +3301,7 @@ integrations/
 - Name: `vsphere`
 - Path: `packages/vsphere/`
 - Description: This Elastic integration collects metrics and logs from vSphere/vCenter servers
-- Version: 1.24.2
+- Version: 1.25.0
 - Categories: observability, virtualization
 - Docs: `packages/vsphere/docs/README.md`
 
