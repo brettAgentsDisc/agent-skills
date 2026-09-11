@@ -28,7 +28,7 @@ integrations/
 - Name: `1password`
 - Path: `packages/1password/`
 - Description: Collect logs from 1Password with Elastic Agent.
-- Version: 1.39.1
+- Version: 1.39.2
 - Categories: security, credential_management
 - Docs: `packages/1password/docs/README.md`
 
@@ -243,7 +243,7 @@ integrations/
 - Name: `aws`
 - Path: `packages/aws/`
 - Description: Collect logs and metrics from Amazon Web Services (AWS) with Elastic Agent.
-- Version: 8.2.0
+- Version: 8.3.0
 - Categories: aws, cloud
 - Docs: `packages/aws/docs/README.md`
 
@@ -1217,6 +1217,13 @@ integrations/
 - Categories: network, security
 - Docs: `packages/forcepoint_web/docs/README.md`
 
+### ForgeRock
+- Name: `forgerock`
+- Path: `packages/forgerock/`
+- Description: Collect audit logs from ForgeRock with Elastic Agent.
+- Version: 1.26.0
+- Docs: `packages/forgerock/docs/README.md`
+
 ### Fortinet FortiClient Logs (Deprecated)
 - Name: `fortinet_forticlient`
 - Path: `packages/fortinet_forticlient/`
@@ -1629,7 +1636,7 @@ integrations/
 - Name: `jamf_pro`
 - Path: `packages/jamf_pro/`
 - Description: Collect logs and inventory data from Jamf Pro with Elastic Agent
-- Version: 2.1.0
+- Version: 2.1.1
 - Categories: cloud, custom
 - Docs: `packages/jamf_pro/docs/README.md`
 
@@ -1690,7 +1697,7 @@ integrations/
 - Name: `jupiter_one`
 - Path: `packages/jupiter_one/`
 - Description: Collect logs from JupiterOne with Elastic Agent.
-- Version: 1.1.2
+- Version: 1.1.3
 - Categories: security
 - Docs: `packages/jupiter_one/docs/README.md`
 
@@ -1832,7 +1839,7 @@ integrations/
 - Name: `m365_defender`
 - Path: `packages/m365_defender/`
 - Description: Collect logs from Microsoft Defender XDR with Elastic Agent.
-- Version: 5.18.0
+- Version: 5.18.1
 - Categories: security, edr_xdr, vulnerability_workflow, cloudsecurity_cdr
 - Docs: `packages/m365_defender/docs/README.md`
 
@@ -1840,7 +1847,7 @@ integrations/
 - Name: `macos`
 - Path: `packages/macos/`
 - Description: Collect logs from macOS with Elastic Agent.
-- Version: 1.0.1
+- Version: 1.0.2
 - Categories: security
 - Docs: `packages/macos/docs/README.md`
 
@@ -2134,7 +2141,7 @@ integrations/
 - Name: `nozomi_networks`
 - Path: `packages/nozomi_networks/`
 - Description: Collect logs from Nozomi Networks with Elastic Agent.
-- Version: 0.4.2
+- Version: 0.4.3
 - Categories: security, network
 - Docs: `packages/nozomi_networks/docs/README.md`
 
@@ -2831,7 +2838,7 @@ integrations/
 - Name: `sysdig`
 - Path: `packages/sysdig/`
 - Description: Collect logs from Sysdig using Elastic Agent.
-- Version: 2.5.0
+- Version: 2.5.1
 - Categories: containers, kubernetes, monitoring
 - Docs: `packages/sysdig/docs/README.md`
 
@@ -2959,7 +2966,7 @@ integrations/
 - Name: `ti_abusech`
 - Path: `packages/ti_abusech/`
 - Description: Ingest threat intelligence indicators from URL Haus, Malware Bazaar, and Threat Fox feeds with Elastic Agent.
-- Version: 5.0.0
+- Version: 5.1.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_abusech/docs/README.md`
 
@@ -3118,7 +3125,7 @@ integrations/
 - Name: `ti_recordedfuture`
 - Path: `packages/ti_recordedfuture/`
 - Description: Ingest threat intelligence and alert data from Recorded Future with Elastic Agent.
-- Version: 2.8.0
+- Version: 2.9.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_recordedfuture/docs/README.md`
 
@@ -3373,7 +3380,7 @@ integrations/
 - Name: `wiz`
 - Path: `packages/wiz/`
 - Description: Collect logs from Wiz with Elastic Agent.
-- Version: 4.7.0
+- Version: 4.8.0
 - Categories: security, cloudsecurity_cdr, vulnerability_workflow, misconfiguration_workflow
 - Docs: `packages/wiz/docs/README.md`
 
