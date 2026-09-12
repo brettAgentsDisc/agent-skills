@@ -750,7 +750,7 @@ integrations/
 - Name: `citrix_adc`
 - Path: `packages/citrix_adc/`
 - Description: This Elastic integration collects logs and metrics from Citrix ADC product.
-- Version: 1.19.2
+- Version: 1.20.0
 - Categories: observability, network
 - Docs: `packages/citrix_adc/docs/README.md`
 
@@ -1690,7 +1690,7 @@ integrations/
 - Name: `juniper_srx`
 - Path: `packages/juniper_srx/`
 - Description: Collect logs from Juniper SRX devices with Elastic Agent.
-- Version: 1.27.3
+- Version: 1.28.0
 - Docs: `packages/juniper_srx/docs/README.md`
 
 ### JupiterOne
