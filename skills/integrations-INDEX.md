@@ -211,7 +211,7 @@ integrations/
 - Name: `auditd`
 - Path: `packages/auditd/`
 - Description: Collect logs from Linux audit daemon with Elastic Agent.
-- Version: 3.24.2
+- Version: 3.25.0
 - Categories: security, auditd
 - Docs: `packages/auditd/docs/README.md`
 
@@ -1767,7 +1767,7 @@ integrations/
 - Name: `kubernetes`
 - Path: `packages/kubernetes/`
 - Description: Collect logs and metrics from Kubernetes clusters with Elastic Agent.
-- Version: 1.85.3
+- Version: 1.85.4
 - Categories: observability, containers, kubernetes
 - Docs: `packages/kubernetes/docs/README.md`
 
@@ -2592,7 +2592,7 @@ integrations/
 - Name: `sailpoint_identity_sc`
 - Path: `packages/sailpoint_identity_sc/`
 - Description: Sailpoint identity security cloud provides enterprise identity governance and security capabilities. The integration allows users to extract audit information from their identity security cloud tenant using the ISC's AuditEvent API.
-- Version: 2.0.0-next
+- Version: 2.0.0
 - Categories: security
 - Docs: `packages/sailpoint_identity_sc/docs/README.md`
 
@@ -3348,7 +3348,7 @@ integrations/
 - Name: `windows`
 - Path: `packages/windows/`
 - Description: Collect logs and metrics from Windows OS and services with Elastic Agent.
-- Version: 3.9.5
+- Version: 3.10.0
 - Categories: os_system, security
 - Docs: `packages/windows/docs/README.md`
 
