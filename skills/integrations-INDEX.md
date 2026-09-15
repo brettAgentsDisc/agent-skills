@@ -259,7 +259,7 @@ integrations/
 - Name: `aws_bedrock_agentcore`
 - Path: `packages/aws_bedrock_agentcore/`
 - Description: Collect Amazon Bedrock AgentCore's Agent runtime, Gateway, Identity, Memory, Browser Tools and Code Interpreter metrics and logs using Elastic Agent
-- Version: 0.7.0
+- Version: 1.0.0
 - Categories: aws, cloud, observability
 - Docs: `packages/aws_bedrock_agentcore/docs/README.md`
 
@@ -379,7 +379,7 @@ integrations/
 - Name: `azure_billing`
 - Path: `packages/azure_billing/`
 - Description: Collect billing metrics with Elastic Agent.
-- Version: 1.12.0
+- Version: 1.13.0
 - Categories: cloud, observability, azure
 - Docs: `packages/azure_billing/docs/README.md`
 
@@ -2600,7 +2600,7 @@ integrations/
 - Name: `salesforce`
 - Path: `packages/salesforce/`
 - Description: Collect logs from Salesforce instances using the Elastic Agent. This integration enables monitoring and analysis of various Salesforce logs, including Login, Logout, Setup Audit Trail, and Apex execution logs. Gain insights into user activity, security events, and application performance.
-- Version: 1.8.1
+- Version: 1.9.0
 - Categories: observability
 - Docs: `packages/salesforce/docs/README.md`
 
@@ -2862,7 +2862,7 @@ integrations/
 - Name: `system`
 - Path: `packages/system/`
 - Description: Collect system logs and metrics from your servers with Elastic Agent.
-- Version: 2.23.4
+- Version: 2.24.0
 - Categories: os_system
 - Docs: `packages/system/docs/README.md`
 
