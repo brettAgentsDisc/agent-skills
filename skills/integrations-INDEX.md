@@ -211,7 +211,7 @@ integrations/
 - Name: `auditd`
 - Path: `packages/auditd/`
 - Description: Collect logs from Linux audit daemon with Elastic Agent.
-- Version: 3.25.0
+- Version: 3.26.0
 - Categories: security, auditd
 - Docs: `packages/auditd/docs/README.md`
 
@@ -243,7 +243,7 @@ integrations/
 - Name: `aws`
 - Path: `packages/aws/`
 - Description: Collect logs and metrics from Amazon Web Services (AWS) with Elastic Agent.
-- Version: 8.3.0
+- Version: 8.4.0
 - Categories: aws, cloud
 - Docs: `packages/aws/docs/README.md`
 
@@ -307,7 +307,7 @@ integrations/
 - Name: `aws_securityhub`
 - Path: `packages/aws_securityhub/`
 - Description: Collect logs from AWS Security Hub with Elastic Agent.
-- Version: 2.1.0
+- Version: 2.2.0
 - Categories: aws, security, cloudsecurity_cdr, vulnerability_workflow
 - Docs: `packages/aws_securityhub/docs/README.md`
 
@@ -497,7 +497,7 @@ integrations/
 - Name: `beyondinsight_password_safe`
 - Path: `packages/beyondinsight_password_safe/`
 - Description: Ingest privileged access management (PAM) data from BeyondTrust's BeyondInsight PAM Reporting Platform and Password Safe, using Elastic Agent.
-- Version: 1.4.0
+- Version: 1.4.1
 - Categories: security
 - Docs: `packages/beyondinsight_password_safe/docs/README.md`
 
@@ -552,7 +552,7 @@ integrations/
 - Name: `box_events`
 - Path: `packages/box_events/`
 - Description: Collect logs from Box with Elastic Agent
-- Version: 4.0.0
+- Version: 4.0.1
 - Categories: security, productivity_security
 - Docs: `packages/box_events/docs/README.md`
 
@@ -1110,7 +1110,7 @@ integrations/
 - Name: `eset_protect`
 - Path: `packages/eset_protect/`
 - Description: Collect logs from ESET PROTECT with Elastic Agent.
-- Version: 2.6.1
+- Version: 2.7.0
 - Categories: security, edr_xdr, vulnerability_management
 - Docs: `packages/eset_protect/docs/README.md`
 
@@ -1366,7 +1366,7 @@ integrations/
 - Name: `google_scc`
 - Path: `packages/google_scc/`
 - Description: Collect logs from Google Security Command Center with Elastic Agent.
-- Version: 2.8.0
+- Version: 2.9.0
 - Categories: google_cloud, security, cloudsecurity_cdr, vulnerability_workflow, misconfiguration_workflow
 - Docs: `packages/google_scc/docs/README.md`
 
@@ -1775,7 +1775,7 @@ integrations/
 - Name: `kubernetes_otel`
 - Path: `packages/kubernetes_otel/`
 - Description: Utilise the pre-built dashboard for OTel-native metrics and events collected from a Kubernetes cluster
-- Version: 2.5.0
+- Version: 2.5.1
 - Categories: kubernetes
 - Docs: `packages/kubernetes_otel/docs/README.md`
 
@@ -1839,7 +1839,7 @@ integrations/
 - Name: `m365_defender`
 - Path: `packages/m365_defender/`
 - Description: Collect logs from Microsoft Defender XDR with Elastic Agent.
-- Version: 5.18.1
+- Version: 5.19.0
 - Categories: security, edr_xdr, vulnerability_workflow, cloudsecurity_cdr
 - Docs: `packages/m365_defender/docs/README.md`
 
@@ -1887,7 +1887,7 @@ integrations/
 - Name: `microsoft_defender_cloud`
 - Path: `packages/microsoft_defender_cloud/`
 - Description: Collect logs from Microsoft Defender for Cloud with Elastic Agent.
-- Version: 3.6.0
+- Version: 3.7.0
 - Categories: security, cloudsecurity_cdr, vulnerability_workflow, misconfiguration_workflow
 - Docs: `packages/microsoft_defender_cloud/docs/README.md`
 
@@ -1895,7 +1895,7 @@ integrations/
 - Name: `microsoft_defender_endpoint`
 - Path: `packages/microsoft_defender_endpoint/`
 - Description: Collect logs from Microsoft Defender for Endpoint with Elastic Agent.
-- Version: 4.10.0
+- Version: 4.11.0
 - Categories: security, edr_xdr
 - Docs: `packages/microsoft_defender_endpoint/docs/README.md`
 
@@ -2371,7 +2371,7 @@ integrations/
 - Name: `prisma_cloud`
 - Path: `packages/prisma_cloud/`
 - Description: Collect logs from Prisma Cloud with Elastic Agent.
-- Version: 4.3.3
+- Version: 4.4.0
 - Categories: security, cloudsecurity_cdr, misconfiguration_workflow, vulnerability_workflow
 - Docs: `packages/prisma_cloud/docs/README.md`
 
@@ -2497,7 +2497,7 @@ integrations/
 - Name: `qualys_vmdr`
 - Path: `packages/qualys_vmdr/`
 - Description: Collect data from Qualys VMDR platform with Elastic Agent.
-- Version: 6.21.0
+- Version: 6.22.0
 - Categories: security, vulnerability_management, vulnerability_workflow, cloudsecurity_cdr
 - Docs: `packages/qualys_vmdr/docs/README.md`
 
@@ -2536,7 +2536,7 @@ integrations/
 - Name: `rapid7_insightvm`
 - Path: `packages/rapid7_insightvm/`
 - Description: Collect logs from Rapid7 InsightVM with Elastic Agent.
-- Version: 2.11.0
+- Version: 2.12.0
 - Categories: security, vulnerability_management, vulnerability_workflow, cloudsecurity_cdr
 - Docs: `packages/rapid7_insightvm/docs/README.md`
 
@@ -2599,8 +2599,8 @@ integrations/
 ### Salesforce
 - Name: `salesforce`
 - Path: `packages/salesforce/`
-- Description: Collect logs from Salesforce instances using the Elastic Agent. This integration enables monitoring and analysis of various Salesforce logs, including Login, Logout, Setup Audit Trail, and Apex execution logs. Gain insights into user activity, security events, and application performance.
-- Version: 1.9.0
+- Description: Collect logs from Salesforce instances using the Elastic Agent. This integration enables monitoring and analysis of various Salesforce logs, including Login, Logout, Setup Audit Trail, Apex execution, and Lightning (Aura) request logs. Gain insights into user activity, security events, and application performance.
+- Version: 1.10.0
 - Categories: observability
 - Docs: `packages/salesforce/docs/README.md`
 
@@ -2910,7 +2910,7 @@ integrations/
 - Name: `tenable_io`
 - Path: `packages/tenable_io/`
 - Description: Collect logs from Tenable Vulnerability Management with Elastic Agent.
-- Version: 4.13.1
+- Version: 4.14.0
 - Categories: security, vulnerability_management, vulnerability_workflow, cloudsecurity_cdr
 - Docs: `packages/tenable_io/docs/README.md`
 
