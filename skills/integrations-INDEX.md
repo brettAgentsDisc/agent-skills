@@ -1895,7 +1895,7 @@ integrations/
 - Name: `microsoft_defender_endpoint`
 - Path: `packages/microsoft_defender_endpoint/`
 - Description: Collect logs from Microsoft Defender for Endpoint with Elastic Agent.
-- Version: 4.11.0
+- Version: 4.12.0
 - Categories: security, edr_xdr
 - Docs: `packages/microsoft_defender_endpoint/docs/README.md`
 
@@ -2624,7 +2624,7 @@ integrations/
 - Name: `security_detection_engine`
 - Path: `packages/security_detection_engine/`
 - Description: Prebuilt detection rules for Elastic Security
-- Version: 9.5.5
+- Version: 9.5.6
 - Categories: security, siem
 - Docs: `packages/security_detection_engine/docs/README.md`
 
@@ -2838,7 +2838,7 @@ integrations/
 - Name: `sysdig`
 - Path: `packages/sysdig/`
 - Description: Collect logs from Sysdig using Elastic Agent.
-- Version: 2.5.1
+- Version: 2.5.2
 - Categories: containers, kubernetes, monitoring
 - Docs: `packages/sysdig/docs/README.md`
 
@@ -2862,7 +2862,7 @@ integrations/
 - Name: `system`
 - Path: `packages/system/`
 - Description: Collect system logs and metrics from your servers with Elastic Agent.
-- Version: 2.24.0
+- Version: 2.25.0
 - Categories: os_system
 - Docs: `packages/system/docs/README.md`
 
