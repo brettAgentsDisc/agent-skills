@@ -251,7 +251,7 @@ integrations/
 - Name: `aws_bedrock`
 - Path: `packages/aws_bedrock/`
 - Description: Collect Amazon Bedrock model invocation logs and runtime metrics with Elastic Agent.
-- Version: 2.1.0
+- Version: 2.1.1
 - Categories: aws, cloud, observability, security
 - Docs: `packages/aws_bedrock/docs/README.md`
 
@@ -2077,7 +2077,7 @@ integrations/
 - Name: `netskope`
 - Path: `packages/netskope/`
 - Description: Collect logs from Netskope with Elastic Agent.
-- Version: 3.3.0
+- Version: 3.3.1
 - Categories: security, network
 - Docs: `packages/netskope/docs/README.md`
 
@@ -2141,7 +2141,7 @@ integrations/
 - Name: `nozomi_networks`
 - Path: `packages/nozomi_networks/`
 - Description: Collect logs from Nozomi Networks with Elastic Agent.
-- Version: 0.4.3
+- Version: 0.5.0
 - Categories: security, network
 - Docs: `packages/nozomi_networks/docs/README.md`
 
@@ -2592,7 +2592,7 @@ integrations/
 - Name: `sailpoint_identity_sc`
 - Path: `packages/sailpoint_identity_sc/`
 - Description: Sailpoint identity security cloud provides enterprise identity governance and security capabilities. The integration allows users to extract audit information from their identity security cloud tenant using the ISC's AuditEvent API.
-- Version: 2.0.0
+- Version: 2.0.1
 - Categories: security
 - Docs: `packages/sailpoint_identity_sc/docs/README.md`
 
@@ -2862,7 +2862,7 @@ integrations/
 - Name: `system`
 - Path: `packages/system/`
 - Description: Collect system logs and metrics from your servers with Elastic Agent.
-- Version: 2.25.0
+- Version: 2.25.1
 - Categories: os_system
 - Docs: `packages/system/docs/README.md`
 
