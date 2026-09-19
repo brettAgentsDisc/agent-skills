@@ -1040,7 +1040,7 @@ integrations/
 - Name: `elasticsearch`
 - Path: `packages/elasticsearch/`
 - Description: Elasticsearch Integration
-- Version: 1.22.0
+- Version: 1.23.0
 - Docs: `packages/elasticsearch/docs/README.md`
 
 ### Endace
@@ -1752,7 +1752,7 @@ integrations/
 - Name: `kibana`
 - Path: `packages/kibana/`
 - Description: Collect logs and metrics from Kibana with Elastic Agent.
-- Version: 2.8.0
+- Version: 2.9.0
 - Docs: `packages/kibana/docs/README.md`
 
 ### Kubelet Stats OpenTelemetry Input
