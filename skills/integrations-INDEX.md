@@ -1775,7 +1775,7 @@ integrations/
 - Name: `kubernetes_otel`
 - Path: `packages/kubernetes_otel/`
 - Description: Utilise the pre-built dashboard for OTel-native metrics and events collected from a Kubernetes cluster
-- Version: 2.5.1
+- Version: 2.6.0
 - Categories: kubernetes
 - Docs: `packages/kubernetes_otel/docs/README.md`
 
