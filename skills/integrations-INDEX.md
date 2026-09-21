@@ -60,7 +60,7 @@ integrations/
 - Name: `admin_by_request_epm`
 - Path: `packages/admin_by_request_epm/`
 - Description: Collect logs from Admin By Request EPM with Elastic Agent.
-- Version: 1.5.0
+- Version: 1.5.1
 - Categories: security
 - Docs: `packages/admin_by_request_epm/docs/README.md`
 
@@ -243,7 +243,7 @@ integrations/
 - Name: `aws`
 - Path: `packages/aws/`
 - Description: Collect logs and metrics from Amazon Web Services (AWS) with Elastic Agent.
-- Version: 8.4.0
+- Version: 8.4.1
 - Categories: aws, cloud
 - Docs: `packages/aws/docs/README.md`
 
@@ -1327,7 +1327,7 @@ integrations/
 - Name: `github`
 - Path: `packages/github/`
 - Description: Collect logs from GitHub with Elastic Agent.
-- Version: 2.27.1
+- Version: 2.29.0
 - Docs: `packages/github/docs/README.md`
 
 ### GitLab
@@ -2005,7 +2005,7 @@ integrations/
 - Name: `mysql`
 - Path: `packages/mysql/`
 - Description: Collect error logs, slow logs, and performance metrics from MySQL via Elastic Agent.
-- Version: 1.30.3
+- Version: 1.31.0
 - Categories: datastore, observability
 - Docs: `packages/mysql/docs/README.md`
 
@@ -2624,7 +2624,7 @@ integrations/
 - Name: `security_detection_engine`
 - Path: `packages/security_detection_engine/`
 - Description: Prebuilt detection rules for Elastic Security
-- Version: 9.5.6
+- Version: 9.5.7-beta.1
 - Categories: security, siem
 - Docs: `packages/security_detection_engine/docs/README.md`
 
@@ -2783,7 +2783,7 @@ integrations/
 - Name: `sublime_security`
 - Path: `packages/sublime_security/`
 - Description: Collect logs from Sublime Security with Elastic Agent.
-- Version: 1.15.0
+- Version: 1.15.1
 - Categories: security, email_security
 - Docs: `packages/sublime_security/docs/README.md`
 
