@@ -607,7 +607,7 @@ integrations/
 - Name: `cel`
 - Path: `packages/cel/`
 - Description: Collect custom events from an API with Elastic agent
-- Version: 1.20.0
+- Version: 1.21.0
 - Categories: custom
 - Docs: `packages/cel/docs/README.md`
 
@@ -694,7 +694,7 @@ integrations/
 - Name: `cisco_ise`
 - Path: `packages/cisco_ise/`
 - Description: Collect logs from Cisco ISE with Elastic Agent.
-- Version: 1.32.15
+- Version: 1.33.0
 - Categories: security, network
 - Docs: `packages/cisco_ise/docs/README.md`
 
@@ -900,7 +900,7 @@ integrations/
 - Name: `cyberark_epm`
 - Path: `packages/cyberark_epm/`
 - Description: Collect logs from CyberArk EPM with Elastic Agent.
-- Version: 1.6.0
+- Version: 1.7.0
 - Categories: security
 - Docs: `packages/cyberark_epm/docs/README.md`
 
@@ -2276,7 +2276,7 @@ integrations/
 - Name: `panw`
 - Path: `packages/panw/`
 - Description: Collect logs from Palo Alto next-gen firewalls with Elastic Agent.
-- Version: 5.5.0
+- Version: 5.5.1
 - Categories: security, network
 - Docs: `packages/panw/docs/README.md`
 
@@ -2616,7 +2616,7 @@ integrations/
 - Name: `security_ai_prompts`
 - Path: `packages/security_ai_prompts/`
 - Description: Prompts used by Security AI features, including the Security Assistant, and Attack discovery
-- Version: 1.0.13
+- Version: 1.0.14
 - Categories: security
 - Docs: `packages/security_ai_prompts/docs/README.md`
 
