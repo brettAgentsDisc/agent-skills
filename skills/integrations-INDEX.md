@@ -529,7 +529,7 @@ integrations/
 - Name: `bitwarden`
 - Path: `packages/bitwarden/`
 - Description: Collect logs from Bitwarden with Elastic Agent.
-- Version: 1.23.0
+- Version: 1.23.1
 - Categories: security, credential_management
 - Docs: `packages/bitwarden/docs/README.md`
 
@@ -623,7 +623,7 @@ integrations/
 - Name: `checkpoint`
 - Path: `packages/checkpoint/`
 - Description: Collect logs from Check Point with Elastic Agent.
-- Version: 1.49.1
+- Version: 1.49.2
 - Docs: `packages/checkpoint/docs/README.md`
 
 ### Check Point Harmony Email & Collaboration
@@ -853,7 +853,7 @@ integrations/
 - Name: `corelight`
 - Path: `packages/corelight/`
 - Description: Collect logs from Corelight with Elastic Agent.
-- Version: 1.2.0
+- Version: 1.3.0
 - Categories: security, dns_security, network, network_security, vpn_security
 - Docs: `packages/corelight/docs/README.md`
 
@@ -1040,7 +1040,7 @@ integrations/
 - Name: `elasticsearch`
 - Path: `packages/elasticsearch/`
 - Description: Elasticsearch Integration
-- Version: 1.23.0
+- Version: 1.23.2
 - Docs: `packages/elasticsearch/docs/README.md`
 
 ### Endace
@@ -1453,7 +1453,7 @@ integrations/
 - Name: `hpe_aruba_cx`
 - Path: `packages/hpe_aruba_cx/`
 - Description: Collect logs from HPE Aruba CX with Elastic Agent
-- Version: 0.4.5
+- Version: 0.4.6
 - Categories: config_management, network, security
 - Docs: `packages/hpe_aruba_cx/docs/README.md`
 
@@ -2624,7 +2624,7 @@ integrations/
 - Name: `security_detection_engine`
 - Path: `packages/security_detection_engine/`
 - Description: Prebuilt detection rules for Elastic Security
-- Version: 9.5.7-beta.1
+- Version: 9.5.7
 - Categories: security, siem
 - Docs: `packages/security_detection_engine/docs/README.md`
 
@@ -2823,7 +2823,7 @@ integrations/
 - Name: `synthetics`
 - Path: `packages/synthetics/`
 - Description: Internal Elastic integration for providing access to private locations.
-- Version: 1.11.0
+- Version: 1.12.0
 - Categories: observability
 - Docs: `packages/synthetics/docs/README.md`
 
@@ -2862,7 +2862,7 @@ integrations/
 - Name: `system`
 - Path: `packages/system/`
 - Description: Collect system logs and metrics from your servers with Elastic Agent.
-- Version: 2.25.1
+- Version: 2.25.2
 - Categories: os_system
 - Docs: `packages/system/docs/README.md`
 
@@ -3308,7 +3308,7 @@ integrations/
 - Name: `vsphere`
 - Path: `packages/vsphere/`
 - Description: This Elastic integration collects metrics and logs from vSphere/vCenter servers
-- Version: 1.25.0
+- Version: 1.25.1
 - Categories: observability, virtualization
 - Docs: `packages/vsphere/docs/README.md`
 
