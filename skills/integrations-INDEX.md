@@ -243,7 +243,7 @@ integrations/
 - Name: `aws`
 - Path: `packages/aws/`
 - Description: Collect logs and metrics from Amazon Web Services (AWS) with Elastic Agent.
-- Version: 8.4.1
+- Version: 8.5.0
 - Categories: aws, cloud
 - Docs: `packages/aws/docs/README.md`
 
@@ -654,7 +654,7 @@ integrations/
 - Name: `cisco_aironet`
 - Path: `packages/cisco_aironet/`
 - Description: Integration for Cisco Aironet WLC Logs
-- Version: 1.21.1
+- Version: 1.22.0
 - Categories: security, network
 - Docs: `packages/cisco_aironet/docs/README.md`
 
@@ -2244,7 +2244,7 @@ integrations/
 - Name: `otel_android_dashboards`
 - Path: `packages/otel_android_dashboards/`
 - Description: Dashboards for visualizing Android application's telemetry
-- Version: 1.0.0
+- Version: 1.1.0
 - Categories: observability, application_observability, opentelemetry
 - Docs: `packages/otel_android_dashboards/docs/README.md`
 
@@ -2276,7 +2276,7 @@ integrations/
 - Name: `panw`
 - Path: `packages/panw/`
 - Description: Collect logs from Palo Alto next-gen firewalls with Elastic Agent.
-- Version: 5.5.1
+- Version: 5.5.2
 - Categories: security, network
 - Docs: `packages/panw/docs/README.md`
 
@@ -2411,7 +2411,7 @@ integrations/
 - Name: `prometheus_input_otel`
 - Path: `packages/prometheus_input_otel/`
 - Description: Scrape Prometheus-format metrics via the OTel Collector with guided HTTPS/TLS/auth configuration.
-- Version: 0.2.0
+- Version: 0.3.0
 - Categories: monitoring, observability, opentelemetry
 - Docs: `packages/prometheus_input_otel/docs/README.md`
 
@@ -2783,7 +2783,7 @@ integrations/
 - Name: `sublime_security`
 - Path: `packages/sublime_security/`
 - Description: Collect logs from Sublime Security with Elastic Agent.
-- Version: 1.15.1
+- Version: 1.15.2
 - Categories: security, email_security
 - Docs: `packages/sublime_security/docs/README.md`
 
@@ -2862,7 +2862,7 @@ integrations/
 - Name: `system`
 - Path: `packages/system/`
 - Description: Collect system logs and metrics from your servers with Elastic Agent.
-- Version: 2.25.2
+- Version: 2.26.0
 - Categories: os_system
 - Docs: `packages/system/docs/README.md`
 
@@ -2974,7 +2974,7 @@ integrations/
 - Name: `ti_anomali`
 - Path: `packages/ti_anomali/`
 - Description: Ingest threat intelligence indicators from Anomali ThreatStream with Elastic Agent.
-- Version: 2.9.0
+- Version: 2.10.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_anomali/docs/README.md`
 
@@ -2982,7 +2982,7 @@ integrations/
 - Name: `ti_anyrun`
 - Path: `packages/ti_anyrun/`
 - Description: Ingest Threat Intelligence indicators from ANY.RUN TI Feeds with Elastic Agent
-- Version: 1.3.0
+- Version: 1.4.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_anyrun/docs/README.md`
 
@@ -2990,7 +2990,7 @@ integrations/
 - Name: `ti_cif3`
 - Path: `packages/ti_cif3/`
 - Description: Ingest threat indicators from a Collective Intelligence Framework v3 instance with Elastic Agent.
-- Version: 1.22.0
+- Version: 1.23.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_cif3/docs/README.md`
 
@@ -2998,7 +2998,7 @@ integrations/
 - Name: `ti_crowdstrike`
 - Path: `packages/ti_crowdstrike/`
 - Description: Collect logs from CrowdStrike Falcon Intelligence with Elastic Agent.
-- Version: 2.11.0
+- Version: 2.12.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_crowdstrike/docs/README.md`
 
@@ -3014,7 +3014,7 @@ integrations/
 - Name: `ti_cybersixgill`
 - Path: `packages/ti_cybersixgill/`
 - Description: Ingest threat intelligence indicators from Cybersixgill with Elastic Agent.
-- Version: 1.38.0
+- Version: 1.39.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_cybersixgill/docs/README.md`
 
@@ -3022,14 +3022,14 @@ integrations/
 - Name: `ti_cyware_intel_exchange`
 - Path: `packages/ti_cyware_intel_exchange/`
 - Description: Collect logs from Cyware Intel Exchange with Elastic Agent.
-- Version: 0.5.0
+- Version: 0.6.0
 - Docs: `packages/ti_cyware_intel_exchange/docs/README.md`
 
 ### DomainTools Feeds
 - Name: `ti_domaintools`
 - Path: `packages/ti_domaintools/`
 - Description: DomainTools Feeds provide data on the different stages of the domain lifecycle: from first-observed in the wild, to newly re-activated after a period of quiet.
-- Version: 1.7.0
+- Version: 1.8.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_domaintools/docs/README.md`
 
@@ -3037,7 +3037,7 @@ integrations/
 - Name: `ti_eclecticiq`
 - Path: `packages/ti_eclecticiq/`
 - Description: Ingest threat intelligence from EclecticIQ with Elastic Agent
-- Version: 1.9.0
+- Version: 1.10.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_eclecticiq/docs/README.md`
 
@@ -3045,7 +3045,7 @@ integrations/
 - Name: `ti_eset`
 - Path: `packages/ti_eset/`
 - Description: Ingest threat intelligence indicators from ESET Threat Intelligence with Elastic Agent.
-- Version: 1.13.0
+- Version: 1.14.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_eset/docs/README.md`
 
@@ -3053,7 +3053,7 @@ integrations/
 - Name: `ti_flashpoint`
 - Path: `packages/ti_flashpoint/`
 - Description: Collect logs from Flashpoint with Elastic Agent.
-- Version: 0.4.0
+- Version: 0.5.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_flashpoint/docs/README.md`
 
@@ -3061,7 +3061,7 @@ integrations/
 - Name: `ti_google_threat_intelligence`
 - Path: `packages/ti_google_threat_intelligence/`
 - Description: Collect Threat Intelligence Events from Google Threat Intelligence using Elastic Agent, and perform enrichment on Elasticsearch by correlating Indicators of Compromise (IOCs).
-- Version: 1.3.0
+- Version: 1.4.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_google_threat_intelligence/docs/README.md`
 
@@ -3069,7 +3069,7 @@ integrations/
 - Name: `ti_greynoise`
 - Path: `packages/ti_greynoise/`
 - Description: Collect Threat Intelligence Indicators from GreyNoise using Elastic Agent, and perform enrichment on Elasticsearch by correlating Indicators of Compromise (IOCs).
-- Version: 0.10.0
+- Version: 0.11.0
 - Categories: threat_intel, security
 - Docs: `packages/ti_greynoise/docs/README.md`
 
@@ -3093,7 +3093,7 @@ integrations/
 - Name: `ti_misp`
 - Path: `packages/ti_misp/`
 - Description: Ingest threat intelligence indicators from MISP platform with Elastic Agent.
-- Version: 1.47.0
+- Version: 1.48.1
 - Categories: security, threat_intel
 - Docs: `packages/ti_misp/docs/README.md`
 
@@ -3101,7 +3101,7 @@ integrations/
 - Name: `ti_opencti`
 - Path: `packages/ti_opencti/`
 - Description: Ingest threat intelligence indicators from OpenCTI with Elastic Agent.
-- Version: 2.16.0
+- Version: 2.17.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_opencti/docs/README.md`
 
@@ -3117,7 +3117,7 @@ integrations/
 - Name: `ti_rapid7_threat_command`
 - Path: `packages/ti_rapid7_threat_command/`
 - Description: Collect threat intelligence from Threat Command API with Elastic Agent.
-- Version: 2.12.0
+- Version: 2.13.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_rapid7_threat_command/docs/README.md`
 
@@ -3125,7 +3125,7 @@ integrations/
 - Name: `ti_recordedfuture`
 - Path: `packages/ti_recordedfuture/`
 - Description: Ingest threat intelligence and alert data from Recorded Future with Elastic Agent.
-- Version: 2.9.0
+- Version: 2.10.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_recordedfuture/docs/README.md`
 
@@ -3148,7 +3148,7 @@ integrations/
 - Name: `ti_threatq`
 - Path: `packages/ti_threatq/`
 - Description: Ingest threat intelligence indicators from ThreatQuotient with Elastic Agent.
-- Version: 1.40.0
+- Version: 1.41.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_threatq/docs/README.md`
 
@@ -3444,7 +3444,7 @@ integrations/
 - Name: `zscaler_zia`
 - Path: `packages/zscaler_zia/`
 - Description: Collect logs from Zscaler Internet Access (ZIA) with Elastic Agent.
-- Version: 4.4.0
+- Version: 4.4.1
 - Categories: security, network
 - Docs: `packages/zscaler_zia/docs/README.md`
 
