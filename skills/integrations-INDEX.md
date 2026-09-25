@@ -211,7 +211,7 @@ integrations/
 - Name: `auditd`
 - Path: `packages/auditd/`
 - Description: Collect logs from Linux audit daemon with Elastic Agent.
-- Version: 3.26.0
+- Version: 3.26.1
 - Categories: security, auditd
 - Docs: `packages/auditd/docs/README.md`
 
@@ -219,7 +219,7 @@ integrations/
 - Name: `auditd_manager`
 - Path: `packages/auditd_manager/`
 - Description: The Auditd Manager Integration receives audit events from the Linux Audit Framework that is a part of the Linux kernel.
-- Version: 1.20.1
+- Version: 1.21.0
 - Categories: security, auditd
 - Docs: `packages/auditd_manager/docs/README.md`
 
@@ -670,7 +670,7 @@ integrations/
 - Name: `cisco_duo`
 - Path: `packages/cisco_duo/`
 - Description: Collect logs from Cisco Duo with Elastic Agent.
-- Version: 2.13.0
+- Version: 2.14.0
 - Categories: security, iam
 - Docs: `packages/cisco_duo/docs/README.md`
 
@@ -1660,7 +1660,7 @@ integrations/
 - Name: `journald`
 - Path: `packages/journald/`
 - Description: Collect logs from journald with Elastic Agent.
-- Version: 1.2.1
+- Version: 1.3.0
 - Categories: observability, custom
 - Docs: `packages/journald/docs/README.md`
 
@@ -2141,7 +2141,7 @@ integrations/
 - Name: `nozomi_networks`
 - Path: `packages/nozomi_networks/`
 - Description: Collect logs from Nozomi Networks with Elastic Agent.
-- Version: 0.5.0
+- Version: 0.6.0
 - Categories: security, network
 - Docs: `packages/nozomi_networks/docs/README.md`
 
@@ -2783,7 +2783,7 @@ integrations/
 - Name: `sublime_security`
 - Path: `packages/sublime_security/`
 - Description: Collect logs from Sublime Security with Elastic Agent.
-- Version: 1.15.2
+- Version: 1.16.0
 - Categories: security, email_security
 - Docs: `packages/sublime_security/docs/README.md`
 
@@ -3045,7 +3045,7 @@ integrations/
 - Name: `ti_eset`
 - Path: `packages/ti_eset/`
 - Description: Ingest threat intelligence indicators from ESET Threat Intelligence with Elastic Agent.
-- Version: 1.14.0
+- Version: 1.14.1
 - Categories: security, threat_intel
 - Docs: `packages/ti_eset/docs/README.md`
 
