@@ -100,7 +100,7 @@ integrations/
 - Name: `akamai`
 - Path: `packages/akamai/`
 - Description: Collect logs from Akamai with Elastic Agent.
-- Version: 4.1.0
+- Version: 4.1.1
 - Docs: `packages/akamai/docs/README.md`
 
 ### Amazon Security Lake
