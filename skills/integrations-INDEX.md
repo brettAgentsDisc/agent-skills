@@ -2862,7 +2862,7 @@ integrations/
 - Name: `system`
 - Path: `packages/system/`
 - Description: Collect system logs and metrics from your servers with Elastic Agent.
-- Version: 2.26.0
+- Version: 3.0.0
 - Categories: os_system
 - Docs: `packages/system/docs/README.md`
 
