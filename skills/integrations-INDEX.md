@@ -107,7 +107,7 @@ integrations/
 - Name: `amazon_security_lake`
 - Path: `packages/amazon_security_lake/`
 - Description: Collect logs from Amazon Security Lake with Elastic Agent.
-- Version: 2.10.0
+- Version: 2.10.1
 - Categories: aws, security
 - Docs: `packages/amazon_security_lake/docs/README.md`
 
@@ -347,7 +347,7 @@ integrations/
 - Name: `azure`
 - Path: `packages/azure/`
 - Description: This Elastic integration collects logs from Azure
-- Version: 1.40.0
+- Version: 1.40.1
 - Categories: cloud, azure, observability
 - Docs: `packages/azure/docs/README.md`
 
@@ -1612,7 +1612,7 @@ integrations/
 - Name: `island_browser`
 - Path: `packages/island_browser/`
 - Description: Collect logs from Island Browser with Elastic Agent.
-- Version: 1.3.0
+- Version: 1.4.0
 - Categories: security
 - Docs: `packages/island_browser/docs/README.md`
 
@@ -2165,7 +2165,7 @@ integrations/
 - Name: `o365`
 - Path: `packages/o365/`
 - Description: Collect logs from Microsoft Office 365 with Elastic Agent.
-- Version: 3.11.0
+- Version: 3.11.1
 - Categories: security, productivity_security
 - Docs: `packages/o365/docs/README.md`
 
@@ -2236,7 +2236,7 @@ integrations/
 - Name: `osquery_manager`
 - Path: `packages/osquery_manager/`
 - Description: Deploy Osquery with Elastic Agent, then run and schedule queries in Kibana
-- Version: 1.35.0
+- Version: 1.35.1
 - Categories: security
 - Docs: `packages/osquery_manager/docs/README.md`
 
@@ -2640,7 +2640,7 @@ integrations/
 - Name: `sentinel_one_cloud_funnel`
 - Path: `packages/sentinel_one_cloud_funnel/`
 - Description: Collect logs from SentinelOne Cloud Funnel with Elastic Agent.
-- Version: 1.15.0
+- Version: 1.15.1
 - Categories: security, edr_xdr
 - Docs: `packages/sentinel_one_cloud_funnel/docs/README.md`
 
@@ -2966,7 +2966,7 @@ integrations/
 - Name: `ti_abusech`
 - Path: `packages/ti_abusech/`
 - Description: Ingest threat intelligence indicators from URL Haus, Malware Bazaar, and Threat Fox feeds with Elastic Agent.
-- Version: 5.1.0
+- Version: 5.1.1
 - Categories: security, threat_intel
 - Docs: `packages/ti_abusech/docs/README.md`
 
@@ -3093,7 +3093,7 @@ integrations/
 - Name: `ti_misp`
 - Path: `packages/ti_misp/`
 - Description: Ingest threat intelligence indicators from MISP platform with Elastic Agent.
-- Version: 1.48.1
+- Version: 1.48.2
 - Categories: security, threat_intel
 - Docs: `packages/ti_misp/docs/README.md`
 
