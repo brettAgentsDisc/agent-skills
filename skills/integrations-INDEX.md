@@ -195,7 +195,7 @@ integrations/
 - Name: `atlassian_confluence`
 - Path: `packages/atlassian_confluence/`
 - Description: Collect logs from Atlassian Confluence with Elastic Agent.
-- Version: 1.35.0
+- Version: 1.35.1
 - Categories: security, productivity_security
 - Docs: `packages/atlassian_confluence/docs/README.md`
 
@@ -243,7 +243,7 @@ integrations/
 - Name: `aws`
 - Path: `packages/aws/`
 - Description: Collect logs and metrics from Amazon Web Services (AWS) with Elastic Agent.
-- Version: 8.5.0
+- Version: 8.6.0
 - Categories: aws, cloud
 - Docs: `packages/aws/docs/README.md`
 
@@ -813,7 +813,7 @@ integrations/
 - Name: `cloudflare_logpush`
 - Path: `packages/cloudflare_logpush/`
 - Description: Collect logs from Cloudflare with Elastic Agent.
-- Version: 2.0.1
+- Version: 2.0.3
 - Categories: security, network, cdn_security
 - Docs: `packages/cloudflare_logpush/docs/README.md`
 
@@ -1040,7 +1040,7 @@ integrations/
 - Name: `elasticsearch`
 - Path: `packages/elasticsearch/`
 - Description: Elasticsearch Integration
-- Version: 1.23.2
+- Version: 1.23.3
 - Docs: `packages/elasticsearch/docs/README.md`
 
 ### Endace
@@ -1110,7 +1110,7 @@ integrations/
 - Name: `eset_protect`
 - Path: `packages/eset_protect/`
 - Description: Collect logs from ESET PROTECT with Elastic Agent.
-- Version: 2.7.0
+- Version: 2.8.0
 - Categories: security, edr_xdr, vulnerability_management
 - Docs: `packages/eset_protect/docs/README.md`
 
@@ -1327,7 +1327,7 @@ integrations/
 - Name: `github`
 - Path: `packages/github/`
 - Description: Collect logs from GitHub with Elastic Agent.
-- Version: 2.29.0
+- Version: 2.30.0
 - Docs: `packages/github/docs/README.md`
 
 ### GitLab
@@ -2363,7 +2363,7 @@ integrations/
 - Name: `prisma_access`
 - Path: `packages/prisma_access/`
 - Description: Collect logs from Palo Alto Prisma Access with Elastic Agent.
-- Version: 1.7.4
+- Version: 1.7.5
 - Categories: security, network
 - Docs: `packages/prisma_access/docs/README.md`
 
