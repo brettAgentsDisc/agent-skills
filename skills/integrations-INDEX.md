@@ -179,7 +179,7 @@ integrations/
 - Name: `armis`
 - Path: `packages/armis/`
 - Description: Collect logs from Armis with Elastic Agent.
-- Version: 0.7.0
+- Version: 0.8.0
 - Categories: security
 - Docs: `packages/armis/docs/README.md`
 
@@ -195,7 +195,7 @@ integrations/
 - Name: `atlassian_confluence`
 - Path: `packages/atlassian_confluence/`
 - Description: Collect logs from Atlassian Confluence with Elastic Agent.
-- Version: 1.35.1
+- Version: 1.35.2
 - Categories: security, productivity_security
 - Docs: `packages/atlassian_confluence/docs/README.md`
 
@@ -347,7 +347,7 @@ integrations/
 - Name: `azure`
 - Path: `packages/azure/`
 - Description: This Elastic integration collects logs from Azure
-- Version: 1.40.1
+- Version: 1.40.2
 - Categories: cloud, azure, observability
 - Docs: `packages/azure/docs/README.md`
 
@@ -678,7 +678,7 @@ integrations/
 - Name: `cisco_ftd`
 - Path: `packages/cisco_ftd/`
 - Description: Collect logs from Cisco FTD with Elastic Agent.
-- Version: 3.13.12
+- Version: 3.13.13
 - Categories: network, security, firewall_security
 - Docs: `packages/cisco_ftd/docs/README.md`
 
@@ -694,7 +694,7 @@ integrations/
 - Name: `cisco_ise`
 - Path: `packages/cisco_ise/`
 - Description: Collect logs from Cisco ISE with Elastic Agent.
-- Version: 1.33.0
+- Version: 1.33.1
 - Categories: security, network
 - Docs: `packages/cisco_ise/docs/README.md`
 
@@ -1271,7 +1271,7 @@ integrations/
 - Name: `gcp`
 - Path: `packages/gcp/`
 - Description: Collect logs and metrics from Google Cloud Platform with Elastic Agent.
-- Version: 2.51.0
+- Version: 2.51.1
 - Categories: google_cloud, cloud, observability
 - Docs: `packages/gcp/docs/README.md`
 
@@ -1839,7 +1839,7 @@ integrations/
 - Name: `m365_defender`
 - Path: `packages/m365_defender/`
 - Description: Collect logs from Microsoft Defender XDR with Elastic Agent.
-- Version: 5.19.0
+- Version: 5.20.0
 - Categories: security, edr_xdr, vulnerability_workflow, cloudsecurity_cdr
 - Docs: `packages/m365_defender/docs/README.md`
 
@@ -2624,7 +2624,7 @@ integrations/
 - Name: `security_detection_engine`
 - Path: `packages/security_detection_engine/`
 - Description: Prebuilt detection rules for Elastic Security
-- Version: 9.5.7
+- Version: 9.5.8
 - Categories: security, siem
 - Docs: `packages/security_detection_engine/docs/README.md`
 
@@ -3045,7 +3045,7 @@ integrations/
 - Name: `ti_eset`
 - Path: `packages/ti_eset/`
 - Description: Ingest threat intelligence indicators from ESET Threat Intelligence with Elastic Agent.
-- Version: 1.14.1
+- Version: 1.15.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_eset/docs/README.md`
 
