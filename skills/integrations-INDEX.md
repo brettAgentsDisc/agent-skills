@@ -243,7 +243,7 @@ integrations/
 - Name: `aws`
 - Path: `packages/aws/`
 - Description: Collect logs and metrics from Amazon Web Services (AWS) with Elastic Agent.
-- Version: 8.6.0
+- Version: 8.7.0
 - Categories: aws, cloud
 - Docs: `packages/aws/docs/README.md`
 
@@ -251,7 +251,7 @@ integrations/
 - Name: `aws_bedrock`
 - Path: `packages/aws_bedrock/`
 - Description: Collect Amazon Bedrock model invocation logs and runtime metrics with Elastic Agent.
-- Version: 2.1.1
+- Version: 2.2.0
 - Categories: aws, cloud, observability, security
 - Docs: `packages/aws_bedrock/docs/README.md`
 
@@ -259,7 +259,7 @@ integrations/
 - Name: `aws_bedrock_agentcore`
 - Path: `packages/aws_bedrock_agentcore/`
 - Description: Collect Amazon Bedrock AgentCore's Agent runtime, Gateway, Identity, Memory, Browser Tools and Code Interpreter metrics and logs using Elastic Agent
-- Version: 1.0.0
+- Version: 1.1.0
 - Categories: aws, cloud, observability
 - Docs: `packages/aws_bedrock_agentcore/docs/README.md`
 
@@ -291,7 +291,7 @@ integrations/
 - Name: `aws_logs`
 - Path: `packages/aws_logs/`
 - Description: Collect raw logs from AWS S3 or CloudWatch with Elastic Agent.
-- Version: 2.0.1
+- Version: 2.1.0
 - Categories: cloud, observability, custom, aws
 - Docs: `packages/aws_logs/docs/README.md`
 
@@ -299,7 +299,7 @@ integrations/
 - Name: `aws_mq`
 - Path: `packages/aws_mq/`
 - Description: Collect Amazon MQ metrics and logs with Elastic Agent
-- Version: 2.0.1
+- Version: 2.1.0
 - Categories: aws, cloud, message_queue, observability
 - Docs: `packages/aws_mq/docs/README.md`
 
@@ -307,7 +307,7 @@ integrations/
 - Name: `aws_securityhub`
 - Path: `packages/aws_securityhub/`
 - Description: Collect logs from AWS Security Hub with Elastic Agent.
-- Version: 2.2.0
+- Version: 2.3.0
 - Categories: aws, security, cloudsecurity_cdr, vulnerability_workflow
 - Docs: `packages/aws_securityhub/docs/README.md`
 
@@ -1636,7 +1636,7 @@ integrations/
 - Name: `jamf_pro`
 - Path: `packages/jamf_pro/`
 - Description: Collect logs and inventory data from Jamf Pro with Elastic Agent
-- Version: 2.1.1
+- Version: 2.2.0
 - Categories: cloud, custom
 - Docs: `packages/jamf_pro/docs/README.md`
 
@@ -1644,7 +1644,7 @@ integrations/
 - Name: `jamf_protect`
 - Path: `packages/jamf_protect/`
 - Description: Receives events from Jamf Protect with Elastic Agent.
-- Version: 3.5.0
+- Version: 3.5.1
 - Categories: security, edr_xdr
 - Docs: `packages/jamf_protect/docs/README.md`
 
@@ -1775,7 +1775,7 @@ integrations/
 - Name: `kubernetes_otel`
 - Path: `packages/kubernetes_otel/`
 - Description: Utilise the pre-built dashboard for OTel-native metrics and events collected from a Kubernetes cluster
-- Version: 2.6.0
+- Version: 2.6.1
 - Categories: kubernetes
 - Docs: `packages/kubernetes_otel/docs/README.md`
 
@@ -1839,7 +1839,7 @@ integrations/
 - Name: `m365_defender`
 - Path: `packages/m365_defender/`
 - Description: Collect logs from Microsoft Defender XDR with Elastic Agent.
-- Version: 5.20.0
+- Version: 5.21.0
 - Categories: security, edr_xdr, vulnerability_workflow, cloudsecurity_cdr
 - Docs: `packages/m365_defender/docs/README.md`
 
@@ -1895,7 +1895,7 @@ integrations/
 - Name: `microsoft_defender_endpoint`
 - Path: `packages/microsoft_defender_endpoint/`
 - Description: Collect logs from Microsoft Defender for Endpoint with Elastic Agent.
-- Version: 4.12.0
+- Version: 4.13.0
 - Categories: security, edr_xdr
 - Docs: `packages/microsoft_defender_endpoint/docs/README.md`
 
