@@ -243,7 +243,7 @@ integrations/
 - Name: `aws`
 - Path: `packages/aws/`
 - Description: Collect logs and metrics from Amazon Web Services (AWS) with Elastic Agent.
-- Version: 8.7.0
+- Version: 8.7.1
 - Categories: aws, cloud
 - Docs: `packages/aws/docs/README.md`
 
@@ -678,7 +678,7 @@ integrations/
 - Name: `cisco_ftd`
 - Path: `packages/cisco_ftd/`
 - Description: Collect logs from Cisco FTD with Elastic Agent.
-- Version: 3.13.13
+- Version: 3.14.0
 - Categories: network, security, firewall_security
 - Docs: `packages/cisco_ftd/docs/README.md`
 
