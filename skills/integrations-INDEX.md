@@ -243,7 +243,7 @@ integrations/
 - Name: `aws`
 - Path: `packages/aws/`
 - Description: Collect logs and metrics from Amazon Web Services (AWS) with Elastic Agent.
-- Version: 8.7.1
+- Version: 8.7.2
 - Categories: aws, cloud
 - Docs: `packages/aws/docs/README.md`
 
@@ -2284,7 +2284,7 @@ integrations/
 - Name: `panw_cortex_xdr`
 - Path: `packages/panw_cortex_xdr/`
 - Description: Collect logs from Palo Alto Cortex XDR with Elastic Agent.
-- Version: 2.10.0
+- Version: 3.0.0
 - Categories: security, edr_xdr
 - Docs: `packages/panw_cortex_xdr/docs/README.md`
 
@@ -3133,7 +3133,7 @@ integrations/
 - Name: `ti_strider`
 - Path: `packages/ti_strider/`
 - Description: Ingest threat intelligence indicators from Strider Shield with Elastic Agent.
-- Version: 0.2.0
+- Version: 0.2.1
 - Docs: `packages/ti_strider/docs/README.md`
 
 ### ThreatConnect
