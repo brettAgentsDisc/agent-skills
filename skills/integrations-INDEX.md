@@ -243,7 +243,7 @@ integrations/
 - Name: `aws`
 - Path: `packages/aws/`
 - Description: Collect logs and metrics from Amazon Web Services (AWS) with Elastic Agent.
-- Version: 8.7.2
+- Version: 8.8.0
 - Categories: aws, cloud
 - Docs: `packages/aws/docs/README.md`
 
@@ -3045,7 +3045,7 @@ integrations/
 - Name: `ti_eset`
 - Path: `packages/ti_eset/`
 - Description: Ingest threat intelligence indicators from ESET Threat Intelligence with Elastic Agent.
-- Version: 1.15.0
+- Version: 1.16.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_eset/docs/README.md`
 
@@ -3452,7 +3452,7 @@ integrations/
 - Name: `zscaler_zpa`
 - Path: `packages/zscaler_zpa/`
 - Description: Collect logs from Zscaler Private Access (ZPA) with Elastic Agent.
-- Version: 1.24.0
+- Version: 1.24.1
 - Categories: security, network, vpn_security
 - Docs: `packages/zscaler_zpa/docs/README.md`
 
