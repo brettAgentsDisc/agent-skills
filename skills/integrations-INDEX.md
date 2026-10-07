@@ -195,7 +195,7 @@ integrations/
 - Name: `atlassian_confluence`
 - Path: `packages/atlassian_confluence/`
 - Description: Collect logs from Atlassian Confluence with Elastic Agent.
-- Version: 1.35.2
+- Version: 1.36.0
 - Categories: security, productivity_security
 - Docs: `packages/atlassian_confluence/docs/README.md`
 
@@ -646,7 +646,7 @@ integrations/
 - Name: `cisa_kevs`
 - Path: `packages/cisa_kevs/`
 - Description: This package allows the ingest of known exploited vulnerabilities according to the Cybersecurity and Infrastructure Security Agency of the United States of America. This information could be used to enrich or track exisiting vulnerabilities that are known to be exploited in the wild.
-- Version: 1.12.0
+- Version: 1.13.0
 - Categories: security
 - Docs: `packages/cisa_kevs/docs/README.md`
 
@@ -1198,7 +1198,7 @@ integrations/
 - Name: `first_epss`
 - Path: `packages/first_epss/`
 - Description: Collect exploit prediction score data from the First EPSS API with Elastic Agent.
-- Version: 1.5.0
+- Version: 1.6.0
 - Categories: security, vulnerability_management
 - Docs: `packages/first_epss/docs/README.md`
 
@@ -1754,14 +1754,6 @@ integrations/
 - Description: Collect logs and metrics from Kibana with Elastic Agent.
 - Version: 2.9.0
 - Docs: `packages/kibana/docs/README.md`
-
-### Kubelet Stats OpenTelemetry Input
-- Name: `kubeletstats_input_otel`
-- Path: `packages/kubeletstats_input_otel/`
-- Description: Collect Kubernetes node, pod, container, and volume metrics from the Kubelet API using the OpenTelemetry Collector.
-- Version: 0.1.0
-- Categories: containers, kubernetes, observability, opentelemetry
-- Docs: `packages/kubeletstats_input_otel/docs/README.md`
 
 ### Kubernetes
 - Name: `kubernetes`
@@ -2536,7 +2528,7 @@ integrations/
 - Name: `rapid7_insightvm`
 - Path: `packages/rapid7_insightvm/`
 - Description: Collect logs from Rapid7 InsightVM with Elastic Agent.
-- Version: 2.12.0
+- Version: 2.13.0
 - Categories: security, vulnerability_management, vulnerability_workflow, cloudsecurity_cdr
 - Docs: `packages/rapid7_insightvm/docs/README.md`
 
