@@ -243,7 +243,7 @@ integrations/
 - Name: `aws`
 - Path: `packages/aws/`
 - Description: Collect logs and metrics from Amazon Web Services (AWS) with Elastic Agent.
-- Version: 8.8.0
+- Version: 8.9.0
 - Categories: aws, cloud
 - Docs: `packages/aws/docs/README.md`
 
@@ -3212,7 +3212,7 @@ integrations/
 - Name: `trendmicro`
 - Path: `packages/trendmicro/`
 - Description: Collect logs from TrendAI Deep Security with Elastic Agent.
-- Version: 2.10.0
+- Version: 2.10.1
 - Categories: network, edr_xdr, security
 - Docs: `packages/trendmicro/docs/README.md`
 
