@@ -347,7 +347,7 @@ integrations/
 - Name: `azure`
 - Path: `packages/azure/`
 - Description: This Elastic integration collects logs from Azure
-- Version: 1.40.2
+- Version: 1.40.3
 - Categories: cloud, azure, observability
 - Docs: `packages/azure/docs/README.md`
 
@@ -813,7 +813,7 @@ integrations/
 - Name: `cloudflare_logpush`
 - Path: `packages/cloudflare_logpush/`
 - Description: Collect logs from Cloudflare with Elastic Agent.
-- Version: 2.0.3
+- Version: 2.0.4
 - Categories: security, network, cdn_security
 - Docs: `packages/cloudflare_logpush/docs/README.md`
 
@@ -930,7 +930,7 @@ integrations/
 - Name: `cyera`
 - Path: `packages/cyera/`
 - Description: Collect logs from Cyera with Elastic Agent.
-- Version: 0.11.1
+- Version: 0.11.2
 - Categories: security
 - Docs: `packages/cyera/docs/README.md`
 
@@ -945,7 +945,7 @@ integrations/
 - Name: `darktrace`
 - Path: `packages/darktrace/`
 - Description: Collect logs from Darktrace with Elastic Agent.
-- Version: 2.5.0
+- Version: 2.5.1
 - Categories: security, network_security
 - Docs: `packages/darktrace/docs/README.md`
 
@@ -977,7 +977,7 @@ integrations/
 - Name: `docker`
 - Path: `packages/docker/`
 - Description: Collect container logs and metrics from Docker (or Podman) via Elastic Agent.
-- Version: 2.15.3
+- Version: 2.16.0
 - Categories: observability, containers
 - Docs: `packages/docker/docs/README.md`
 
@@ -1382,7 +1382,7 @@ integrations/
 - Name: `google_workspace`
 - Path: `packages/google_workspace/`
 - Description: Collect logs from Google Workspace with Elastic Agent.
-- Version: 3.9.0
+- Version: 3.9.1
 - Categories: productivity, productivity_security, security
 - Docs: `packages/google_workspace/docs/README.md`
 
@@ -2125,7 +2125,7 @@ integrations/
 - Name: `nginx_otel`
 - Path: `packages/nginx_otel/`
 - Description: NGINX Assets from OpenTelemetry Collector
-- Version: 0.6.1
+- Version: 0.7.0
 - Categories: observability, web, opentelemetry
 - Docs: `packages/nginx_otel/docs/README.md`
 
@@ -2252,7 +2252,7 @@ integrations/
 - Name: `otel_rum_dashboards`
 - Path: `packages/otel_rum_dashboards/`
 - Description: RUM status metrics from OpenTelemetry JS SDKs
-- Version: 0.0.5
+- Version: 0.0.6
 - Categories: observability, web, opentelemetry
 - Docs: `packages/otel_rum_dashboards/docs/README.md`
 
@@ -2268,7 +2268,7 @@ integrations/
 - Name: `panw`
 - Path: `packages/panw/`
 - Description: Collect logs from Palo Alto next-gen firewalls with Elastic Agent.
-- Version: 5.5.2
+- Version: 5.5.3
 - Categories: security, network
 - Docs: `packages/panw/docs/README.md`
 
@@ -2489,7 +2489,7 @@ integrations/
 - Name: `qualys_vmdr`
 - Path: `packages/qualys_vmdr/`
 - Description: Collect data from Qualys VMDR platform with Elastic Agent.
-- Version: 6.22.0
+- Version: 6.22.1
 - Categories: security, vulnerability_management, vulnerability_workflow, cloudsecurity_cdr
 - Docs: `packages/qualys_vmdr/docs/README.md`
 
@@ -2624,7 +2624,7 @@ integrations/
 - Name: `sentinel_one`
 - Path: `packages/sentinel_one/`
 - Description: Collect logs from SentinelOne with Elastic Agent.
-- Version: 2.12.0
+- Version: 2.12.1
 - Categories: security, edr_xdr
 - Docs: `packages/sentinel_one/docs/README.md`
 
@@ -2974,7 +2974,7 @@ integrations/
 - Name: `ti_anyrun`
 - Path: `packages/ti_anyrun/`
 - Description: Ingest Threat Intelligence indicators from ANY.RUN TI Feeds with Elastic Agent
-- Version: 1.4.0
+- Version: 1.4.1
 - Categories: security, threat_intel
 - Docs: `packages/ti_anyrun/docs/README.md`
 
@@ -3006,7 +3006,7 @@ integrations/
 - Name: `ti_cybersixgill`
 - Path: `packages/ti_cybersixgill/`
 - Description: Ingest threat intelligence indicators from Cybersixgill with Elastic Agent.
-- Version: 1.39.0
+- Version: 1.39.1
 - Categories: security, threat_intel
 - Docs: `packages/ti_cybersixgill/docs/README.md`
 
@@ -3014,7 +3014,7 @@ integrations/
 - Name: `ti_cyware_intel_exchange`
 - Path: `packages/ti_cyware_intel_exchange/`
 - Description: Collect logs from Cyware Intel Exchange with Elastic Agent.
-- Version: 0.6.0
+- Version: 0.6.1
 - Docs: `packages/ti_cyware_intel_exchange/docs/README.md`
 
 ### DomainTools Feeds
@@ -3085,7 +3085,7 @@ integrations/
 - Name: `ti_misp`
 - Path: `packages/ti_misp/`
 - Description: Ingest threat intelligence indicators from MISP platform with Elastic Agent.
-- Version: 1.48.2
+- Version: 1.48.3
 - Categories: security, threat_intel
 - Docs: `packages/ti_misp/docs/README.md`
 
@@ -3117,7 +3117,7 @@ integrations/
 - Name: `ti_recordedfuture`
 - Path: `packages/ti_recordedfuture/`
 - Description: Ingest threat intelligence and alert data from Recorded Future with Elastic Agent.
-- Version: 2.10.0
+- Version: 2.10.1
 - Categories: security, threat_intel
 - Docs: `packages/ti_recordedfuture/docs/README.md`
 
@@ -3140,7 +3140,7 @@ integrations/
 - Name: `ti_threatq`
 - Path: `packages/ti_threatq/`
 - Description: Ingest threat intelligence indicators from ThreatQuotient with Elastic Agent.
-- Version: 1.41.0
+- Version: 1.41.1
 - Categories: security, threat_intel
 - Docs: `packages/ti_threatq/docs/README.md`
 
