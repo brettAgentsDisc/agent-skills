@@ -100,7 +100,7 @@ integrations/
 - Name: `akamai`
 - Path: `packages/akamai/`
 - Description: Collect logs from Akamai with Elastic Agent.
-- Version: 4.1.1
+- Version: 4.1.2
 - Docs: `packages/akamai/docs/README.md`
 
 ### Amazon Security Lake
@@ -1303,7 +1303,7 @@ integrations/
 - Name: `gcp_vertexai`
 - Path: `packages/gcp_vertexai/`
 - Description: Collect GCP Vertex AI metrics and logs with Elastic Agent
-- Version: 1.5.0
+- Version: 1.5.1
 - Categories: cloud, google_cloud, observability
 - Docs: `packages/gcp_vertexai/docs/README.md`
 
@@ -1690,7 +1690,7 @@ integrations/
 - Name: `juniper_srx`
 - Path: `packages/juniper_srx/`
 - Description: Collect logs from Juniper SRX devices with Elastic Agent.
-- Version: 1.28.0
+- Version: 1.29.0
 - Docs: `packages/juniper_srx/docs/README.md`
 
 ### JupiterOne
@@ -2113,11 +2113,11 @@ integrations/
 - Categories: observability, containers, kubernetes, opentelemetry
 - Docs: `packages/nginx_ingress_controller_otel/docs/README.md`
 
-### Nginx (OpenTelemetry)
+### NGINX OpenTelemetry Input
 - Name: `nginx_otel_input`
 - Path: `packages/nginx_input_otel/`
 - Description: Collect Nginx metrics via the OTel nginxreceiver.
-- Version: 0.2.2
+- Version: 0.3.0
 - Categories: web, observability, opentelemetry
 - Docs: `packages/nginx_input_otel/docs/README.md`
 
@@ -3037,7 +3037,7 @@ integrations/
 - Name: `ti_eset`
 - Path: `packages/ti_eset/`
 - Description: Ingest threat intelligence indicators from ESET Threat Intelligence with Elastic Agent.
-- Version: 1.16.0
+- Version: 1.17.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_eset/docs/README.md`
 
