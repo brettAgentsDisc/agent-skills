@@ -630,7 +630,7 @@ integrations/
 - Name: `checkpoint_email`
 - Path: `packages/checkpoint_email/`
 - Description: Collect logs from Check Point Harmony Email & Collaboration with Elastic Agent.
-- Version: 1.7.0
+- Version: 1.7.1
 - Categories: security
 - Docs: `packages/checkpoint_email/docs/README.md`
 
@@ -806,7 +806,7 @@ integrations/
 - Name: `cloudflare`
 - Path: `packages/cloudflare/`
 - Description: Collect logs from Cloudflare with Elastic Agent.
-- Version: 2.37.0
+- Version: 2.38.0
 - Docs: `packages/cloudflare/docs/README.md`
 
 ### Cloudflare Logpush
@@ -893,7 +893,7 @@ integrations/
 - Name: `crowdstrike`
 - Path: `packages/crowdstrike/`
 - Description: Collect logs from Crowdstrike with Elastic Agent.
-- Version: 4.9.1
+- Version: 4.10.0
 - Docs: `packages/crowdstrike/docs/README.md`
 
 ### CyberArk EPM
@@ -1879,7 +1879,7 @@ integrations/
 - Name: `microsoft_defender_cloud`
 - Path: `packages/microsoft_defender_cloud/`
 - Description: Collect logs from Microsoft Defender for Cloud with Elastic Agent.
-- Version: 3.7.0
+- Version: 3.8.0
 - Categories: security, cloudsecurity_cdr, vulnerability_workflow, misconfiguration_workflow
 - Docs: `packages/microsoft_defender_cloud/docs/README.md`
 
@@ -1951,7 +1951,7 @@ integrations/
 - Name: `mimecast`
 - Path: `packages/mimecast/`
 - Description: Collect logs from Mimecast with Elastic Agent.
-- Version: 3.7.0
+- Version: 3.8.0
 - Docs: `packages/mimecast/docs/README.md`
 
 ### Miniflux RSS reader
@@ -2958,7 +2958,7 @@ integrations/
 - Name: `ti_abusech`
 - Path: `packages/ti_abusech/`
 - Description: Ingest threat intelligence indicators from URL Haus, Malware Bazaar, and Threat Fox feeds with Elastic Agent.
-- Version: 5.1.1
+- Version: 5.2.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_abusech/docs/README.md`
 
@@ -2998,7 +2998,7 @@ integrations/
 - Name: `ti_custom`
 - Path: `packages/ti_custom/`
 - Description: Ingest threat intelligence data in STIX 2.1 format with Elastic Agent
-- Version: 1.9.0
+- Version: 1.10.1
 - Categories: custom, security, threat_intel
 - Docs: `packages/ti_custom/docs/README.md`
 
@@ -3101,7 +3101,7 @@ integrations/
 - Name: `ti_otx`
 - Path: `packages/ti_otx/`
 - Description: Ingest threat intelligence indicators from AlienVault Open Threat Exchange (OTX) with Elastic Agent.
-- Version: 1.34.0
+- Version: 1.35.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_otx/docs/README.md`
 
@@ -3132,7 +3132,7 @@ integrations/
 - Name: `ti_threatconnect`
 - Path: `packages/ti_threatconnect/`
 - Description: Collects Indicators from ThreatConnect using the Elastic Agent and saves them as logs inside Elastic
-- Version: 2.5.0
+- Version: 2.6.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_threatconnect/docs/README.md`
 
@@ -3220,7 +3220,7 @@ integrations/
 - Name: `tychon`
 - Path: `packages/tychon/`
 - Description: Collect complete master endpoint datasets including vulnerability and STIG to comply with DISA endpoint requirements and C2C without adding services to your endpoints.
-- Version: 1.1.1
+- Version: 1.2.0
 - Categories: security, config_management, vulnerability_management
 - Docs: `packages/tychon/docs/README.md`
 
