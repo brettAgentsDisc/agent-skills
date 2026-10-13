@@ -147,7 +147,7 @@ integrations/
 - Name: `apache_tomcat`
 - Path: `packages/apache_tomcat/`
 - Description: Collect logs and metrics from Apache Tomcat via Elastic Agent.
-- Version: 1.13.2
+- Version: 1.13.3
 - Categories: web, observability
 - Docs: `packages/apache_tomcat/docs/README.md`
 
@@ -243,7 +243,7 @@ integrations/
 - Name: `aws`
 - Path: `packages/aws/`
 - Description: Collect logs and metrics from Amazon Web Services (AWS) with Elastic Agent.
-- Version: 8.9.0
+- Version: 8.10.0
 - Categories: aws, cloud
 - Docs: `packages/aws/docs/README.md`
 
@@ -1759,7 +1759,7 @@ integrations/
 - Name: `kubernetes`
 - Path: `packages/kubernetes/`
 - Description: Collect logs and metrics from Kubernetes clusters with Elastic Agent.
-- Version: 1.85.4
+- Version: 1.85.5
 - Categories: observability, containers, kubernetes
 - Docs: `packages/kubernetes/docs/README.md`
 
@@ -2157,7 +2157,7 @@ integrations/
 - Name: `o365`
 - Path: `packages/o365/`
 - Description: Collect logs from Microsoft Office 365 with Elastic Agent.
-- Version: 3.11.1
+- Version: 4.0.0
 - Categories: security, productivity_security
 - Docs: `packages/o365/docs/README.md`
 
@@ -2173,7 +2173,7 @@ integrations/
 - Name: `okta`
 - Path: `packages/okta/`
 - Description: Collect and parse event logs from Okta API with Elastic Agent.
-- Version: 3.16.0
+- Version: 3.16.1
 - Docs: `packages/okta/docs/README.md`
 
 ### OpenAI
@@ -2664,7 +2664,7 @@ integrations/
 - Name: `snyk`
 - Path: `packages/snyk/`
 - Description: Collect logs from Snyk with Elastic Agent.
-- Version: 3.7.0
+- Version: 3.7.1
 - Categories: security, cloudsecurity_cdr
 - Docs: `packages/snyk/docs/README.md`
 
@@ -3117,7 +3117,7 @@ integrations/
 - Name: `ti_recordedfuture`
 - Path: `packages/ti_recordedfuture/`
 - Description: Ingest threat intelligence and alert data from Recorded Future with Elastic Agent.
-- Version: 2.10.1
+- Version: 2.10.2
 - Categories: security, threat_intel
 - Docs: `packages/ti_recordedfuture/docs/README.md`
 
@@ -3372,7 +3372,7 @@ integrations/
 - Name: `wiz`
 - Path: `packages/wiz/`
 - Description: Collect logs from Wiz with Elastic Agent.
-- Version: 4.8.0
+- Version: 4.8.1
 - Categories: security, cloudsecurity_cdr, vulnerability_workflow, misconfiguration_workflow
 - Docs: `packages/wiz/docs/README.md`
 
