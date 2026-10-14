@@ -900,7 +900,7 @@ integrations/
 - Name: `cyberark_epm`
 - Path: `packages/cyberark_epm/`
 - Description: Collect logs from CyberArk EPM with Elastic Agent.
-- Version: 1.7.0
+- Version: 1.7.1
 - Categories: security
 - Docs: `packages/cyberark_epm/docs/README.md`
 
@@ -1612,7 +1612,7 @@ integrations/
 - Name: `island_browser`
 - Path: `packages/island_browser/`
 - Description: Collect logs from Island Browser with Elastic Agent.
-- Version: 1.4.0
+- Version: 1.4.1
 - Categories: security
 - Docs: `packages/island_browser/docs/README.md`
 
@@ -2157,7 +2157,7 @@ integrations/
 - Name: `o365`
 - Path: `packages/o365/`
 - Description: Collect logs from Microsoft Office 365 with Elastic Agent.
-- Version: 4.0.0
+- Version: 4.0.1
 - Categories: security, productivity_security
 - Docs: `packages/o365/docs/README.md`
 
@@ -2173,7 +2173,7 @@ integrations/
 - Name: `okta`
 - Path: `packages/okta/`
 - Description: Collect and parse event logs from Okta API with Elastic Agent.
-- Version: 3.16.1
+- Version: 3.16.2
 - Docs: `packages/okta/docs/README.md`
 
 ### OpenAI
@@ -2648,7 +2648,7 @@ integrations/
 - Name: `slack`
 - Path: `packages/slack/`
 - Description: Slack Logs Integration
-- Version: 1.32.0
+- Version: 1.32.1
 - Categories: productivity, security
 - Docs: `packages/slack/docs/README.md`
 
@@ -2830,7 +2830,7 @@ integrations/
 - Name: `sysdig`
 - Path: `packages/sysdig/`
 - Description: Collect logs from Sysdig using Elastic Agent.
-- Version: 2.5.2
+- Version: 2.6.0
 - Categories: containers, kubernetes, monitoring
 - Docs: `packages/sysdig/docs/README.md`
 
@@ -2902,7 +2902,7 @@ integrations/
 - Name: `tenable_io`
 - Path: `packages/tenable_io/`
 - Description: Collect logs from Tenable Vulnerability Management with Elastic Agent.
-- Version: 4.14.0
+- Version: 4.14.1
 - Categories: security, vulnerability_management, vulnerability_workflow, cloudsecurity_cdr
 - Docs: `packages/tenable_io/docs/README.md`
 
@@ -3069,7 +3069,7 @@ integrations/
 - Name: `ti_maltiverse`
 - Path: `packages/ti_maltiverse/`
 - Description: Ingest threat intelligence indicators from Maltiverse feeds with Elastic Agent
-- Version: 1.10.0
+- Version: 1.11.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_maltiverse/docs/README.md`
 
@@ -3125,7 +3125,7 @@ integrations/
 - Name: `ti_strider`
 - Path: `packages/ti_strider/`
 - Description: Ingest threat intelligence indicators from Strider Shield with Elastic Agent.
-- Version: 0.2.1
+- Version: 0.3.0
 - Docs: `packages/ti_strider/docs/README.md`
 
 ### ThreatConnect
