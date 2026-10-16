@@ -179,7 +179,7 @@ integrations/
 - Name: `armis`
 - Path: `packages/armis/`
 - Description: Collect logs from Armis with Elastic Agent.
-- Version: 0.9.0
+- Version: 0.9.1
 - Categories: security
 - Docs: `packages/armis/docs/README.md`
 
@@ -1612,7 +1612,7 @@ integrations/
 - Name: `island_browser`
 - Path: `packages/island_browser/`
 - Description: Collect logs from Island Browser with Elastic Agent.
-- Version: 1.6.0
+- Version: 1.6.1
 - Categories: security
 - Docs: `packages/island_browser/docs/README.md`
 
@@ -1895,7 +1895,7 @@ integrations/
 - Name: `microsoft_dhcp`
 - Path: `packages/microsoft_dhcp/`
 - Description: Collect logs from Microsoft DHCP with Elastic Agent.
-- Version: 1.27.1
+- Version: 1.28.0
 - Categories: security
 - Docs: `packages/microsoft_dhcp/docs/README.md`
 
@@ -1919,7 +1919,7 @@ integrations/
 - Name: `microsoft_exchange_server`
 - Path: `packages/microsoft_exchange_server/`
 - Description: Collect logs from Microsoft Exchange Server with Elastic Agent.
-- Version: 1.5.2
+- Version: 1.6.0
 - Categories: security
 - Docs: `packages/microsoft_exchange_server/docs/README.md`
 
@@ -2069,7 +2069,7 @@ integrations/
 - Name: `netskope`
 - Path: `packages/netskope/`
 - Description: Collect logs from Netskope with Elastic Agent.
-- Version: 3.3.1
+- Version: 4.0.0
 - Categories: security, network
 - Docs: `packages/netskope/docs/README.md`
 
@@ -2624,7 +2624,7 @@ integrations/
 - Name: `sentinel_one`
 - Path: `packages/sentinel_one/`
 - Description: Collect logs from SentinelOne with Elastic Agent.
-- Version: 2.13.0
+- Version: 2.13.1
 - Categories: security, edr_xdr
 - Docs: `packages/sentinel_one/docs/README.md`
 
@@ -2815,7 +2815,7 @@ integrations/
 - Name: `synthetics`
 - Path: `packages/synthetics/`
 - Description: Internal Elastic integration for providing access to private locations.
-- Version: 1.12.0
+- Version: 1.13.0
 - Categories: observability
 - Docs: `packages/synthetics/docs/README.md`
 
