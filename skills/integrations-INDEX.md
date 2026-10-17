@@ -599,7 +599,7 @@ integrations/
 - Name: `cef`
 - Path: `packages/cef/`
 - Description: Collect logs from CEF Logs with Elastic Agent.
-- Version: 2.23.2
+- Version: 2.23.3
 - Categories: security
 - Docs: `packages/cef/docs/README.md`
 
