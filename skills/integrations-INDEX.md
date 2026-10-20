@@ -2005,7 +2005,7 @@ integrations/
 - Name: `mysql_enterprise`
 - Path: `packages/mysql_enterprise/`
 - Description: Collect MySQL Enterprise audit logs for security monitoring.
-- Version: 1.17.3
+- Version: 1.18.0
 - Categories: security
 - Docs: `packages/mysql_enterprise/docs/README.md`
 
@@ -2608,7 +2608,7 @@ integrations/
 - Name: `security_ai_prompts`
 - Path: `packages/security_ai_prompts/`
 - Description: Prompts used by Security AI features, including the Security Assistant, and Attack discovery
-- Version: 1.0.14
+- Version: 1.0.15
 - Categories: security
 - Docs: `packages/security_ai_prompts/docs/README.md`
 
@@ -2854,7 +2854,7 @@ integrations/
 - Name: `system`
 - Path: `packages/system/`
 - Description: Collect system logs and metrics from your servers with Elastic Agent.
-- Version: 3.0.0
+- Version: 3.0.1
 - Categories: os_system
 - Docs: `packages/system/docs/README.md`
 
