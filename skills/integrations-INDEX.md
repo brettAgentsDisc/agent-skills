@@ -171,7 +171,7 @@ integrations/
 - Name: `arista_ngfw`
 - Path: `packages/arista_ngfw/`
 - Description: Collect logs and metrics from Arista NG Firewall.
-- Version: 1.6.3
+- Version: 1.7.0
 - Categories: network
 - Docs: `packages/arista_ngfw/docs/README.md`
 
@@ -451,7 +451,7 @@ integrations/
 - Name: `barracuda`
 - Path: `packages/barracuda/`
 - Description: Collect logs from Barracuda Web Application Firewall with Elastic Agent.
-- Version: 1.18.0
+- Version: 1.19.0
 - Categories: network, security, web_application_firewall
 - Docs: `packages/barracuda/docs/README.md`
 
@@ -459,7 +459,7 @@ integrations/
 - Name: `barracuda_cloudgen_firewall`
 - Path: `packages/barracuda_cloudgen_firewall/`
 - Description: Collect logs from Barracuda CloudGen Firewall devices with Elastic Agent.
-- Version: 1.16.0
+- Version: 1.17.0
 - Docs: `packages/barracuda_cloudgen_firewall/docs/README.md`
 
 ### BBOT (Bighuge BLS OSINT Tool)
@@ -545,7 +545,7 @@ integrations/
 - Name: `bluecoat`
 - Path: `packages/bluecoat/`
 - Description: Deprecated. Director is no longer supported.
-- Version: 0.18.1
+- Version: 0.19.0
 - Docs: `packages/bluecoat/docs/README.md`
 
 ### Box Events
@@ -599,7 +599,7 @@ integrations/
 - Name: `cef`
 - Path: `packages/cef/`
 - Description: Collect logs from CEF Logs with Elastic Agent.
-- Version: 2.23.3
+- Version: 2.24.0
 - Categories: security
 - Docs: `packages/cef/docs/README.md`
 
@@ -623,7 +623,7 @@ integrations/
 - Name: `checkpoint`
 - Path: `packages/checkpoint/`
 - Description: Collect logs from Check Point with Elastic Agent.
-- Version: 1.49.2
+- Version: 1.50.0
 - Docs: `packages/checkpoint/docs/README.md`
 
 ### Check Point Harmony Email & Collaboration
@@ -1382,7 +1382,7 @@ integrations/
 - Name: `google_workspace`
 - Path: `packages/google_workspace/`
 - Description: Collect logs from Google Workspace with Elastic Agent.
-- Version: 3.9.1
+- Version: 3.11.0
 - Categories: productivity, productivity_security, security
 - Docs: `packages/google_workspace/docs/README.md`
 
@@ -1997,7 +1997,7 @@ integrations/
 - Name: `mysql`
 - Path: `packages/mysql/`
 - Description: Collect error logs, slow logs, and performance metrics from MySQL via Elastic Agent.
-- Version: 1.31.0
+- Version: 1.31.1
 - Categories: datastore, observability
 - Docs: `packages/mysql/docs/README.md`
 
@@ -2125,7 +2125,7 @@ integrations/
 - Name: `nginx_otel`
 - Path: `packages/nginx_otel/`
 - Description: NGINX Assets from OpenTelemetry Collector
-- Version: 0.7.0
+- Version: 0.8.0
 - Categories: observability, web, opentelemetry
 - Docs: `packages/nginx_otel/docs/README.md`
 
