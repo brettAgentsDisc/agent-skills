@@ -243,7 +243,7 @@ integrations/
 - Name: `aws`
 - Path: `packages/aws/`
 - Description: Collect logs and metrics from Amazon Web Services (AWS) with Elastic Agent.
-- Version: 8.11.0
+- Version: 8.12.0
 - Categories: aws, cloud
 - Docs: `packages/aws/docs/README.md`
 
@@ -654,7 +654,7 @@ integrations/
 - Name: `cisco_aironet`
 - Path: `packages/cisco_aironet/`
 - Description: Integration for Cisco Aironet WLC Logs
-- Version: 1.22.0
+- Version: 1.23.0
 - Categories: security, network
 - Docs: `packages/cisco_aironet/docs/README.md`
 
@@ -662,7 +662,7 @@ integrations/
 - Name: `cisco_asa`
 - Path: `packages/cisco_asa/`
 - Description: Collect logs from Cisco ASA with Elastic Agent.
-- Version: 2.46.0
+- Version: 2.47.0
 - Categories: network, security, firewall_security
 - Docs: `packages/cisco_asa/docs/README.md`
 
@@ -678,7 +678,7 @@ integrations/
 - Name: `cisco_ftd`
 - Path: `packages/cisco_ftd/`
 - Description: Collect logs from Cisco FTD with Elastic Agent.
-- Version: 3.14.0
+- Version: 3.15.0
 - Categories: network, security, firewall_security
 - Docs: `packages/cisco_ftd/docs/README.md`
 
@@ -686,7 +686,7 @@ integrations/
 - Name: `cisco_ios`
 - Path: `packages/cisco_ios/`
 - Description: Collect logs from Cisco IOS with Elastic Agent.
-- Version: 1.36.0
+- Version: 1.37.0
 - Categories: network, security
 - Docs: `packages/cisco_ios/docs/README.md`
 
@@ -694,7 +694,7 @@ integrations/
 - Name: `cisco_ise`
 - Path: `packages/cisco_ise/`
 - Description: Collect logs from Cisco ISE with Elastic Agent.
-- Version: 1.33.1
+- Version: 1.34.0
 - Categories: security, network
 - Docs: `packages/cisco_ise/docs/README.md`
 
@@ -702,7 +702,7 @@ integrations/
 - Name: `cisco_meraki`
 - Path: `packages/cisco_meraki/`
 - Description: Collect logs from Cisco Meraki with Elastic Agent.
-- Version: 1.31.3
+- Version: 1.32.0
 - Categories: network, security
 - Docs: `packages/cisco_meraki/docs/README.md`
 
@@ -718,7 +718,7 @@ integrations/
 - Name: `cisco_nexus`
 - Path: `packages/cisco_nexus/`
 - Description: Collect logs from Cisco Nexus with Elastic Agent.
-- Version: 1.7.0
+- Version: 1.8.0
 - Categories: network, security
 - Docs: `packages/cisco_nexus/docs/README.md`
 
@@ -726,7 +726,7 @@ integrations/
 - Name: `cisco_secure_email_gateway`
 - Path: `packages/cisco_secure_email_gateway/`
 - Description: Collect logs from Cisco Secure Email Gateway with Elastic Agent.
-- Version: 1.29.3
+- Version: 1.30.0
 - Categories: security, network, email_security
 - Docs: `packages/cisco_secure_email_gateway/docs/README.md`
 
@@ -742,7 +742,7 @@ integrations/
 - Name: `cisco_umbrella`
 - Path: `packages/cisco_umbrella/`
 - Description: Collect logs from Cisco Umbrella with Elastic Agent.
-- Version: 1.33.1
+- Version: 1.34.0
 - Categories: network, security, dns_security
 - Docs: `packages/cisco_umbrella/docs/README.md`
 
@@ -750,7 +750,7 @@ integrations/
 - Name: `citrix_adc`
 - Path: `packages/citrix_adc/`
 - Description: This Elastic integration collects logs and metrics from Citrix ADC product.
-- Version: 1.20.0
+- Version: 1.21.0
 - Categories: observability, network
 - Docs: `packages/citrix_adc/docs/README.md`
 
@@ -758,7 +758,7 @@ integrations/
 - Name: `citrix_waf`
 - Path: `packages/citrix_waf/`
 - Description: Ingest events from Citrix Systems Web App Firewall.
-- Version: 1.21.0
+- Version: 1.22.0
 - Categories: network, security, web_application_firewall
 - Docs: `packages/citrix_waf/docs/README.md`
 
@@ -853,7 +853,7 @@ integrations/
 - Name: `corelight`
 - Path: `packages/corelight/`
 - Description: Collect logs from Corelight with Elastic Agent.
-- Version: 1.3.0
+- Version: 1.4.0
 - Categories: security, dns_security, network, network_security, vpn_security
 - Docs: `packages/corelight/docs/README.md`
 
@@ -885,7 +885,7 @@ integrations/
 - Name: `cribl`
 - Path: `packages/cribl/`
 - Description: Stream logs from Cribl into Elastic.
-- Version: 1.1.1
+- Version: 1.2.0
 - Categories: custom
 - Docs: `packages/cribl/docs/README.md`
 
@@ -1047,7 +1047,7 @@ integrations/
 - Name: `endace`
 - Path: `packages/endace/`
 - Description: This Endace integration configures Network Packet Capture for flow generation and adds a pivot field to your Endace platform.
-- Version: 0.2.0
+- Version: 0.3.0
 - Categories: aws, cloud, custom, network
 - Docs: `packages/endace/docs/README.md`
 
@@ -1935,7 +1935,7 @@ integrations/
 - Name: `microsoft_sqlserver`
 - Path: `packages/microsoft_sqlserver/`
 - Description: Collect events from Microsoft SQL Server with Elastic Agent
-- Version: 2.17.1
+- Version: 2.18.0
 - Categories: database_security, security, observability
 - Docs: `packages/microsoft_sqlserver/docs/README.md`
 
