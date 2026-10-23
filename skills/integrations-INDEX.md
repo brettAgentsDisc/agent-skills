@@ -1024,7 +1024,7 @@ integrations/
 - Name: `elastic_package_registry`
 - Path: `packages/elastic_package_registry/`
 - Description: Collect metrics from a Elastic Package Registry instance
-- Version: 0.4.2
+- Version: 0.4.3
 - Categories: elastic_stack
 - Docs: `packages/elastic_package_registry/docs/README.md`
 
@@ -1242,7 +1242,7 @@ integrations/
 - Name: `fortinet_fortigate`
 - Path: `packages/fortinet_fortigate/`
 - Description: Collect logs from Fortinet FortiGate firewalls with Elastic Agent.
-- Version: 1.36.10
+- Version: 1.36.11
 - Docs: `packages/fortinet_fortigate/docs/README.md`
 
 ### Fortinet FortiMail
@@ -1382,7 +1382,7 @@ integrations/
 - Name: `google_workspace`
 - Path: `packages/google_workspace/`
 - Description: Collect logs from Google Workspace with Elastic Agent.
-- Version: 3.11.0
+- Version: 3.11.1
 - Categories: productivity, productivity_security, security
 - Docs: `packages/google_workspace/docs/README.md`
 
@@ -2355,7 +2355,7 @@ integrations/
 - Name: `prisma_access`
 - Path: `packages/prisma_access/`
 - Description: Collect logs from Palo Alto Prisma Access with Elastic Agent.
-- Version: 1.7.5
+- Version: 1.8.0
 - Categories: security, network
 - Docs: `packages/prisma_access/docs/README.md`
 
@@ -2648,7 +2648,7 @@ integrations/
 - Name: `slack`
 - Path: `packages/slack/`
 - Description: Slack Logs Integration
-- Version: 1.32.1
+- Version: 1.32.2
 - Categories: productivity, security
 - Docs: `packages/slack/docs/README.md`
 
