@@ -1327,7 +1327,7 @@ integrations/
 - Name: `github`
 - Path: `packages/github/`
 - Description: Collect logs from GitHub with Elastic Agent.
-- Version: 2.31.0
+- Version: 2.32.0
 - Docs: `packages/github/docs/README.md`
 
 ### GitLab
@@ -2124,8 +2124,8 @@ integrations/
 ### NGINX OpenTelemetry Assets
 - Name: `nginx_otel`
 - Path: `packages/nginx_otel/`
-- Description: NGINX Assets from OpenTelemetry Collector
-- Version: 0.8.0
+- Description: NGINX OpenTelemetry Assets 
+- Version: 0.9.0
 - Categories: observability, web, opentelemetry
 - Docs: `packages/nginx_otel/docs/README.md`
 
@@ -2616,7 +2616,7 @@ integrations/
 - Name: `security_detection_engine`
 - Path: `packages/security_detection_engine/`
 - Description: Prebuilt detection rules for Elastic Security
-- Version: 9.5.8
+- Version: 9.5.9
 - Categories: security, siem
 - Docs: `packages/security_detection_engine/docs/README.md`
 
