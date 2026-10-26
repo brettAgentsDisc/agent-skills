@@ -813,7 +813,7 @@ integrations/
 - Name: `cloudflare_logpush`
 - Path: `packages/cloudflare_logpush/`
 - Description: Collect logs from Cloudflare with Elastic Agent.
-- Version: 2.0.4
+- Version: 2.1.0
 - Categories: security, network, cdn_security
 - Docs: `packages/cloudflare_logpush/docs/README.md`
 
@@ -2125,7 +2125,7 @@ integrations/
 - Name: `nginx_otel`
 - Path: `packages/nginx_otel/`
 - Description: NGINX OpenTelemetry Assets 
-- Version: 0.9.0
+- Version: 0.10.0
 - Categories: observability, web, opentelemetry
 - Docs: `packages/nginx_otel/docs/README.md`
 
@@ -2854,7 +2854,7 @@ integrations/
 - Name: `system`
 - Path: `packages/system/`
 - Description: Collect system logs and metrics from your servers with Elastic Agent.
-- Version: 3.0.1
+- Version: 3.2.0
 - Categories: os_system
 - Docs: `packages/system/docs/README.md`
 
@@ -3045,7 +3045,7 @@ integrations/
 - Name: `ti_flashpoint`
 - Path: `packages/ti_flashpoint/`
 - Description: Collect logs from Flashpoint with Elastic Agent.
-- Version: 0.5.0
+- Version: 0.6.0
 - Categories: security, threat_intel
 - Docs: `packages/ti_flashpoint/docs/README.md`
 
@@ -3340,7 +3340,7 @@ integrations/
 - Name: `windows`
 - Path: `packages/windows/`
 - Description: Collect logs and metrics from Windows OS and services with Elastic Agent.
-- Version: 3.10.0
+- Version: 3.11.0
 - Categories: os_system, security
 - Docs: `packages/windows/docs/README.md`
 
