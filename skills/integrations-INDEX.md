@@ -100,7 +100,7 @@ integrations/
 - Name: `akamai`
 - Path: `packages/akamai/`
 - Description: Collect logs from Akamai with Elastic Agent.
-- Version: 4.1.2
+- Version: 4.1.3
 - Docs: `packages/akamai/docs/README.md`
 
 ### Amazon Security Lake
@@ -813,7 +813,7 @@ integrations/
 - Name: `cloudflare_logpush`
 - Path: `packages/cloudflare_logpush/`
 - Description: Collect logs from Cloudflare with Elastic Agent.
-- Version: 2.1.0
+- Version: 2.2.0
 - Categories: security, network, cdn_security
 - Docs: `packages/cloudflare_logpush/docs/README.md`
 
@@ -1759,7 +1759,7 @@ integrations/
 - Name: `kubernetes`
 - Path: `packages/kubernetes/`
 - Description: Collect logs and metrics from Kubernetes clusters with Elastic Agent.
-- Version: 1.85.5
+- Version: 1.85.6
 - Categories: observability, containers, kubernetes
 - Docs: `packages/kubernetes/docs/README.md`
 
@@ -2069,7 +2069,7 @@ integrations/
 - Name: `netskope`
 - Path: `packages/netskope/`
 - Description: Collect logs from Netskope with Elastic Agent.
-- Version: 4.0.0
+- Version: 4.1.0
 - Categories: security, network
 - Docs: `packages/netskope/docs/README.md`
 
@@ -2998,7 +2998,7 @@ integrations/
 - Name: `ti_custom`
 - Path: `packages/ti_custom/`
 - Description: Ingest threat intelligence data in STIX 2.1 format with Elastic Agent
-- Version: 1.11.0
+- Version: 1.11.1
 - Categories: custom, security, threat_intel
 - Docs: `packages/ti_custom/docs/README.md`
 
@@ -3436,7 +3436,7 @@ integrations/
 - Name: `zscaler_zia`
 - Path: `packages/zscaler_zia/`
 - Description: Collect logs from Zscaler Internet Access (ZIA) with Elastic Agent.
-- Version: 4.4.1
+- Version: 4.4.2
 - Categories: security, network
 - Docs: `packages/zscaler_zia/docs/README.md`
 
