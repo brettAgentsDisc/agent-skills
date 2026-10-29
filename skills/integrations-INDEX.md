@@ -243,7 +243,7 @@ integrations/
 - Name: `aws`
 - Path: `packages/aws/`
 - Description: Collect logs and metrics from Amazon Web Services (AWS) with Elastic Agent.
-- Version: 8.12.0
+- Version: 8.12.1
 - Categories: aws, cloud
 - Docs: `packages/aws/docs/README.md`
 
@@ -1327,7 +1327,7 @@ integrations/
 - Name: `github`
 - Path: `packages/github/`
 - Description: Collect logs from GitHub with Elastic Agent.
-- Version: 2.32.0
+- Version: 3.0.0
 - Docs: `packages/github/docs/README.md`
 
 ### GitLab
