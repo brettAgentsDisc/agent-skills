@@ -36,7 +36,7 @@ integrations/
 - Name: `abnormal_security`
 - Path: `packages/abnormal_security/`
 - Description: Collect logs from Abnormal AI with Elastic Agent.
-- Version: 1.17.0
+- Version: 1.17.1
 - Categories: security
 - Docs: `packages/abnormal_security/docs/README.md`
 
@@ -100,7 +100,7 @@ integrations/
 - Name: `akamai`
 - Path: `packages/akamai/`
 - Description: Collect logs from Akamai with Elastic Agent.
-- Version: 4.1.3
+- Version: 4.2.0
 - Docs: `packages/akamai/docs/README.md`
 
 ### Amazon Security Lake
@@ -179,7 +179,7 @@ integrations/
 - Name: `armis`
 - Path: `packages/armis/`
 - Description: Collect logs from Armis with Elastic Agent.
-- Version: 0.9.1
+- Version: 0.9.2
 - Categories: security
 - Docs: `packages/armis/docs/README.md`
 
@@ -243,7 +243,7 @@ integrations/
 - Name: `aws`
 - Path: `packages/aws/`
 - Description: Collect logs and metrics from Amazon Web Services (AWS) with Elastic Agent.
-- Version: 8.12.1
+- Version: 8.13.0
 - Categories: aws, cloud
 - Docs: `packages/aws/docs/README.md`
 
@@ -662,7 +662,7 @@ integrations/
 - Name: `cisco_asa`
 - Path: `packages/cisco_asa/`
 - Description: Collect logs from Cisco ASA with Elastic Agent.
-- Version: 2.47.0
+- Version: 2.47.1
 - Categories: network, security, firewall_security
 - Docs: `packages/cisco_asa/docs/README.md`
 
@@ -750,7 +750,7 @@ integrations/
 - Name: `citrix_adc`
 - Path: `packages/citrix_adc/`
 - Description: This Elastic integration collects logs and metrics from Citrix ADC product.
-- Version: 1.21.0
+- Version: 1.22.0
 - Categories: observability, network
 - Docs: `packages/citrix_adc/docs/README.md`
 
@@ -1118,7 +1118,7 @@ integrations/
 - Name: `ess_billing`
 - Path: `packages/ess_billing/`
 - Description: Collect billing metrics for your Elastic Cloud organization, including Hosted, Serverless, and cloud connected usage
-- Version: 1.9.1
+- Version: 1.9.2
 - Categories: cloud
 - Docs: `packages/ess_billing/docs/README.md`
 
@@ -1398,7 +1398,7 @@ integrations/
 - Name: `greenhouse`
 - Path: `packages/greenhouse/`
 - Description: Collect audit logs from Greenhouse ATS with Elastic Agent.
-- Version: 0.2.1
+- Version: 0.3.0
 - Categories: security
 - Docs: `packages/greenhouse/docs/README.md`
 
@@ -1636,7 +1636,7 @@ integrations/
 - Name: `jamf_pro`
 - Path: `packages/jamf_pro/`
 - Description: Collect logs and inventory data from Jamf Pro with Elastic Agent
-- Version: 2.2.0
+- Version: 3.0.0
 - Categories: cloud, custom
 - Docs: `packages/jamf_pro/docs/README.md`
 
@@ -2252,7 +2252,7 @@ integrations/
 - Name: `otel_rum_dashboards`
 - Path: `packages/otel_rum_dashboards/`
 - Description: RUM status metrics from OpenTelemetry JS SDKs
-- Version: 0.0.6
+- Version: 0.0.7
 - Categories: observability, web, opentelemetry
 - Docs: `packages/otel_rum_dashboards/docs/README.md`
 
@@ -2854,7 +2854,7 @@ integrations/
 - Name: `system`
 - Path: `packages/system/`
 - Description: Collect system logs and metrics from your servers with Elastic Agent.
-- Version: 3.2.0
+- Version: 3.3.0
 - Categories: os_system
 - Docs: `packages/system/docs/README.md`
 
@@ -2918,7 +2918,7 @@ integrations/
 - Name: `tenable_sc`
 - Path: `packages/tenable_sc/`
 - Description: Collect data from Tenable Security Center with Elastic Agent.
-- Version: 2.5.0
+- Version: 2.6.0
 - Categories: security, vulnerability_management
 - Docs: `packages/tenable_sc/docs/README.md`
 
@@ -3340,7 +3340,7 @@ integrations/
 - Name: `windows`
 - Path: `packages/windows/`
 - Description: Collect logs and metrics from Windows OS and services with Elastic Agent.
-- Version: 3.11.1
+- Version: 3.12.1
 - Categories: os_system, security
 - Docs: `packages/windows/docs/README.md`
 
