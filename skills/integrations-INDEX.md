@@ -179,7 +179,7 @@ integrations/
 - Name: `armis`
 - Path: `packages/armis/`
 - Description: Collect logs from Armis with Elastic Agent.
-- Version: 0.9.2
+- Version: 0.10.0
 - Categories: security
 - Docs: `packages/armis/docs/README.md`
 
@@ -2854,7 +2854,7 @@ integrations/
 - Name: `system`
 - Path: `packages/system/`
 - Description: Collect system logs and metrics from your servers with Elastic Agent.
-- Version: 3.3.1
+- Version: 3.4.0
 - Categories: os_system
 - Docs: `packages/system/docs/README.md`
 
@@ -3340,7 +3340,7 @@ integrations/
 - Name: `windows`
 - Path: `packages/windows/`
 - Description: Collect logs and metrics from Windows OS and services with Elastic Agent.
-- Version: 3.12.1
+- Version: 3.13.1
 - Categories: os_system, security
 - Docs: `packages/windows/docs/README.md`
 
