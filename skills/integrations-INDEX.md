@@ -1759,7 +1759,7 @@ integrations/
 - Name: `kubernetes`
 - Path: `packages/kubernetes/`
 - Description: Collect logs and metrics from Kubernetes clusters with Elastic Agent.
-- Version: 1.85.6
+- Version: 1.86.0
 - Categories: observability, containers, kubernetes
 - Docs: `packages/kubernetes/docs/README.md`
 
@@ -2101,7 +2101,7 @@ integrations/
 - Name: `nginx_ingress_controller`
 - Path: `packages/nginx_ingress_controller/`
 - Description: Collect access and error logs from nginx-ingress pods. Use this instead of the standard Nginx integration when running the Kubernetes ingress controller.
-- Version: 1.14.2
+- Version: 1.14.3
 - Categories: observability, containers, kubernetes
 - Docs: `packages/nginx_ingress_controller/docs/README.md`
 
@@ -2109,7 +2109,7 @@ integrations/
 - Name: `nginx_ingress_controller_otel`
 - Path: `packages/nginx_ingress_controller_otel/`
 - Description: Collect Nginx Ingress Controller logs using the OpenTelemetry collector.
-- Version: 0.4.1
+- Version: 0.4.2
 - Categories: observability, containers, kubernetes, opentelemetry
 - Docs: `packages/nginx_ingress_controller_otel/docs/README.md`
 
@@ -2117,7 +2117,7 @@ integrations/
 - Name: `nginx_otel_input`
 - Path: `packages/nginx_input_otel/`
 - Description: Collect Nginx metrics via the OTel nginxreceiver.
-- Version: 0.3.0
+- Version: 0.3.1
 - Categories: web, observability, opentelemetry
 - Docs: `packages/nginx_input_otel/docs/README.md`
 
@@ -2125,7 +2125,7 @@ integrations/
 - Name: `nginx_otel`
 - Path: `packages/nginx_otel/`
 - Description: NGINX OpenTelemetry Assets 
-- Version: 0.10.0
+- Version: 0.10.1
 - Categories: observability, web, opentelemetry
 - Docs: `packages/nginx_otel/docs/README.md`
 
