@@ -1242,7 +1242,7 @@ integrations/
 - Name: `fortinet_fortigate`
 - Path: `packages/fortinet_fortigate/`
 - Description: Collect logs from Fortinet FortiGate firewalls with Elastic Agent.
-- Version: 1.36.11
+- Version: 1.36.12
 - Docs: `packages/fortinet_fortigate/docs/README.md`
 
 ### Fortinet FortiMail
@@ -2331,7 +2331,7 @@ integrations/
 - Name: `postgresql`
 - Path: `packages/postgresql/`
 - Description: Collect logs and metrics from PostgreSQL servers with Elastic Agent.
-- Version: 1.32.1
+- Version: 1.32.2
 - Categories: datastore, observability
 - Docs: `packages/postgresql/docs/README.md`
 
