@@ -235,7 +235,7 @@ integrations/
 - Name: `authentik`
 - Path: `packages/authentik/`
 - Description: Collect logs from authentik with Elastic Agent.
-- Version: 1.13.0
+- Version: 1.14.0
 - Categories: security
 - Docs: `packages/authentik/docs/README.md`
 
@@ -961,7 +961,7 @@ integrations/
 - Name: `dga`
 - Path: `packages/dga/`
 - Description: ML solution package to detect domain generation algorithm (DGA) activity in your network data.
-- Version: 3.3.0
+- Version: 3.4.0
 - Categories: security, network_security, advanced_analytics_ueba
 - Docs: `packages/dga/docs/README.md`
 
