@@ -2648,7 +2648,7 @@ integrations/
 - Name: `slack`
 - Path: `packages/slack/`
 - Description: Slack Logs Integration
-- Version: 1.33.0
+- Version: 1.34.0
 - Categories: productivity, security
 - Docs: `packages/slack/docs/README.md`
 
