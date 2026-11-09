@@ -1062,7 +1062,7 @@ integrations/
 - Name: `entityanalytics_ad`
 - Path: `packages/entityanalytics_ad/`
 - Description: Collect User Identities from Active Directory Entity with Elastic Agent.
-- Version: 0.24.1
+- Version: 0.24.2
 - Categories: security, advanced_analytics_ueba
 - Docs: `packages/entityanalytics_ad/docs/README.md`
 
@@ -1118,7 +1118,7 @@ integrations/
 - Name: `ess_billing`
 - Path: `packages/ess_billing/`
 - Description: Collect billing metrics for your Elastic Cloud organization, including Hosted, Serverless, and cloud connected usage
-- Version: 1.10.0
+- Version: 1.10.1
 - Categories: cloud
 - Docs: `packages/ess_billing/docs/README.md`
 
@@ -2497,7 +2497,7 @@ integrations/
 - Name: `qualys_was`
 - Path: `packages/qualys_was/`
 - Description: Collect data from Qualys Web Application Scanning platform with Elastic Agent or Agentless
-- Version: 0.7.0
+- Version: 0.7.1
 - Categories: security, vulnerability_management
 - Docs: `packages/qualys_was/docs/README.md`
 
@@ -2830,7 +2830,7 @@ integrations/
 - Name: `sysdig`
 - Path: `packages/sysdig/`
 - Description: Collect logs from Sysdig using Elastic Agent.
-- Version: 2.7.0
+- Version: 2.8.0
 - Categories: containers, kubernetes, monitoring
 - Docs: `packages/sysdig/docs/README.md`
 
@@ -3388,7 +3388,7 @@ integrations/
 - Name: `zeek`
 - Path: `packages/zeek/`
 - Description: Collect logs from Zeek with Elastic Agent.
-- Version: 5.0.1
+- Version: 5.0.2
 - Categories: network, security
 - Docs: `packages/zeek/docs/README.md`
 
