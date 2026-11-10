@@ -235,7 +235,7 @@ integrations/
 - Name: `authentik`
 - Path: `packages/authentik/`
 - Description: Collect logs from authentik with Elastic Agent.
-- Version: 1.14.0
+- Version: 1.14.1
 - Categories: security
 - Docs: `packages/authentik/docs/README.md`
 
@@ -243,7 +243,7 @@ integrations/
 - Name: `aws`
 - Path: `packages/aws/`
 - Description: Collect logs and metrics from Amazon Web Services (AWS) with Elastic Agent.
-- Version: 8.18.0
+- Version: 8.18.1
 - Categories: aws, cloud
 - Docs: `packages/aws/docs/README.md`
 
@@ -291,7 +291,7 @@ integrations/
 - Name: `aws_logs`
 - Path: `packages/aws_logs/`
 - Description: Collect raw logs from AWS S3 or CloudWatch with Elastic Agent.
-- Version: 2.1.0
+- Version: 2.1.1
 - Categories: cloud, observability, custom, aws
 - Docs: `packages/aws_logs/docs/README.md`
 
@@ -1078,7 +1078,7 @@ integrations/
 - Name: `entityanalytics_okta`
 - Path: `packages/entityanalytics_okta/`
 - Description: Collect Identities from Okta with Elastic Agent.
-- Version: 3.6.1
+- Version: 3.7.0
 - Categories: security, advanced_analytics_ueba
 - Docs: `packages/entityanalytics_okta/docs/README.md`
 
@@ -2173,7 +2173,7 @@ integrations/
 - Name: `okta`
 - Path: `packages/okta/`
 - Description: Collect and parse event logs from Okta API with Elastic Agent.
-- Version: 3.17.0
+- Version: 3.18.0
 - Docs: `packages/okta/docs/README.md`
 
 ### OpenAI
@@ -2276,7 +2276,7 @@ integrations/
 - Name: `panw_cortex_xdr`
 - Path: `packages/panw_cortex_xdr/`
 - Description: Collect logs from Palo Alto Cortex XDR with Elastic Agent.
-- Version: 4.0.0
+- Version: 4.0.1
 - Categories: security, edr_xdr
 - Docs: `packages/panw_cortex_xdr/docs/README.md`
 
