@@ -2616,7 +2616,7 @@ integrations/
 - Name: `security_detection_engine`
 - Path: `packages/security_detection_engine/`
 - Description: Prebuilt detection rules for Elastic Security
-- Version: 9.5.9
+- Version: 9.6.1
 - Categories: security, siem
 - Docs: `packages/security_detection_engine/docs/README.md`
 
