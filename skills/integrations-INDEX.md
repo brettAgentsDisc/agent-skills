@@ -694,7 +694,7 @@ integrations/
 - Name: `cisco_ise`
 - Path: `packages/cisco_ise/`
 - Description: Collect logs from Cisco ISE with Elastic Agent.
-- Version: 1.34.0
+- Version: 1.35.0
 - Categories: security, network
 - Docs: `packages/cisco_ise/docs/README.md`
 
@@ -1981,7 +1981,7 @@ integrations/
 - Name: `mongodb_atlas`
 - Path: `packages/mongodb_atlas/`
 - Description: This Elastic integration collects logs and metrics from MongoDB Atlas instance.
-- Version: 1.4.0
+- Version: 1.4.1
 - Categories: cloud, datastore, observability
 - Docs: `packages/mongodb_atlas/docs/README.md`
 
@@ -2624,7 +2624,7 @@ integrations/
 - Name: `sentinel_one`
 - Path: `packages/sentinel_one/`
 - Description: Collect logs from SentinelOne with Elastic Agent.
-- Version: 2.14.0
+- Version: 2.14.1
 - Categories: security, edr_xdr
 - Docs: `packages/sentinel_one/docs/README.md`
 
@@ -2902,7 +2902,7 @@ integrations/
 - Name: `tenable_io`
 - Path: `packages/tenable_io/`
 - Description: Collect logs from Tenable Vulnerability Management with Elastic Agent.
-- Version: 4.15.0
+- Version: 4.16.0
 - Categories: security, vulnerability_management, vulnerability_workflow, cloudsecurity_cdr
 - Docs: `packages/tenable_io/docs/README.md`
 
@@ -3428,7 +3428,7 @@ integrations/
 - Name: `zoom`
 - Path: `packages/zoom/`
 - Description: Collect logs from Zoom with Elastic Agent.
-- Version: 1.29.0
+- Version: 1.29.1
 - Categories: security, productivity_security
 - Docs: `packages/zoom/docs/README.md`
 
