@@ -1182,7 +1182,7 @@ integrations/
 - Name: `fim`
 - Path: `packages/fim/`
 - Description: The File Integrity Monitoring integration reports filesystem changes in real time.
-- Version: 1.18.1
+- Version: 1.19.0
 - Categories: security
 - Docs: `packages/fim/docs/README.md`
 
@@ -1644,7 +1644,7 @@ integrations/
 - Name: `jamf_protect`
 - Path: `packages/jamf_protect/`
 - Description: Receives events from Jamf Protect with Elastic Agent.
-- Version: 3.5.1
+- Version: 3.5.2
 - Categories: security, edr_xdr
 - Docs: `packages/jamf_protect/docs/README.md`
 
@@ -2125,7 +2125,7 @@ integrations/
 - Name: `nginx_otel`
 - Path: `packages/nginx_otel/`
 - Description: NGINX OpenTelemetry Assets 
-- Version: 0.10.1
+- Version: 0.11.0
 - Categories: observability, web, opentelemetry
 - Docs: `packages/nginx_otel/docs/README.md`
 
@@ -3300,7 +3300,7 @@ integrations/
 - Name: `vsphere`
 - Path: `packages/vsphere/`
 - Description: This Elastic integration collects metrics and logs from vSphere/vCenter servers
-- Version: 1.25.1
+- Version: 1.26.0
 - Categories: observability, virtualization
 - Docs: `packages/vsphere/docs/README.md`
 
