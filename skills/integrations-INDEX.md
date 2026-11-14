@@ -259,7 +259,7 @@ integrations/
 - Name: `aws_bedrock_agentcore`
 - Path: `packages/aws_bedrock_agentcore/`
 - Description: Collect Amazon Bedrock AgentCore's Agent runtime, Gateway, Identity, Memory, Browser Tools and Code Interpreter metrics and logs using Elastic Agent
-- Version: 1.3.0
+- Version: 1.4.0
 - Categories: aws, cloud, observability
 - Docs: `packages/aws_bedrock_agentcore/docs/README.md`
 
@@ -299,7 +299,7 @@ integrations/
 - Name: `aws_mq`
 - Path: `packages/aws_mq/`
 - Description: Collect Amazon MQ metrics and logs with Elastic Agent
-- Version: 2.2.0
+- Version: 2.3.0
 - Categories: aws, cloud, message_queue, observability
 - Docs: `packages/aws_mq/docs/README.md`
 
@@ -1078,7 +1078,7 @@ integrations/
 - Name: `entityanalytics_okta`
 - Path: `packages/entityanalytics_okta/`
 - Description: Collect Identities from Okta with Elastic Agent.
-- Version: 3.7.0
+- Version: 3.7.1
 - Categories: security, advanced_analytics_ueba
 - Docs: `packages/entityanalytics_okta/docs/README.md`
 
