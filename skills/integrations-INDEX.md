@@ -813,7 +813,7 @@ integrations/
 - Name: `cloudflare_logpush`
 - Path: `packages/cloudflare_logpush/`
 - Description: Collect logs from Cloudflare with Elastic Agent.
-- Version: 2.3.0
+- Version: 2.3.1
 - Categories: security, network, cdn_security
 - Docs: `packages/cloudflare_logpush/docs/README.md`
 
@@ -1242,7 +1242,7 @@ integrations/
 - Name: `fortinet_fortigate`
 - Path: `packages/fortinet_fortigate/`
 - Description: Collect logs from Fortinet FortiGate firewalls with Elastic Agent.
-- Version: 1.36.12
+- Version: 1.37.0
 - Docs: `packages/fortinet_fortigate/docs/README.md`
 
 ### Fortinet FortiMail
@@ -1382,7 +1382,7 @@ integrations/
 - Name: `google_workspace`
 - Path: `packages/google_workspace/`
 - Description: Collect logs from Google Workspace with Elastic Agent.
-- Version: 3.12.0
+- Version: 3.13.0
 - Categories: productivity, productivity_security, security
 - Docs: `packages/google_workspace/docs/README.md`
 
