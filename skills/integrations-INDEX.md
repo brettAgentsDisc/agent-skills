@@ -347,7 +347,7 @@ integrations/
 - Name: `azure`
 - Path: `packages/azure/`
 - Description: This Elastic integration collects logs from Azure
-- Version: 1.40.3
+- Version: 1.40.4
 - Categories: cloud, azure, observability
 - Docs: `packages/azure/docs/README.md`
 
@@ -505,7 +505,7 @@ integrations/
 - Name: `beyondtrust_pra`
 - Path: `packages/beyondtrust_pra/`
 - Description: Collect logs from BeyondTrust PRA with Elastic Agent.
-- Version: 1.4.0
+- Version: 1.4.1
 - Categories: security
 - Docs: `packages/beyondtrust_pra/docs/README.md`
 
@@ -973,11 +973,11 @@ integrations/
 - Categories: security, network
 - Docs: `packages/digital_guardian/docs/README.md`
 
-### Docker
+### Docker (ECS)
 - Name: `docker`
 - Path: `packages/docker/`
 - Description: Collect container logs and metrics from Docker (or Podman) via Elastic Agent.
-- Version: 2.16.0
+- Version: 2.16.1
 - Categories: observability, containers
 - Docs: `packages/docker/docs/README.md`
 
@@ -993,7 +993,7 @@ integrations/
 - Name: `docker_otel`
 - Path: `packages/docker_otel/`
 - Description: Utilise the pre-built dashboard for OTel-native metrics of Docker hosts and their running containers
-- Version: 0.3.1
+- Version: 0.3.2
 - Categories: containers, monitoring
 - Docs: `packages/docker_otel/docs/README.md`
 
@@ -1612,7 +1612,7 @@ integrations/
 - Name: `island_browser`
 - Path: `packages/island_browser/`
 - Description: Collect logs from Island Browser with Elastic Agent.
-- Version: 1.8.0
+- Version: 1.8.1
 - Categories: security
 - Docs: `packages/island_browser/docs/README.md`
 
@@ -1644,7 +1644,7 @@ integrations/
 - Name: `jamf_protect`
 - Path: `packages/jamf_protect/`
 - Description: Receives events from Jamf Protect with Elastic Agent.
-- Version: 3.5.2
+- Version: 3.6.0
 - Categories: security, edr_xdr
 - Docs: `packages/jamf_protect/docs/README.md`
 
@@ -2736,7 +2736,7 @@ integrations/
 - Name: `squid`
 - Path: `packages/squid/`
 - Description: Collect and parse logs from Squid devices with Elastic Agent.
-- Version: 1.6.0
+- Version: 1.6.1
 - Docs: `packages/squid/docs/README.md`
 
 ### STAN
@@ -2775,7 +2775,7 @@ integrations/
 - Name: `sublime_security`
 - Path: `packages/sublime_security/`
 - Description: Collect logs from Sublime Security with Elastic Agent.
-- Version: 1.17.0
+- Version: 1.18.0
 - Categories: security, email_security
 - Docs: `packages/sublime_security/docs/README.md`
 
@@ -2918,8 +2918,8 @@ integrations/
 - Name: `tenable_sc`
 - Path: `packages/tenable_sc/`
 - Description: Collect data from Tenable Security Center with Elastic Agent.
-- Version: 2.7.0
-- Categories: security, vulnerability_management
+- Version: 3.0.0
+- Categories: security, vulnerability_management, vulnerability_workflow, cloudsecurity_cdr
 - Docs: `packages/tenable_sc/docs/README.md`
 
 ### Tencent Cloud
