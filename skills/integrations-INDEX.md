@@ -379,7 +379,7 @@ integrations/
 - Name: `azure_billing`
 - Path: `packages/azure_billing/`
 - Description: Collect billing metrics with Elastic Agent.
-- Version: 1.14.0
+- Version: 1.14.1
 - Categories: cloud, observability, azure
 - Docs: `packages/azure_billing/docs/README.md`
 
@@ -1271,7 +1271,7 @@ integrations/
 - Name: `gcp`
 - Path: `packages/gcp/`
 - Description: Collect logs and metrics from Google Cloud Platform with Elastic Agent.
-- Version: 2.52.0
+- Version: 2.52.1
 - Categories: google_cloud, cloud, observability
 - Docs: `packages/gcp/docs/README.md`
 
@@ -2807,7 +2807,7 @@ integrations/
 - Name: `symantec_endpoint_security`
 - Path: `packages/symantec_endpoint_security/`
 - Description: Collect logs from Symantec Endpoint Security with Elastic Agent.
-- Version: 1.17.0
+- Version: 1.18.0
 - Categories: security, edr_xdr
 - Docs: `packages/symantec_endpoint_security/docs/README.md`
 
