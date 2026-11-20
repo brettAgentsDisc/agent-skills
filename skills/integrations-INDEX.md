@@ -243,7 +243,7 @@ integrations/
 - Name: `aws`
 - Path: `packages/aws/`
 - Description: Collect logs and metrics from Amazon Web Services (AWS) with Elastic Agent.
-- Version: 8.18.1
+- Version: 8.19.0
 - Categories: aws, cloud
 - Docs: `packages/aws/docs/README.md`
 
@@ -813,7 +813,7 @@ integrations/
 - Name: `cloudflare_logpush`
 - Path: `packages/cloudflare_logpush/`
 - Description: Collect logs from Cloudflare with Elastic Agent.
-- Version: 2.3.1
+- Version: 2.4.0
 - Categories: security, network, cdn_security
 - Docs: `packages/cloudflare_logpush/docs/README.md`
 
@@ -1040,7 +1040,7 @@ integrations/
 - Name: `elasticsearch`
 - Path: `packages/elasticsearch/`
 - Description: Elasticsearch Integration
-- Version: 1.23.3
+- Version: 1.24.0
 - Docs: `packages/elasticsearch/docs/README.md`
 
 ### Endace
@@ -1118,7 +1118,7 @@ integrations/
 - Name: `ess_billing`
 - Path: `packages/ess_billing/`
 - Description: Collect billing metrics for your Elastic Cloud organization, including Hosted, Serverless, and cloud connected usage
-- Version: 1.10.1
+- Version: 1.10.2
 - Categories: cloud
 - Docs: `packages/ess_billing/docs/README.md`
 
@@ -1382,7 +1382,7 @@ integrations/
 - Name: `google_workspace`
 - Path: `packages/google_workspace/`
 - Description: Collect logs from Google Workspace with Elastic Agent.
-- Version: 3.13.0
+- Version: 3.14.0
 - Categories: productivity, productivity_security, security
 - Docs: `packages/google_workspace/docs/README.md`
 
@@ -2616,7 +2616,7 @@ integrations/
 - Name: `security_detection_engine`
 - Path: `packages/security_detection_engine/`
 - Description: Prebuilt detection rules for Elastic Security
-- Version: 9.6.1
+- Version: 9.6.2
 - Categories: security, siem
 - Docs: `packages/security_detection_engine/docs/README.md`
 
