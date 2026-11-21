@@ -171,7 +171,7 @@ integrations/
 - Name: `arista_ngfw`
 - Path: `packages/arista_ngfw/`
 - Description: Collect logs and metrics from Arista NG Firewall.
-- Version: 1.7.0
+- Version: 1.7.1
 - Categories: network
 - Docs: `packages/arista_ngfw/docs/README.md`
 
@@ -243,7 +243,7 @@ integrations/
 - Name: `aws`
 - Path: `packages/aws/`
 - Description: Collect logs and metrics from Amazon Web Services (AWS) with Elastic Agent.
-- Version: 8.19.0
+- Version: 8.21.1
 - Categories: aws, cloud
 - Docs: `packages/aws/docs/README.md`
 
@@ -251,7 +251,7 @@ integrations/
 - Name: `aws_bedrock`
 - Path: `packages/aws_bedrock/`
 - Description: Collect Amazon Bedrock model invocation logs and runtime metrics with Elastic Agent.
-- Version: 2.3.1
+- Version: 2.3.2
 - Categories: aws, cloud, observability, security
 - Docs: `packages/aws_bedrock/docs/README.md`
 
@@ -2069,7 +2069,7 @@ integrations/
 - Name: `netskope`
 - Path: `packages/netskope/`
 - Description: Collect logs from Netskope with Elastic Agent.
-- Version: 4.1.0
+- Version: 4.2.1
 - Categories: security, network
 - Docs: `packages/netskope/docs/README.md`
 
@@ -2089,11 +2089,11 @@ integrations/
 - Categories: security
 - Docs: `packages/nextron_thor/docs/README.md`
 
-### Nginx
+### Nginx (ECS)
 - Name: `nginx`
 - Path: `packages/nginx/`
 - Description: Collect access logs, error logs, and stub_status metrics from Nginx via Elastic Agent.
-- Version: 3.2.2
+- Version: 3.2.3
 - Categories: web, observability
 - Docs: `packages/nginx/docs/README.md`
 
@@ -2173,7 +2173,7 @@ integrations/
 - Name: `okta`
 - Path: `packages/okta/`
 - Description: Collect and parse event logs from Okta API with Elastic Agent.
-- Version: 3.18.0
+- Version: 3.18.1
 - Docs: `packages/okta/docs/README.md`
 
 ### OpenAI
@@ -2276,7 +2276,7 @@ integrations/
 - Name: `panw_cortex_xdr`
 - Path: `packages/panw_cortex_xdr/`
 - Description: Collect logs from Palo Alto Cortex XDR with Elastic Agent.
-- Version: 4.0.1
+- Version: 4.0.2
 - Categories: security, edr_xdr
 - Docs: `packages/panw_cortex_xdr/docs/README.md`
 
@@ -2632,7 +2632,7 @@ integrations/
 - Name: `sentinel_one_cloud_funnel`
 - Path: `packages/sentinel_one_cloud_funnel/`
 - Description: Collect logs from SentinelOne Cloud Funnel with Elastic Agent.
-- Version: 1.15.1
+- Version: 1.16.0
 - Categories: security, edr_xdr
 - Docs: `packages/sentinel_one_cloud_funnel/docs/README.md`
 
@@ -2918,7 +2918,7 @@ integrations/
 - Name: `tenable_sc`
 - Path: `packages/tenable_sc/`
 - Description: Collect data from Tenable Security Center with Elastic Agent.
-- Version: 3.0.0
+- Version: 3.0.1
 - Categories: security, vulnerability_management, vulnerability_workflow, cloudsecurity_cdr
 - Docs: `packages/tenable_sc/docs/README.md`
 
@@ -3045,7 +3045,7 @@ integrations/
 - Name: `ti_flashpoint`
 - Path: `packages/ti_flashpoint/`
 - Description: Collect logs from Flashpoint with Elastic Agent.
-- Version: 0.7.0
+- Version: 0.7.1
 - Categories: security, threat_intel
 - Docs: `packages/ti_flashpoint/docs/README.md`
 
@@ -3428,7 +3428,7 @@ integrations/
 - Name: `zoom`
 - Path: `packages/zoom/`
 - Description: Collect logs from Zoom with Elastic Agent.
-- Version: 1.29.1
+- Version: 2.0.0
 - Categories: security, productivity_security
 - Docs: `packages/zoom/docs/README.md`
 
