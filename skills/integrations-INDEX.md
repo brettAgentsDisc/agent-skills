@@ -179,7 +179,7 @@ integrations/
 - Name: `armis`
 - Path: `packages/armis/`
 - Description: Collect logs from Armis with Elastic Agent.
-- Version: 0.10.1
+- Version: 1.0.0
 - Categories: security
 - Docs: `packages/armis/docs/README.md`
 
@@ -219,7 +219,7 @@ integrations/
 - Name: `auditd_manager`
 - Path: `packages/auditd_manager/`
 - Description: The Auditd Manager Integration receives audit events from the Linux Audit Framework that is a part of the Linux kernel.
-- Version: 1.21.0
+- Version: 1.21.1
 - Categories: security, auditd
 - Docs: `packages/auditd_manager/docs/README.md`
 
@@ -259,7 +259,7 @@ integrations/
 - Name: `aws_bedrock_agentcore`
 - Path: `packages/aws_bedrock_agentcore/`
 - Description: Collect Amazon Bedrock AgentCore's Agent runtime, Gateway, Identity, Memory, Browser Tools and Code Interpreter metrics and logs using Elastic Agent
-- Version: 1.4.0
+- Version: 1.4.1
 - Categories: aws, cloud, observability
 - Docs: `packages/aws_bedrock_agentcore/docs/README.md`
 
@@ -299,7 +299,7 @@ integrations/
 - Name: `aws_mq`
 - Path: `packages/aws_mq/`
 - Description: Collect Amazon MQ metrics and logs with Elastic Agent
-- Version: 2.3.0
+- Version: 2.3.1
 - Categories: aws, cloud, message_queue, observability
 - Docs: `packages/aws_mq/docs/README.md`
 
@@ -662,7 +662,7 @@ integrations/
 - Name: `cisco_asa`
 - Path: `packages/cisco_asa/`
 - Description: Collect logs from Cisco ASA with Elastic Agent.
-- Version: 2.47.3
+- Version: 2.48.0
 - Categories: network, security, firewall_security
 - Docs: `packages/cisco_asa/docs/README.md`
 
@@ -2173,7 +2173,7 @@ integrations/
 - Name: `okta`
 - Path: `packages/okta/`
 - Description: Collect and parse event logs from Okta API with Elastic Agent.
-- Version: 3.18.1
+- Version: 3.20.0
 - Docs: `packages/okta/docs/README.md`
 
 ### OpenAI
@@ -3444,7 +3444,7 @@ integrations/
 - Name: `zscaler_zpa`
 - Path: `packages/zscaler_zpa/`
 - Description: Collect logs from Zscaler Private Access (ZPA) with Elastic Agent.
-- Version: 1.24.1
+- Version: 1.25.0
 - Categories: security, network, vpn_security
 - Docs: `packages/zscaler_zpa/docs/README.md`
 
