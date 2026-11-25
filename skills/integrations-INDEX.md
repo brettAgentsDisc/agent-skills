@@ -607,7 +607,7 @@ integrations/
 - Name: `cel`
 - Path: `packages/cel/`
 - Description: Collect custom events from an API with Elastic agent
-- Version: 1.21.0
+- Version: 1.21.1
 - Categories: custom
 - Docs: `packages/cel/docs/README.md`
 
@@ -813,7 +813,7 @@ integrations/
 - Name: `cloudflare_logpush`
 - Path: `packages/cloudflare_logpush/`
 - Description: Collect logs from Cloudflare with Elastic Agent.
-- Version: 2.4.0
+- Version: 2.5.0
 - Categories: security, network, cdn_security
 - Docs: `packages/cloudflare_logpush/docs/README.md`
 
@@ -1078,7 +1078,7 @@ integrations/
 - Name: `entityanalytics_okta`
 - Path: `packages/entityanalytics_okta/`
 - Description: Collect Identities from Okta with Elastic Agent.
-- Version: 3.7.1
+- Version: 3.7.2
 - Categories: security, advanced_analytics_ueba
 - Docs: `packages/entityanalytics_okta/docs/README.md`
 
@@ -1118,7 +1118,7 @@ integrations/
 - Name: `ess_billing`
 - Path: `packages/ess_billing/`
 - Description: Collect billing metrics for your Elastic Cloud organization, including Hosted, Serverless, and cloud connected usage
-- Version: 1.10.2
+- Version: 1.10.3
 - Categories: cloud
 - Docs: `packages/ess_billing/docs/README.md`
 
@@ -1414,7 +1414,7 @@ integrations/
 - Name: `haproxy`
 - Path: `packages/haproxy/`
 - Description: Collect logs and metrics from HAProxy servers with Elastic Agent.
-- Version: 1.19.0
+- Version: 1.19.1
 - Categories: load_balancer, observability
 - Docs: `packages/haproxy/docs/README.md`
 
@@ -2173,7 +2173,7 @@ integrations/
 - Name: `okta`
 - Path: `packages/okta/`
 - Description: Collect and parse event logs from Okta API with Elastic Agent.
-- Version: 3.20.0
+- Version: 3.20.1
 - Docs: `packages/okta/docs/README.md`
 
 ### OpenAI
@@ -2260,7 +2260,7 @@ integrations/
 - Name: `pad`
 - Path: `packages/pad/`
 - Description: ML package to detect anomalous privileged access activity in Windows, Linux and Okta logs
-- Version: 2.4.1
+- Version: 2.5.0
 - Categories: security, advanced_analytics_ueba
 - Docs: `packages/pad/docs/README.md`
 
