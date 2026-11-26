@@ -259,7 +259,7 @@ integrations/
 - Name: `aws_bedrock_agentcore`
 - Path: `packages/aws_bedrock_agentcore/`
 - Description: Collect Amazon Bedrock AgentCore's Agent runtime, Gateway, Identity, Memory, Browser Tools and Code Interpreter metrics and logs using Elastic Agent
-- Version: 1.4.1
+- Version: 1.5.0
 - Categories: aws, cloud, observability
 - Docs: `packages/aws_bedrock_agentcore/docs/README.md`
 
@@ -670,7 +670,7 @@ integrations/
 - Name: `cisco_duo`
 - Path: `packages/cisco_duo/`
 - Description: Collect logs from Cisco Duo with Elastic Agent.
-- Version: 2.15.0
+- Version: 2.15.1
 - Categories: security, iam
 - Docs: `packages/cisco_duo/docs/README.md`
 
@@ -853,7 +853,7 @@ integrations/
 - Name: `corelight`
 - Path: `packages/corelight/`
 - Description: Collect logs from Corelight with Elastic Agent.
-- Version: 1.4.0
+- Version: 1.5.0
 - Categories: security, dns_security, network, network_security, vpn_security
 - Docs: `packages/corelight/docs/README.md`
 
@@ -1110,7 +1110,7 @@ integrations/
 - Name: `eset_protect`
 - Path: `packages/eset_protect/`
 - Description: Collect logs from ESET PROTECT with Elastic Agent.
-- Version: 2.9.0
+- Version: 2.9.1
 - Categories: security, edr_xdr, vulnerability_management
 - Docs: `packages/eset_protect/docs/README.md`
 
@@ -1469,7 +1469,7 @@ integrations/
 - Name: `http_endpoint`
 - Path: `packages/http_endpoint/`
 - Description: Collect JSON data from listening HTTP port with Elastic Agent.
-- Version: 2.5.0
+- Version: 2.5.1
 - Categories: custom, observability
 - Docs: `packages/http_endpoint/docs/README.md`
 
@@ -3117,7 +3117,7 @@ integrations/
 - Name: `ti_recordedfuture`
 - Path: `packages/ti_recordedfuture/`
 - Description: Ingest threat intelligence and alert data from Recorded Future with Elastic Agent.
-- Version: 2.12.0
+- Version: 2.12.1
 - Categories: security, threat_intel
 - Docs: `packages/ti_recordedfuture/docs/README.md`
 
@@ -3404,7 +3404,7 @@ integrations/
 - Name: `zeronetworks`
 - Path: `packages/zeronetworks/`
 - Description: Zero Networks Logs integration
-- Version: 1.23.0
+- Version: 2.0.0
 - Categories: security
 - Docs: `packages/zeronetworks/docs/README.md`
 
@@ -3444,7 +3444,7 @@ integrations/
 - Name: `zscaler_zpa`
 - Path: `packages/zscaler_zpa/`
 - Description: Collect logs from Zscaler Private Access (ZPA) with Elastic Agent.
-- Version: 1.25.0
+- Version: 1.26.0
 - Categories: security, network, vpn_security
 - Docs: `packages/zscaler_zpa/docs/README.md`
 
