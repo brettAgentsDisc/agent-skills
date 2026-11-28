@@ -813,7 +813,7 @@ integrations/
 - Name: `cloudflare_logpush`
 - Path: `packages/cloudflare_logpush/`
 - Description: Collect logs from Cloudflare with Elastic Agent.
-- Version: 2.5.0
+- Version: 2.6.0
 - Categories: security, network, cdn_security
 - Docs: `packages/cloudflare_logpush/docs/README.md`
 
@@ -1118,7 +1118,7 @@ integrations/
 - Name: `ess_billing`
 - Path: `packages/ess_billing/`
 - Description: Collect billing metrics for your Elastic Cloud organization, including Hosted, Serverless, and cloud connected usage
-- Version: 1.10.3
+- Version: 1.10.4
 - Categories: cloud
 - Docs: `packages/ess_billing/docs/README.md`
 
